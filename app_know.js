@@ -8,7 +8,7 @@ $(document).ready(function(){
 		$('#step-1').fadeOut(function(){
 			$('#step-3').fadeIn();
 			$('#progress').css('width', '100%');
-			$('#pb-3 .progress-bubble').addClass('bg-primary');
+			$('#pb-3 .progress-bubble, #pb-2 .progress-bubble').addClass('bg-primary');
 		})
 	});	
 
@@ -36,6 +36,14 @@ $(document).ready(function(){
 		})
 	});
 
+	$('#return-ldm').click(function(){
+		$('#ldm').fadeOut(function(){
+			$('#step-1').fadeIn();
+			$('#progress').css('width', '0%');
+			$('#pb-2 .progress-bubble').removeClass('bg-primary');
+		})
+	});
+
 	$('#return-3').click(function(){
 		$('#step-3').fadeOut(function(){
 			$('#step-2').fadeIn();
@@ -49,6 +57,7 @@ $(document).ready(function(){
 			$('#ldm').fadeIn();
 			$('#progress').css('width', '50%');
 			$('#pb-2').fadeIn().find('.progress-bubble').addClass('bg-primary');
+			$('#pb-3 .progress-bubble').text('3');
 		});
 		
 	})
