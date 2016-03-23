@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	$('#apply').click(function(e){
+	$('#apply, #close-1').click(function(e){
 		e.preventDefault();
 		$('#slide').addClass('show');
 	});
@@ -7,7 +7,7 @@ $(document).ready(function(){
 	$('#step1-btn').click(function(){
 		$('#step-1').fadeOut(function(){
 			$('#step-3').fadeIn();
-			$('#progress').css('width', '100%');
+			$('#progress').css('width', '99%');
 			$('#pb-3 .progress-bubble, #pb-2 .progress-bubble').addClass('bg-primary');
 		})
 	});	
@@ -15,7 +15,7 @@ $(document).ready(function(){
 	$('#step1-btn-bis').click(function(){
 		$('#ldm').fadeOut(function(){
 			$('#step-3').fadeIn();
-			$('#progress').css('width', '100%');
+			$('#progress').css('width', '99%');
 			$('#pb-3 .progress-bubble').addClass('bg-primary');
 		})
 	});
@@ -23,7 +23,7 @@ $(document).ready(function(){
 	$('#step2-btn').click(function(){
 		$('#step-2').fadeOut(function(){
 			$('#step-3').fadeIn();
-			$('#progress').css('width', '100%');
+			$('#progress').css('width', '99%');
 			$('#pb-3 .progress-bubble').addClass('bg-primary');
 		})
 	});
@@ -80,9 +80,25 @@ $(document).ready(function(){
 	$('#close').click(function(e){
 		e.preventDefault();
 		$('#slide').removeClass('show');
+		$('#close-1').show();
 	});
 
 	$('#lettre a').click(function(){
 		$('#lettre-text').text("(Madame, Monsieur), \nEtant actuellement à la recherche d’un emploi, je me permets de vous proposer ma candidature au poste de (emploi). \nEn effet, mon profil correspond à la description recherchée sur l’offre d’emploi (préciser où l’annonce a été vue). \n(Si le candidat possède peu d’expérience professionnelle) Ma formation en (préciser la formation) m'a permis d'acquérir de nombreuses compétences parmi celles que vous recherchez. \nJe possède tous les atouts qui me permettront de réussir dans le rôle que vous voudrez bien me confier. Motivation, rigueur et écoute sont les maîtres mots de mon comportement professionnel. \n(Si le candidat possède une expérience significative dans le poste à pourvoir) Mon expérience en tant que (emploi) m’a permis d’acquérir toutes les connaissances nécessaires à la bonne exécution des tâches du poste à pourvoir. Régulièrement confronté aux aléas du métier, je suis capable de répondre aux imprévus en toute autonomie.")
 	});
+
+	function readURL(input) {
+    var url = input.value;
+    var ext = url.substring(url.lastIndexOf('.') + 1).toLowerCase();
+	var path = $('#file-input').val();
+	var filename = path.replace(/^.*\\/, "");
+	$('#file-input-text').html("<span class='icon-profile' aria-hidden='true'></span>" + filename).css({'background': '#337ab7', 'color':'white', 'text-shadow':'0 1px 0 #333'});
+	$('#cv-list a').removeClass('active');
+	// console.log(filename);
+  };
+
+	$('#file-input').change(function(){
+		readURL(this);
+	});
+		
 });
