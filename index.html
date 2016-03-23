@@ -89,23 +89,23 @@
 			  	<span class="progress-bubble bg-primary">1</span>
 			  	<span class="bubble-text">votre cv</span>
 			  </div>
-			  <div id="pb-2" class="bubble">
+			  <div style="display: none;" id="pb-2" class="bubble">
 			  	<span class="progress-bubble">2</span>
-			  	<span class="bubble-text">vos informations</span>
+			  	<span class="bubble-text">votre lettre de motivation</span>
 			  </div>
 			  <div id="pb-3" class="bubble">
-			  	<span class="progress-bubble">3</span>
-			  	<span class="bubble-text">votre ldm</span>
+			  	<span class="progress-bubble">2</span>
+			  	<span class="bubble-text">fini !</span>
 			  </div>
 			</div>
 			<div id="step-1">
 			<h4>Votre première étape est de choisir votre CV.</h4>
 			<h5>Super, vous avez déjà des CVs ! Vous pouvez en sélectionner un.</h5>
 			<div class="list-group">
-			  <a href="#" class="list-group-item">Web Developpeur</a>
-			  <a href="#" class="list-group-item">Ingénieur</a>
-			  <a href="#" class="list-group-item">Mon super CV</a>
-			  <a href="#" class="list-group-item">Mon vieux CV</a>
+			  <a href="#" class="list-group-item">CV: "Web Developpeur"</a>
+			  <a href="#" class="list-group-item">CV: "Ingénieur"</a>
+			  <a href="#" class="list-group-item">CV: "Mon super CV"</a>
+			  <a href="#" class="list-group-item">CV: "Mon vieux CV"</a>
 			</div>
 			<h5>Vous pouvez néanmoins déposer un nouveau CV ici.</h5>
 			<div class="btn-group btn-group-justified" role="group" aria-label="...">
@@ -119,11 +119,30 @@
 			    <button type="button" class="btn btn-default">Google Drive</button>
 			  </div>
 			</div>
-			
 			<br>
-			<button id="step1-btn" type="button" class="btn btn-primary">Suivant</button>
+			<h5>Si vous le souhaitez, vous pouvez ajouter une lettre de motivation.</h5>
+			<button id="btn-ldm" type="button" class="btn btn-info">Ajouter une lettre de motivation</button>
+			<br>
+			<button id="step1-btn" type="button" class="btn btn-primary pull-right">Envoyez votre candidature</button>
 			</div>
-			<div style="display: none;" id="step-2">
+		<div style="display: none;" id="ldm">
+				<div class="alert alert-info" role="alert">Votre CV est <strong>Mon super CV</strong>.</div>
+				<h5>Nous avons trouvé des lettres de motivations, sélectionnez-en un.</h5>
+				<div id="lettre" class="list-group">
+				  <a href="#" class="list-group-item">LDM: "Lettre de motivation 1"</a>
+				  <a href="#" class="list-group-item">LDM: "Ma nouvelle lettre de motivation"</a>
+				  <a href="#" class="list-group-item">LDM: "Brouillon"</a>
+				</div>
+				<form>
+				  <div class="form-group clearfix">
+				    <label for="exampleInputEmail1">Vous pouvez modifier le contenu de votre lettre ici.</label>
+				    <textarea id="lettre-text" class="form-control" rows="10"></textarea>
+				    <p class="help-block">Evitez les fautes d'orthographe !</p>
+				  </div>
+				</form>
+				<button id="step1-btn-bis" type="button" class="btn btn-primary pull-right">Envoyez votre candidature</button>
+			</div>
+		<div style="display: none;" id="step-2-berk">
 			<h4>Ici, nous allons vérifier certaines de vos informations. Modifiez si besoin.</h4>
 			<div class="alert alert-info" role="alert">Vous avez choisi <a>Mon super CV</a></div>
 			<form>
@@ -143,29 +162,23 @@
 					</div>
 				  </div>
 			</form>
-				<button id="return-2" type="button" class="btn btn-default">Retour</button>
-				<button id="step2-btn" type="button" class="btn btn-primary">Suivant</button>
+				<button id="step2-btn" type="button" class="btn btn-primary pull-right">Suivant</button>
+				<button id="return-2" type="button" class="btn btn-default pull-right">Retour</button>
 			</div>
 
 			<div style="display: none;" id="step-3">
-				<div class="alert alert-info" role="alert">Vous avez choisi <a>Mon super CV</a> <br> Votre nom est <strong>John Cena</strong> <br> Votre email est <strong>john.cena@gmail.com</strong></div>
-				<div class="alert alert-warning" role="alert">Cette dernière étape n'est pas obligatoire !</div>
-				<h4>Vous pouvez, si vous le voulez, déposez une lettre de motivation.</h4>
-				<h5>Nous avons trouvé des lettres de motivations, sélectionnez-en un.</h5>
-				<div class="list-group">
-				  <a href="#" class="list-group-item">Lettre de motivation 1</a>
-				  <a href="#" class="list-group-item">Ma nouvelle lettre de motivation</a>
-				  <a href="#" class="list-group-item">Brouillon</a>
+				<div class="alert alert-success" role="alert">
+					<h4>Votre candidature a bien été envoyé !</h4>
+					<h5>Les informations envoyées sont:</h5>
+					<p><strong>John Cena</strong></p>
+					<p><strong>john.cena@gmail.com</strong></p>
+					<p><strong>Mon super CV</strong></p>
+					<p><strong>Lettre de motivation 1</strong></p>
 				</div>
-				<form>
-				  <div class="form-group">
-				    <label for="exampleInputEmail1">Si aucune lettre ne vous convient, écrivez votre lettre de motivation ici.</label>
-				    <textarea class="form-control" rows="3"></textarea>
-				    <p class="help-block">Evitez les fautes d'orthographe !</p>
-				  </div>
-				</form>
-				<button id="return-3" type="button" class="btn btn-default">Retour</button>
-				<button id="continue" type="button" class="btn btn-primary">Continue</button>
+				<!-- <div class="alert alert-info" role="alert">Vous avez choisi <a>Mon super CV</a> <br> Votre nom est <strong>John Cena</strong> <br> Votre email est <strong>john.cena@gmail.com</strong></div>
+				
+				<button id="continue" type="button" class="btn btn-primary pull-right">Continue</button>
+				<button id="return-3" type="button" class="btn btn-default pull-right">Retour</button> -->
 			</div>
 
 			<div style="display: none;" id="preview">

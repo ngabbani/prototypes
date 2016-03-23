@@ -11,12 +11,13 @@
 	transition-duration: 0.3s;
 	position: fixed;
 	top: 52px;
-	right: 0px;
+	right: -700px;
 	bottom: 0;
 	width: 700px;
 	padding: 0 20px;
 	background: #f9f9f9;
 	box-shadow: -1px 0px 10px #2E2E2E;
+	overflow-y: scroll; 
 }
 
 #slide.show{
@@ -60,7 +61,15 @@
 }
 
 #pb-1{
-	margin-left: -40px;
+	margin-left: 0px;
+}
+
+#pb-1 .progress-bubble{
+	margin-left: -3px;
+}
+
+#pb-1 .bubble-text{
+	margin-left: -25px;
 }
 
 #pb-2{
