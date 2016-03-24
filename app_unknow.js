@@ -28,9 +28,14 @@ $(document).ready(function(){
 	$('#step2-btn').click(function(){
 		$('#step-2').fadeOut(function(){
 			$('#step-3').fadeIn();
-			$('#progress').css('width', '99%');
 			$('#pb-3 .progress-bubble').addClass('bg-primary');
-		})
+		});
+		if ($('.tgl span').css('background') == "rgb(51, 122, 183) none repeat scroll 0% 0% / auto padding-box border-box"){
+			$('#progress1').addClass('step4');
+			$('#progress').css('width', '73%');
+		}else{
+			$('#progress').css('width', '99%');
+		}
 	});
 
 	$('#return-2').click(function(){
@@ -41,7 +46,7 @@ $(document).ready(function(){
 		})
 	});
 
-	$('#return-3').click(function(){
+	$('#return-3, #return-4').click(function(){
 		$('#slide').removeClass('show');
 	});
 
@@ -84,9 +89,10 @@ $(document).ready(function(){
 	});
 
 	$('#continue').click(function(){
-		$('.progress').fadeOut();
 		$('#step-3').fadeOut(function(){
 			$('#preview').fadeIn();
+			$('#progress').css('width', '99%');
+			$('#pb-4 .progress-bubble').addClass('bg-primary');
 		})
 	});
 

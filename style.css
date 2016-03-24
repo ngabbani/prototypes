@@ -66,6 +66,23 @@
 	color: white;
 }
 
+.step4 #pb-2{
+	left: 33%;
+}
+.step4 #pb-3{
+	left: 66%;
+}
+
+.step4 #pb-4{
+	left: 91%;
+	display: block;
+}
+
+
+#pb-4{
+	display: none;
+}
+
 #pb-1{
 	margin-left: 0px;
 }

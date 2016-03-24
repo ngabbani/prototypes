@@ -82,7 +82,7 @@
 		<div id="steps" class="col-md-12">
 			<button id="close" type="button" class="close" aria-label="Close"><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></button>
 
-			<div class="progress" style="position: relative;">
+			<div id="progress1" class="progress" style="position: relative;">
 			  <div id="progress" class="progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
 			  </div>
 			  <div id="pb-1" class="bubble">
@@ -96,6 +96,10 @@
 			  <div id="pb-3" class="bubble">
 			  	<span class="progress-bubble">3</span>
 			  	<span class="bubble-text">envoyé</span>
+			  </div>
+			  <div id="pb-4" class="bubble">
+			  	<span class="progress-bubble">4</span>
+			  	<span class="bubble-text">enregistré</span>
 			  </div>
 			</div>
 		<div id="step-1">
@@ -231,6 +235,7 @@
 
 			<div style="display: none;" id="preview">
 				<div class="alert alert-info">Votre compte a bien été créé. Un email a été envoyé à <strong>john.cena@gmail.com</strong></div>
+				<button style="margin-right: 10px" id="return-4" type="button" class="btn btn-default pull-right">Fermer</button>
 			</div>
 		</div>
 	</div>
