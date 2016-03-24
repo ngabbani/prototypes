@@ -5,7 +5,7 @@ $(document).ready(function(){
 	});
 
 	$('#step1-btn').click(function(){
-		if ($('.toggle').css('background') == "rgb(102, 179, 23) none repeat scroll 0% 0% / auto padding-box border-box"){
+		if ($('.tgl span').css('background') == "rgb(51, 122, 183) none repeat scroll 0% 0% / auto padding-box border-box"){
 			$('#step-1').fadeOut(function(){
 				$('#step-2').fadeIn();
 				$('#progress').css('width', '50%');

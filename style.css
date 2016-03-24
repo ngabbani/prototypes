@@ -160,75 +160,136 @@
     right: 0;
 }
 
-.toggleWrapper {
-  overflow: hidden;
-  float: left;
-}
-.toggleWrapper input {
-  position: absolute;
-  left: -99em;
-}
-
-.toggle {
+/** EXAMPLE
+  <label class="tgl">
+    <input type="checkbox" />
+    <span data-on="1" data-off="0"></span>
+  </label>
+**/
+.tgl {
+  position: relative;
+  outline: 0;
+  display: inline-block;
   cursor: pointer;
-  display: inline-block;
-  position: relative;
-  width: 85px;
-  height: 30px;
-  background: #D21626;
-  border-radius: 5px;
-  -webkit-transition: all 200ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
-  transition: all 200ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  user-select: none;
+  margin: 0 0 5px 0;
 }
-.toggle:before, .toggle:after {
+.tgl,
+.tgl:after,
+.tgl:before,
+.tgl *,
+.tgl *:after,
+.tgl *:before,
+.tgl + .tgl-btn {
+  box-sizing: border-box;
+}
+.tgl::selection,
+.tgl:after::selection,
+.tgl:before::selection,
+.tgl *::selection,
+.tgl *:after::selection,
+.tgl *:before::selection,
+.tgl + .tgl-btn::selection {
+  background: none;
+}
+.tgl span {
+  position: relative;
+  display: block;
+  height: 1.8em;
+  line-height: 1.2em;
+  overflow: hidden;
+  font-weight: normal;
+  text-align: center;
+  border-radius: 2em;
+  padding: 0.2em 1em;
+  border: 1px solid #fafafa;
+  box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.2), 0 2px 0 rgba(255, 255, 255, 0.7);
+  transition: color 0.3s ease, padding 0.3s ease-in-out, background 0.3s ease-in-out;
+}
+.tgl span:before {
+  position: relative;
+  display: block;
+  line-height: 1.3em;
+  padding: 0 0.2em;
+  font-size: 1em;
+}
+.tgl span:after {
   position: absolute;
-  line-height: 30px;
-  font-size: 14px;
-  z-index: 2;
-  -webkit-transition: all 200ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
-  transition: all 200ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  display: block;
+  content: '';
+  border-radius: 2em;
+  width: 1.3em;
+  height: 1.3em;
+  margin-left: -1.45em;
+  top: 0.2em;
+  background: #FFFFFF;
+  transition: left 0.3s cubic-bezier(0.175, 0.885, 0.32, 0.97), background 0.3s ease-in-out;
 }
-.toggle:before {
-  content: "NON";
-  left: 7px;
-  color: #D21626;
+.tgl input[type="checkbox"] {
+  display: none !important;
 }
-.toggle:after {
-  content: "OUI";
-  right: 9px;
-  color: #fff;
+.tgl input[type="checkbox"]:not(:checked) + span {
+  background: #ccc;
+  color: #FFFFFF;
+  padding-left: 1.6em;
+  padding-right: 0.4em;
 }
-
-.toggle__handler {
-  display: inline-block;
-  position: relative;
-  z-index: 1;
-  background: #fff;
-  width: 40px;
-  height: 24px;
-  border-radius: 3px;
-  top: 3px;
-  left: 3px;
-  -webkit-transition: all 200ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
-  transition: all 200ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
-  -webkit-transform: translateX(0px);
-          transform: translateX(0px);
+.tgl input[type="checkbox"]:not(:checked) + span:before {
+  content: attr(data-off);
+  color: #FFFFFF;
 }
-
-input:checked + .toggle {
-  background: #66B317;
+.tgl input[type="checkbox"]:not(:checked) + span:after {
+  background: #FFFFFF;
+  left: 1.6em;
 }
-input:checked + .toggle:before {
-  color: #fff;
+.tgl input[type="checkbox"]:checked + span {
+  background: #337ab7;
+  color: #FFFFFF;
+  padding-left: 0.4em;
+  padding-right: 1.6em;
 }
-input:checked + .toggle:after {
-  color: #66B317;
+.tgl input[type="checkbox"]:checked + span:before {
+  content: attr(data-on);
 }
-input:checked + .toggle .toggle__handler {
-  width: 40px;
-  -webkit-transform: translateX(40px);
-          transform: translateX(40px);
-  border-color: #fff;
+.tgl input[type="checkbox"]:checked + span:after {
+  background: #FFFFFF;
+  left: 100%;
+}
+.tgl input[type="checkbox"]:disabled,
+.tgl input[type="checkbox"]:disabled + span,
+.tgl input[type="checkbox"]:read-only,
+.tgl input[type="checkbox"]:read-only + span {
+  cursor: not-allowed;
+}
+.tgl-gray input[type="checkbox"]:not(:checked) + span {
+  background: #e3e3e3;
+  color: #999999;
+}
+.tgl-gray input[type="checkbox"]:not(:checked) + span:before {
+  color: #999999;
+}
+.tgl-gray input[type="checkbox"]:not(:checked) + span:after {
+  background: #ffffff;
+}
+.tgl-inline {
+  display: inline-block !important;
+  vertical-align: top;
+}
+.tgl-inline.tgl {
+  font-size: 16px;
+}
+.tgl-inline.tgl span {
+  min-width: 50px;
+}
+.tgl-inline.tgl span:before {
+  line-height: 1.4em;
+  padding-left: 0.4em;
+  padding-right: 0.4em;
+}
+.tgl-inline-label {
+  display: inline-block !important;
+  vertical-align: top;
+  line-height: 26px;
 }
 
 #privacy{
