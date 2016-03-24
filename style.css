@@ -159,3 +159,78 @@
     padding: 4px;
     right: 0;
 }
+
+.toggleWrapper {
+  overflow: hidden;
+  float: left;
+}
+.toggleWrapper input {
+  position: absolute;
+  left: -99em;
+}
+
+.toggle {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  width: 85px;
+  height: 30px;
+  background: #D21626;
+  border-radius: 5px;
+  -webkit-transition: all 200ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  transition: all 200ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+.toggle:before, .toggle:after {
+  position: absolute;
+  line-height: 30px;
+  font-size: 14px;
+  z-index: 2;
+  -webkit-transition: all 200ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  transition: all 200ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+.toggle:before {
+  content: "NON";
+  left: 7px;
+  color: #D21626;
+}
+.toggle:after {
+  content: "OUI";
+  right: 9px;
+  color: #fff;
+}
+
+.toggle__handler {
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  background: #fff;
+  width: 40px;
+  height: 24px;
+  border-radius: 3px;
+  top: 3px;
+  left: 3px;
+  -webkit-transition: all 200ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  transition: all 200ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
+}
+
+input:checked + .toggle {
+  background: #66B317;
+}
+input:checked + .toggle:before {
+  color: #fff;
+}
+input:checked + .toggle:after {
+  color: #66B317;
+}
+input:checked + .toggle .toggle__handler {
+  width: 40px;
+  -webkit-transform: translateX(40px);
+          transform: translateX(40px);
+  border-color: #fff;
+}
+
+#privacy{
+	margin-top: 20px;
+}
