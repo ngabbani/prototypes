@@ -89,13 +89,13 @@
 			  	<span class="progress-bubble bg-primary">1</span>
 			  	<span style="margin-left: 0;" class="bubble-text">votre candidature</span>
 			  </div>
-			  <div style="display: none;" id="pb-2" class="bubble">
+			  <div id="pb-2" class="bubble">
 			  	<span class="progress-bubble">2</span>
-			  	<span class="bubble-text">créer votre compte</span>
+			  	<span class="bubble-text">valider mes informations</span>
 			  </div>
 			  <div id="pb-3" class="bubble">
-			  	<span class="progress-bubble">2</span>
-			  	<span class="bubble-text">fini !</span>
+			  	<span class="progress-bubble">3</span>
+			  	<span class="bubble-text">envoyé</span>
 			  </div>
 			</div>
 		<div id="step-1">
@@ -121,7 +121,7 @@
 			</div>
 			<br>
 			<h5>Si vous le souhaitez, vous pouvez ajouter une lettre de motivation.</h5>
-			<button id="btn-ldm" type="button" class="btn btn-info">Ajouter une lettre de motivation</button>
+			<button id="btn-ldm" type="button" class="btn btn-default">Ajouter une lettre de motivation</button>
 			<br><br>
 			<form style="display: none;" id="form-ldm">
 			  <div class="form-group clearfix">
@@ -131,7 +131,7 @@
 			  </div>
 			</form>
 			<br>
-			<button id="step1-btn" type="button" class="btn btn-primary pull-right">Envoyez ma candidature</button>
+			<button id="step1-btn" type="button" class="btn btn-primary pull-right">Suivant</button>
 			</div>
 		<div style="display: none;" id="ldm">
 				<div class="alert alert-info" role="alert">Votre CV est <strong><a>Mon super CV</a></strong>.</div>
@@ -144,7 +144,39 @@
 				<button style="margin-right: 10px" id="return-ldm" type="button" class="btn btn-default pull-right">Retour</button>
 			</div>
 		<div style="display: none;" id="step-2">
-			<div class="alert alert-success" role="alert">
+			<h5>Vérifiez que vos informations soient bonnes avant d'envoyez votre candidature</h5>
+			<div class="alert alert-info" role="alert">
+				<h5>Vos informations que vous allez envoyer sont:</h5>
+				<p><strong>Mon super CV</strong> ainsi que  <strong>votre lettre de motivation</strong></p>
+			</div>
+			<form>
+				  <div class="form-group">
+				    <label for="exampleInputPassword1">Votre nom</label>
+				    <div class="input-group">
+					  <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></span>
+					  <input type="text" class="form-control" id="exampleInputPassword1" placeholder="ex. Thomas Anderson" value="John Cena">
+					</div>
+				  </div>
+				  <div class="form-group">
+				    <label for="exampleInputEmail1">Votre email</label>
+				    <div class="input-group">
+					  <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></span>
+					  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="ex. agent.smith@gmail.com" value="john.cena@gmail.com">
+					</div>
+				  </div>
+				  <div class="form-group">
+				    <label for="exampleInputPassword1">Votre ville</label>
+				    <div class="input-group">
+					  <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></span>
+					  <input type="text" class="form-control" id="exampleInputPassword1" placeholder="ex. Nantes, France" value="Paris, France">
+					</div>
+				  </div>
+				<button id="step2-btn" type="button" class="btn btn-primary pull-right">Envoyez ma candidature</button>
+				<button style="margin-right: 10px" id="return-2" type="button" class="btn btn-default pull-right">Retour</button>
+			</div>
+
+		<div style="display: none;" id="step-3">
+				<div class="alert alert-info" role="alert">
 				<h4>Votre candidature a bien été envoyé !</h4>
 				<h5>Les informations envoyées sont:</h5>
 				<p><strong>John Cena</strong></p>
@@ -152,6 +184,7 @@
 				<p><strong>Mon super CV</strong></p>
 				<p><strong>ainsi que votre lettre de motivation</strong></p>
 			</div>
+			<div style="display: none;" id="register">
 			<h4>Vous n'êtes pas enregistré. Créez votre compte dès maintenant !</h4>
 			<form>
 				<div class="form-group">
@@ -162,21 +195,21 @@
 					</div>
 				  </div>
 				  <div class="form-group">
-				    <label for="exampleInputPassword1">Quel est votre nom ?</label>
+				    <label for="exampleInputPassword1">Votre nom</label>
 				    <div class="input-group">
 					  <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></span>
 					  <input type="text" class="form-control" id="exampleInputPassword1" placeholder="ex. Thomas Anderson" value="John Cena">
 					</div>
 				  </div>
 				  <div class="form-group">
-				    <label for="exampleInputPassword1">Où habitez-vous ?</label>
+				    <label for="exampleInputPassword1">Votre ville</label>
 				    <div class="input-group">
 					  <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></span>
 					  <input type="text" class="form-control" id="exampleInputPassword1" placeholder="ex. Nantes, France" value="Paris, France">
 					</div>
 				  </div>
 				  <div class="form-group">
-				    <label for="exampleInputEmail1">Quel est votre email ?</label>
+				    <label for="exampleInputEmail1">Votre email</label>
 				    <div class="input-group">
 					  <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></span>
 					  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="ex. agent.smith@gmail.com" value="john.cena@gmail.com">
@@ -190,20 +223,14 @@
 					</div>
 				  </div>
 			</form>
-				<button id="step2-btn" type="button" class="btn btn-primary pull-right">Suivant</button>
-				<button style="margin-right: 10px" id="return-2" type="button" class="btn btn-default pull-right">Fermer</button>
+			<button id="continue" type="button" class="btn btn-primary pull-right">M'enregistrer</button>
 			</div>
-
-		<div style="display: none;" id="step-3">
-				<div class="alert alert-info">
-					Votre compte a bien été créé. Vous allez recevoir un email sur <strong>john.cena@gmail.com.</strong>
-				</div>
-				<!-- <button id="continue" type="button" class="btn btn-primary pull-right">Continue</button>
-				<button id="return-3" type="button" class="btn btn-default pull-right">Retour</button> -->
+				 
+				<button style="margin-right: 10px" id="return-3" type="button" class="btn btn-default pull-right">Fermer</button>
 		</div>
 
 			<div style="display: none;" id="preview">
-				
+				<div class="alert alert-info">Votre compte a bien été créé. Un email a été envoyé à <strong>john.cena@gmail.com</strong></div>
 			</div>
 		</div>
 	</div>

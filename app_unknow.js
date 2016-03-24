@@ -5,20 +5,16 @@ $(document).ready(function(){
 	});
 
 	$('#step1-btn').click(function(){
+		$('#step-1').fadeOut(function(){
+			$('#step-2').fadeIn();
+			$('#progress').css('width', '50%');
+			$('#pb-2').fadeIn().find('.progress-bubble').addClass('bg-primary');
+		});
 		if ($('.tgl span').css('background') == "rgb(51, 122, 183) none repeat scroll 0% 0% / auto padding-box border-box"){
-			$('#step-1').fadeOut(function(){
-				$('#step-2').fadeIn();
-				$('#progress').css('width', '50%');
-				$('#pb-2').fadeIn().find('.progress-bubble').addClass('bg-primary');
-			});
+			$('#register').show()
 		}else{
-			$('#step-1').fadeOut(function(){
-				$('#step-3').fadeIn();
-				$('#progress').css('width', '100%');
-				$('#pb-3 .progress-bubble, #pb-2 .progress-bubble').addClass('bg-primary');
-			});
+			$('#register').hide()
 		}
-		
 	});	
 
 	// $('#step1-btn-bis').click(function(){
@@ -37,15 +33,15 @@ $(document).ready(function(){
 		})
 	});
 
-	// $('#return-2').click(function(){
-	// 	$('#step-2').fadeOut(function(){
-	// 		$('#step-1').fadeIn();
-	// 		$('#progress').css('width', '0%');
-	// 		$('#pb-2 .progress-bubble').removeClass('bg-primary');
-	// 	})
-	// });
-
 	$('#return-2').click(function(){
+		$('#step-2').fadeOut(function(){
+			$('#step-1').fadeIn();
+			$('#progress').css('width', '0%');
+			$('#pb-2 .progress-bubble').removeClass('bg-primary');
+		})
+	});
+
+	$('#return-3').click(function(){
 		$('#slide').removeClass('show');
 	});
 
@@ -57,13 +53,13 @@ $(document).ready(function(){
 	// 	})
 	// });
 
-	$('#return-3').click(function(){
-		$('#step-3').fadeOut(function(){
-			$('#step-2').fadeIn();
-			$('#progress').css('width', '50%');
-			$('#pb-3 .progress-bubble').removeClass('bg-primary');
-		})
-	});
+	// $('#return-3').click(function(){
+	// 	$('#step-3').fadeOut(function(){
+	// 		$('#step-2').fadeIn();
+	// 		$('#progress').css('width', '50%');
+	// 		$('#pb-3 .progress-bubble').removeClass('bg-primary');
+	// 	})
+	// });
 
 	// $('#btn-ldm').click(function(){
 	// 	$('#step-1').fadeOut(function(){
@@ -117,5 +113,7 @@ $(document).ready(function(){
 	$('#file-input').change(function(){
 		readURL(this);
 	});
+
+
 		
 });
