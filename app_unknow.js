@@ -114,8 +114,9 @@ $(document).ready(function(){
     var ext = url.substring(url.lastIndexOf('.') + 1).toLowerCase();
 	var path = $('#file-input').val();
 	var filename = path.replace(/^.*\\/, "");
-	$('#select-cv').after("<br><div class='alert alert-info'> Vous avez selectionnez le CV suivant: <strong>"+ filename +"</strong></div>")
+	$('#select-cv').after("<br><div class='alert alert-info'> Vous avez selectionnez le CV suivant: <strong><a href='img/cv_6.png' class='alert-link zoombox'>"+ filename +"</a></strong></div>")
 	$('#cv-list a').removeClass('active');
+	$('.zoombox').zoombox();
 	// console.log(filename);
   };
 
