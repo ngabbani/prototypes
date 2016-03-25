@@ -49,7 +49,7 @@ $(document).ready(function(){
 		})
 	});
 
-	$('#return-3, #return-4').click(function(){
+	$('#return-3, #return-4, #register-later').click(function(){
 		$('#slide').removeClass('show');
 	});
 
