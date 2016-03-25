@@ -9,13 +9,15 @@ $(document).ready(function(){
 	$('#step1-btn').click(function(){
 		$('#step-1').fadeOut(function(){
 			$('#step-2').fadeIn();
-			$('#progress').css('width', '50%');
 			$('#pb-2').fadeIn().find('.progress-bubble').addClass('bg-primary');
 		});
 		if ($('.tgl span').css('background') == "rgb(51, 122, 183) none repeat scroll 0% 0% / auto padding-box border-box"){
-			$('#register').show()
+			$('#register').show();
+			$('#progress1').addClass('step4');
+			$('#progress').css('width', '33%');
 		}else{
 			$('#register').hide()
+			$('#progress').css('width', '50%');s
 		}
 	});	
 
@@ -33,7 +35,6 @@ $(document).ready(function(){
 			$('#pb-3 .progress-bubble').addClass('bg-primary');
 		});
 		if ($('.tgl span').css('background') == "rgb(51, 122, 183) none repeat scroll 0% 0% / auto padding-box border-box"){
-			$('#progress1').addClass('step4');
 			$('#progress').css('width', '73%');
 		}else{
 			$('#progress').css('width', '99%');
