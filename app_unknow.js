@@ -1,4 +1,6 @@
 $(document).ready(function(){
+	$('.zoombox').zoombox();
+
 	$('#apply, #close-1').click(function(e){
 		e.preventDefault();
 		$('#slide').addClass('show');

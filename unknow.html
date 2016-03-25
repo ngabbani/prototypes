@@ -10,11 +10,13 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="font.css">
+	<link rel="stylesheet" href="zoombox.css">
 
 
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<script src="zoombox.js"></script>
 	<script src="app_unknow.js"></script>
 </head>
 <body>
@@ -149,10 +151,6 @@
 			</div>
 		<div style="display: none;" id="step-2">
 			<h5>Vérifiez que vos informations soient bonnes avant d'envoyez votre candidature</h5>
-			<div class="alert alert-info" role="alert">
-				<h5>Vos informations que vous allez envoyer sont:</h5>
-				<p><strong>Mon super CV</strong> ainsi que  <strong>votre lettre de motivation</strong></p>
-			</div>
 			<form>
 				  <div class="form-group">
 				    <label for="exampleInputPassword1">Votre nom</label>
@@ -168,6 +166,23 @@
 					  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="ex. agent.smith@gmail.com" value="john.cena@gmail.com">
 					</div>
 				  </div>
+				  <div class="form-group">
+				    <label for="exampleInputEmail1">Votre lettre de motivation</label>
+				    <div class="input-group">
+					  <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span></span>
+					  <textarea class="form-control" rows="8" readonly>(Madame, Monsieur),
+Etant actuellement à la recherche d’un emploi, je me permets de vous proposer ma candidature au poste de (emploi).
+En effet, mon profil correspond à la description recherchée sur l’offre d’emploi (préciser où l’annonce a été vue).(Si le candidat possède peu d’expérience professionnelle) Ma formation en (préciser la formation) m'a permis d'acquérir de nombreuses compétences parmi celles que vous recherchez.
+Je possède tous les atouts qui me permettront de réussir dans le rôle que vous voudrez bien me confier. Motivation, rigueur et écoute sont les maîtres mots de mon comportement professionnel.
+(Si le candidat possède une expérience significative dans le poste à pourvoir) Mon expérience en tant que (emploi) m’a permis d’acquérir toutes les connaissances nécessaires à la bonne exécution des tâches du poste à pourvoir. Régulièrement confronté aux aléas du métier, je suis capable de répondre aux imprévus en toute autonomie.
+					  </textarea>
+					</div>
+				  </div>
+				  <div class="list-group">
+				  <a href="img/cv_6.png" class="list-group-item zoombox">Mon super CV</a>
+				  </div>
+					  
+
 				<button id="step2-btn" type="button" class="btn btn-primary pull-right">Envoyez ma candidature</button>
 				<button style="margin-right: 10px" id="return-2" type="button" class="btn btn-default pull-right">Retour</button>
 			</div>
