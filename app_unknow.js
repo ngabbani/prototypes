@@ -1,6 +1,16 @@
 $(document).ready(function(){
 	$('.zoombox').zoombox();
 
+	$('.tgl input').change(function(){
+		if($(this).is(':checked')){
+			$('#progress1').addClass('step4');
+			$('#pb-4').show();
+		}else{
+			$('#progress1').removeClass('step4');
+			$('#pb-4').hide();
+		}
+	})
+
 	$('#apply, #close-1').click(function(e){
 		e.preventDefault();
 		$('#slide').addClass('show');
@@ -17,7 +27,7 @@ $(document).ready(function(){
 			$('#progress').css('width', '33%');
 		}else{
 			$('#register').hide()
-			$('#progress').css('width', '50%');s
+			$('#progress').css('width', '50%');
 		}
 	});	
 
