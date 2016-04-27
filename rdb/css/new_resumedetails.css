@@ -177,6 +177,10 @@
   cursor: pointer;
 }
 
+#resume_details_menu #rdb_tools_button {
+  font-size: 24px;
+}
+
 #resume_details_menu #rdb_tools {
   text-align: right;
   margin-top: 10px;
@@ -254,10 +258,18 @@
 }
 
 #resume_details .info-bloc {
-  padding-bottom: 10px;
-  border-bottom: 1px dotted #333;
-  margin-bottom: 10px;
+/*  padding-bottom: 10px;
+  margin-bottom: 10px;*/
   font-size: 16px;
+}
+
+#resume_details .info-bloc:after {
+  content: "";
+  display: block;
+  width: 35%;
+  height: 1px;
+  margin: 20px 0;
+  background: #F2F2F2;
 }
 
 #resume_details .cv-content {
