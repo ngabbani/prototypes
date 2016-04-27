@@ -257,19 +257,20 @@
 }
 
 #resume_details .info-bloc {
-/*  padding-bottom: 10px;
-  margin-bottom: 10px;*/
+  padding-bottom: 10px;
+  margin-bottom: 10px;
   font-size: 16px;
+  border-bottom: 2px dotted #F4F4F4;
 }
 
-#resume_details .info-bloc:after {
+/*#resume_details .info-bloc:after {
   content: "";
   display: block;
   width: 35%;
   height: 1px;
   margin: 20px 0;
   background: #F2F2F2;
-}
+}*/
 
 #resume_details .cv-content {
     margin-top: 17px;
