@@ -1,0 +1,419 @@
+﻿/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Lato Hairline'), local('Lato-Hairline'), url(https://fonts.gstatic.com/s/lato/v11/eFRpvGLEW31oiexbYNx7Y_esZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Lato Hairline'), local('Lato-Hairline'), url(https://fonts.gstatic.com/s/lato/v11/GtRkRNTnri0g82CjKnEB0Q.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v11/dPJ5r9gl3kK6ijoeP1IRsvY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v11/EsvMC5un3kjyUhB9ZEPPwg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v11/UyBMtLsHKBKXelqf4x7VRQ.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v11/1YwB1sO8YE1Lyjf12WNiUA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v11/ObQr5XYcoH0WBoUxiaYK3_Y6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v11/H2DMvhDLycM56KNuAtbJYA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Lato Black'), local('Lato-Black'), url(https://fonts.gstatic.com/s/lato/v11/R4a6fty3waPci7C44H8AjvY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Lato Black'), local('Lato-Black'), url(https://fonts.gstatic.com/s/lato/v11/tI4j516nok_GrVf4dhunkg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 100;
+  src: local('Lato Hairline Italic'), local('Lato-HairlineItalic'), url(https://fonts.gstatic.com/s/lato/v11/muRcAtdNYlnTj3NeuakxChTbgVql8nDJpwnrE27mub0.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 100;
+  src: local('Lato Hairline Italic'), local('Lato-HairlineItalic'), url(https://fonts.gstatic.com/s/lato/v11/9TBVFLzQ3GUZLG8FZ4yrEfesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Lato Light Italic'), local('Lato-LightItalic'), url(https://fonts.gstatic.com/s/lato/v11/XNVd6tsqi9wmKNvnh5HNEBJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Lato Light Italic'), local('Lato-LightItalic'), url(https://fonts.gstatic.com/s/lato/v11/2HG_tEPiQ4Z6795cGfdivFtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v11/YMOYVM-eg6Qs9YzV9OSqZfesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v11/PLygLKRVCQnA5fhu3qk5fQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v11/AcvTq8Q0lyKKNxRlL28RnxJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v11/HkF_qI1x_noxlxhrhMQYEFtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 900;
+  src: local('Lato Black Italic'), local('Lato-BlackItalic'), url(https://fonts.gstatic.com/s/lato/v11/81X-1TO5y4aMK2PPy9kFwxJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 900;
+  src: local('Lato Black Italic'), local('Lato-BlackItalic'), url(https://fonts.gstatic.com/s/lato/v11/VNUH7ZAcagYBWsAiBBCEY1tXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+body {
+   font-family: "Lato", sans-serif !important;
+}
+.UtilityBounds {width: 1000px !important;}
+.cbLogo #ukLogo {width: 269px;height: 42px;margin: 0;padding: 0;}
+.cbLogo #ukLogo img {width: 100%;}
+#MyCBWidgets div.content #AccountStatsList li span {
+   
+background-color: #13496A !important;
+}
+.utilityBar {
+    height: 40px;
+    background-color: #023558 !important;
+    margin: 0;
+    padding: 0;zoom:1;
+}
+ #logo_nav
+{
+    background-color: #FFFFFD;
+    padding-right:300px;
+    width:100%;
+    }
+
+
+#logo_nav {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0;
+}
+#logo_nav #innerHeader {
+    padding: 10px;
+    margin: 0 !important;
+    max-width: 100%;
+}
+
+#MyCBWidgets div.content #AccountSettingsList li {
+    width:80% !important;
+    
+}
+#JPTopNav ul li {
+
+    background:none !important;
+}
+
+#JPTopNav ul li a {
+    background-color: #13496A !important;
+    -webkit-border-radius: 4px !important;
+    -moz-border-radius: 4px !important;
+    -ms-border-radius: 4px !important;
+    border-radius: 4px !important;
+    background-image: none !important;
+    color: #fff !important;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0 !important;
+    padding: 6px 20px !important;
+    transition: background-color 300ms ease-out;
+}
+#JPTopNav ul li a:hover {
+  background: #13496A;
+}
+.utilityBar div,
+.jpButton, #MyCBWidgets li div.header span.headertext,
+.ui-tooltip,
+.pnlOuterWrapper #centerMenu #JPTopNav {
+  font-family: "Lato", sans-serif !important;
+}
+.utilityBar .arrowdown,
+.utilityBar .arrowup {background: none;margin:0 !important;}
+.utilityBar .arrowup:after,
+.utilityBar .arrowdown:after {
+  content: "\f0d7";
+  font-family: FontAwesome;
+  font-weight: normal;
+  top: -6px;
+  font-size: 16px;
+  position: absolute;
+}
+.utilityBar .arrowup:after {
+    color: #FFFFFF;
+}
+.utilityBar .arrowdown:after {
+  color: #333;
+}
+
+#utilUserName, #utilUserName span, .utilityBar .arrowup, .utilityBar .arrowdown {
+  outline: none;
+  text-align: center;
+}
+
+
+#MyCBWidgets li div.header {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+#MyCBWidgets li div.header span.headertext {
+    font-weight: normal;
+    padding-left:10px;
+}
+#MyCBWidgets li div.header img {
+    display:none;
+}
+#MyCBWidgets li:first-child .headertext:before,
+#MyCBWidgets li:last-child .headertext:before,
+#MyCBWidgets li:nth-child(2) .headertext:before {
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-size: 18px;
+  margin-right: 7px;
+}
+
+
+#MyCBWidgets li:first-child .headertext:before {
+    content: "\f002";
+}
+#MyCBWidgets li:nth-child(2) .headertext:before {
+  content: "\f0ca";
+}
+#MyCBWidgets li:last-child .headertext:before {
+    content: "\f007";
+}
+#JobPostingWidget #JobPostingCreate:disabled {
+    background-color: #eee !important;
+    border-color: #ccc !important;
+    color: rgba(4, 4, 4, 0.36) !important;
+    cursor: default;
+    text-shadow: none;
+    border-radius: 4px !important;
+    cursor: not-allowed !important;
+}
+.jpButton {
+  font-weight: normal;
+  padding: 10px 25px;
+  height: auto;
+  
+}
+#MyCBWidgets a, #MyOtherWidgets a {
+    color: #09a0db !important;
+}
+#MyCBWidgets #ResumeDatabaseWidget label span.labelhint.searchexamples {
+  outline: none;
+}
+.ui-tooltip {
+    border-radius: 4px !important;
+  	font-size:14px;
+}
+
+/* Header Menu */
+.pnlOuterWrapper {
+  text-align: initial;
+}
+.pnlOuterWrapper #centerMenu #JPTopNav {
+  /* width: 1000px; */
+  margin: 0 auto;
+  background: url(http://img.icbdr.com/images/jp/jpnestednav/bg_JPTopNav.jpg) left bottom repeat-x !important;
+  padding: 0;
+  height: 45px;
+}
+.pnlOuterWrapper #JPTopNav ul {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 8px 0;
+}
+.pnlOuterWrapper #JPTopNav ul li:first-child {
+  margin: 0 10px 0;
+}
+.pnlOuterWrapper #JPTopNav ul li {
+  float: none;
+  display: inline-block;
+  margin: 0 10px 0 0;
+  padding: 0;
+  height: initial;
+  width: initial;
+}
+.content {
+  background: none !important;
+}
+.content #left {
+  float: none;
+}
+
+/* Content Body Starts */
+.pnlOuterWrapper #content {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+#LJCOMMON_jobposter_letters_myautoresponsesettings td #Div1 {
+   
+   margin-left: 200px !important;
+  
+ 
+}
+#jpMyCbContainer input {
+    margin-top : 0px ! important;
+}
+
+.pnlOuterWrapper content  colLeftContent #JPLeftNav {
+  width: 0px  !important;
+  margin: 0 auto;
+  margin-left: 0px;
+}
+
+
+#MyJobsList tr th {
+    padding-top: 10px ! important;
+    vertical-align:middle ! important;
+}
+
+#pnlOuterWrapper #JPBreadcrumb {
+    margin: 0px 0px 0px 200px;
+}
+.ui-dialog-titlebar {
+        background: #2d52a2 ! important;
+        height: 34px;
+        color: #FFF;
+}
+
+.ui-dialog span.ui-dialog-title {
+   margin: 0 0 0 15px;
+}
+
+.ui-dialog span.ui-button-text {
+    padding: 0;
+    line-height: normal ! important; 
+}
+
+.ui-dialog-titlebar {
+    color: #FFF ! important;
+    font-size: 18px ! important;
+    line-height: 24px ! important;
+ }
+
+.ui-dialog .ui-dialog-buttonpane button {
+    margin: 0.5em 0.4em 0.5em 0px;
+    cursor: pointer;
+}
+.ui-button-text-only .ui-button-text {
+    padding: .4em 1em ! important;
+}
+
+/* Post Job Start*/
+#contentBounds {
+    width: 780px ! important;
+}
+
+#LJCOMMON_jobposter_jobs_corpjob_addjob 
+#contentBounds h1 {
+    width: 792px ! important;
+}
+#_JobPostingForm_mxreJobDescV2_JobBlob_JobDesc {
+    margin : 0px ! important;
+}
+/* Post Job End*/
+
+
+_JobPostingForm_pnlCompanyFields {
+    width: 360px !important;
+}
