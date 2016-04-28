@@ -10,6 +10,11 @@
   position: relative;
 }
 
+.fl-r {
+  float: right;
+  margin: 0 !important;
+}
+
 .cleafix:after{
   content: "";
   display: table;
@@ -44,6 +49,7 @@
   border-radius: 3px;
   padding-bottom: 20px !important;
   position: relative;
+  z-index: 10;
 }
 
 .top-bloc:after{
@@ -112,13 +118,21 @@
     float: none;
 }
 
+.sticky-nav.fixed{
+  position: fixed;
+  top: 0;
+  z-index: 900;
+}
+
 #resume_details_menu {
   padding-bottom: 5px;
   margin-bottom: 10px;
   border-bottom: 1px solid #023558;
   color: #023558;
+  background: white;
   text-align: center;
   position: relative;
+  font-size: 16px;
 }
 
 #resume_details_menu:after{
@@ -153,7 +167,7 @@
   margin: 0 25px;
 }
 
-#resume_details_menu #ucResumeDetails_ucAffordanceTray_cbhlResumeWordDocSave {
+#resume_details_menu #ucResumeDetails_ucAffordanceTray_cbhlResumeWordDocSave, #resume h3 #ucResumeDetails_ucAffordanceTray_cbhlResumeWordDocSave {
   margin-right: 10px;
   background: #DF691E;
   color: #FFF;
@@ -166,9 +180,10 @@
   display: inline-block;
   vertical-align: bottom;
   text-shadow: 1px 1px 0px #ac4f14;
+  text-decoration: none;
 }
 
-#resume_details_menu #ucResumeDetails_ucAffordanceTray_cbhlResumeWordDocSave i{
+#resume_details_menu #ucResumeDetails_ucAffordanceTray_cbhlResumeWordDocSave i, #resume h3 #ucResumeDetails_ucAffordanceTray_cbhlResumeWordDocSave{
   color: white;
 }
 
@@ -216,12 +231,16 @@
   font-size: 1.3rem;
   border-bottom: 1px solid #023558;
   padding-bottom: 5px;
+  position: relative;
 }
 
-#resume_details h3 i.fa {
-  float: right;
-  transition-duration: 0.3s;
-  -webkit-transition-duration: 0.3;s
+#resume_details h3 span{
+  position: absolute;
+  right: 0;
+  bottom: 5px;
+  font-size: 1rem;
+  color: #333;
+  font-style: italic;
 }
 
 #resume_details h3 i.fa.collapse-active {
@@ -231,7 +250,7 @@
 }
 
 #resume_details h4 {
-  margin: 17px 0;
+  margin-top: 15px;
   height: 14px;
 }
 
@@ -240,12 +259,12 @@
   font-size: 14px;
   display: block;
   float: right;
-  margin-top: -30px;
+  margin-top: -14px;
 }
 
 #resume_details .fonction {
   height: 14px;
-  margin-bottom: 7px;
+  margin-top: 15px;
 }
 
 #resume_details .fonction span{
@@ -253,7 +272,6 @@
   font-size: 14px;
   display: block;
   float: right;
-  margin-top: 2px;
 }
 
 #resume_details .info-bloc {

@@ -7,6 +7,20 @@ $(document).ready(function(){
 
   $('#rdb_tools_button').click(function(){
     $('#rdb_tools').slideToggle();
-  })
+  });
+
+  var $navbar = $(".sticky-nav"),
+        y_pos = $navbar.offset().top,
+        height = $navbar.height();
+
+    $(document).scroll(function() {
+	    var scrollTop = $(this).scrollTop();
+
+	    if (scrollTop > y_pos) {
+	        $navbar.addClass("fixed");
+	    } else if (scrollTop <= y_pos) {
+	        $navbar.removeClass("fixed");
+	    }
+	});
 
 });
