@@ -147,7 +147,7 @@
         <div class="badge">
           <i class="fa fa-hourglass-half"></i>
           <span>10 Années, 11 Mois</span>
-          <h2>Années d'expériences</h2>
+          <h2>Années d'expérience</h2>
         </div>
         <div class="badge">
           <i class="fa fa-graduation-cap"></i>
@@ -155,12 +155,12 @@
           <h2>Niveau du dernier diplôme</h2>
         </div>
         <div class="badge big-title clearfix">
-          <h2><i class="fa fa-briefcase"></i> type d'emploi souhaité</h2>
+          <h2><i class="fa fa-briefcase"></i> Contrat souhaité</h2>
           <ul class="clearfix">
             <li>CDI</li>
             <li>CDD</li>
             <li>Contrat de professionalisation</li>
-            <li>Contrat d'apprentissag</li>
+            <li>Contrat d'apprentissage</li>
             <li>Intérim</li>
             <li>Stage</li>
             <li>Indépendant</li>
@@ -259,7 +259,8 @@
         <div id="resume" class="collapse-bloc">
           <h3 class="collapse"><div class="fa fa-user"></div> CV <a href="#" id="ucResumeDetails_ucAffordanceTray_cbhlResumeWordDocSave" class="fl-r"><i class="fa fa-download"></i> Télécharger le CV</a></h3>
           <div class="collapse-content">
-            <div class="cv-content">
+            <div id="cv-content"></div>
+            <div class="cv-content" style="display: none;">
               SASTOURNÉ Quentin
               <br>Quartier Saint Paul
               <br>65710 - Campan
@@ -453,5 +454,11 @@
 </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 <script src="js/app.js"></script>
+<script src="js/pdfobject.js"></script>
+<script>var options = {
+    height: "800px",
+    pdfOpenParams: { view: 'FitV' }
+};
+PDFObject.embed("pdf/test.pdf", "#cv-content", options);</script>
 </body>
 </html>
