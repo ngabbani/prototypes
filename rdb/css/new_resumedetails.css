@@ -264,6 +264,40 @@
   margin-bottom: 10px;
 }
 
+#informations_badges .badge ul {
+  margin-bottom: 10px;
+}
+
+#informations_badges .badge ul li {
+  float: left;
+  margin-right: 10px;
+  background: #09a0db;
+  padding: 4px;
+  border-radius: 4px;
+  color: white;
+}
+
+#informations_badges .badge.bg-clear {
+  padding: 20px 0;
+  background: white;
+  color: #333;
+}
+
+#informations_badges .badge.bg-clear i.fa {
+  text-align: left;
+  display: inline-block;
+}
+
+#informations_badges .badge.bg-clear h2 {
+  color: #333;
+  font-size: 16px;
+  text-align: left;
+}
+
+#informations_badges .badge-full {
+  width: 100%;
+}
+
 #resume_details.fixed {
   margin-top: 209px;
 }
