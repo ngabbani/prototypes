@@ -9,7 +9,7 @@ $(document).ready(function(){
     $('#rdb_tools').slideToggle();
   });
 
-  var $navbar = $(".sticky-nav"),
+  var $navbar = $(".sticky-nav, #resume_details"),
         y_pos = $navbar.offset().top,
         height = $navbar.height();
 
