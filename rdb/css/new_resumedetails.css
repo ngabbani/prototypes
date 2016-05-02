@@ -271,10 +271,10 @@
 #informations_badges .badge ul li {
   float: left;
   margin-right: 10px;
-  background: #09a0db;
+  background: white;
   padding: 4px;
   border-radius: 4px;
-  color: white;
+  color: #09a0db;
 }
 
 #informations_badges .badge.bg-clear {
@@ -283,19 +283,14 @@
   color: #333;
 }
 
-#informations_badges .badge.bg-clear i.fa {
+#informations_badges .badge.big-title i.fa {
   text-align: left;
   display: inline-block;
+  margin-right: 5px;
 }
 
-#informations_badges .badge.bg-clear h2 {
-  color: #333;
-  font-size: 16px;
+#informations_badges .badge.big-title h2 {
   text-align: left;
-}
-
-#informations_badges .badge-full {
-  width: 100%;
 }
 
 #resume_details.fixed {
