@@ -231,7 +231,14 @@
 }
 
 #informations_badges {
-  margin-top: 1px;
+  float: left;
+  width: 200px;
+  margin-right: 50px;
+}
+
+.col-right {
+  float: left;
+  width: 750px;
 }
 
 #informations_badges .badge {
@@ -242,6 +249,7 @@
   color: white;
   margin-right: 1px;
   margin-bottom: 1px;
+  width: 100%;
 }
 
 #informations_badges .badge span{
@@ -275,12 +283,17 @@
   padding: 4px;
   border-radius: 4px;
   color: #09a0db;
+  margin-bottom: 10px;
 }
 
 #informations_badges .badge.bg-clear {
   padding: 20px 0;
   background: white;
   color: #333;
+}
+
+#informations_badges .badge.big-title {
+  padding-bottom: 0;
 }
 
 #informations_badges .badge.big-title i.fa {
