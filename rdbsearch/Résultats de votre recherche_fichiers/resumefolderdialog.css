@@ -1,0 +1,171 @@
+.resumefolderstyle
+{
+	  
+		POSITION: absolute; 
+		margin: -5px 2px 5px -2px !important;
+		margin: 0 !important;
+		margin: 0px;
+		border:1px solid #6e6e6e;
+		background-color: #e0e0e0;
+		z-index: 70000000;
+		text-align: left;
+		width:380px;
+		height:330px;
+		
+}
+
+.resumefolderstyle .header
+{
+	height:24px; background-color:#7183a9;
+}
+
+.resumefolderstyle .header p
+{
+	margin:0 !important; padding:0; color:white; font-size:12px; font-family:arial; padding-top:4px; padding-left:5px;
+}
+
+.resumefolderstyle .createfoldersection
+{
+	width:500px; height:30px; text-align:left; font-size:12px;
+}
+
+.resumefolderstyle .createfoldersection a:link,
+.resumefolderstyle .createfoldersection a:active,
+.resumefolderstyle .createfoldersection a:visited
+{
+	font-size:11px; font-family:arial; color:#535353; line-height:28px;
+}
+
+.resumefolderstyle input#newfolderinput
+{
+	margin-top:5px; width:120px; font-size:11px; font-family:arial; line-height:12px; height:12px;
+}
+
+.resumefolderstyle .btnAdd
+{
+	font-size:11px; font-family:arial; height:18px; width:40px;
+}
+
+.resumefolderstyle .listheaders
+{
+text-align:left; width:370px; height:18px; line-height:17px; border-left:1px solid #999999;border-right:1px solid #999999;border-top:1px solid #999999; margin-top: 30px; background-image: url(../../images/JP/elements/tblheader.gif);
+}
+
+.resumefolderstyle .folderlist
+{
+	background-color:#f4f4f4; height:190px; width:370px; border-left:1px solid #999999;border-right:1px solid #999999;border-bottom:1px solid #999999; overflow-x: hidden; overflow-y:scroll; overflow:-moz-scrollbars-vertical !important;
+}
+
+.resumefolderstyle .bottomsection .namesection p
+{
+	margin:0 !important;
+	padding:0;
+	font-size:10px;
+	color:#666666;
+	line-height:12px;
+}
+
+.resumefolderstyle .bottomsection .namesection span.resumename
+{
+	font-size:11px;
+	color:#333333;
+	padding-left:2px;
+	text-overflow:ellipsis;
+	overflow :hidden;
+	white-space :nowrap;
+}
+
+.resumefolderstyle .bottomsection .buttons
+{
+	width:160px; text-align:right; padding-top:5px; float:left; 
+}
+
+.resumefolderstyle .bottomsection .buttons input
+{
+	width:77px; height:21px;
+}
+
+.resumefolderstyle table.folderpane
+{
+	border-collapse: collapse;
+	table-layout:fixed;
+	margin:0;
+	padding:0;
+	font-family:arial, verdana, sans-serif;
+	width:354px;
+	text-align:left;
+	cursor: default;
+}
+
+.resumefolderstyle table.folderpane .listheader
+{
+	text-decoration:none; display:block; cursor:pointer;
+}
+
+.resumefolderstyle table.folderpane .listheader p
+{
+	margin:0 !important; padding:0; font-size:11px; font-family:arial; padding-left:5px; color:white; line-height:16px;
+}
+
+.resumefolderstyle table.folderpane td
+{
+	font-size:11px;
+
+	line-height:16px;
+}
+
+.resumefolderstyle table.folderpane tr td
+{
+	border-bottom: 1px solid #e4e4e4;
+}
+
+.resumefolderstyle table.folderpane td.foldername
+{
+	width:185px;
+}
+
+.resumefolderstyle table.folderpane td.foldername p
+{
+	margin:0 !important; padding:0; padding-left:22px; overflow:hidden;
+}
+
+.resumefolderstyle table.folderpane td.typename p
+{
+	margin:0 !important; padding:0; padding-left:5px; overflow:hidden;
+}
+
+.resumefolderstyle table.folderpane th.foldername
+{
+	width:185px;
+}
+
+
+.resumefolderstyle table.folderpane th
+{
+background-image: url(../../images/JP/elements/tblheader.gif);background-repeat: no-repeat;
+}
+
+
+.resumefolderstyle table.folderpane td.typename,
+.resumefolderstyle table.folderpane th.typename
+{
+	border-left:1px solid #bebebe;
+}
+
+.resumefolderstyle table.folderpane td.foldername
+{
+background-image: url(../../images/JP/elements/folder.gif);
+	background-repeat: no-repeat;
+	background-position: left;
+}
+
+.resumefolderstyle table.folderpane tr.sel
+{
+	background-color:#6d8bc0;
+	color:#ffffff;
+}
+
+.resumefolderstyle table.folderpane tr.sel td
+{
+	color:#ffffff;
+}

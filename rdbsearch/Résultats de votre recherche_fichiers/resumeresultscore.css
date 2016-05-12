@@ -1,0 +1,2862 @@
+#pnlOuterWrapper div#JPLeftNav
+{
+    display:none;
+}
+
+#jpMainContent {
+    font-size: 1em;
+    line-height: 1.4em;
+    margin-left: 152px;
+    margin: 0 auto;
+    width: 960px;
+}
+
+#JPBreadcrumb
+{
+    display:none;
+}
+
+#tblContent 
+{
+    display:none;
+}
+
+.myTags {display:none; margin-top: 7px;}
+.myTags .label {color: #777;}
+
+.coworkerTags {display:none; margin-top: 12px;}
+.coworkerTags .label {color: #777; margin-right:5px;}
+.coworkerTags img {cursor:pointer;}
+.coworkerTagLink {background-color: #dedfe1; padding-left: 5px; padding-right: 5px; padding-top: 0px; padding-bottom:1px; color: #666666; font-size:10px; margin-left: -3px; cursor:pointer;}
+
+.addTagLabel {cursor:pointer; color: #275CAB; margin-left: 12px;}
+.AddTagPopup {display:none;}
+#BulkAddTagPopup {display:none;}
+
+ .privateTagEnd {
+    background-color:#E34B24;
+    width:11px;
+    min-width:11px;
+    color:#FFF;
+    display:inline-block;
+    text-align:center;
+    font-size: 10px;
+    margin-left:-3px;
+    cursor:pointer;
+}
+
+.searchedTagsList .privateTagEnd 
+{
+    cursor:default;
+    color:#E34B24;
+}
+
+
+#locationTips
+{
+    display:none;
+    clear: both; 
+    padding-top: 3px;
+}
+
+#freshnessTips
+{
+    display:none;
+    clear: both; 
+    padding-top: 3px;
+}
+
+#zeroTagsResultsText
+{
+    display:none;
+}
+
+#zeroTagsResultsText li  
+{
+    list-style-type:disc;
+    margin-left: 17px;
+    margin-bottom: 12px;
+}
+
+.zeroResultsTips
+{
+    color:#0000EE;
+    cursor:pointer;    
+}
+
+#searchHelp
+{
+    color:#0000EE;
+}
+
+ .publicTagEnd {
+    background-color:#0BCF22;
+    width:11px;
+    min-width:11px;
+    color:#FFF;
+    display:inline-block;
+    text-align:center;
+    font-size: 10px;
+    margin-left:-3px;
+    cursor:pointer;
+}
+
+.searchedTagsList .publicTagEnd 
+{
+    cursor:default;
+    color:#0BCF22;
+}
+
+.publicUserTagEnd {
+    background-color:#0BCF22;
+    width:11px;
+    min-width:11px;
+    color:#0BCF22;
+    display:inline-block;
+    text-align:center;
+    font-size: 10px;
+    margin-left:-3px;
+}
+
+ .publicCoworkerTagEnd {
+    background-color:#888888;
+    width:11px;
+    min-width:11px;
+    color:#FFF;
+    display:inline-block;
+    text-align:center;
+    font-size: 10px;
+    margin-left:-3px;
+    cursor:pointer;
+}
+
+.searchedTagsList .publicCoworkerTagEnd 
+{
+    cursor:default;
+    color:#888888;
+}
+
+.CBResumeResults
+{
+    font-size: 1em
+}
+
+.CBResumeResults  select,
+.CBResumeResults .facetplaceholder select
+{
+	vertical-align:top;
+}
+
+.CBResumeResults select, .CBResumeResults input, td {
+	font-size:1em;
+}
+.CBResumeResults a{
+	font-size:1em;
+}
+
+#datetype ul {
+	text-indent: 0px;
+	padding-left: 0px;
+} 
+
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
+audio:not([controls]) { display:none; }
+[hidden] { display:none; }
+html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+html, button, input, select, textarea { font-family: sans-serif; color: #222; }
+body { font-size:75% !important; margin: 0; line-height: 1.3; }
+::-moz-selection { background: #f58b15; color: #fff; text-shadow: none; }
+::selection { background: #f58b15; color: #fff; text-shadow: none; }
+a { color: #00e; }
+a:visited { color: #551a8b; }
+a:hover { color: #06e; }
+a:focus { outline: thin dotted; }
+a:hover, a:active { outline: 0; }
+abbr[title] { border-bottom: 1px dotted; }
+b, strong { font-weight: bold !important; }
+blockquote { margin: 1em 40px; }
+dfn { font-style: italic; }
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+ins { background: #ff9; color: #000; text-decoration: none; }
+mark { background: #ff0; color: #000; font-style: italic; font-weight: bold; }
+pre, code, kbd, samp { font-family: monospace, serif; _font-family: 'courier new', monospace; font-size: 1em; }
+pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; }
+q { quotes: none; }
+q:before, q:after { content: ""; content: none; }
+small { font-size: 85%; }
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
+ul, ol { margin: 1em 0; padding: 0 0 0 40px; }
+dd { margin: 0 0 0 40px; }
+nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }
+img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
+svg:not(:root) { overflow: hidden; }
+figure { margin: 0; }
+form { margin: 0; }
+fieldset { border: 0; margin: 0; padding: 0; }
+label { cursor: pointer; }
+legend { border: 0; *margin-left: -7px; padding: 0; white-space: normal; }
+button, input, select, textarea { font-size: 100%; margin: 0; vertical-align: baseline; *vertical-align: middle; }
+button, input { line-height: normal; }
+button, input[type="button"], input[type="reset"] { cursor: pointer; -webkit-appearance: button; *overflow: visible; }
+button[disabled], input[disabled] { cursor: default; }
+input[type="checkbox"], input[type="radio"] { box-sizing: border-box; padding: 0; *width: 13px; *height: 13px; }
+input[type="search"] { -webkit-appearance: textfield; -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; }
+input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-search-cancel-button { -webkit-appearance: none; }
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
+textarea { overflow: auto; vertical-align: top; resize: vertical; }
+input:valid, textarea:valid {  }
+input:invalid, textarea:invalid { background-color: #f0dddd; }
+table { border-collapse: collapse; border-spacing: 0; }
+td { vertical-align: top; }
+
+
+/*
+ * jQuery UI CSS Framework 1.8.18
+ *
+ * Copyright 2011, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Theming/API
+ */
+
+/* Layout helpers
+----------------------------------*/
+.cbui .ui-helper-hidden { display: none; }
+.cbui .ui-helper-hidden-accessible { position: absolute !important; clip: rect(1px 1px 1px 1px); clip: rect(1px,1px,1px,1px); }
+.cbui .ui-helper-reset { margin: 0; padding: 0; border: 0; outline: 0; line-height: 1.3; text-decoration: none; font-size: 100%; list-style: none; }
+.cbui .ui-helper-clearfix:before, .cbui .ui-helper-clearfix:after { content: ""; display: table; }
+.cbui .ui-helper-clearfix:after { clear: both; }
+.cbui .ui-helper-clearfix { zoom: 1; }
+.cbui .ui-helper-zfix { width: 100%; height: 100%; top: 0; left: 0; position: absolute; opacity: 0; filter:Alpha(Opacity=0); }
+
+
+/* Interaction Cues
+----------------------------------*/
+.cbui .ui-state-disabled { cursor: default !important; }
+
+
+/* Icons
+----------------------------------*/
+
+/* states and images */
+.cbui .ui-icon { display: block; text-indent: -99999px; overflow: hidden; background-repeat: no-repeat; }
+
+
+/* Misc visuals
+----------------------------------*/
+
+/* Overlays */
+.cbui .ui-widget-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+
+/*
+ * jQuery UI CSS Framework 1.8.18
+ *
+ * Copyright 2011, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Theming/API
+ *
+ * To view and modify this theme, visit http://jqueryui.com/themeroller/?ffDefault=Helvetica,%20Arial,%20sans-serif&fwDefault=bold&fsDefault=1.1em&cornerRadius=5px&bgColorHeader=dddddd&bgTextureHeader=03_highlight_soft.png&bgImgOpacityHeader=50&borderColorHeader=dddddd&fcHeader=444444&iconColorHeader=0073ea&bgColorContent=ffffff&bgTextureContent=01_flat.png&bgImgOpacityContent=75&borderColorContent=dddddd&fcContent=444444&iconColorContent=e68500&bgColorDefault=f6f6f6&bgTextureDefault=03_highlight_soft.png&bgImgOpacityDefault=100&borderColorDefault=dddddd&fcDefault=0073ea&iconColorDefault=666666&bgColorHover=0073ea&bgTextureHover=03_highlight_soft.png&bgImgOpacityHover=25&borderColorHover=0073ea&fcHover=ffffff&iconColorHover=ffffff&bgColorActive=ffffff&bgTextureActive=02_glass.png&bgImgOpacityActive=65&borderColorActive=dddddd&fcActive=e66800&iconColorActive=454545&bgColorHighlight=ffffff&bgTextureHighlight=01_flat.png&bgImgOpacityHighlight=55&borderColorHighlight=cccccc&fcHighlight=444444&iconColorHighlight=0073ea&bgColorError=ffffff&bgTextureError=01_flat.png&bgImgOpacityError=55&borderColorError=e68500&fcError=222222&iconColorError=e68500&bgColorOverlay=eeeeee&bgTextureOverlay=01_flat.png&bgImgOpacityOverlay=0&opacityOverlay=80&bgColorShadow=aaaaaa&bgTextureShadow=01_flat.png&bgImgOpacityShadow=0&opacityShadow=60&thicknessShadow=4px&offsetTopShadow=-4px&offsetLeftShadow=-4px&cornerRadiusShadow=0px
+ */
+
+
+/* Component containers
+----------------------------------*/
+.cbui .ui-widget { font-family: Helvetica, Arial, sans-serif; font-size: 1.1em; }
+.cbui .ui-widget .ui-widget { font-size: 1em; }
+.cbui .ui-widget input, .cbui .ui-widget select, .cbui .ui-widget textarea, .cbui .ui-widget button { font-family: Helvetica, Arial, sans-serif; font-size: 1em; }
+.cbui .ui-widget-content { border: 1px solid #dddddd; background: #ffffff url(http://img.icbdr.com/images/jp/cssimg/ui-bg_flat_75_ffffff_40x100.png) 50% 50% repeat-x; color: #444444; }
+.cbui .ui-widget-content a { color: #2f65b6; }
+.cbui .ui-widget-header { border: 1px solid #dddddd; background: #dddddd url(http://img.icbdr.com/images/jp/cssimg/ui-bg_highlight-soft_50_dddddd_1x100.png) 50% 50% repeat-x; color: #444444; font-weight: bold; }
+.cbui .ui-widget-header a { color: #444444; }
+
+/* Interaction states
+----------------------------------*/
+.cbui .ui-state-default, .cbui .ui-widget-content .ui-state-default, .cbui .ui-widget-header .ui-state-default { border: 1px solid #dddddd; background: #f6f6f6 url(//img.icbdr.com/images/jp/cssimg/ui-bg_highlight-soft_100_f6f6f6_1x100.png) 50% 50% repeat-x; font-weight: bold; color: #0073ea; }
+.cbui .ui-state-default a, .cbui .ui-state-default a:link, .cbui .ui-state-default a:visited { color: #2f65b6; text-decoration: none; }
+.cbui .ui-state-hover, .cbui .ui-widget-content .ui-state-hover, .cbui .ui-widget-header .ui-state-hover{ border: 1px solid #0073ea; background: #0073ea url(//img.icbdr.com/images/jp/cssimg/ui-bg_highlight-soft_25_0073ea_1x100.png) 50% 50% repeat-x; font-weight: bold; color: #ffffff; }
+.cbui .ui-state-hover a, .cbui .ui-state-hover a:hover { color: #ffffff; text-decoration: none; }
+.cbui .ui-state-active, .cbui .ui-widget-content .ui-state-active, .cbui .ui-widget-header .ui-state-active { border: 1px solid #dddddd; background: #ffffff url(//img.icbdr.com/images/jp/cssimg/ui-bg_glass_65_ffffff_1x400.png) 50% 50% repeat-x; font-weight: bold; color: #e66800; }
+.cbui .ui-state-active a, .cbui .ui-state-active a:link, .cbui .ui-state-active a:visited { color: #555; text-decoration: none; }
+.cbui .ui-widget :active { outline: none; }
+
+/* Interaction Cues
+----------------------------------*/
+.cbui .ui-state-highlight, .cbui .ui-widget-content .ui-state-highlight, .cbui .ui-widget-header .ui-state-highlight  {border: 1px solid #cccccc; background: #ffffff url(//img.icbdr.com/images/jp/cssimg/ui-bg_flat_55_ffffff_40x100.png) 50% 50% repeat-x; color: #275CAB; }
+.cbui .ui-state-highlight a, .cbui .ui-widget-content .ui-state-highlight a,.ui-widget-header .ui-state-highlight a { color: #2f65b6; }
+.cbui .ui-state-error, .cbui .ui-widget-content .ui-state-error, .cbui .ui-widget-header .ui-state-error {border: 1px solid #e68500; background: #ffffff url(//img.icbdr.com/images/jp/cssimg/ui-bg_flat_55_ffffff_40x100.png) 50% 50% repeat-x; color: #222222; }
+.cbui .ui-state-error a, .cbui .ui-widget-content .ui-state-error a, .cbui .ui-widget-header .ui-state-error a { color: #222222; }
+.cbui .ui-state-error-text, .cbui .ui-widget-content .ui-state-error-text, .cbui .ui-widget-header .ui-state-error-text { color: #222222; }
+.cbui .ui-priority-primary, .cbui .ui-widget-content .ui-priority-primary, .cbui .ui-widget-header .ui-priority-primary { font-weight: bold; }
+.cbui .ui-priority-secondary, .cbui .ui-widget-content .ui-priority-secondary,  .ui-widget-header .ui-priority-secondary { opacity: .7; filter:Alpha(Opacity=70); font-weight: normal; }
+.cbui .ui-state-disabled, .cbui .ui-widget-content .ui-state-disabled, .cbui .ui-widget-header .ui-state-disabled { opacity: .35; filter:Alpha(Opacity=35); background-image: none; }
+
+/* Icons
+----------------------------------*/
+
+/* states and images */
+.cbui .ui-icon { width: 16px; height: 16px; background-image: url(//img.icbdr.com/images/jp/cssimg/ui-icons_e68500_256x240.png); }
+.cbui .ui-widget-content .ui-icon {background-image: url(//img.icbdr.com/images/jp/cssimg/ui-icons_e68500_256x240.png); }
+.cbui .ui-widget-header .ui-icon {background-image: url(//img.icbdr.com/images/jp/cssimg//ui-icons_0073ea_256x240.png); }
+.cbui .ui-state-default .ui-icon { background-image: url(//img.icbdr.com/images/jp/cssimg//ui-icons_666666_256x240.png); }
+.cbui .ui-state-hover .ui-icon {background-image: url(//img.icbdr.com/images/jp/cssimg//ui-icons_ffffff_256x240.png); }
+.cbui .ui-state-active .ui-icon {background-image: url(//img.icbdr.com/images/jp/cssimg//ui-icons_454545_256x240.png); }
+.cbui .ui-state-highlight .ui-icon {background-image: url(//img.icbdr.com/images/jp/cssimg//ui-icons_0073ea_256x240.png); }
+.cbui .ui-state-error .ui-icon, .cbui .ui-state-error-text .ui-icon {background-image: url(//img.icbdr.com/images/jp/cssimg/ui-icons_e68500_256x240.png); }
+
+/* positioning */
+.cbui .ui-icon-carat-1-n { background-position: 0 0; }
+.cbui .ui-icon-carat-1-ne { background-position: -16px 0; }
+.cbui .ui-icon-carat-1-e { background-position: -32px 0; }
+.cbui .ui-icon-carat-1-se { background-position: -48px 0; }
+.cbui .ui-icon-carat-1-s { background-position: -64px 0; }
+.cbui .ui-icon-carat-1-sw { background-position: -80px 0; }
+.cbui .ui-icon-carat-1-w { background-position: -96px 0; }
+.cbui .ui-icon-carat-1-nw { background-position: -112px 0; }
+.cbui .ui-icon-carat-2-n-s { background-position: -128px 0; }
+.cbui .ui-icon-carat-2-e-w { background-position: -144px 0; }
+.cbui .ui-icon-triangle-1-n { background-position: 0 -16px; }
+.cbui .ui-icon-triangle-1-ne { background-position: -16px -16px; }
+.cbui .ui-icon-triangle-1-e { background-position: -32px -16px; }
+.cbui .ui-icon-triangle-1-se { background-position: -48px -16px; }
+.cbui .ui-icon-triangle-1-s { background-position: -64px -16px; }
+.cbui .ui-icon-triangle-1-sw { background-position: -80px -16px; }
+.cbui .ui-icon-triangle-1-w { background-position: -96px -16px; }
+.cbui .ui-icon-triangle-1-nw { background-position: -112px -16px; }
+.cbui .ui-icon-triangle-2-n-s { background-position: -128px -16px; }
+.cbui .ui-icon-triangle-2-e-w { background-position: -144px -16px; }
+.cbui .ui-icon-arrow-1-n { background-position: 0 -32px; }
+.cbui .ui-icon-arrow-1-ne { background-position: -16px -32px; }
+.cbui .ui-icon-arrow-1-e { background-position: -32px -32px; }
+.cbui .ui-icon-arrow-1-se { background-position: -48px -32px; }
+.cbui .ui-icon-arrow-1-s { background-position: -64px -32px; }
+.cbui .ui-icon-arrow-1-sw { background-position: -80px -32px; }
+.cbui .ui-icon-arrow-1-w { background-position: -96px -32px; }
+.cbui .ui-icon-arrow-1-nw { background-position: -112px -32px; }
+.cbui .ui-icon-arrow-2-n-s { background-position: -128px -32px; }
+.cbui .ui-icon-arrow-2-ne-sw { background-position: -144px -32px; }
+.cbui .ui-icon-arrow-2-e-w { background-position: -160px -32px; }
+.cbui .ui-icon-arrow-2-se-nw { background-position: -176px -32px; }
+.cbui .ui-icon-arrowstop-1-n { background-position: -192px -32px; }
+.cbui .ui-icon-arrowstop-1-e { background-position: -208px -32px; }
+.cbui .ui-icon-arrowstop-1-s { background-position: -224px -32px; }
+.cbui .ui-icon-arrowstop-1-w { background-position: -240px -32px; }
+.cbui .ui-icon-arrowthick-1-n { background-position: 0 -48px; }
+.cbui .ui-icon-arrowthick-1-ne { background-position: -16px -48px; }
+.cbui .ui-icon-arrowthick-1-e { background-position: -32px -48px; }
+.cbui .ui-icon-arrowthick-1-se { background-position: -48px -48px; }
+.cbui .ui-icon-arrowthick-1-s { background-position: -64px -48px; }
+.cbui .ui-icon-arrowthick-1-sw { background-position: -80px -48px; }
+.cbui .ui-icon-arrowthick-1-w { background-position: -96px -48px; }
+.cbui .ui-icon-arrowthick-1-nw { background-position: -112px -48px; }
+.cbui .ui-icon-arrowthick-2-n-s { background-position: -128px -48px; }
+.cbui .ui-icon-arrowthick-2-ne-sw { background-position: -144px -48px; }
+.cbui .ui-icon-arrowthick-2-e-w { background-position: -160px -48px; }
+.cbui .ui-icon-arrowthick-2-se-nw { background-position: -176px -48px; }
+.cbui .ui-icon-arrowthickstop-1-n { background-position: -192px -48px; }
+.cbui .ui-icon-arrowthickstop-1-e { background-position: -208px -48px; }
+.cbui .ui-icon-arrowthickstop-1-s { background-position: -224px -48px; }
+.cbui .ui-icon-arrowthickstop-1-w { background-position: -240px -48px; }
+.cbui .ui-icon-arrowreturnthick-1-w { background-position: 0 -64px; }
+.cbui .ui-icon-arrowreturnthick-1-n { background-position: -16px -64px; }
+.cbui .ui-icon-arrowreturnthick-1-e { background-position: -32px -64px; }
+.cbui .ui-icon-arrowreturnthick-1-s { background-position: -48px -64px; }
+.cbui .ui-icon-arrowreturn-1-w { background-position: -64px -64px; }
+.cbui .ui-icon-arrowreturn-1-n { background-position: -80px -64px; }
+.cbui .ui-icon-arrowreturn-1-e { background-position: -96px -64px; }
+.cbui .ui-icon-arrowreturn-1-s { background-position: -112px -64px; }
+.cbui .ui-icon-arrowrefresh-1-w { background-position: -128px -64px; }
+.cbui .ui-icon-arrowrefresh-1-n { background-position: -144px -64px; }
+.cbui .ui-icon-arrowrefresh-1-e { background-position: -160px -64px; }
+.cbui .ui-icon-arrowrefresh-1-s { background-position: -176px -64px; }
+.cbui .ui-icon-arrow-4 { background-position: 0 -80px; }
+.cbui .ui-icon-arrow-4-diag { background-position: -16px -80px; }
+.cbui .ui-icon-extlink { background-position: -32px -80px; }
+.cbui .ui-icon-newwin { background-position: -48px -80px; }
+.cbui .ui-icon-refresh { background-position: -64px -80px; }
+.cbui .ui-icon-shuffle { background-position: -80px -80px; }
+.cbui .ui-icon-transfer-e-w { background-position: -96px -80px; }
+.cbui .ui-icon-transferthick-e-w { background-position: -112px -80px; }
+.cbui .ui-icon-folder-collapsed { background-position: 0 -96px; }
+.cbui .ui-icon-folder-open { background-position: -16px -96px; }
+.cbui .ui-icon-document { background-position: -32px -96px; }
+.cbui .ui-icon-document-b { background-position: -48px -96px; }
+.cbui .ui-icon-note { background-position: -64px -96px; }
+.cbui .ui-icon-mail-closed { background-position: -80px -96px; }
+.cbui .ui-icon-mail-open { background-position: -96px -96px; }
+.cbui .ui-icon-suitcase { background-position: -112px -96px; }
+.cbui .ui-icon-comment { background-position: -128px -96px; }
+.cbui .ui-icon-person { background-position: -144px -96px; }
+.cbui .ui-icon-print { background-position: -160px -96px; }
+.cbui .ui-icon-trash { background-position: -176px -96px; }
+.cbui .ui-icon-locked { background-position: -192px -96px; }
+.cbui .ui-icon-unlocked { background-position: -208px -96px; }
+.cbui .ui-icon-bookmark { background-position: -224px -96px; }
+.cbui .ui-icon-tag { background-position: -240px -96px; }
+.cbui .ui-icon-home { background-position: 0 -112px; }
+.cbui .ui-icon-flag { background-position: -16px -112px; }
+.cbui .ui-icon-calendar { background-position: -32px -112px; }
+.cbui .ui-icon-cart { background-position: -48px -112px; }
+.cbui .ui-icon-pencil { background-position: -64px -112px; }
+.cbui .ui-icon-clock { background-position: -80px -112px; }
+.cbui .ui-icon-disk { background-position: -96px -112px; }
+.cbui .ui-icon-calculator { background-position: -112px -112px; }
+.cbui .ui-icon-zoomin { background-position: -128px -112px; }
+.cbui .ui-icon-zoomout { background-position: -144px -112px; }
+.cbui .ui-icon-search { background-position: -160px -112px; }
+.cbui .ui-icon-wrench { background-position: -176px -112px; }
+.cbui .ui-icon-gear { background-position: -192px -112px; }
+.cbui .ui-icon-heart { background-position: -208px -112px; }
+.cbui .ui-icon-star { background-position: -224px -112px; }
+.cbui .ui-icon-link { background-position: -240px -112px; }
+.cbui .ui-icon-cancel { background-position: 0 -128px; }
+.cbui .ui-icon-plus { background-position: -16px -128px; }
+.cbui .ui-icon-plusthick { background-position: -32px -128px; }
+.cbui .ui-icon-minus { background-position: -48px -128px; }
+.cbui .ui-icon-minusthick { background-position: -64px -128px; }
+.cbui .ui-icon-close { background-position: -80px -128px; }
+.cbui .ui-icon-closethick { background-position: -96px -128px; }
+.cbui .ui-icon-key { background-position: -112px -128px; }
+.cbui .ui-icon-lightbulb { background-position: -128px -128px; }
+.cbui .ui-icon-scissors { background-position: -144px -128px; }
+.cbui .ui-icon-clipboard { background-position: -160px -128px; }
+.cbui .ui-icon-copy { background-position: -176px -128px; }
+.cbui .ui-icon-contact { background-position: -192px -128px; }
+.cbui .ui-icon-image { background-position: -208px -128px; }
+.cbui .ui-icon-video { background-position: -224px -128px; }
+.cbui .ui-icon-script { background-position: -240px -128px; }
+.cbui .ui-icon-alert { background-position: 0 -144px; }
+.cbui .ui-icon-info { background-position: -16px -144px; }
+.cbui .ui-icon-notice { background-position: -32px -144px; }
+.cbui .ui-icon-help { background-position: -48px -144px; }
+.cbui .ui-icon-check { background-position: -64px -144px; }
+.cbui .ui-icon-bullet { background-position: -80px -144px; }
+.cbui .ui-icon-radio-off { background-position: -96px -144px; }
+.cbui .ui-icon-radio-on { background-position: -112px -144px; }
+.cbui .ui-icon-pin-w { background-position: -128px -144px; }
+.cbui .ui-icon-pin-s { background-position: -144px -144px; }
+.cbui .ui-icon-play { background-position: 0 -160px; }
+.cbui .ui-icon-pause { background-position: -16px -160px; }
+.cbui .ui-icon-seek-next { background-position: -32px -160px; }
+.cbui .ui-icon-seek-prev { background-position: -48px -160px; }
+.cbui .ui-icon-seek-end { background-position: -64px -160px; }
+.cbui .ui-icon-seek-start { background-position: -80px -160px; }
+/* ui-icon-seek-first is deprecated, use ui-icon-seek-start instead */
+.cbui .ui-icon-seek-first { background-position: -80px -160px; }
+.cbui .ui-icon-stop { background-position: -96px -160px; }
+.cbui .ui-icon-eject { background-position: -112px -160px; }
+.cbui .ui-icon-volume-off { background-position: -128px -160px; }
+.cbui .ui-icon-volume-on { background-position: -144px -160px; }
+.cbui .ui-icon-power { background-position: 0 -176px; }
+.cbui .ui-icon-signal-diag { background-position: -16px -176px; }
+.cbui .ui-icon-signal { background-position: -32px -176px; }
+.cbui .ui-icon-battery-0 { background-position: -48px -176px; }
+.cbui .ui-icon-battery-1 { background-position: -64px -176px; }
+.cbui .ui-icon-battery-2 { background-position: -80px -176px; }
+.cbui .ui-icon-battery-3 { background-position: -96px -176px; }
+.cbui .ui-icon-circle-plus { background-position: 0 -192px; }
+.cbui .ui-icon-circle-minus { background-position: -16px -192px; }
+.cbui .ui-icon-circle-close { background-position: -32px -192px; }
+.cbui .ui-icon-circle-triangle-e { background-position: -48px -192px; }
+.cbui .ui-icon-circle-triangle-s { background-position: -64px -192px; }
+.cbui .ui-icon-circle-triangle-w { background-position: -80px -192px; }
+.cbui .ui-icon-circle-triangle-n { background-position: -96px -192px; }
+.cbui .ui-icon-circle-arrow-e { background-position: -112px -192px; }
+.cbui .ui-icon-circle-arrow-s { background-position: -128px -192px; }
+.cbui .ui-icon-circle-arrow-w { background-position: -144px -192px; }
+.cbui .ui-icon-circle-arrow-n { background-position: -160px -192px; }
+.cbui .ui-icon-circle-zoomin { background-position: -176px -192px; }
+.cbui .ui-icon-circle-zoomout { background-position: -192px -192px; }
+.cbui .ui-icon-circle-check { background-position: -208px -192px; }
+.cbui .ui-icon-circlesmall-plus { background-position: 0 -208px; }
+.cbui .ui-icon-circlesmall-minus { background-position: -16px -208px; }
+.cbui .ui-icon-circlesmall-close { background-position: -32px -208px; }
+.cbui .ui-icon-squaresmall-plus { background-position: -48px -208px; }
+.cbui .ui-icon-squaresmall-minus { background-position: -64px -208px; }
+.cbui .ui-icon-squaresmall-close { background-position: -80px -208px; }
+.cbui .ui-icon-grip-dotted-vertical { background-position: 0 -224px; }
+.cbui .ui-icon-grip-dotted-horizontal { background-position: -16px -224px; }
+.cbui .ui-icon-grip-solid-vertical { background-position: -32px -224px; }
+.cbui .ui-icon-grip-solid-horizontal { background-position: -48px -224px; }
+.cbui .ui-icon-gripsmall-diagonal-se { background-position: -64px -224px; }
+.cbui .ui-icon-grip-diagonal-se { background-position: -80px -224px; }
+
+
+/* Misc visuals
+----------------------------------*/
+
+/* Corner radius */
+.cbui .ui-corner-all, .cbui .ui-corner-top, .cbui .ui-corner-left, .cbui .ui-corner-tl { -moz-border-radius-topleft: 5px; -webkit-border-top-left-radius: 5px; -khtml-border-top-left-radius: 5px; border-top-left-radius: 5px; }
+.cbui .ui-corner-all, .cbui .ui-corner-top, .cbui .ui-corner-right, .cbui .ui-corner-tr { -moz-border-radius-topright: 5px; -webkit-border-top-right-radius: 5px; -khtml-border-top-right-radius: 5px; border-top-right-radius: 5px; }
+.cbui .ui-corner-all, .cbui .ui-corner-bottom, .cbui .ui-corner-left, .cbui .ui-corner-bl { -moz-border-radius-bottomleft: 5px; -webkit-border-bottom-left-radius: 5px; -khtml-border-bottom-left-radius: 5px; border-bottom-left-radius: 5px; }
+.cbui .ui-corner-all, .cbui .ui-corner-bottom, .cbui .ui-corner-right, .cbui .ui-corner-br { -moz-border-radius-bottomright: 5px; -webkit-border-bottom-right-radius: 5px; -khtml-border-bottom-right-radius: 5px; border-bottom-right-radius: 5px; }
+
+/* Overlays */
+.cbui .ui-widget-overlay { background: #eeeeee url(//img.icbdr.com/images/jp/cssimg//ui-bg_flat_0_eeeeee_40x100.png) 50% 50% repeat-x; opacity: .80;filter:Alpha(Opacity=80); }
+.cbui .ui-widget-shadow { margin: -4px 0 0 -4px; padding: 4px; background: #aaaaaa url(//img.icbdr.com/images/jp/cssimg//ui-bg_flat_0_aaaaaa_40x100.png) 50% 50% repeat-x; opacity: .60;filter:Alpha(Opacity=60); -moz-border-radius: 0px; -khtml-border-radius: 0px; -webkit-border-radius: 0px; border-radius: 0px; }/*
+ * jQuery UI Resizable 1.8.18
+ *
+ * Copyright 2011, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Resizable#theming
+ */
+.cbui .ui-resizable { position: relative;}
+.cbui .ui-resizable-handle { position: absolute;font-size: 0.1px;z-index: 99999; display: block; }
+.cbui .ui-resizable-disabled .ui-resizable-handle, .cbui .ui-resizable-autohide .ui-resizable-handle { display: none; }
+.cbui .ui-resizable-n { cursor: n-resize; height: 7px; width: 100%; top: -5px; left: 0; }
+.cbui .ui-resizable-s { cursor: s-resize; height: 7px; width: 100%; bottom: -5px; left: 0; }
+.cbui .ui-resizable-e { cursor: e-resize; width: 7px; right: -5px; top: 0; height: 100%; }
+.cbui .ui-resizable-w { cursor: w-resize; width: 7px; left: -5px; top: 0; height: 100%; }
+.cbui .ui-resizable-se { cursor: se-resize; width: 12px; height: 12px; right: 1px; bottom: 1px; }
+.cbui .ui-resizable-sw { cursor: sw-resize; width: 9px; height: 9px; left: -5px; bottom: -5px; }
+.cbui .ui-resizable-nw { cursor: nw-resize; width: 9px; height: 9px; left: -5px; top: -5px; }
+.cbui .ui-resizable-ne { cursor: ne-resize; width: 9px; height: 9px; right: -5px; top: -5px;}/*
+ * jQuery UI Selectable 1.8.18
+ *
+ * Copyright 2011, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Selectable#theming
+ */
+.cbui .ui-selectable-helper { position: absolute; z-index: 100; border:1px dotted black; }
+/*
+ * jQuery UI Accordion 1.8.18
+ *
+ * Copyright 2011, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Accordion#theming
+ */
+/* IE/Win - Fix animation bug - #4615 */
+.cbui .ui-accordion { width: 100%; }
+.cbui .ui-accordion .ui-accordion-header { cursor: pointer; position: relative; margin-top: 1px; zoom: 1; }
+.cbui .ui-accordion .ui-accordion-li-fix { display: inline; }
+.cbui .ui-accordion .ui-accordion-header-active { border-bottom: 0 !important; }
+.cbui .ui-accordion .ui-accordion-header a { display: block; font-size: 1em; padding: .5em .5em .5em .7em; }
+.cbui .ui-accordion-icons .ui-accordion-header a { padding-left: 2.2em; }
+.cbui .ui-accordion .ui-accordion-header .ui-icon { position: absolute; left: .5em; top: 50%; margin-top: -8px; }
+.cbui .ui-accordion .ui-accordion-content { padding: 1em 2.2em; border-top: 0; margin-top: -2px; position: relative; top: 1px; margin-bottom: 2px; overflow: auto; display: none; zoom: 1; }
+.cbui .ui-accordion .ui-accordion-content-active { display: block; }
+/*
+ * jQuery UI Autocomplete 1.8.18
+ *
+ * Copyright 2011, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Autocomplete#theming
+ */
+.cbui .ui-autocomplete { position: absolute; cursor: default; }	
+
+/* workarounds */
+* html .ui-autocomplete { width:1px; } /* without this, the menu expands to 100% in IE6 */
+
+/*
+ * jQuery UI Menu 1.8.18
+ *
+ * Copyright 2010, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Menu#theming
+ */
+.cbui .ui-menu {
+	list-style:none;
+	padding: 2px;
+	margin: 0;
+	display:block;
+	float: left;
+}
+.cbui .ui-menu .ui-menu {
+	margin-top: -3px;
+}
+.cbui .ui-menu .ui-menu-item {
+	margin:0;
+	padding: 0;
+	zoom: 1;
+	float: left;
+	clear: left;
+	width: 100%;
+}
+.cbui .ui-menu .ui-menu-item a {
+	text-decoration:none;
+	display:block;
+	padding:.2em .4em;
+	line-height:1.5;
+	zoom:1;
+}
+.cbui .ui-menu .ui-menu-item a.ui-state-hover,
+.cbui .ui-menu .ui-menu-item a.ui-state-active {
+	font-weight: normal;
+	margin: -1px;
+}
+/*
+ * jQuery UI Button 1.8.18
+ *
+ * Copyright 2011, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Button#theming
+ */
+.cbui .ui-button { display: inline-block; position: relative; padding: 0; margin-right: .1em; text-decoration: none !important; cursor: pointer; text-align: center; zoom: 1; overflow: hidden; *overflow: visible; } /* the overflow property removes extra width in IE */
+.cbui .ui-button-icon-only { width: 2.2em; } /* to make room for the icon, a width needs to be set here */
+button.ui-button-icon-only { width: 2.4em; } /* button elements seem to need a little more width */
+.cbui .ui-button-icons-only { width: 3.4em; } 
+button.ui-button-icons-only { width: 3.7em; } 
+
+/*button text element */
+.cbui .ui-button .ui-button-text { display: block; line-height: 1.4;  }
+.cbui .ui-button-text-only .ui-button-text { padding: .4em 1em; }
+.cbui .ui-button-icon-only .ui-button-text, .cbui .ui-button-icons-only .ui-button-text { padding: .4em; text-indent: -9999999px; }
+.cbui .ui-button-text-icon-primary .ui-button-text, .cbui .ui-button-text-icons .ui-button-text { padding: .4em 1em .4em 2.1em; }
+.cbui .ui-button-text-icon-secondary .ui-button-text, .cbui .ui-button-text-icons .ui-button-text { padding: .4em 2.1em .4em 1em; }
+.cbui .ui-button-text-icons .ui-button-text { padding-left: 2.1em; padding-right: 2.1em; }
+/* no icon support for input elements, provide padding by default */
+input.ui-button { padding: .4em 1em; }
+
+/*button icon element(s) */
+.cbui .ui-button-icon-only .ui-icon, .cbui .ui-button-text-icon-primary .ui-icon, .cbui .ui-button-text-icon-secondary .ui-icon, .cbui .ui-button-text-icons .ui-icon, .cbui .ui-button-icons-only .ui-icon { position: absolute; top: 50%; margin-top: -8px; }
+.cbui .ui-button-icon-only .ui-icon { left: 50%; margin-left: -8px; }
+.cbui .ui-button-text-icon-primary .ui-button-icon-primary, .cbui .ui-button-text-icons .ui-button-icon-primary, .cbui .ui-button-icons-only .ui-button-icon-primary { left: .5em; }
+.cbui .ui-button-text-icon-secondary .ui-button-icon-secondary, .cbui .ui-button-text-icons .ui-button-icon-secondary, .cbui .ui-button-icons-only .ui-button-icon-secondary { right: .5em; }
+.cbui .ui-button-text-icons .ui-button-icon-secondary, .cbui .ui-button-icons-only .ui-button-icon-secondary { right: .5em; }
+
+/*button sets*/
+.cbui .ui-buttonset { margin-right: 7px; }
+.cbui .ui-buttonset .ui-button { margin-left: 0; margin-right: -.3em; }
+
+/* workarounds */
+button.ui-button::-moz-focus-inner { border: 0; padding: 0; } /* reset extra padding in Firefox */
+/*
+ * jQuery UI Dialog 1.8.18
+ *
+ * Copyright 2011, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Dialog#theming
+ */
+.cbui .ui-dialog { position: absolute; padding: .2em; width: 300px; overflow: hidden; }
+.cbui .ui-dialog .ui-dialog-titlebar { padding: .4em 1em; position: relative;  }
+.cbui .ui-dialog .ui-dialog-title { float: left; margin: .1em 16px .1em 0; } 
+.cbui .ui-dialog .ui-dialog-titlebar-close { position: absolute; right: .3em; top: 50%; width: 19px; margin: -10px 0 0 0; padding: 1px; height: 18px; }
+.cbui .ui-dialog .ui-dialog-titlebar-close span { display: block; margin: 1px; }
+.cbui .ui-dialog .ui-dialog-titlebar-close:hover, .cbui .ui-dialog .ui-dialog-titlebar-close:focus { padding: 0; }
+.cbui .ui-dialog .ui-dialog-content { position: relative; border: 0; padding: .5em 1em; background: none; overflow: auto; zoom: 1; }
+.cbui .ui-dialog .ui-dialog-buttonpane { text-align: left; border-width: 1px 0 0 0; background-image: none; margin: .5em 0 0 0; padding: .3em 1em .5em .4em; }
+.cbui .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset { float: right; }
+.cbui .ui-dialog .ui-dialog-buttonpane button { margin: .5em .4em .5em 0; cursor: pointer; }
+.cbui .ui-dialog .ui-resizable-se { width: 14px; height: 14px; right: 3px; bottom: 3px; }
+.cbui .ui-draggable .ui-dialog-titlebar { cursor: move; }
+/*
+ * jQuery UI Slider 1.8.18
+ *
+ * Copyright 2011, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Slider#theming
+ */
+.cbui .ui-slider { position: relative; text-align: left; }
+.cbui .ui-slider .ui-slider-handle { position: absolute; z-index: 2; width: 1.2em; height: 1.2em; cursor: default; }
+.cbui .ui-slider .ui-slider-range { position: absolute; z-index: 1; font-size: .7em; display: block; border: 0; background-position: 0 0; }
+
+.cbui .ui-slider-horizontal { height: .8em; }
+.cbui .ui-slider-horizontal .ui-slider-handle { top: -.3em; margin-left: -.6em; }
+.cbui .ui-slider-horizontal .ui-slider-range { top: 0; height: 100%; }
+.cbui .ui-slider-horizontal .ui-slider-range-min { left: 0; }
+.cbui .ui-slider-horizontal .ui-slider-range-max { right: 0; }
+
+.cbui .ui-slider-vertical { width: .8em; height: 100px; }
+.cbui .ui-slider-vertical .ui-slider-handle { left: -.3em; margin-left: 0; margin-bottom: -.6em; }
+.cbui .ui-slider-vertical .ui-slider-range { left: 0; width: 100%; }
+.cbui .ui-slider-vertical .ui-slider-range-min { bottom: 0; }
+.cbui .ui-slider-vertical .ui-slider-range-max { top: 0; }/*
+ * jQuery UI Tabs 1.8.18
+ *
+ * Copyright 2011, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Tabs#theming
+ */
+.cbui .ui-tabs a{font-size:0.916666em; font-weight:bold; }
+.cbui .ui-tabs a:hover{text-decoration:none !important;}
+.cbui .ui-tabs { position: relative; zoom: 1; } /* position: relative prevents IE scroll bug (element with position: relative inside container with overflow: auto appear as "fixed") */
+.cbui .ui-tabs .ui-tabs-nav { margin: 0; padding:0; padding-top: 0.3em; }
+.cbui .ui-tabs .ui-tabs-nav li { list-style: none; float: left; position: relative; top: 1px; margin: 0 .2em 1px 0; border-bottom: 0 !important; padding: 0; white-space: nowrap; }
+.cbui .ui-tabs .ui-tabs-nav li a { float: left; padding: .5em 1em; text-decoration: none; }
+.cbui .ui-tabs .ui-tabs-nav li.ui-tabs-selected { margin-bottom: 0; padding-bottom: 1px; }
+.cbui .ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .cbui .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .cbui .ui-tabs .ui-tabs-nav li.ui-state-processing a { cursor: text; }
+.cbui .ui-tabs .ui-tabs-nav li a, .cbui .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a { cursor: pointer; } /* first selector in group seems obsolete, but required to overcome bug in Opera applying cursor: text overall if defined elsewhere... */
+.cbui .ui-tabs .ui-tabs-panel { display: block; border-width: 0; padding: 1em 1.4em; background: none; }
+.cbui .ui-tabs .ui-tabs-hide { display: none !important; }
+
+.cbui .cbtabs .ui-tabs ul.facets{font-size:0.91666em;}
+.cbui .cbtabs .ui-tabs .ui-tabs-nav{padding-left:0.3em; border-bottom: 1px solid #c7c7c7; *height:30px;}    
+.cbui .cbtabs .ui-widget-content{border:none; overflow:hidden;}
+.cbui .cbtabs .ui-widget-header{border:none;}
+
+.cbui .cbtabs .ui-tabs .ui-tabs-nav li.ui-tabs-selected {margin-bottom: 0;padding-bottom: 1px;}
+.cbui .cbtabs .ui-tabs .ui-tabs-panel{padding:0;}
+.cbui .cbtabs .ui-tabs .ui-tabs-nav li a {padding: .5em 0.9em;}
+.cbui .cbtabs .ui-tabs .ui-tabs-nav li {margin: 0 .1em 1px 0;}
+
+.cbui .cbtabs .ui-corner-all, .cbui .cbtabs li.ui-corner-top, .cbui .cbtabs li.ui-corner-left, .cbui .cbtabs li.ui-corner-tl { -moz-border-radius-topleft: 5px; -webkit-border-top-left-radius: 5px; -khtml-border-top-left-radius: 5px; border-top-left-radius: 5px; }
+.cbui .cbtabs .ui-corner-all, .cbui .cbtabs li.ui-corner-top, .cbui .cbtabs li.ui-corner-right, .cbui .cbtabs li.ui-corner-tr { -moz-border-radius-topright: 5px; -webkit-border-top-right-radius: 5px; -khtml-border-top-right-radius: 5px; border-top-right-radius: 5px; }
+.cbui .cbtabs .ui-corner-all, .cbui .cbtabs .ui-corner-top, .cbui .cbtabs .ui-corner-left, .cbui .cbtabs .ui-corner-tl { -moz-border-radius-topleft: 0px; -webkit-border-top-left-radius: 0px; -khtml-border-top-left-radius: 0px; border-top-left-radius: 0px; }
+.cbui .cbtabs .ui-corner-all, .cbui .cbtabs .ui-corner-top, .cbui .cbtabs .ui-corner-right, .cbui .cbtabs .ui-corner-tr { -moz-border-radius-topright: 0px; -webkit-border-top-right-radius: 0px; -khtml-border-top-right-radius: 0px; border-top-right-radius: 0px; }
+.cbui .cbtabs .ui-corner-all, .cbui .cbtabs .ui-corner-bottom, .cbui .cbtabs .ui-corner-left, .cbui .cbtabs .ui-corner-bl { -moz-border-radius-bottomleft: 0px; -webkit-border-bottom-left-radius: 0px; -khtml-border-bottom-left-radius: 0px; border-bottom-left-radius: 0px; }
+.cbui .cbtabs .ui-corner-all, .cbui .cbtabs .ui-corner-bottom, .cbui .cbtabs .ui-corner-right, .cbui .cbtabs .ui-corner-br { -moz-border-radius-bottomright: 0px; -webkit-border-bottom-right-radius: 0px; -khtml-border-bottom-right-radius: 0px; border-bottom-right-radius: 0px; }
+
+.cbui .cbtabs #resTabs li{min-height: 42px;}
+
+/*
+ * jQuery UI Datepicker 1.8.18
+ *
+ * Copyright 2011, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Datepicker#theming
+ */
+.cbui .ui-datepicker { width: 17em; padding: .2em .2em 0; display: none; }
+.cbui .ui-datepicker .ui-datepicker-header { position:relative; padding:.2em 0; }
+.cbui .ui-datepicker .ui-datepicker-prev, .cbui .ui-datepicker .ui-datepicker-next { position:absolute; top: 2px; width: 1.8em; height: 1.8em; }
+.cbui .ui-datepicker .ui-datepicker-prev-hover, .cbui .ui-datepicker .ui-datepicker-next-hover { top: 1px; }
+.cbui .ui-datepicker .ui-datepicker-prev { left:2px; }
+.cbui .ui-datepicker .ui-datepicker-next { right:2px; }
+.cbui .ui-datepicker .ui-datepicker-prev-hover { left:1px; }
+.cbui .ui-datepicker .ui-datepicker-next-hover { right:1px; }
+.cbui .ui-datepicker .ui-datepicker-prev span, .cbui .ui-datepicker .ui-datepicker-next span { display: block; position: absolute; left: 50%; margin-left: -8px; top: 50%; margin-top: -8px;  }
+.cbui .ui-datepicker .ui-datepicker-title { margin: 0 2.3em; line-height: 1.8em; text-align: center; }
+.cbui .ui-datepicker .ui-datepicker-title select { font-size:1em; margin:1px 0; }
+.cbui .ui-datepicker select.ui-datepicker-month-year {width: 100%;}
+.cbui .ui-datepicker select.ui-datepicker-month, 
+.cbui .ui-datepicker select.ui-datepicker-year { width: 49%;}
+.cbui .ui-datepicker table {width: 100%; font-size: .9em; border-collapse: collapse; margin:0 0 .4em; }
+.cbui .ui-datepicker th { padding: .7em .3em; text-align: center; font-weight: bold; border: 0;  }
+.cbui .ui-datepicker td { border: 0; padding: 1px; }
+.cbui .ui-datepicker td span, .cbui .ui-datepicker td a { display: block; padding: .2em; text-align: right; text-decoration: none; }
+.cbui .ui-datepicker .ui-datepicker-buttonpane { background-image: none; margin: .7em 0 0 0; padding:0 .2em; border-left: 0; border-right: 0; border-bottom: 0; }
+.cbui .ui-datepicker .ui-datepicker-buttonpane button { float: right; margin: .5em .2em .4em; cursor: pointer; padding: .2em .6em .3em .6em; width:auto; overflow:visible; }
+.cbui .ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current { float:left; }
+
+/* with multiple calendars */
+.cbui .ui-datepicker.ui-datepicker-multi { width:auto; }
+.cbui .ui-datepicker-multi .ui-datepicker-group { float:left; }
+.cbui .ui-datepicker-multi .ui-datepicker-group table { width:95%; margin:0 auto .4em; }
+.cbui .ui-datepicker-multi-2 .ui-datepicker-group { width:50%; }
+.cbui .ui-datepicker-multi-3 .ui-datepicker-group { width:33.3%; }
+.cbui .ui-datepicker-multi-4 .ui-datepicker-group { width:25%; }
+.cbui .ui-datepicker-multi .ui-datepicker-group-last .ui-datepicker-header { border-left-width:0; }
+.cbui .ui-datepicker-multi .ui-datepicker-group-middle .ui-datepicker-header { border-left-width:0; }
+.cbui .ui-datepicker-multi .ui-datepicker-buttonpane { clear:left; }
+.cbui .ui-datepicker-row-break { clear:both; width:100%; font-size:0em; }
+
+/* RTL support */
+.cbui .ui-datepicker-rtl { direction: rtl; }
+.cbui .ui-datepicker-rtl .ui-datepicker-prev { right: 2px; left: auto; }
+.cbui .ui-datepicker-rtl .ui-datepicker-next { left: 2px; right: auto; }
+.cbui .ui-datepicker-rtl .ui-datepicker-prev:hover { right: 1px; left: auto; }
+.cbui .ui-datepicker-rtl .ui-datepicker-next:hover { left: 1px; right: auto; }
+.cbui .ui-datepicker-rtl .ui-datepicker-buttonpane { clear:right; }
+.cbui .ui-datepicker-rtl .ui-datepicker-buttonpane button { float: left; }
+.cbui .ui-datepicker-rtl .ui-datepicker-buttonpane button.ui-datepicker-current { float:right; }
+.cbui .ui-datepicker-rtl .ui-datepicker-group { float:right; }
+.cbui .ui-datepicker-rtl .ui-datepicker-group-last .ui-datepicker-header { border-right-width:0; border-left-width:1px; }
+.cbui .ui-datepicker-rtl .ui-datepicker-group-middle .ui-datepicker-header { border-right-width:0; border-left-width:1px; }
+
+/* IE6 IFRAME FIX (taken from datepicker 1.5.3 */
+.cbui .ui-datepicker-cover {
+    display: none; /*sorry for IE5*/
+    display/**/: block; /*sorry for IE5*/
+    position: absolute; /*must have*/
+    z-index: -1; /*must have*/
+    filter: mask(); /*must have*/
+    top: -4px; /*must have*/
+    left: -4px; /*must have*/
+    width: 200px; /*must have*/
+    height: 200px; /*must have*/
+}/*
+ * jQuery UI Progressbar 1.8.18
+ *
+ * Copyright 2011, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Progressbar#theming
+ */
+.cbui .ui-progressbar { height:2em; text-align: left; overflow: hidden; }
+.cbui .ui-progressbar .ui-progressbar-value {margin: -1px; height:100%; }
+
+#pnlInnerWrapper
+{
+    max-width: 960px !important;
+    min-width: 270px !important;
+    width: auto !important;
+}
+
+.CBResumeResultsSearchLinks
+{    
+    font-size:12px;	
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left:.3em;
+}
+
+.CBResumeResultsSearchLinks div a
+{    
+    color:#0000EE;
+}
+
+.CBResumeResults #compwrapper
+{
+    padding: 0;
+	border: 0.1em solid #cccccc;
+	border-bottom: 2px solid #c0c0c0;
+	border-right:2px solid #c0c0c0;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	background:#fff;
+	margin:auto;
+	overflow:hidden;
+}
+
+.CBResumeResults a
+{
+	color: #275CAB;
+	font-size: 1em;
+}
+
+.CBResumeResults a:hover
+{
+    text-decoration:underline;
+}
+
+.CBResumeResults .companyWatermark
+{
+    color:#fff !important;
+}
+    
+.CBResumeResults .otherWatermark
+{
+	color:#c1c1c1 !important;
+}
+   
+.ui-autocomplete
+{
+    font-size:12px !important;
+    font-family:Arial !important;
+    border: 2px solid #E37900 !important;
+}
+    
+ .CBResumeResults .ui-slider-range
+  {
+    background: #f0830d !important;
+ }
+    
+ .CBResumeResults *:focus  
+  {  
+      
+ }  
+   
+
+.CBResumeResults p
+{
+    margin:0 !important; 
+    padding:0 !important; 
+    font-family:Arial;
+}
+
+
+.CBResumeResults #gotopage
+{
+	float:right; margin-right:0%; padding-top:0.833333em; font-size:0.91666667em; display:none;
+}
+
+.CBResumeResults #sortby
+{
+	float:right; margin-right:0%; padding-top:0.833333em; font-size:0.91666667em;
+}
+/*LJ Specific*/
+
+#LJCOMMON_jobposter_resumes_resumeresults .CBResumeResults #viewoptions
+{
+	margin-left:40% !important;
+}
+
+.CBResumeResults #viewoptions
+{
+	float:left; margin-left:25%; padding-top:0.833333em; font-size:0.91666667em;
+}
+
+.viewoptionhighlight
+{
+    border: 1px #3366FF solid;
+}
+
+.viewoptionhover {
+    filter:alpha(opacity=50);
+    -moz-opacity:0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
+    cursor: pointer; 
+    cursor: hand;
+}
+
+.CBResumeResults #perpage
+{
+	float:right; margin-right:0%; padding-top:0.833333em; font-size:0.91666667em;
+}
+
+.CBResumeResults h1.header
+{
+    font-size:2.333333333em;  /* 28/12 */
+    letter-spacing: -0.055em;
+    color:#e86005;
+    text-align:left;
+    float:left;
+    padding:0;
+    margin:0;
+    font-weight:normal;
+    padding-left:10px;
+    background:none;
+    height:auto;
+
+}
+
+.CBResumeResults .searchwrapper {
+    width:184px;
+    height:23px;  
+    background-repeat:no-repeat; /*important*/
+    background-position: 0 0;
+    background-image:url(http://img.icbdr.com/images/empprof/images/othersrchbox.jpg);
+    padding:0px;
+    margin:0px;
+    zoom:1;
+    position:relative; /*important*/
+
+}
+
+#filterHeader
+{
+    display:none;
+    letter-spacing: -0.055em;
+    font-size: 1.583333333em;
+    color: #777777;
+    border-bottom: 1px dotted #d1d1d1;
+    padding-bottom:8px;
+    padding-top:2px;
+    padding-left:2px;
+}
+
+.CBResumeResults .searchbox {
+    border:0px; /*important*/
+    background-color:transparent; /*important*/
+    position:absolute; /*important*/
+    top:3px;
+    left:22px;
+    width:166px;
+    height:16px;
+    color:#333;
+    font-size:13px !important;
+}
+
+.CBResumeResults #mainsearch
+{
+    background-image:url(http://img.icbdr.com/images/empprof/images/srchbox.gif) !important;
+}
+
+.CBResumeResults #mainsearch .searchbox
+{
+     color:#fff !important;
+}
+
+.CBResumeResults #sortby2
+{
+     display:none;
+}
+
+.CBResumeResults ul#moresearchoptionscontainer li 
+{
+	display:block !important;
+}
+
+.sectionUnderline
+{
+	border-bottom:1px solid #b0b0b0 !important;
+}
+
+.CBResumeResults ul#moresearchoptionscontainer li div.facet-toggle
+{
+	font-size:1.1667em;
+	color: #666;
+	font-weight: bold;
+}
+
+.CBResumeResults .sidecontainer
+{
+	zoom:1; text-align:left; padding-left:3%; padding-right:3%; position:relative; 
+	
+}
+
+.CBResumeResults .searchbox_submit {
+    border:0px; /*important*/
+    background-color:transparent; /*important*/
+    position:absolute; /*important*/
+    top:0px;
+    left:10px;
+    width:22px;
+    height:23px;
+    cursor:default;
+}
+
+.CBResumeResults span.resetwrapper
+{
+    display:block;
+    position:absolute;
+    right:12px;
+    top:14px;
+    font-size:11px;
+    color:#2e5198;
+    display:none;
+}
+
+.CBResumeResults .facetwrapper
+{
+    zoom:1;
+}
+
+
+
+.CBResumeResults a.facet-toggle
+{
+    display:block;
+    position:absolute;
+    top:11px;
+    right:0;
+    cursor:pointer;
+    width:11px;
+    height:11px;
+    text-indent:-99999px;
+    background:transparent url('http://img.icbdr.com/images/empprof/images/minusandplusicons.gif') no-repeat 0 -11px;
+	outline: 0;
+    outline-style:none;
+    outline-width:0;
+}
+
+.CBResumeResults div.facet-toggle
+{
+    font-weight: bold;
+    font-size: 1.08333em;
+
+	line-height: 2.5em;
+    padding-right: 5%;
+    cursor: pointer;
+    zoom:1;
+
+}
+
+.CBResumeResults #compwrapper
+{
+	width:99%; min-height:525px; _height:525px;
+}
+
+.CBResumeResults #facets
+{
+	width:25%;
+	float:left;
+	min-width:210px;
+	background: #fff url(http://img.icbdr.com/images/empprof/images/facetshadow.jpg) no-repeat top right;		    
+    border-right: 1px solid #dadada;
+}
+
+.CBResumeResults #midline
+{
+	float:left; height: 525px; border:1px solid #dadada; width:0.1%;
+}
+
+.CBResumeResults #resultpane
+{
+	 _height:525px; min-height:525px; text-align:left; float:right; width:74.8%; 
+}
+
+.CBResumeResults  #resultpane .resultpane_inner
+{
+	margin-left:2.0%; margin-right:2.0%;
+}
+
+.CBResumeResults fieldset, .CBResumeResults ul, .CBResumeResults li
+{
+    border: 0 none;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+.CBResumeResults ul, .CBResumeResults li
+{
+    list-style: none;
+	padding:0;
+	margin:0;
+}
+
+.CBResumeResults ul.facets
+{
+    font-size:1em; /* 11/12 */
+    
+}
+
+.CBResumeResults .facets li {
+    padding-left: 3px;
+    overflow: visible;
+    zoom: 1;
+    line-height:1.333em;
+    color:#333;
+}
+
+.CBResumeResults li.facet {
+    border-top: 1px dotted #d1d1d1; 
+    overflow: hidden;
+   position:relative;
+    zoom:1;
+	font-size: 1em;
+	cursor:pointer;
+}
+
+.CBResumeResults ul li.openfacet:hover {
+	background-color: white;
+}
+
+.CBResumeResults li.openfacet .facetplaceholder{
+	display:block;
+}
+
+.CBResumeResults li.facet:hover {
+	color: black;
+	background-color: #f8f8f8;
+}
+
+.CBResumeResults li#bottombtnaction
+{
+	padding-top: 6px;
+}
+
+.CBResumeResults li#bottombtnaction:hover {
+	background-color: transparent;	
+}
+
+.CBResumeResults p
+{
+	font-size:1em;
+}
+
+.CBResumeResults li.facet ul li {
+    cursor:pointer;
+}
+
+.CBResumeResults li.facet ul li label {
+    font-size:0.9166em;
+	vertical-align: middle;
+}
+
+.CBResumeResults li.facet ul li:hover {
+    color:#000;
+	background-color:#f5f5f5;
+}
+
+.CBResumeResults #moresearchoptiontab
+{
+    display:none;
+}
+
+.CBResumeResults .facetplaceholder ul
+{
+    margin-top:2px;
+	text-indent: -1.1em;
+	padding-left: 13px;
+}
+
+.CBResumeResults .facetplaceholder input.textcontrol
+{
+    width:85%;
+    color: #333;
+    background-color: white;
+    border: 1px solid #AAA;
+    padding: 3px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    border-radius: 3px;
+    -mox-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -o-border-radius: 3px;
+    box-shadow: inset 0 1px 4px #ccc;
+    -moz-box-shadow: inset 0 1px 4px #ccc;
+    -webkit-box-shadow: inset 0 1px 4px #ccc;
+    -o-box-shadow: inset 0 1px 4px #ccc;
+}
+
+.CBResumeResults .facetplaceholder input.location,
+.CBResumeResults .facetplaceholder select.language2,
+.CBResumeResults .facetplaceholder select.language3,
+.CBResumeResults .facetplaceholder select.jobcat2,
+.CBResumeResults .facetplaceholder select.jobcat3,
+.CBResumeResults .facetplaceholder select.jobcat4,
+.CBResumeResults .facetplaceholder select.jobcat5
+{
+	margin-top: 0.25em;
+}
+
+.CBResumeResults .facetplaceholder select
+{
+    width:85%;
+}
+
+#facets select#lastact
+{
+    *width:185px !important;
+} 
+
+.CBResumeResults .inputWatermark
+{
+    color:#c1c1c1 !important;
+}
+
+.CBResumeResults .facet li input { 
+    vertical-align: middle;
+    padding:0;
+    margin:0; 
+    margin-left: -3px;
+    cursor: pointer;
+}
+
+.CBResumeResults .facet li label {
+    
+
+}
+
+.CBResumeResults p.facetcaption
+{
+    letter-spacing: -0.055em;
+    font-size:1.583333333em;
+    color:#777777;
+    
+}
+.CBResumeResults #topsearchwrapper
+{
+	height:5.8em;
+	border-bottom:1px solid #dadada;
+}
+
+
+.CBResumeResults #controlsearchwrapper
+{
+	height:3.0em;
+	border-bottom:1px solid #dadada;
+	display:none;
+}
+
+.CBResumeResults #topsearch
+{
+	float:left; width: 47%;
+	display:none;
+}
+
+.CBResumeResults #Pagination
+{
+	float:right;
+	padding-top:1em;
+	width:52%;
+	display:none;
+}
+
+.CBResumeResults #Pagination2
+{
+	float:right; padding-top:7px;
+	display:none;
+}
+
+.CBResumeResults #Pagination .pagination
+{
+	float:right;
+}
+
+.CBResumeResults #Pagination .pagination, .CBResumeResults #Pagination2 .pagination {
+            font-size:0.91667em;
+			font-family:arial;
+			display:inline-block;
+			text-align: auto;
+            padding: 0px;
+            margin: 0px;
+        }
+        
+.CBResumeResults #Pagination .pagination a, .CBResumeResults #Pagination2 .pagination a {
+    text-decoration: none;
+	border: solid 1px #275CAB;
+	color: #15B !important;
+	text-decoration:none !important;
+	height:18px;
+	line-height:18px;
+}
+
+.CBResumeResults #Pagination .pagination a, .CBResumeResults #Pagination2 .pagination a {
+    display: block;
+    float: left;
+    padding: 0;
+	margin: 0px 5px 3px 0px;
+	width:22px;
+	text-align:center;
+	background-color: #4376c3;
+	font-weight:bold;
+	color:#fff !important;
+	text-decoration: none !important;
+	
+}
+
+.CBResumeResults #Pagination .pagination span, .CBResumeResults #Pagination2 .pagination span {
+    display: block;
+    float: left;
+    padding: 0;
+    margin: 0px 5px 3px 0px;
+	width:11px;
+	text-align:center;
+	font-weight:bold;
+	color:#999 !important;
+	height:18px;
+	line-height:18px;
+}
+
+.CBResumeResults #Pagination .pagination .current, .CBResumeResults #Pagination2 .pagination .current
+{
+    background-color: #fbbe81;
+    color: #000 !important;
+	border: solid 1px #fbbe81;
+	font-weight:bold;
+	width:22px;
+	height:18px;
+	line-height:18px;
+}
+
+.CBResumeResults #Pagination .pagination .current.prev, .CBResumeResults #Pagination .pagination .current.next,
+.CBResumeResults #Pagination2 .pagination .current.prev, .CBResumeResults #Pagination2 .pagination .current.next
+{
+	color:#999999 !important;
+	border-color:#999;
+	background:#e0e0e0;
+	font-weight:bold;
+	height:18px;
+	line-height:18px;
+}
+
+
+
+.CBResumeResults p.searchcaption
+{
+	text-overflow: ellipsis; white-space: nowrap; overflow: hidden; 
+	width: 96%; 
+	padding-right:4%; 
+	line-height:2.5em;
+	letter-spacing: -0.055em;
+	font-size:1.58333333em;  /* 19/12 */
+	color:#555555;    
+}
+
+.CBResumeResults .candidatesname
+{
+	white-space: nowrap;overflow: hidden; text-overflow: ellipsis; width:100%; line-height:1.3em
+}
+
+.CBResumeResults .candidatesname span.namegroup
+{
+    display:block; float:left; width:74%;
+}
+
+.CBResumeResults .candidatesname span.namegroup a
+{
+    float:left;
+}
+
+.CBResumeResults .candidatesname span.namegroup span.city
+{
+    font-size:0.916666em; color:#444;
+}
+
+.CBResumeResults .ciscologo
+{
+  float:right;
+}
+
+.CBResumeResults .ciscologo img
+{
+	margin-right:7px;
+	margin-top:4px;
+}
+
+.CBResumeResults .vetLogoDiv{
+	float:right;
+}
+
+.CBResumeResults .candidatesname span.date
+{
+    float:right; color:#444; width: 11%; padding-right: 1%; text-align:right; display:none;
+}
+.CBResumeResults .candidatesname a
+{
+    font-size:1.0833333em;  
+    float: left;
+}
+
+.CBResumeResults .candidatesinfo
+{
+    margin:1em 0 0 0; width:100%;
+}
+
+.CBResumeResults .candidatesinfo p.data
+{
+    text-overflow: ellipsis; white-space: nowrap; overflow: hidden; line-height:1.7em; float:left; color:#222;
+}
+
+.CBResumeResults .candidatesinfo p.label
+{
+    line-height:1.7em; clear:both; float:left; color:#777;
+}
+
+.CBResumeResults .candidatesinfo .leftside
+{
+    width: 40%; float:left;
+}
+
+.CBResumeResults .candidatesinfo .rightside
+{
+    width: 60%; float:left;
+}
+
+.CBResumeResults .candidatesinfo .leftside p.label
+{
+    width:40%;
+}
+
+.CBResumeResults .candidatesinfo .leftside p.data
+{
+    width:60%;   
+}
+
+.CBResumeResults .candidatesinfo .rightside p.label
+{
+    width:30%;
+}
+
+.CBResumeResults .candidatesinfo .rightside p.data
+{
+    width:70%;   
+}
+
+.ac_results {
+	padding: 0px;
+	border: 2px solid #E37900 !important;
+	background-color: white;
+	overflow: hidden;
+	z-index: 100000;
+}
+
+.ac_results ul {
+	width: 100%;
+	list-style-position: outside;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.ac_results li {
+	border: none !important;
+	border-bottom: 1px solid #E5E5E5 !important;
+	font-size: 1em !important;
+	font-family: Arial !important;
+	color: #151515 !important;
+	line-height: 1.75em !important;
+	padding-left: 4px;
+	cursor:pointer;
+}
+
+.ac_loading {
+	background: white url('http://img.icbdr.com/images/resumeresource/indicator.gif') right center no-repeat;
+}
+
+.ac_results li.ac_over {
+	font-size: 1em !important;
+	font-family: Arial !important;
+	color: white !important;
+	line-height: 1.75em !important;
+	background-color: #48659C;
+}
+
+.ac_results li div.schoolitem
+{
+    border:none !important;
+    font-size:12px !important;
+    font-family:Arial !important;
+    color:#151515 !important;
+    height:16px !important;
+    line-height:17px !important;
+    overflow:hidden;
+    
+}
+
+.ac_results li.ac_over div.schoolitem,
+.ac_results li.ac_over div.locationitem
+{
+    color:White !important;
+}
+        
+.ac_results li div.locationitem
+{
+	font-size:10px !important;
+	font-family:Arial !important;
+	color:#333333 !important;
+	height:12px !important;
+	line-height:13px !important;
+}
+
+.CBResumeResults .candidatesinfo span.relocations
+{
+    display:block; padding-top:0.19em; line-height:1.3em; font-size:0.9166666em;
+}
+
+.CBResumeResults .candidatesinfo span.relocationsshowall
+{
+    display:block; padding:0; line-height:1.3em; font-size:0.9166666em;
+}
+
+.CBResumeResults .candidatesinfo .allrelocations
+{
+    padding-left:3px; font-size:0.9166666em;
+}
+
+.CBResumeResults .candidateduplicate
+{
+    color:#787878; font-size:0.9166666em; display:block;
+}
+
+.CBResumeResults .candidaterestitle{
+	height:20px;
+}
+
+.CBResumeResults p.candidatesresumetitle
+{
+    float:left; color:#666; font-size:1em;text-overflow: ellipsis; white-space: nowrap; overflow: hidden; line-height:1.5em; width: 80%;
+}
+
+.CBResumeResults img.updateTag
+{
+    position:absolute; left:-4px;
+}
+
+.CBResumeResults span.addTag
+{
+    padding-left:23px;
+}
+
+.CBResumeResults .companylogo
+{
+	float:left; text-align:center; width:140px; height:50px; padding-top:0; overflow:hidden;
+}
+
+.CBResumeResults #searchresults li input.checker
+{
+    position:absolute;
+    left:0;
+    top:1em;
+}
+
+.CBResumeResults #loadingSpinner
+ {
+	    display:none;
+	    color:#000;
+	    font-size:1.1666em;
+	    position:absolute;
+	    width:250px;
+	    background-color:#f7f7f7;
+	    height:100px;
+	    font-family:arial;
+	    text-align:center;
+	
+	    border: 1px solid #f0f0f0;
+	    border-bottom: 2px solid #ccc;
+	    border-right: 2px solid #ccc;
+	    -webkit-border-radius: 5px;
+	    -moz-border-radius: 5px;
+	    border-radius: 5px;
+	    z-index:200;
+} 
+
+.CBResumeResults .companylogo img
+{
+	vertical-align:middle;
+	width: 90px;
+}
+
+
+.CBResumeResults .companyinfo
+{
+	float:left; padding-top:0; width:70%;
+}
+
+.CBResumeResults .industry
+{
+	color:#666666; line-height:1.5em; font-size:1em;
+	white-space: nowrap;overflow: hidden; text-overflow: ellipsis; width:100%
+}
+
+.CBResumeResults .extraInfo div
+{
+	color:#333333; line-height:18px; float:left;
+}
+
+.CBResumeResults #searchresults
+{
+    font-size:1em; clear:both;   
+}
+
+
+
+.CBResumeResults #searchresults .main
+{
+    
+    display:block; 
+    margin-left:20px;
+	background:none;
+}
+
+.CBResumeResults #searchresults a:link,
+.CBResumeResults #searchresults a:active
+{
+    text-decoration:none;
+}
+
+.CBResumeResults #searchresults li
+{
+    margin-top:0px;
+    padding:0.8em 0 0.1em;
+    border-bottom:1px solid #dadada;
+	display:inline-block;
+	position:relative;
+	width:100%;
+	*width:auto;
+}
+
+
+.CBResumeResults li.select-all
+{
+    font-weight:bold;
+}
+
+
+
+.CBResumeResults .facetplaceholder
+{
+    display:none;
+    position:relative;
+    zoom:1;   
+	margin-bottom:10px;	
+}
+
+.CBResumeResults #compwrapper
+{
+    padding: 0px;
+	border: 1px solid #cccccc;
+	border-bottom: 2px solid #c0c0c0;
+	border-right:2px solid #c0c0c0;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+
+
+
+.CBResumeResults .hoverOverCompany
+{
+	background :#fff url(http://img.icbdr.com/images/empprof/images/itembg2.jpg) repeat-y;
+}
+
+.recordaffordance  
+{
+float:right;
+background-color: #F2F5F8;
+padding:0px 7px 0 0;
+margin:0px 1px;
+height:2.4em;
+line-height:2.4em;
+
+}
+
+.recordaffordancewrapper
+{
+     padding-top:1.7em;
+}
+
+.recordaffordanceicons .actionbuttons
+{
+    float:left;
+    width:50px;
+}
+
+.recordaffordanceicons .actionicons
+{
+    float:left;
+    padding-top:2px;
+}
+
+.recordaffordanceicons .actionicons span
+{
+    margin: 0 3px;
+}
+
+.recordaffordancecontainer 
+{
+    
+      height:2.4em;
+    float:right;
+    font-size:0.916666em;
+}
+
+.recordaffordance a  
+{
+    color:#0071BC;
+    font-weight:bold;
+    cursor:hand;
+    cursor:pointer;
+}
+
+.recordaffordance a:hover  
+{
+text-decoration:none !important;
+}
+
+.recordaffordance img  
+{
+vertical-align:middle;
+}
+
+
+SPAN.tagLabel  
+{
+display:none;
+}
+
+.fadeOn .transparent_class {
+filter:alpha(opacity=50);
+-moz-opacity:0.5;
+-khtml-opacity: 0.5;
+opacity: 0.5;
+}
+
+/* Start - Sprites for RecordContainer button bar */ 
+.iconCellImageSm
+{
+    background-image:url(../../images/jp/rdb/ResResultsButtons.png);
+    width:28px;
+    height:22px;
+    cursor:pointer;
+    float:left;
+}
+.downloadresume
+{
+display: none;
+}
+
+.forwardresume
+{
+display: none;
+}
+
+.btnPreviewResume
+{
+    background-position:-0px 0px;
+}
+
+.btnOpenNewWin
+{
+    background-position:-28px 0px;
+}
+
+.btnSaveResume
+{
+    background-position:0px -22px;
+}
+
+.btnPrintResume
+{
+    background-position:-28px -22px;
+}
+
+.btnViewSimiliar
+{
+    background-position:0px -44px;
+}
+
+.btnBlockResume
+{
+    background-position:-28px -44px;
+}
+
+
+.CBResumeResults a.add_field
+{
+    font-size:1em;
+    font-weight:normal !important;
+}
+
+.CBResumeResults a.add_field:hover
+{
+    text-decoration:underline !important;
+}
+
+.CBResumeResults .addplus
+{
+    float: left;
+    padding-right: 3px;
+    padding-top:2px;
+}
+
+.CBResumeResults .checkAllBatchAction
+{
+	display:none;
+	position:relative;
+	float:left;
+	margin-top:9px;
+}
+
+.CBResumeResults .checkAllBox
+{
+	float:left;
+	margin-top:0.2em;
+}
+
+.CBResumeResults .ddlBatchActionAnchor
+{
+	visibility:hidden;
+	position:absolute;
+}
+
+.CBResumeResults .batchAction
+{
+	float:left;
+}
+
+
+.CBResumeResults #facets_stp ul li
+{
+    display:inline; margin-right:12px;
+}
+
+.CBResumeResults .btn-action input {
+	margin: 6px 0 10px 0;
+	-moz-box-shadow:inset 0px 1px 2px 0px white, 0 1px 2px rgba(0, 0, 0, .2);
+	-webkit-box-shadow:inset 0px 1px 2px 0px white, 0 1px 2px rgba(0, 0, 0, .2);
+	box-shadow:inset 0px 1px 2px 0px white, 0 1px 2px rgba(0, 0, 0, .2);
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.1, #f5a300), color-stop(1, #e17a00) );
+	background:-moz-linear-gradient( center top, #f5a300 10%, #e17a00 100% );
+	background-color:#f5a300;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	border:1px solid #b58126; /* c7943b*/
+	display:inline-block;
+	color:#fff;
+	font-size:1.1666em;
+	font-weight:bold;
+	padding:4px 32px;
+	text-decoration:none !important;
+	text-shadow: #5F3109 0px 1px 1px;
+	height:28px;
+	
+}.CBResumeResults .btn-action input:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.1, #e17a00), color-stop(1, #f5a300) );
+	background:-moz-linear-gradient( center top, #e17a00 10%, #f5a300 100% );
+	background-color:#e17a00;
+}.CBResumeResults .btn-action input:active {
+ text-shadow: none;
+ color:#666;
+ border-color:#aaa;
+ border-bottom-color:#ccc;
+ border-top-color:#999;
+ moz-box-shadow:inset 0 1px 2px #aaa;
+ -ms-box-shadow:inset 0 1px 2px #aaa;
+ -webkit-box-shadow:inset 0 1px 2px #aaa;
+ box-shadow:inset 0 1px 2px #aaa;
+ filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#e6e6e6,EndColorStr=#dcdcdc);
+ background-image:-moz-linear-gradient(top,#e6e6e6 0,#dcdcdc 100%);
+ background-image:-ms-linear-gradient(top,#e6e6e6 0,#dcdcdc 100%);
+ background-image:-o-linear-gradient(top,#e6e6e6 0,#dcdcdc 100%);
+ background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0,#e6e6e6),color-stop(100%,#dcdcdc));
+ background-image:-webkit-linear-gradient(top,#e6e6e6 0,#dcdcdc 100%);
+ background-image:linear-gradient(to bottom,#e6e6e6 0,#dcdcdc 100%)}
+
+}
+
+.CBResumeResults #loc2set
+{
+    display:none;
+}
+
+.CBResumeResults #loc3set
+{
+    display:none;
+}
+
+
+#zeroResultsText {display:none;}
+#zeroResultsText p  {font-weight:bold;}
+#zeroResultsText li  {list-style-type:disc; margin-left: 17px; margin-bottom: 12px;}
+#zeroResultsText ul  {margin-top:15px;}
+
+/* Start Resume Legend */
+
+.rrLegendWrapper {
+	border-top: 3px solid #dadada;
+	border-bottom: 3px solid #dadada;
+	padding: 15px;
+	text-align:left;
+}
+
+.rrLegendHeader {
+	font-weight:bold;
+	width:207px;
+	font-size:1em;
+	color:#454545;
+	height:25px;
+}
+
+.resumeIconLegend {
+	height: 35px;
+	width: 207px;
+}
+
+.oneIcon
+{
+	height: 25px;
+	width: 40px;
+	float:left;
+	background-repeat:no-repeat
+}
+
+.oneIconDef
+{
+	float:left;
+	font-size:0.91667em;
+	line-height:1.1667em;
+	color:#666666;
+	width:150px;
+}
+
+.iconTNInvite
+{
+    background-image:url('http://img.icbdr.com/images/talentnetwork/tn_icon_small2.png');
+    background-position: 0px 3px;
+}
+
+.iconViewed
+{
+	background-image:url('http://img.icbdr.com/images/sharedintl/JP/icons/app2_viewed.gif');
+	background-position: 0px 3px;
+}
+
+.iconCoworkerViewed
+{
+	background-image:url('http://img.icbdr.com/images/images/jpimages/coworkeractionlegend3.png');
+	background-position: 0px 3px;
+}
+
+.iconSaved
+{
+	background-image:url('http://img.icbdr.com/images/jp/icons/folderplusbw.png');
+	background-position: 0px 4px;
+}
+
+.iconForwarded
+{
+	background-image:url('http://img.icbdr.com/images/sharedintl/JP/icons/app2_forward.gif');
+	background-position: 0px 6px;
+}
+
+.iconEmailed
+{
+	background-image:url('http://img.icbdr.com/images/sharedintl/JP/icons/app2_email.gif');
+	background-position: 0px 4px;
+}
+
+.iconProtected
+{
+       background-image:url('http://cncdn.careerbuilder.com.cn/images/sharedintl/JP/icons/icon-ask_me_first.gif');
+       background-position: 0px 0px;
+}
+
+.iconUnlocked
+{
+       background-image:url('http://img.icbdr.com/images/sharedintl/jp/icons/icon-unlocked.gif');
+       background-position: 0px 0px;
+}
+
+.iconVeteran
+{
+       background-image:url('http://img.icbdr.com/images/jp/icons/militaryiconlegend.png');
+       background-position: 0px 0px;
+}
+
+.legendTag {display:none;}
+.resumeIconLegend .tagName {margin-left:0px; color:#dedfe1; padding-top: 0px;}
+
+/*div.resTabs_wrapper div.resTabs li.active,
+div.resTabs_wrapper div.resTabs a,*/
+.active
+{
+    color:#CFDCF1;
+    
+}
+
+
+
+div.resTabs_wrapper div.resTabs li a {
+	font-family: Arial, Sans-serif;
+	font-size: 11px;
+	text-align: center;
+	padding-top: .2em;
+}
+
+div.resTabs_wrapper {
+    margin-top: 10px;
+    height:38px;
+    overflow:hidden;
+}
+.resTabs_wrapper ul {
+    margin: 0;
+    padding: 0;
+}
+
+div.resTabs ul li{
+    float: left;
+    background:#ffffff url(../../../images/jp/Elements/tab_grad_gry.gif) repeat-x top left;
+    display: block;
+    height: 38px;
+    font: bold 10px Verdana, Arial, Helvetica, sans-serif;
+    padding: 10px 10px 0 10px;
+    border: 1px solid #CFDCF1;
+    color: #CCC;
+    /*width:100px;*/
+}
+
+.resTabs a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #999;
+}
+
+.resTabs a:hover {
+    text-decoration: none;
+    color: #CCC;
+    cursor: hand;
+    cursor: pointer;
+}
+
+.resTabs li.active {
+background:#ffffff url(../../../images/jp/elements/tab_grad.gif) repeat-x top left;
+    color: #3368b4;
+}
+
+.resTabs li.active a,
+.resTabs li.active a:hover,
+.resTabs li.active a:visited {
+    text-decoration: none;
+    color: #3368b4;
+}
+
+
+.coWorkerActionPopUp 
+{
+    left:-3000px;
+    width: 270px;
+    background-color:White; 
+    padding: 10px; 
+    border:solid 2px #a6a6a6;
+    z-index: 100000;   
+   /* background:#fff url(http://clib.icbdr.com/images/images/jpimages/jpprefbg.jpg) repeat-x;         */
+}
+
+.coworkerTagPopUp 
+{
+    left:-3000px;
+    width: 270px;
+    background-color:White; 
+    padding: 10px; 
+    border:solid 2px #a6a6a6;
+    z-index: 100000;   
+   /* background:#fff url(http://clib.icbdr.com/images/images/jpimages/jpprefbg.jpg) repeat-x;         */
+}
+
+.popupCloser { 
+    background:transparent url(http://img.icbdr.com/images/JS/Widgets/close.gif) no-repeat scroll right top; 
+    border: none; 
+    cursor:pointer; 
+    float:right; 
+    height:14px; 
+    width:14px; 
+}
+
+.bulkTagPopupCloser
+ { 
+    margin-right: 8px;
+    margin-top: -9px;
+    float:right;
+    cursor:pointer;
+ }
+
+.bulkTagHeader 
+{    
+    color:#006;
+    font: 13px arial;
+    font-weight: bold;
+}
+
+#saveBulkTag
+{
+    padding:4px !important;
+    font-size:11px;
+}
+
+.CBResumeResults #filterfacetstab {
+    display:none;
+}
+
+.tagmessage {
+    font-style: italic;
+    font-size: 1em;
+    color: #990000;
+}	
+
+.taginfo {    
+    padding-left: 9em;
+}
+
+.addLabel {    
+    cursor: pointer;
+    cursor: hand;
+	color: #275CAB;	
+}
+
+.resumeresultusertags img:hover {
+    cursor: pointer;
+    cursor: hand;    
+}	
+
+.resumeresultusertags{
+	background: url(http://img.icbdr.com/images/images/jpimages/slidingdoorfortag.png) no-repeat right top;
+	float:left;
+	padding-right: 20px;
+	position: relative;
+	margin-right: 2px;
+	margin-bottom: 0.3em;
+}
+
+.usertaglist{
+	padding-right: 3px;
+	margin-bottom: 0.4em;
+	}
+
+.xfortag{
+	position: absolute;
+	top: 0.3em;
+	right: 4px;
+	}
+
+.saveTag {
+    float:left;    
+    text-align: center !important;    
+}
+
+.cancelTag {    
+    float: left;
+    margin-left: 1em;
+    width: 5.5em !important;
+    cursor: pointer;
+    padding-top: 3px;
+}
+
+.experiencedegree, .resumeresulttag
+{
+    float: left;
+    width: 100%;
+}
+
+.coworkerTagList {display:none; z-index:30;}
+
+#coworkertagdropdown ul {padding-top:8px;}
+
+#coworkerTagsDropdown {max-width:120px;}
+#coworkertagdropdown {z-index:30; background-color:#FFF; border:1px solid #dedfe1; border-top:0px; min-width:116px;}
+#coworkertagdropdown ul {padding-left:0px; margin-top: 5px; margin-top: 12px\9;}
+#coworkertagdropdown ul li {list-style-type:none; margin-bottom: 5px;}
+
+.tagName {
+    margin-left:10px;
+	max-width: 100px;
+	display: inline-block;
+	font-size: 10px;
+	background-color: #dedfe1;
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 0px;
+	color: #666666;
+}
+
+.xfortag_green {
+	cursor: pointer;
+	height:12px;
+    background-color:#0BCF22;
+    width:11px;
+    min-width:11px;
+    color:#0BCF22;
+    display:inline-block;
+    text-align:center;
+    font-size: 11px;
+    margin-left:-3px;
+}
+
+.xfortag_red {
+	cursor: pointer;
+	height:12px;
+    background-color:#E34B24;
+    width:11px;
+    min-width:11px;
+    color:#E34B24;
+    display:inline-block;
+    text-align:center;
+    font-size: 11px;
+    margin-left:-3px;
+
+}
+
+.CBResumeResults p.tagNameLabel
+{
+	background: url(http://img.icbdr.com/images/images/jpimages/fronttipoftag.png) no-repeat left top;
+	line-height: 1.6em;
+	margin: 0;
+	padding: 0;
+	font-size: 0.9em;
+	color: #663300;
+	padding-left: 17px !important;
+}
+
+.coworkerTagName 
+{
+margin-left: 10px;
+max-width: 100px;
+font-size: 10px;
+background-color: #dedfe1;
+padding-left: 6px;
+padding-right: 6px;
+padding-top: 0px;
+color: #666666;
+}
+
+.coworkerTagNameLabel
+{
+    background: url(http://img.icbdr.com/images/images/jpimages/fronttipoftag.png) no-repeat left top;
+	line-height: 1.6em;
+	margin: 0;
+	padding: 0;
+	font-size: 0.9em;
+	color: #663300;
+	padding-left: 17px !important;
+}
+
+span.addLabel
+{
+    float:left;
+    width: 100%;
+
+}
+
+.CBResumeResults #tagfacettab {
+    display:none;
+}
+
+.CBResumeResults .tagfacetsection {
+    display:none;
+}
+
+.CBResumeResults .tagfacetcoworkername {
+    color: #888888;
+    font-size: 0.85em;
+}
+
+.CBResumeResults #searchresults ul.ui-autocomplete 
+{
+    list-style: none outside none;
+    max-width: 140px;
+    background: #FFFFFF;
+    border: 1px solid Black !important;
+    cursor: default;
+}
+
+.CBResumeResults #searchresults ul.ui-autocomplete li
+{
+    width: 100%;
+    padding: 0 0 0 0;
+}
+
+
+.CBResumeResults #searchresults ul.ui-autocomplete a
+{
+    padding: 0 0 0 5%;
+    width: 95%;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    display: block;
+    border-bottom: none;
+    color: Black;
+    text-decoration: none;
+}
+
+.CBResumeResults #searchresults ul.ui-autocomplete a.ui-state-hover
+{
+    background: #DDDDDD;    
+}
+
+#datetype
+{
+    display:none;
+}
+
+#datetype li
+{
+    display:inline;
+	/*margin-left:3%;*/
+}
+
+#datetype li label
+{
+	margin-right: 12px;
+}
+
+#datetype ul
+{ 
+    margin-top:2%;
+}
+
+.CBResumeResults #rdbdebugdiv
+{
+    display: none;
+    font-weight: bold;
+    border: .3em solid #00ff00;
+    margin: 0.5em;    
+    padding: 0.5em;
+}
+
+.CBResumeResults #rdbmessage
+{
+    display: none;
+    font-weight: bold;
+    border: .3em solid #F58B15;
+    margin: 0.5em;    
+    padding: 0.5em;
+}
+
+#facets_jct
+{
+    display:none;
+}
+
+/* Niche site specific fields.  
+   Once these are fully implemented these individual styles will probably go away and replaced with a jquery show/hide
+*/
+
+#facets_mjr {display:none;}
+
+#facets_gradrange {display:none;}
+
+#facets_securityclearance {display:none;}
+
+.nicheSiteSpecific {display:none;}
+
+#mingraduationmonthlist { width:45%;}
+
+#mingraduationyearlist {width:45%;}
+
+#maxgraduationmonthlist { width:45%;}
+
+#maxgraduationyearlist {width:45%;}
+
+#facets_educationmajor {margin-bottom:3px;}
+
+
+/* Bulk Tag Popup Styles   */
+
+
+.bulkTagsPopup
+{
+	  
+		POSITION: fixed; 
+		margin: -5px 2px 5px -2px !important;
+		margin: 0 !important;
+		margin: 0px;
+		border: solid 2px #A6A6A6;
+		background-color: #FFF;
+		z-index: 70000000;
+		text-align: left;
+		width:175px;
+		height:100px;
+		display:none;
+		-moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;      
+		
+}
+
+#bulkTagsWrapper
+{
+ margin-top:17px;   
+ margin-left:23px;   
+}
+
+#bulkTagsWrapper form
+{
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+.bulkTagCancelTag 
+{
+    margin-left:5px;
+    cursor:pointer;
+}
+
+#resumelegendveteranicon
+{
+    display:none;
+}
+
+#searchresults .divViewLink
+{
+    display:none;
+}
+
+#searchresults .rdbmvcfastflip
+{
+    display:none;
+}
+
+#leftcolumn2
+{
+    display:none;
+}
+
+/*LJ specific display*/
+#colRightContent, #conCntPage, #CEJP_jobposter_resumes_searchresume  {
+	width: 100% !important;
+	text-align: left !important;
+}
+#conCntMnu, #col1 {
+	display: none;
+}
+/*CE specific display*/
+#CEJP_jobposter_resumes_resumeresults #ddlGoToPage, #ddlBatchActionTop, #ddlBatchAction, #ddlSortBy {
+	width: auto !important;
+}
+
+#CEJP_jobposter_searches_savesearch #toggleText {
+	padding-left: 15px !important;
+}
+
+/*LJ specific display*/
+#LJCOMMON_jobposter_resumes_resumeresults .pagination {
+	width: auto;
+}
+#LJCOMMON_jobposter_resumes_resumeresults .CBResumeResults a.facet-toggle {
+	padding-right: 1px;
+}
+#LJCOMMON_jobposter_resumes_resumeresults .batchAction {
+	position: absolute;
+	left: 20px;
+	top: 0px;
+}
+#LJCOMMON_jobposter_resumes_resumeresults .cb_style select {
+	margin-top: 0px !important;
+}
+#LJCOMMON_jobposter_resumes_resumeresults #FRRegion, #LJCOMMON_jobposter_resumes_resumeresults #Region, #LJCOMMON_jobposter_resumes_resumeresults #OutsideCountries, #LJCOMMON_jobposter_resumes_resumeresults  #relocation, #LJCOMMON_jobposter_resumes_resumeresults  #OtherCountries {
+	height: 95px;
+	width: 95%;
+}
+#LJCOMMON_jobposter_resumes_resumeresults .technoselect {
+	height: 90px;
+}
+
+#listitem_regionFR {display:none;}
+#listitem_region {display:none;}
+
+#listitem_relocations {display:none;}
+
+#facets_regiontype {display:none;}
+
+/* JS24 fixes */
+#JS24JP_jobposter_resumes_resumeresults .CBResumeResults a.facet-toggle
+{
+    margin-right: 1px;
+}
+#JS24JP_jobposter_resumes_resumeresults .CBResumeResultsSearchLinks a 
+{
+    text-decoration: none;
+}
+
+/* SF fix */
+
+#SFCOMMON_jobposter_resumes_resumeresults #conCntPage
+{
+    width:940px !important;
+    margin-left: 10px !important;
+}
+
+#SFCOMMON_jobposter_resumes_resumeresults #btnFacetSearch,
+#SFCOMMON_jobposter_resumes_resumeresults #btnFacetSearch2,
+#SFCOMMON_jobposter_resumes_resumeresults #btnSaveSearch
+ {
+    background:#0E5E9E url(../../../images/SF/images/template/formButtonBK.gif) no-repeat scroll right center ;
+    border: 0 solid white ;
+    border-radius:0px ;
+    box-shadow:0 0 0 transparent inset !important;
+    color: #FFFFFF ;
+    cursor: pointer;
+    font-family: arial,verdana ;
+    font-size: 11pt ;
+    font-weight: normal ;
+    height: 25px ;
+    margin-top: 4px ;
+    padding: 3px 18px 3px 6px ;
+    text-decoration: none;
+ }
+ 
+ #SFCOMMON_jobposter_resumes_resumeresults p.facetcaption , 
+ #SFCOMMON_jobposter_resumes_resumeresults .CBResumeResults p.searchcaption
+ {
+    font-family: arial,verdana,sans-serif;
+    color: #01468B;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-size: 14pt;
+    line-height: 130%;
+    margin-top: 10px;
+    letter-spacing: 0;
+ }
+
+#SFCOMMON_jobposter_resumes_resumeresults #facetcontainer select,
+#SFCOMMON_jobposter_resumes_resumeresults .lastact
+{
+    border: 1px solid #AED9F0;
+    color: green ;
+    font-family: arial,verdana;
+    font-size: 11pt;
+    font-style: normal;
+    margin-right: 5px;
+    margin-top: 5px;
+    padding: 2px;
+    vertical-align: middle;
+}
+
+#SFCOMMON_jobposter_resumes_resumeresults #ddlbatchActionTop,
+#SFCOMMON_jobposter_resumes_resumeresults #ddlGoToPage,
+#SFCOMMON_jobposter_resumes_resumeresults #ddlSortBy,
+#SFCOMMON_jobposter_resumes_resumeresults #ddlbatchAction
+{
+    border: 1px solid #AED9F0;
+    color: green ;
+    font-family: arial,verdana;
+    font-style: normal;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+
+#SFCOMMON_jobposter_resumes_resumeresults #gotopage {
+	padding-left: 520px;
+}
+
+#SFCOMMON_jobposter_resumes_resumeresults #controlsearchwrapper {
+padding-bottom: 12px;
+}
+
+#SFCOMMON_jobposter_resumes_resumeresults .facetplaceholder input.textcontrol
+{
+    border: 1px solid #AED9F0;
+    color: green !important;
+    font-family: arial,verdana;
+    font-size: 11pt;
+    font-style: normal;
+    margin-right: 5px;
+    margin-top: 5px;
+    padding: 2px;
+    vertical-align: middle;
+    border-radius:0px;
+    box-shadow:0 0 0 transparent inset !important;
+    
+}
+
+#SFCOMMON_jobposter_resumes_resumeresults .CBResumeResults div.facet-toggle 
+{
+    color: #2E779E;
+    font-family: verdana,arial,sans-serif;
+    font-size: 9pt;
+    font-weight: normal;
+}
+
+#SFCOMMON_jobposter_resumes_resumeresults .CBResumeResults #topsearch 
+{
+    padding-top: 8px;
+}
+
+#SFCOMMON_jobposter_resumes_resumeresults .lut, #SFCOMMON_jobposter_resumes_resumeresults .dis, #SFCOMMON_jobposter_resumes_resumeresults .sflocation
+{
+    color: green;
+    font-family: arial,verdana;
+    font-size: 11pt;
+    font-style: normal;
+    padding: 2px;
+    vertical-align: middle;
+    
+}
+#SFCOMMON_jobposter_resumes_resumeresults .currentsearch  b{
+	color: #01468B;
+    font-family: arial,verdana;
+    font-size: 11pt;
+}
+#SFCOMMON_jobposter_resumes_resumeresults .currentsearch {
+	color: green;
+    font-family: arial,verdana;
+    font-size: 11pt;
+	width: 630px;
+}
+
+/* RX fix */
+#RXCOMMON_jobposter_resumes_resumeresults #pnlInnerWrapper {margin-left:17px;}
+
+
+/* Various results page layout fixes */
+#facetTabs .ui-widget-header {width: 100%;}
+#resTabs .ui-widget-header {width: 100%; height: auto;}
+div#jpMainContent {float:none\9 !important;}
+#datetype li {*float:none !important;}
+
+.AddTagType input {margin-right:2px;}
+.AddTagType span {margin-right:5px;}
+
+.BulkTagType input {margin-right:2px;}
+.BulkTagType span {margin-right:5px;}
+
+#resumeFlipTagList .publicTagEnd, #resumeFlipTagList .privateTagEnd {margin-left: -4px; margin-top: 4px;}
+
+
+
+/* jQuery ClueTip plugin */
+
+div.ui-cluetip {
+  font-size: .9em;
+}
+.ui-cluetip-header,
+.ui-cluetip-content {
+  padding: 12px;
+  background-color:White;
+  overflow:hidden;
+}
+.ui-cluetip-header {
+  font-size: 1em;
+  margin: 0;
+  overflow: hidden;
+}
+
+.cluetip-title .cluetip-close {
+  float: right;
+  position: relative;
+}
+#cluetip-close img {
+  border: 0;
+}
+
+#cluetip-waitimage {
+  width: 43px;
+  height: 11px;
+  position: absolute;
+  background-image: url(images/wait.gif);
+}
+.cluetip-arrows {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: -11px;
+  width: 11px;
+  height: 22px;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  border-width: 0;
+}
+#cluetip-extra {
+  display: none;
+}
+
+/***************************************
+   =cluetipClass: 'default'
+-------------------------------------- */
+
+.cluetip-default {
+  background-color: white;
+  border: solid 2px #A6A6A6;
+}
+.cluetip-default .ui-cluetip-header {
+  background-color: white;
+  background: white url(http://clib.icbdr.com/images/images/jpimages/jpprefbg.jpg) repeat-x;
+  border-bottom: solid 3px #F58B15
+}
+
+
+
+.cluetip-default #cluetip-outer {
+  position: relative;
+  margin: 0;
+
+}
+.cluetip-default h3 {
+  margin: 0px;
+  padding: 8px 10px 6px 10px;
+  font-size: 1.2em;
+  font-weight: normal;
+  color: #000;
+}
+.cluetip-default #cluetip-title a {
+  color: #d9d9c2;
+  font-size: 0.95em;
+}
+.cluetip-default #cluetip-inner {
+  padding: 10px;
+}
+.cluetip-default div#cluetip-close {
+  text-align: right;
+  margin: 0 5px 5px;
+  color: #900;
+}
+
+	.relocationDisabled
+{
+    background-color: LightGrey;
+    margin-top:auto !important;
+}
+
+.relocationEnabled
+{
+    background-color: White;
+    margin-top:auto !important;
+}
+
+/* default arrows */
+div.cluetip-default .cluetip-arrows {
+  border-width: 0;
+  background: transparent none;
+}
+div.clue-right-default .cluetip-arrows {
+  background-image: url(images/darrowleft.gif);
+}
+div.clue-left-default .cluetip-arrows {
+  background-image: url(images/darrowright.gif);
+  left: 100%;
+  margin-right: -11px;
+}
+div.clue-top-default .cluetip-arrows {
+  background-image: url(images/darrowdown.gif);
+  top: 100%;
+  left: 50%;
+  margin-left: -11px;
+  width: 22px;
+  height: 11px;
+}
+div.clue-bottom-default .cluetip-arrows {
+  background-image: url(images/darrowup.gif);
+  top: -11px;
+  left: 50%;
+  margin-left: -11px;
+  width: 22px;
+  height: 11px;
+}
+
+#JPBreadcrumb {
+    display: none;
+}
+
+/* End jQuery ClueTip plugin */
+
+
+
+/* keywords clouds */
+
+#resumeKeywords {
+    border:1px solid #ccc;
+    margin:3px;
+    width:100%;
+    padding:5px;
+    border-radius:8px;
+}
+#keywordsCloud {
+    display:block;
+}
+
+ul.keywordList li.semanticKeyword, li.semanticOccupation, li.semanticJobTitles{
+    background-color: #596E9B;
+    color: #ffffff;
+    font-size:11px!important;
+    padding: 5px;
+    margin: 5px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    cursor: default;
+    max-width: 324px;
+    cursor: pointer;
+}
+
+.semanticKeywordList, .semanticOccupationList, .semanticJobTitleList , .semanticSkillsList {
+    float:left;
+    min-width:80%;
+    width:80%;
+}
+
+.semanticSection {
+    align-content:center;
+    border: solid 1px #cccccc;
+    border-radius:8px;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color:#eee;
+}
+
+.semanticKeyword, .semanticOccupation, .semanticJobTitles, .semanticSkills {
+    text-align:left!important;
+    font-size:12px!important;
+    font-weight:bold!important;
+    float:left!important;
+    padding:5px;
+    margin-left:10px;
+}

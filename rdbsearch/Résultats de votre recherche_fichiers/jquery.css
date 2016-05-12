@@ -1,0 +1,59 @@
+
+.msgbox
+{
+	background: none #f1f1f1 !important;
+}
+
+.msgbox div.ui-dialog-buttonpane
+{
+	background: none #f1f1f1 !important;
+}
+
+.msgbox #MessageBoxBody
+{
+    font-size:12px;
+    color:Black;
+    font-family:Arial;
+    padding-top:10px;
+}
+
+.msgbox button
+{
+    background: url("http://img.icbdr.com/images/js/elements/buttons/bg_btn.gif") repeat-x scroll 0 -1px #FF7D00;
+    border-color: #FFCC66 #CC3300 #CC3300;
+    border-right: 1px solid #CC3300;
+    border-style: solid;
+    border-width: 1px;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 3px 12px 3px 12px;
+    width: auto;
+}
+
+.msgbox .ui-dialog-buttonpane {
+    border-width: 0px !important;
+     margin:0 !important;
+     text-align:center !important;
+     padding: 0.3em 0.4em 0.5em 0.4em !important;
+}
+
+.msgbox .ui-dialog-buttonset {
+    float: none !important;
+}
+
+.msgbox .ui-dialog-title 
+{
+    font-size:14px !important;
+    font-weight:bold !important;
+    font-family:Arial !important;
+}
+
+.msgbox .ui-dialog-titlebar
+{
+    padding: 0.4em 0.6em;
+}
+
+.ui-widget-overlay {
+    opacity: 0.5 !important;
+}

@@ -1,0 +1,6047 @@
+/*---------------------------------------------------------------- */
+/*              Common classes                                     */
+/*---------------------------------------------------------------- */
+
+.clear
+{
+    display:block; 
+    clear:both;
+}
+
+.left
+{
+    float:left;                          
+}
+
+.right
+{
+    float:right;
+}
+ 
+.submit, label, input[type="submit"]
+{
+    cursor:pointer;
+}
+
+hr
+{
+    display:block; 
+    margin:5px 0 10px; 
+    background:none; 
+    border:none; 
+    border-bottom:1px solid #eee;
+}
+
+input, textarea, select
+{
+    outline:none;
+}
+
+div.title
+{
+    position:relative;
+}
+
+span.title
+{
+    padding:0 0 20px; 
+    font:bold 19px Arial, Sans-serif; 
+    color:#333;
+}
+
+.pagetitle,
+#idRegister4 h1
+{
+    margin:0 0 0px; 
+    padding:15px 0 20px; 
+    font:bold 24px Arial, Sans-serif; 
+    color:#13496a; 
+    border-bottom:1px solid #eee;
+}
+
+.pagetitle strong
+{
+    color:#ff6a00;
+}
+
+.pagetitle.small
+{
+    margin-bottom:0; 
+    padding-top:5px; 
+    font-size:16px;
+}
+
+#J_criteria
+{
+    width: 521px;
+}
+
+.pagetitle .right
+{
+    line-height:30px; 
+    font-size:11px; 
+    color:#13496a;
+}
+
+.pagetitle .right a
+{
+    color:#ff6a00;
+}
+
+/* ----------------------- Buttons ------------------------- */
+
+.button
+{
+    display:inline-block; 
+    height:29px; 
+    font:bold 13px/29px Arial; 
+    text-decoration:none; 
+    cursor:pointer;
+}   
+
+.button span
+{
+    float:left; 
+    height:29px; 
+    margin:0 0 0 6px; 
+    padding:0 15px 0 9px;
+}
+
+.button:hover, 
+.button:hover span
+{
+    text-decoration:none;
+}
+
+.buttoncenter
+{
+    display:block; 
+    text-align:center;
+}
+
+p .button, 
+p .button span
+{
+    text-decoration:none !important;
+}
+   
+/* Orange */
+   
+.button.orange
+{
+    background:url(../../../images/LJ/img/global/buttons.png) top left no-repeat;
+}   
+
+.button.orange span
+{
+    color:#fff; 
+    background:url(../../../images/LJ/img/global/buttons.png) right -29px no-repeat; 
+    text-shadow:0 -1px #bf6a00;
+}
+
+.button.orange:hover
+{
+    background-position:0 -58px;
+}  
+  
+.button.orange:hover span
+{
+    background-position:right -87px;
+}            
+
+.button.orange:active
+{
+    background-position:0 -116px;
+} 
+ 
+.button.orange:active span
+{
+    background-position:right -145px;
+}
+   
+/* Blue */
+
+.button.blue
+{
+    background:url(../../../images/LJ/img/global/buttons.png) 0 -174px no-repeat;
+}   
+
+.button.blue span
+{
+    color:#fff; 
+    background:url(../../../images/LJ/img/global/buttons.png) right -203px no-repeat; 
+    text-shadow:0 1px #144c70;
+}
+
+.button.blue:hover
+{
+    background-position:0 -232px;
+}  
+
+.button.blue:hover span
+{
+    background-position:right -261px;
+}
+
+.button.blue:active
+{
+    background-position:0 -290px;
+}  
+
+.button.blue:active span
+{
+    background-position:right -319px;
+}
+   
+/* Mini */
+
+.button.mini
+{
+    height:20px; 
+    line-height:20px; 
+    font-size:11px;
+}   
+
+.button.mini span
+{
+    height:20px;
+    margin-left:5px;
+}
+      
+/* Orange */
+
+.button.mini.orange
+{
+    background:url(../../../images/LJ/img/global/buttons-mini.png) top left no-repeat;
+}   
+
+.button.mini.orange span
+{
+    background:url(../../../images/LJ/img/global/buttons-mini.png) right -20px no-repeat;
+}
+
+.button.mini.orange:hover
+{
+    background-position:0 -40px;
+} 
+
+.button.mini.orange:hover span
+{
+    background-position:right -60px;
+}
+
+.button.mini.orange:active
+{
+    background-position:0 -80px;
+}   
+
+.button.mini.orange:active span
+{
+    background-position:right -100px;
+}
+      
+/* Blue */
+.button.mini.blue
+{
+    background:url(../../../images/LJ/img/global/buttons-mini.png) 0 -120px no-repeat;
+}   
+
+.button.mini.blue span
+{
+    background:url(../../../images/LJ/img/global/buttons-mini.png) right -140px no-repeat;
+}
+
+.button.mini.blue:hover
+{
+    background-position:0 -160px;
+}   
+
+.button.mini.blue:hover span
+{
+    background-position:right -180px;
+}
+
+.button.mini.blue:active
+{
+    background-position:0 -200px;
+}   
+
+.right
+{
+    float:right;
+}
+   
+.button.mini.blue:active span
+{
+    background-position:right -220px;
+}
+   
+/* ----------------------- Select ------------------------- */
+
+.pagetitle .right a
+{
+    color:#ff6a00;
+}
+
+.select
+{
+    position:relative;
+}
+
+.button.mini.blue:active
+{
+    background-position:0 -200px;
+}
+
+.button.mini.blue:active span
+{
+    background-position:right -220px;
+}
+
+.select .selecttext
+{
+    position:relative; 
+    display:block; 
+    height:32px; 
+    padding:0 0 0 6px; 
+    font:bold 12px/32px Arial; 
+    color:#466e7e; 
+    background:url(../../../images/LJ/img/html/blue.png) top left no-repeat; 
+    text-shadow:0 1px #e5eff7; 
+    text-decoration:none;
+}
+
+.select span
+{
+    float:left; 
+    height:32px; 
+    width:100%; 
+    padding:0 0 0 6px; 
+    background:url(../../../images/LJ/img/html/blue.png) right -32px no-repeat;
+}
+
+.select .arrow
+{
+    float:right; 
+    width:7px; 
+    height:32px; 
+    margin:0 11px 0 0; 
+    background:url(../../../images/LJ/img/ic/arrow-select.png) center right no-repeat;
+}
+
+/* HACK IE 7 */
+
+*+html .select .arrow
+{
+    margin-top:-30px;
+    border:0 none;
+}
+
+.select:hover .selecttext
+{
+    background-position:left -64px;
+}     
+
+.select:hover .selecttext > span
+{
+    background-position:right -96px;
+}
+
+.select:active .selecttext, 
+.select.clicked .selecttext
+{
+    background-position:left -128px;
+}   
+
+.select:active .selecttext > span, 
+.select.clicked .selecttext > span
+{
+    background-position:right -160px;
+}
+
+.select ul
+{
+    display:none; 
+    position:absolute; 
+    z-index:9999; top:35px; 
+    left:2px; width:100%; 
+    background:#fff; 
+    border:1px solid #d9d9d9; 
+    -moz-border-radius:3px; 
+    -webkit-border-radius:3px; 
+    border-radius:3px;
+}
+
+.select li
+{
+    display:block; 
+    border-bottom:1px solid #d9d9d9;
+}    
+
+.select li:last-child
+{
+    border:none;
+}
+
+.select a
+{
+    display:block; 
+    padding:0 15px; 
+    font:bold 12px/30px Arial; 
+    color:#999; 
+    text-decoration:none;
+}
+
+.select a:hover
+{
+    color:#555;
+}
+
+/* ----------------------- Upload  --------------------------*/
+
+.upload
+{
+    position:relative;
+}
+
+.upload .file
+{
+    position:absolute; 
+    z-index:10; 
+    top:0; 
+    right:0; 
+    height:34px; 
+    opacity:0; 
+    filter:alpha(opacity=0); 
+    cursor:pointer;
+}
+
+.upload .browse
+{
+    position:absolute; 
+    z-index:9; 
+    top:5px; 
+    right:8px; 
+    width:110px; 
+    height:30px; 
+    font:bold 12px/32px Arial; 
+    color:#466e7e; 
+    text-align:center; 
+    background:url(../../../images/LJ/img/html/blue.png) right -32px no-repeat; 
+    text-shadow:0 1px #e5eff7; 
+    text-decoration:none; 
+    border-left:1px solid #92b7d2;
+}
+
+/* ----------------------- Submit -------------------------- */
+
+.submit
+{
+    display:block;
+}
+
+.btnsubmitresearch
+{
+    display: inline;
+    float: right;
+    margin-top: 5px;    
+    margin-right: 50px;
+}
+
+.btnsubmitresearch input
+{
+    width: 110px;    
+}
+
+.submit input
+{
+    float:left !important; 
+    height:32px; 
+    padding:0 0 2px 5px !important; 
+    font:bold 13px/32px Arial !important; 
+    color:#fff; 
+    text-align:center; 
+    background:url(../../../images/LJ/img/global/button-submit.png) top left no-repeat; 
+    text-shadow:0 -1px #bf6a00; 
+    border:none;
+ }
+
+.submit span
+{
+    float:left; 
+    width:5px; 
+    height:32px; 
+    background:url(../../../images/LJ/img/global/button-submit.png) top right no-repeat;
+}
+
+.submit:hover input
+{
+    background-position:center left;
+}       
+
+.submit:hover span
+{
+    background-position:center right;
+}
+
+.submit:active input
+{
+    background-position:bottom left;
+}  
+
+.submit:active span
+{
+    background-position:bottom right;
+}
+
+/* ----------------------- Icons  ---------------------------*/
+
+.searchjob .title, 
+.page .top .title
+{
+    padding:0 0 0 41px; 
+    background:url(../../../images/LJ/img/ic/search-big.png) center left no-repeat;
+}
+
+.uploadcv .title
+{
+    padding:0 0 0 41px; 
+    background:url(../../../images/LJ/img/ic/upload-big.png) center left no-repeat;
+}
+
+.advanced
+{
+    padding:0 0 0 12px; 
+    background:url(../../../images/LJ/img/ic/plus-min.png) center left no-repeat;
+}
+
+.addtocart
+{
+    padding:0 0 0 22px; 
+    background:url(../../../images/LJ/img/ic/cart.png) center left no-repeat;
+}
+
+.email
+{
+    padding:0 0 0 22px; 
+    background:url(../../../images/LJ/img/ic/mail.png) center left no-repeat;
+}
+
+.emailgray
+{
+    padding:0 0 0 21px; 
+    background:url(../../../images/LJ/img/ic/mail-gray.png) center left no-repeat;
+}
+
+.rssgray
+{
+    padding:0 0 0 21px; 
+    background:url(../../../images/LJ/img/ic/rss-gray.png) 2px center no-repeat;
+}
+
+.cartgray
+{
+    padding:0 0 0 21px; 
+    background:url(../../../images/LJ/img/ic/cart-gray.png) center left no-repeat;
+}
+
+.cvgray
+{
+    padding:0 0 0 21px; 
+    background:url(../../../images/LJ/img/ic/cv-gray.png) 2px center no-repeat;
+}
+
+.docgray
+{
+    padding:0 0 0 21px; 
+    background:url(../../../images/LJ/img/ic/doc-gray.png) 2px center no-repeat;
+}
+
+.suitgray
+{
+    padding:0 0 0 16px; 
+    background:url(../../../images/LJ/img/ic/suit-gray.png) center left no-repeat;
+}
+
+.citygray
+{
+    padding:0 0 0 16px; 
+    background:url(../../../images/LJ/img/ic/city-gray.png) center left no-repeat;
+}
+
+.stategray
+{
+    padding:0 0 0 16px; 
+    background:url(../../../images/LJ/img/ic/country-gray.png) center left no-repeat;
+}
+
+.domaingray
+{
+    padding:0 0 0 16px; 
+    background:url(../../../images/LJ/img/ic/wrench-gray.png) center left no-repeat;
+}
+
+.docsgray
+{
+    padding:0 0 0 21px;
+    background:url(../../../images/LJ/img/ic/docs-gray.png) center left no-repeat;
+}
+
+.printgray
+{
+    padding:0 0 0 21px; 
+    background:url(../../../images/LJ/img/ic/print-gray.png) center left no-repeat;
+}
+
+.view
+{
+    display:block; 
+    width:15px; 
+    height:19px; 
+    text-indent:-9999px; 
+    background:url(../../../images/LJ/img/ic/view.png) top left no-repeat;
+}
+
+.addmini
+{
+    padding:0 0 0 12px; 
+    background:url(../../../images/LJ/img/ic/add-m.png) center left no-repeat;
+}
+
+.removemini
+{
+    padding:0 0 0 12px; 
+    background:url(../../../images/LJ/img/ic/remove-m.png) center left no-repeat;
+}
+
+/* ----------------------- Colors ---------------------------*/
+
+.submit:active input
+{
+    background-position:bottom left;
+}      
+
+.submit:active span
+{
+    background-position:bottom right;
+}
+
+.bleu
+{
+    color:#13496a;
+}
+
+.orange
+{
+    color:#ff6a00;
+}
+
+/*---------------------------------------------------------------- */
+/*              Main                                               */
+
+.main
+{
+    background:#fff url(../../../images/LJ/img/global/top.png) bottom left repeat-x;
+}
+
+/* ----------------------- Top  ---------------------------*/
+
+.top
+{
+    /*padding:10px 0 0;*/
+    padding-top:4px; 
+    background:url(../../../images/LJ/img/global/tophome.jpg) top center no-repeat; 
+    border-bottom:1px solid #e5e5e5;
+}
+
+/* ----------------------- Box  ---------------------------*/
+
+/* ---------------------- Home  ---------------------------*/
+
+.submit_blue
+{
+    background: #f36b21;
+    text-shadow: none;
+    width : 160px;
+}
+
+.top .box
+{
+    width:429px; 
+    height:189px; 
+    /*margin:0 0 7px;*/
+    margin-top:5px;
+    margin-bottom:5px; 
+    padding:0 17px; 
+    background:url(../../../images/LJ/img/global/boxhome.png) top left no-repeat;
+}
+
+.top .title
+{
+    position:relative; 
+    z-index:1; 
+    display:block; 
+    height:49px; 
+    margin:0 2px 5px; 
+    font:20px/49px Arial, Sans-serif; 
+    color:#134a6a; 
+    letter-spacing:-0.025em;
+}
+
+.title_home{font:20px/49px Arial, Sans-serif!important;letter-spacing:-0.025em!important;height:49px!important;margin:0px;}
+
+.top form
+{
+    position:relative; 
+    height:130px;
+    margin-top:0px;
+}
+
+.top form p
+{
+    margin:0; 
+    padding:0;
+}
+
+.top .text
+{
+    width:402px; 
+    height:28px; 
+    margin:5px 0; 
+    padding:0 8px !important; 
+    color:#a2b6be; 
+    font:bold 13px/28px Arial, Sans-serif; 
+    color:#a2b6be; border:1px solid #d5dfe2; 
+    -moz-border-radius:3px; 
+    -webkit-border-radius:3px; 
+    border-radius:3px;
+}
+
+.w .select
+{
+    background:url("../../../images/LJ/img/html/blue.png") no-repeat scroll right -34px transparent;
+    border: 1px solid #92B7D2;
+    border-left: 1px solid #92B7D2;
+    border-radius:3px;  
+    color: #466E7E;
+    font: bold 12px/32px Arial;
+    padding-left: 5px;
+    padding-top: 5px;
+    height: 29px;
+    -moz-border-radius:3px; 
+    -webkit-border-radius:3px; 
+    position: absolute;    
+    right: 8px;
+    /*text-shadow: 0 1px #E5EFF7;*/
+    width: 421px !important;
+}
+
+.w .select option
+{
+    border-bottom: 1px solid #D9D9D9;
+    color: #999999;
+    display: block;
+    font: bold 12px/25px Arial;
+    height: 25px;
+    padding: 5px 15px 0;
+    text-decoration: none;
+}
+
+.top .text:focus
+{
+    color:#466e7e; 
+    border-color:#c2d1d8; 
+    -moz-box-shadow:0 0 0 3px #f0f6f9; 
+    -webkit-box-shadow:0 0 0 3px #f0f6f9; 
+    -ms-box-shadow:0 0 0 3px #f0f6f9; 
+    -o-box-shadow:0 0 0 3px #f0f6f9; 
+    -o-box-shadow:0 0 0 3px #f0f6f9;
+}
+
+.top .select
+{
+    position:relative; 
+    left:-1px; 
+    width:416px; 
+    margin:5px 0 4px;
+}
+
+.top .advanced
+{
+    float:right;
+    margin-right:15px;
+    font:10px/32px Arial; 
+    color:#4a6479; 
+    background-position:0 17px; 
+    text-transform:uppercase; 
+    text-decoration:none;
+}
+
+.box .advanced
+{
+    background-position:0 12px;
+}
+
+.top .advanced:hover
+{
+    text-decoration:underline;
+}
+
+.top .submit
+{
+    clear:both; 
+    display:block; 
+    padding:4px 0 0;
+}
+
+.top .submit input
+{
+    width:110px;
+}
+     
+/* ----------------------- Page  ---------------------------*/
+
+.page .top
+{
+    height:110px; 
+    padding:0; 
+    background-image:url(../../../images/LJ/img/global/top.jpg);
+}
+
+.page .top .wrap
+{
+    width:946px; 
+    height:100px;
+    margin-bottom:10px; 
+    padding:10px 17px 0; 
+    background:url(../../../images/LJ/img/global/box.png) center 10px no-repeat;
+}
+
+.main
+{
+    background:#fff url(../../../images/LJ/img/global/top.png) bottom left repeat-x;
+}
+
+.page .top .left
+{
+    margin-right:10px;
+}
+
+.page .top form
+{
+    height:auto;
+}
+
+.page .top .advanced
+{
+    top:4px; 
+    height:42px; 
+    line-height:42px; 
+    margin:0;
+}
+
+.page .top .left.select
+{
+    margin-right:14px;
+}
+
+.page .top .left:last-child
+{
+    margin-right:0;
+}
+
+.page .top .last
+{
+    clear:right;
+}
+
+.page .top .text
+{
+    width:415px;
+}
+
+.page .top .select
+{
+    width:180px;
+}
+
+.page .top .select
+{
+    width:180px;
+}
+
+/* ----------------------- Content  ---------------------------*/
+
+.content
+{
+    background:#fff url(../../../images/LJ/img/global/content.png) left 1px repeat-x;
+}
+
+.content .wrap
+{
+    padding: 0 0 40px;
+}
+
+.content .title  
+{
+    color: #000000; 
+    font-family: arial;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.title.actuahome
+{
+    display:block;
+    margin-bottom: 20px;    
+}
+
+.home .content .wrap
+{
+    padding-top:40px;
+}
+
+.twocol .content .wrap
+{
+    background:url(../../../images/LJ/img/global/twocol.png) 690px 0px repeat-y;
+}
+
+/* Styles */
+
+.content p
+{
+    line-height:20px; 
+    font-size:12px; 
+    color:#808181;
+}
+
+.content p a, .content li a
+{
+    color:#eb9b34; 
+    text-decoration:underline;
+}
+
+.content p a:hover, .content li a:hover
+{
+    color:#ff6a00;
+}
+
+.content strong
+{
+    font-weight:bold;
+}
+
+.content em
+{
+    font-style:italic;
+}
+
+/* Text */
+
+.content div.text
+{
+    padding:10px 0 0;
+}
+
+.content div.text.center
+{
+    text-align:center;
+}
+
+.content div.text p, 
+.content div.text li
+{
+    padding:5px 0 10px; 
+    font:12px/18px Arial; 
+    color:#676767;
+}
+
+.content div.text ul
+{
+    padding:0 0 0 30px;
+}
+
+.content div.text .underline li
+{
+    font-weight:bold; 
+    text-decoration:underline;
+}
+
+.content div.text li
+{
+    padding:0 0 7px; 
+    line-height:18px; 
+    list-style:disc;
+}
+
+/* Text with image on the left */
+
+.content .text.image .image
+{
+    float:left; 
+    width:280px;
+}
+
+.content .text.image .text
+{
+    float:left; 
+    width:400px; 
+    padding:0;
+}
+
+/* Logos */
+
+.home .content .left
+{
+    float:left; 
+    width:640px; 
+    padding:0;
+}
+
+.logos
+{
+    overflow:hidden; 
+    padding:20px 0 0;
+}
+
+.logos a
+{
+    float:left; 
+    margin:0 15px 15px 0; 
+    border:1px solid #ededed;
+}
+
+.logos a:hover
+{
+    border-color:#dadada;
+}
+
+.logos a:last-child, 
+.logos .last
+{
+    margin-right: 15px;
+}
+
+.logos img
+{
+    border: 0 none;
+}
+
+/* Ad */
+#MXSpot3{position:absolute !important; top:35em;left:50em;}
+#ad
+{
+    margin-top: 0;
+    padding-bottom: 40px;
+    vertical-align: top;
+}
+
+.home .ad
+{
+    float:right; 
+    width:300px; 
+    margin:0; 
+    background:none; 
+    border:1px solid #ededed;
+}
+
+.ad table
+{
+    margin: auto;
+}
+
+#FeaturedEmployerBloc td
+{
+    margin-left: 10px;
+}
+
+.page .ad
+{
+    padding:15px 0 10px; 
+    text-align:center; 
+    background:url(../../../images/LJ/img/global/content.png) left 1px repeat-x, url(../../../images/LJ/img/global/adborder.png) bottom center no-repeat, #fff;
+}
+
+/* Title top right */
+
+.filterby
+{
+    position:absolute; 
+    top:15px; 
+    right:15px; 
+    overflow:hidden;
+}
+
+.filterby p
+{
+    float:left; 
+    margin:0 0 0 10px; 
+    padding:0; 
+    font:bold 12px Arial; 
+    color:#13496a;
+}
+
+.typeof
+{
+    position:absolute; 
+    top:3px; 
+    right:10px;
+}
+
+.typeof li
+{
+    float:left; 
+    border:1px solid #dbdbdb; 
+    border-left:none;
+}
+
+.typeof li a
+{
+    display:block; 
+    padding:0 8px; 
+    font:bold 11px/23px Arial; 
+    color:#bebebe; 
+    text-decoration:none;
+ }
+
+.typeof li a:hover
+{
+    color:#777;
+}
+
+.typeof .active a, 
+.typeof .active a:hover
+{
+    color:#ff8200;
+}
+
+.typeof li:first-child, 
+.typeof .first
+{
+    border-left:1px solid #dbdbdb; 
+    -moz-border-radius:3px 0 0 3px; 
+    -webkit-border-radius:3px 0 0 3px; 
+    border-radius:3px 0 0 3px;
+}
+
+.typeof li:last-child
+{
+    -moz-border-radius:0 3px 3px 0px; 
+    -webkit-border-radius:0 3px 3px 0px; 
+    border-radius:0 3px 3px 0px;
+}
+
+/* Button only */
+
+.rightbutton
+{
+    position:absolute; 
+    top:1px; 
+    right:10px;
+}
+
+/*---------------------------------------------------------------- */
+/*              Form                                               */
+/*---------------------------------------------------------------- */
+
+.centered
+{
+    position:relative; 
+    width:450px; 
+    margin:0 auto;
+}
+
+#idRegister5
+{
+    background: none;
+    border: none;
+    margin: 0;
+    float: none;
+    font-weight: bold;
+    font-size: 11px !important;
+    color: #13496A;
+    margin-top: 70px;
+    position:absolute;
+    float: none;
+    left: 510px;
+}
+
+.requiredStarRes
+{
+    color: #7B7B7B;    
+}
+
+#chblSignIn
+{
+    display: inline;
+    float: none;
+    font-size: 11px !important;
+    color: #FF6A00;
+    padding: 0px;
+}
+
+#idRegister2
+{
+    position:relative;
+    width:520px;
+    margin:auto;
+    border: none;
+    margin-top: -30px;   
+}
+
+#MXMessageBoxError
+{
+    margin: auto;    
+}
+
+.loadingImage p, #passwordTip
+{
+    display: none !important;    
+}
+
+.emailTypeDesc
+{
+    margin-left: 40px !important;
+    display: block;
+}
+
+#idRegister3
+{
+    display: none;    
+}
+
+#idRegister4 h1
+{
+    width: 980px;
+    /*margin-left: -230px;*/
+    margin-top: 12px;    
+}
+
+#idRegister4 h1 strong
+{
+    color: #FF6A00;   
+}
+
+#idRegister4 h2
+{
+    display: none;    
+    width: 100%;
+    padding: 15px 0;
+    /* margin-left: -15px; */
+    font: bold 12px Arial;
+    color: #454545;
+    /*margin-top: -50px;*/
+}
+
+.bandeauHaut h2
+{
+    display: block !important;
+}
+
+#registrationControl .inputWrapper
+{
+    width: 450px !important;
+    margin: auto !important;
+    margin-bottom: 10px !important;    
+    margin-top: 20px !important;
+}
+
+#registrationControl .inputWrapper input[type=text],
+#registrationControl .inputWrapper input[type=password]
+{
+    /*float: right;*/
+}
+
+.onecol .left
+{
+    margin: auto;
+    width: 100% !important;    
+}
+
+.inputWrapper label
+{
+    width: 180px;    
+}
+
+.validationWrapper
+{
+    padding: 0px !important;
+    margin: 0 !important;
+    margin-top: 60px;
+    clear: both;
+}
+
+.UserEmailOptions .registerRightColumn .tipHeading
+{
+    font-size: 11px;
+    font-weight: normal !important;
+}
+
+.UserEmailOptions .registerRightColumn
+{
+    float: none;  
+}
+
+.UserEmailOptions .registerRightColumn div
+{
+    margin: 0;    
+}
+
+.registerRightColumn
+{    
+    clear: both;
+    position: absolute;
+    left: 546px;
+    border: 1px solid #FF6A00;
+    padding: 10px;
+    font-weight: normal !important;
+    margin-top: -33px;
+    display: block !important;   
+}
+
+.tipWrapper
+{
+    margin: 0 !important;
+    padding: 0!important;
+    position: inherit !important;
+    width: 24px;
+    height: 24px;
+    float: right;
+    top: 18px;
+    right: 20px;
+}
+
+.tipWrapper .positionDiv
+{
+    position: inherit !important;
+    margin-top: 0px;
+    margin-left: 5px;    
+}
+
+.centered.large
+{
+    width:775px;
+}
+
+.centered .form
+{
+    padding:15px 0 0;
+}
+
+.centered .form legend
+{
+    width:100%; 
+    padding:15px 0; 
+    font:bold 12px Arial; 
+    color:#454545;
+}
+
+.centered .form legend.first
+{
+    padding-top:0;
+}
+
+.UserEmailOptions .registerTwoColumns
+{
+    width: 98%;
+}
+
+#btnRegisterNow
+{
+    width: 445px;
+    float: left;
+    height: 32px;
+    padding: 0 0 2px 5px;
+    font: bold 13px/32px Arial !important;
+    color: white;
+    text-align: center;
+    background: url(../../../images/LJ/img/global/button-submit.png) top left no-repeat;
+    text-shadow: 0 -1px #BF6A00;
+    border: none;
+    border-radius: 5px;
+}    
+
+.centered .form div,
+#AccountInformation, #ContactInformation, .UserEmailOptions, #MostRecentDetail, .desiredPosition
+{
+    position:relative; 
+    padding:7px 0; 
+    border: none; 
+    border-top:1px solid #eee; 
+    border-bottom:1px solid #eee;
+}
+
+.registerTwoColumns label
+{
+    float: none !important;
+    width: auto !important;
+}
+#PostNewResume .emailTypeDesc 
+{
+    color: #666666;
+    font: 10px Arial,Sans-serif;
+}
+#PostNewResume .registerRightColumn 
+{
+  display:none !important;
+}
+#ProfileRegister a, #ProfileLogin a, #UploadResume a {
+  color: #13496A;
+  }
+#PostNewResume .right div.littleBox 
+{
+  background-color: #F9F9F9;
+  padding: 10px;
+  margin: 10px;
+  color: #040404;
+  border: 1px solid #aaa;
+  border-radius: 8px;
+}
+
+#AccountInformation, #ContactInformation, .UserEmailOptions, #MostRecentDetail, .desiredPosition
+{
+    padding-left: 12px;
+    padding-bottom: 25px;
+    margin-top: 45px;       
+}
+#LJCOMMON_share_register #ContactInformation,#LJCOMMON_share_register .UserEmailOptions{
+     margin-top: 0px;     
+}
+.centered .form p
+{
+    clear:both; 
+    padding:10px 15px;
+}
+
+.centered .form label,
+#idRegister2 label
+{
+    float:left;
+    width:180px; 
+    margin:0 10px 0 0; 
+    font:12px/30px Arial; 
+    color:#7b7b7b;
+}
+
+.centered .form .required
+{
+    float:right; 
+    padding:10px 0 0; 
+    font:bold 14px Arial; 
+    color:#ff6a00;
+}
+
+.centered .form .text,
+#idRegister2 input[type="text"],
+#idRegister2 input[type="password"]
+{
+    width:205px; 
+    height:30px; 
+    line-height:30px; 
+    padding:0 10px; 
+    font:11px Arial; 
+    border:1px solid #ced6da; 
+    -moz-border-radius:3px; 
+    -webkit-border-radius:3px; 
+    border-radius:3px; 
+    outline:none;
+}
+
+.centered .form textarea.text
+{
+    height:135px; 
+    padding:10px; 
+    resize:none;
+}
+
+.centered .form .text:focus, 
+.centered .text:active
+{
+    border-color:#adb8bd; 
+    box-shadow:0 0 0 2px rgba(0,170,255,0.08);
+}
+
+.centered .form select
+{
+    width:225px; 
+    outline:none;
+}
+
+.centered .form .submitform
+{
+    padding:10px 0;
+}
+
+.centered .form .submit input
+{
+    width:445px;
+}
+
+.centered .form .password input
+{
+    width:90px;
+}
+
+.centered .form .password a
+{
+    float:right; 
+    font:bold 10px/32px Arial; 
+    color:#7b7b7b; 
+    text-decoration:none;
+ }
+
+.centered .form .password a:hover
+{
+    text-decoration:underline;
+}
+
+/* Select */
+
+.centered .form .labelsmall label
+{
+    line-height:20px;
+}
+
+.centered .form .labelsmall .required
+{
+    padding-top:5px;
+}
+
+/* Choices */
+
+.centered .form .choices p
+{
+    overflow:hidden; 
+    clear:both; 
+    line-height:14px;
+}
+
+.centered .form .choices input
+{
+    float:left; 
+    margin:10px 20px 20px 0;
+}
+
+.centered .form .choices label,
+.emailTypeDesc
+{
+    float:none; 
+    line-height:12px; 
+    margin:0; 
+    padding:0; 
+    font:11px/14px Arial; 
+    color:#575757;
+}
+
+.centered .form .choices strong,
+.registerTwoColumns label
+{
+    display:block !important; 
+    padding:0 0 3px !important; 
+    font:bold 12px Arial !important; 
+    color:#2a668e !important;
+}
+
+/* Tip */
+
+.centered .form .tip
+{
+    position:absolute; 
+    top:0px; 
+    right:-220px; 
+    width:185px; 
+    padding:10px; 
+    background:#fff; 
+    border:1px solid #ff6a00; 
+    -moz-border-radius:3px; 
+    -webkit-border-radius:3px; 
+    border-radius:3px;
+ }
+
+.centered .form .tip p
+{
+    padding:0; 
+    line-height:14px; 
+    -size:11px; 
+    color:#ff6a00;
+}
+
+.centered .form .tip strong
+{
+    font-weight:bold; 
+    color:#ff6a00;
+}
+
+/* More text */
+
+.centered .form .moretext
+{
+    clear:both; 
+    padding:15px 0 0; 
+    text-align:center; 
+    font:bold 11px Arial; 
+    color:#134a6a;
+}
+
+.centered .form .moretext a
+{
+    text-decoration:none;
+}
+
+.centered .form .moretext a:hover
+{
+    text-decoration:underline;
+}
+
+/* Large */
+
+.centered .form.large div
+{
+    padding:0;
+}
+
+.centered .form.large p
+{
+    padding:5px 15px 15px 15px;
+}
+
+.centered .form.large fieldset
+{
+    margin:0 0 10px;
+}
+
+.centered .form.large label
+{
+    float:none; 
+    display:block; 
+    width:auto; 
+    margin:0;
+}
+
+.centered .form.large label.inline
+{
+    display:inline; 
+    margin-right:10px;
+}
+
+.centered .form.large select.multiple
+{
+    display:block; 
+    width:100%; 
+    background:#fff; 
+    border:1px solid #cbd4d9; 
+    outline:none;
+}
+
+.centered .form.large select.multiple option
+{
+    padding:2px 7px;
+}
+
+.centered .form.large .text
+{
+    display:block; 
+    width:400px;
+}
+
+.centered .form.large .validate
+{
+    line-height:20px; 
+    padding-right:0; 
+    color:#13496a; 
+    text-align:center;
+}
+
+.centered .form.large .validate a
+{
+    margin:0 7px 0 0; 
+    color:#13496a; 
+    text-decoration:none;
+}
+
+.centered .form.large .validate a:hover
+{
+    text-decoration:underline;
+}
+
+.centered .form.large .validate .link
+{
+    position:relative; 
+    top:-12px;
+}
+
+.centered .form.large .validate .submit
+{
+    display:inline-block;
+    margin-left:10px;
+}
+
+.centered .form.large .validate .submit input
+{
+    width:250px;
+}
+
+/* Connect */
+
+.centered .form.connect fieldset
+{
+    margin:0 0 10px;
+}
+
+.centered .form.connect div
+{
+    padding:7px 15px;
+}
+
+.centered .form.connect h2
+{
+    padding:0; 
+    font-size:14px; 
+    border:none;
+}
+
+.centered .form.connect p
+{
+    width:auto; 
+    padding:10px 7px;
+}
+    
+.centered .form.connect .button
+{
+    margin:0 auto; 
+    text-align:center;
+}
+
+.centered .form.connect .button span
+{
+    width:200px;
+}
+
+/* Publish */
+
+.publish .pagetitle
+{
+    padding:20px 0 10px; 
+    font-size:23px; 
+    border:none;
+}
+
+.publish .form div
+{
+    clear:both; 
+    margin:0 0 10px;
+}
+
+.publish .form .pagetitle
+{
+    font-size:14px; 
+    padding:5px 15px 20px;
+}
+
+.publish .form .areatitle
+{
+    margin:0 0 5px; 
+    padding:5px 10px 15px; 
+    font:bold 14px Arial; 
+    color:#13496a; 
+    border-bottom:1px solid #eee;
+}
+
+.publish .form .areatitle strong
+{
+    color:#ff6a00;
+}
+
+.publish .form label
+{
+    float:none; 
+    width:auto; 
+    font-weight:bold; 
+    display:block;
+}
+
+.publish .form label.inline
+{
+    float:left; 
+    width:auto;
+}
+
+.publish .form .text
+{
+    width:355px;
+}
+
+.publish .form textarea.text
+{
+    width:400px;
+}
+
+.publish .form select
+{
+    width:auto;
+}
+
+.publish .form select.multiple
+{
+    width:100px; 
+    background:#fff; 
+    border:1px solid #ced6da;
+}
+
+.publish .form select.multiple option
+{
+    padding:2px 7px;
+}
+
+.publish .form .size1
+{
+    width:92px; 
+    margin-right:3px;
+}
+
+.publish .form .size2
+{
+    width:60px;
+}
+
+.publish .form .fullsize
+{
+    width:157px;
+}
+
+.publish .form .labelsmall
+{
+    line-height:20px;
+}
+
+.publish .form .infoarea
+{
+    overflow:hidden;
+}
+
+.publish .form .info
+{
+    float:right; 
+    width:360px; 
+    margin:10px 0; 
+    padding:0 0 0 20px; 
+    font:11px/18px Arial; 
+    color:#738a99; 
+    background:url(../../../images/LJ/img/ic/light.png) 0 3px no-repeat;
+}
+
+.publish .form .radioinline
+{
+    float:left; 
+    width:200px;
+}
+
+.publish .form .radioinline input
+{
+    margin:0 5px 0 0;
+}
+
+.centered.publish .form .radioinline label
+{
+    display:inline; 
+    float:none; 
+    width:auto; 
+    font-weight:normal;
+}
+
+.publish .form .moretext
+{
+    font-weight:normal;
+}
+
+.publish .form .moretext a
+{
+    color:#13496a;
+}
+
+.publish .form .moretext a:hover
+{
+    text-decoration:underline;
+}
+
+.publish .form .addmini
+{
+    font:bold 11px Arial; 
+    color:#4b8d57; 
+    text-decoration:none;
+}  
+
+.publish .form .addmini:hover
+{
+    text-decoration:underline;
+}
+
+.publish .form .removemini
+{
+    font:bold 11px Arial; 
+    color:#ff6e6e; 
+    text-decoration:none;
+}   
+
+.publish .form .removemini:hover
+{
+    text-decoration:underline;
+}
+
+.publish .form .upload
+{
+    position:relative;
+}
+
+.publish .form .upload input.fileover
+{
+    position:absolute; 
+    top:45px; 
+    left:20px;
+}
+
+.publish .form .upload .text
+{
+    width:400px;
+}
+
+.publish .form .actions
+{
+    padding:10px 15px 5px; 
+    border-top:1px solid #eee;
+}
+
+.publish .form .submitform
+{
+    padding:0 0 20px;
+}
+
+/* Options */
+
+.publish .form .options li
+{
+    float:left; 
+    width:130px; 
+    margin:0 5px 10px 15px; 
+    text-align:center;
+}
+
+.publish .form .options li input
+{
+    position:relative; 
+    left:-5px; 
+    display:block; 
+    margin:0 auto; 
+    text-align:center;
+}
+
+.publish .form .options li label
+{
+    display:block;
+}
+
+.publish .form .options li label span
+{
+    display:block; 
+    font:normal 11px/12px Arial; 
+    color:#939ea5;
+}
+
+/* Sectors */
+
+.publish .form .multiplelines select
+{
+    display:block; 
+    margin:0 0 7px;
+}
+
+.publish .form .experiences p
+{
+    clear:none;
+}
+
+.publish .form .experiences .left
+{
+    float:left; 
+    width:290px;
+}
+
+.publish .form .experiences .left select
+{
+    width:100%;
+}
+
+.publish .form .experiences .right
+{
+    float:right; 
+    width:100px;
+}
+
+.publish .form .experiences .right select
+{
+    display:inline; 
+    width:60px; 
+    margin-right:5px;
+}
+
+.publish .form .experiences .remove
+{
+    display:inline;
+}
+
+.publish .form .experiences .labelsoneline
+{
+    display:block; 
+    width:100%; 
+    position:relative;
+}
+
+.publish .form .experiences .labelsoneline span
+{
+    position:absolute; 
+    top:0; 
+    right:30px;
+}
+
+.publish .form .experiences .line
+{
+    display:block;
+}
+
+/* Enterprises */
+
+.publish .form .enterprise h2
+{
+    margin:0;
+}
+
+.publish .form .enterprise div
+{
+    margin:0; 
+    padding:0; 
+    background:none; 
+    border:none;
+}
+
+/* Functions */
+
+.publish .form .enterprise .functions
+{
+    float:left; 
+    width:160px;
+}
+
+.publish .form .enterprise li
+{
+    padding:10px 15px; 
+    background:#fff; 
+    border-right:1px solid #eee; 
+    border-bottom:1px solid #eee;
+}
+
+.publish .form .enterprise .last
+{
+    border-bottom:none;
+}
+
+.publish .form .enterprise .current
+{
+    background:#fff url(../../../images/LJ/img/ic/arrowleft-m.png) right center no-repeat;
+}
+
+.publish .form .enterprise dl
+{
+    line-height:17px;
+}
+
+.publish .form .enterprise dt
+{
+    display:block; 
+    font:bold 14px Arial; 
+    color:#13496a;
+}
+
+.publish .form .enterprise dd
+{
+    font-size:11px; color:#404040;
+}
+
+/* Edit */
+
+.publish .form .enterprise .edit
+{
+    clear:none; 
+    float:right; 
+    width:290px;
+}
+
+.publish .form .enterprise .edit p
+{
+    padding:10px 15px 0;
+}
+
+.publish .form .enterprise .edit label
+{
+    width:90px;
+}
+
+.publish .form .enterprise .edit .text
+{
+    width:145px;
+}
+
+/* Formations */
+
+.publish .form .formations
+{
+    position:relative;
+}
+
+.publish .form .formations li
+{
+    margin-bottom:15px;
+}
+
+.publish .form .miniinputs label
+{
+    float:left; 
+    width:130px; 
+    line-height:22px;
+}
+
+.publish .form .miniinputs p
+{
+    padding:10px 15px 5px;
+}
+
+.publish .form .miniinputs p.labelsmall
+{
+    padding:5px 15px; 
+    line-height:20px;
+}
+
+.publish .form .miniinputs .text
+{
+    width:145px; 
+    padding:0 5px; 
+    height:22px; 
+    line-height:22px;
+}
+
+.publish .form .formations .removemini
+{
+    position:absolute; 
+    top:65px; 
+    right:15px;
+}
+
+/* Certification */
+
+.publish .form .certifications h2 span
+{
+    float:right; 
+    line-height:18px; 
+    font-size:11px; 
+    color:#879dab;
+}
+
+/* Step 3 */
+
+.publish.step3 .form div p
+{
+    padding:5px 15px;
+}
+
+.publish.step3 .form label
+{
+    float:left;
+    width:175px; 
+    line-height:22px;
+}
+
+.publish.step3 .form .text
+{
+    width:auto; 
+    width:85px; 
+    height:22px; 
+    line-height:22px; 
+    margin:0 5px 0 0; 
+    padding:0 7px;
+}
+
+.publish.step3 .form .checklist
+{
+    float:left;
+}
+
+.publish.step3 .form .checklist span
+{
+    display:block;
+}
+
+.publish.step3 .form .checklist input
+{
+    margin:0 5px 0 0;
+}
+
+.publish.step3 .form .checklist label
+{
+    float:none; 
+    width:auto; 
+    display:inline; 
+    font-weight:normal;
+}
+
+.rightbutton
+{
+    position:absolute;
+    top:1px;
+    right:10px;
+}
+
+
+/* PSA form */   
+
+#LJCOMMON_intl_jobseeker_jobalerts_registerjobalert{background: none repeat scroll 0 0 white;
+    width: 986px;}    
+
+#LJCOMMON_intl_jobseeker_jobalerts_registerjobalert input
+{
+    -moz-border-radius: 3px 3px 3px 3px;
+    border: 1px solid #CED6DA;
+    font: 11px Arial;
+    height: 30px;
+    outline: medium none;
+    padding: 0 10px;
+    width:280px !important;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registerjobalert .jaPageWrapper td{
+    padding-left:5px !important;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registerjobalert .jaPageWrapper { background: none repeat scroll 0 0 #F4F9FD; border-bottom: 1px solid #EEEEEE;
+    border-top: 1px solid #EEEEEE;}
+#LJCOMMON_intl_jobseeker_jobalerts_registerjobalert #TipsRegisterAlert{display:none}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registerjobalert , #LJCOMMON_intl_jobseeker_jobalerts_registerjobalert , #LJCOMMON_intl_jobseeker_jobalerts_registerjobalert 
+{
+    width:20px !important;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registerjobalert #MXJobSrchCriteria_LJMetier, #LJCOMMON_intl_jobseeker_jobalerts_registerjobalert #ctrlJobSearch_MXJobSrchCriteria_FRStateList
+{
+    height:150px !important;
+    width:300px !important;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registerjobalert #ctrlJobSearch_MXJobSrchCriteria_LJJobType, #LJCOMMON_intl_jobseeker_jobalerts_registerjobalert #ctrlJobAlert_SvdJobSearch_EmailFrequency, #LJCOMMON_intl_jobseeker_jobalerts_registerjobalert , #LJCOMMON_intl_jobseeker_jobalerts_registerjobalert #ctrlJobSearch_MXJobSrchCriteria_Use
+{
+    /*height:30px;*/
+    width:300px !important;
+    padding:6px;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registerjobalert #btnCancel
+{
+	background:none;
+	color:#13496A;
+	font-weight:normal;
+	margin-top:10px;
+	display:block;
+	border:none;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registerjobalert #btnSave
+{
+    background: url("../../../images/LJ/img/global/button-submit-400.png") no-repeat scroll left top transparent;
+    border: medium none;
+    color: #FFFFFF;
+    float: left;
+    font: bold 13px/32px Arial !important;
+    height: 32px;
+    margin-left: 25px;
+    padding: 0 0 2px 5px;
+    text-align: center;
+    text-shadow: 0 -1px #BF6A00;
+    width: 416px !important;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registerjobalert #tipTxtBox, #LJCOMMON_intl_jobseeker_jobalerts_registerjobalert #whyRegisterRightMenu, #LJCOMMON_intl_jobseeker_jobalerts_registerjobalert .RegiterJobAlerth2, #LJCOMMON_intl_jobseeker_jobalerts_registerjobalert .registerTwoColumns label span
+{
+    display:none !important;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registerjobalert #INTL_Register_Job_Alerts
+{
+    border:0px; margin: 0 auto;     width: 685px;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registerjobalert .cb_PnlTabbed ul li
+{
+    background:none !important;
+    border:0px !important;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registerjobalert #ctrlLink
+{
+    color: #FF6A00;
+    font-size: 11px;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registerjobalert .betterJob, #LJCOMMON_intl_jobseeker_jobalerts_registerjobalert .betterJob span
+{
+    /*border-bottom: 1px solid #EEEEEE;*/
+    border: none !important;
+    color: #13496A;
+    font: bold 24px Arial,Sans-serif;
+    margin: 0 0 0;
+    padding: 15px 0 20px; 
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registerjobalert .requiredNote
+{
+    color: #FF6A00 !important;
+    float: right;
+    font: bold 10px Arial;
+    padding: 10px 0 0;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registerjobalert .clearfix, #LJCOMMON_intl_jobseeker_jobalerts_registerjobalert .H2UserEmailOptionsHeading, #LJCOMMON_intl_jobseeker_jobalerts_registerjobalert .jaPageWrapper
+{
+    color:#7B7B7B;
+    font-weight:bold;
+    font-size: 12px;
+    line-height: 21px;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registerjobalert .stdInnerContent
+{
+    background: none repeat scroll 0 0 #F4F9FD;
+    border-bottom: 1px solid #EEEEEE ;
+    border-top: 1px solid #EEEEEE ;
+    position: relative !important;
+    padding: 15px;
+    margin: 10px;
+    width: 100%;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registerjobalert .registerLeftColumn, #LJCOMMON_intl_jobseeker_jobalerts_registerjobalert .registerCenterColumn
+{
+    /*width:355px;*/ width:50%;
+    padding-left:0px
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registerjobalert .RegInput
+{
+    width: 275px;
+    margin-bottom:10px;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registerjobalert #ctrlJobSearch_MXJobSrchCriteria_Rawwords
+{
+    width: 275px !important;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registerjobalert #MXJobSrchCriteria_LJMetier
+{
+    margin-bottom: 20px;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registerjobalert .registerFieldsWrapper
+{
+    margin-top:-25px
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registerjobalert #JAfrequency
+{
+    padding-left:0px !important;
+    /*position : absolute;
+    top: 440px;
+    left: 305px; */
+    font-weight:bold;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registerjobalert #ctrlRegister_divIntlCity, #LJCOMMON_intl_jobseeker_jobalerts_registerjobalert #ctrlRegister_divIntlPostalCode, #LJCOMMON_intl_jobseeker_jobalerts_registerjobalert #ctrlRegister_divLastName, #LJCOMMON_intl_jobseeker_jobalerts_registerjobalert #ctrlRegister_divFirstName, #LJCOMMON_intl_jobseeker_jobalerts_registerjobalert #JobAlertName
+{
+    font-weight:bold !important;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registerjobalert #ctrlRegister_divFirstName
+{
+    margin-top:20px;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registerjobalert #ctrlRegister_divLastName
+{
+    margin-top:21px;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registerjobalert .emailTypeDesc
+{
+    margin-top:-32px !important;
+}
+
+
+
+/* ANNUAIRE TECHNO */
+
+#LJCOMMON_recherche-offre-emploi_annuaire-techno_ #cbhlAnnuaireTechno, #LJCOMMON_recherche-offre-emploi_annuaire-techno_ #cbhlAnnuaireMetiersInfo, #LJCOMMON_recherche-offre-emploi_annuaire-techno_ #cbhlAnnuaireIndustrie, #LJCOMMON_recherche-offre-emploi_annuaire-metiers_ #cbhlAnnuaireTechno, #LJCOMMON_recherche-offre-emploi_annuaire-metiers_ #cbhlAnnuaireMetiersInfo, #LJCOMMON_recherche-offre-emploi_annuaire-metiers_ #cbhlAnnuaireIndustrie, #LJCOMMON_recherche-offre-emploi_annuaire-industries_ #cbhlAnnuaireTechno, #LJCOMMON_recherche-offre-emploi_annuaire-industries_ #cbhlAnnuaireMetiersInfo, #LJCOMMON_recherche-offre-emploi_annuaire-industries_ #cbhlAnnuaireIndustrie
+{
+    color: #BEBEBE;
+    font: bold 11px/23px Arial;
+    padding: 8px;
+    text-decoration: none;
+    background-color:#fff;
+    margin-left:-15px;
+    border:1px solid #BEBEBE;
+}
+
+#LJCOMMON_recherche-offre-emploi_annuaire-techno_ #cbhlAnnuaireTechno
+{
+    color: #FF8200;
+    margin-left:0px;
+}
+
+#LJCOMMON_recherche-offre-emploi_annuaire-metiers_ #cbhlAnnuaireMetiersInfo, #LJCOMMON_recherche-offre-emploi_annuaire-industries_ #cbhlAnnuaireIndustrie
+{
+    color: #FF8200;
+}
+
+#LJCOMMON_recherche-offre-emploi_annuaire-techno_ .sm_techno, #LJCOMMON_recherche-offre-emploi_annuaire-metiers_ .sm_techno, #LJCOMMON_recherche-offre-emploi_annuaire-industries_ .sm_techno
+{
+    color: #4E4E4E;
+    font-size: 12px;
+    text-decoration: none;
+    padding-right:50px;
+}
+
+#LJCOMMON_recherche-offre-emploi_annuaire-techno_ .txt-actu, #LJCOMMON_recherche-offre-emploi_annuaire-metiers_ .txt-actu, #LJCOMMON_recherche-offre-emploi_annuaire-industries_ .txt-actu
+{
+    color:#fff;
+}
+
+#LJCOMMON_recherche-offre-emploi_annuaire-techno_ h1, #LJCOMMON_recherche-offre-emploi_annuaire-metiers_ h1, #LJCOMMON_recherche-offre-emploi_annuaire-industries_ h1
+{
+    margin-top: 10px;
+    color: #13496A;
+    font: bold 16px Arial,Sans-serif !important;
+    padding: 15px 0 20px;
+}
+
+#LJCOMMON_recherche-offre-emploi_annuaire-techno_ h2, #LJCOMMON_recherche-offre-emploi_annuaire-metiers_ h2, #LJCOMMON_recherche-offre-emploi_annuaire-industries_ h2
+{
+    padding-top: 20px;
+    border-top: 1px solid #EEEEEE;
+    font-size: 12px !important;
+    color:#13496A;
+}
+
+/* ANNUAIRE LOC */
+
+
+#LJCOMMON_recherche-offre-emploi_annuaire-loc_ a
+{
+    color: #4E4E4E;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+#LJCOMMON_recherche-offre-emploi_annuaire-loc_ td
+{
+    padding:3px;
+}
+
+#LJCOMMON_recherche-offre-emploi_annuaire-loc_ #dlLocation, #LJCOMMON_recherche-offre-emploi_annuaire-loc_ #dlRegions, #LJCOMMON_recherche-offre-emploi_annuaire-loc_ #mxsLJCities
+{
+    width:650px !important;
+}
+
+#LJCOMMON_recherche-offre-emploi_annuaire-loc_ #dlLocation td, #LJCOMMON_recherche-offre-emploi_annuaire-loc_ #dlRegions td, #LJCOMMON_recherche-offre-emploi_annuaire-loc_ #mxsLJCities td
+{
+    width:250px;
+}
+
+#LJCOMMON_recherche-offre-emploi_annuaire-loc_ h1
+{
+    margin-top: 10px;
+    color: #13496A;
+    font: bold 16px Arial,Sans-serif !important;
+    padding: 15px 0 20px;
+}
+
+#LJCOMMON_recherche-offre-emploi_annuaire-loc_ .txt_titretechno
+{
+    padding-top: 20px;
+    border-top: 1px solid #EEEEEE;
+    font-size: 12px !important;
+    font-weight:bold !important;
+    padding-bottom:15px;
+    color:#13496A;
+}
+
+
+
+
+/* ANNUAIRE ENTREPRISE */
+
+#LJCOMMON_recherche-offre-emploi_annuaire-entreprise_ #ucTop10Companies_MXSpotLJTop10Companies img
+{
+    margin:20px !important;
+    margin-top : auto !important;
+}
+
+#LJCOMMON_recherche-offre-emploi_annuaire-entreprise_ #ucTop10Companies_MXSpotLJTop10Companies
+{
+    width:100% !important;
+}
+
+#LJCOMMON_recherche-offre-emploi_annuaire-entreprise_ a
+{
+    color: #13496A;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+#LJCOMMON_recherche-offre-emploi_annuaire-entreprise_ #ucNicheJobResults_rptCompResultCount .CompDiv
+{
+    padding:5px;
+    border:1px solid #EEEEEE;
+    margin:5px;
+    width:200px;
+    height: 220px; 
+}
+
+#LJCOMMON_recherche-offre-emploi_annuaire-entreprise_ #ucNicheJobResults_rptCompResultCount .CompDiv img
+{
+    display: block;
+    margin: 15px auto;
+    width:120px;
+}
+
+#LJCOMMON_recherche-offre-emploi_annuaire-entreprise_ #ucNicheJobResults_rptCompResultCount #CopmLinkCount
+{
+    border-top:1px solid #EEEEEE;
+    padding:10px;
+}
+
+#LJCOMMON_recherche-offre-emploi_annuaire-entreprise_ h1
+{
+    margin-top: 10px;
+    color: #13496A;
+    font: bold 16px Arial,Sans-serif !important;
+    padding: 15px 0 20px;
+}
+
+#LJCOMMON_recherche-offre-emploi_annuaire-entreprise_ h2
+{
+    padding-top: 20px;
+}
+
+#LJCOMMON_recherche-offre-emploi_annuaire-entreprise_ .txt-actu
+{
+    padding-top: 20px;
+    border-top: 1px solid #EEEEEE;
+    font-size: 12px !important;
+    font-weight:bold !important;
+    padding-bottom:15px;
+    color:#13496A;
+}
+
+#LJCOMMON_recherche-offre-emploi_annuaire-entreprise_ .txt
+{
+    color:#545454;
+    font-weight:normal !important;
+}
+
+#LJCOMMON_recherche-offre-emploi_annuaire-entreprise_ #titre_bloc_m12
+{
+    padding-bottom:20px;
+}
+
+/* Advanced search */
+
+.advancedsearch .form
+{
+    position:relative; 
+    padding:15px; 
+    background:#f4f9fd; 
+    border-bottom:1px solid #eee;
+}
+
+.advancedsearch .form p
+{
+    position:relative; 
+    clear:both; 
+    padding-bottom:5px;
+}
+
+.advancedsearch .form label
+{
+    display:block;
+    font:bold 13px/31px Arial; 
+    color:#707070;
+}
+
+.advancedsearch .form select
+{
+    width:310px; 
+    background:#fff; 
+    border:1px solid #cbd4d9; 
+    outline:none;
+}
+
+.advancedsearch .form option
+{
+    padding:2px 7px;
+}
+
+.page.twocol div.advancedsearch .form .text
+{
+    width:210px; 
+    height:30px; 
+    line-height:30px; 
+    padding:0 10px; 
+    border:1px solid #ced6da; 
+    -moz-border-radius:3px; 
+    -webkit-border-radius:3px; 
+    border-radius:3px; 
+    outline:none;
+}
+
+.advancedsearch .form .text:focus, 
+.advancedsearch .form .text:active
+{
+    border-color:#adb8bd; 
+    -moz-box-shadow:0 0 0 2px rgba(0,170,255,0.08); 
+    -webkit-box-shadow:0 0 0 2px rgba(0,170,255,0.08);     
+    -ms-box-shadow:0 0 0 2px rgba(0,170,255,0.08); 
+    -o-box-shadow:0 0 0 2px rgba(0,170,255,0.08); 
+    -o-box-shadow:0 0 0 2px rgba(0,170,255,0.08); 
+    box-shadow:0 0 0 2px rgba(0,170,255,0.08);
+}
+
+.page.twocol div.advancedsearch form.form .inline
+{
+    float:left; 
+    width:68px; 
+    padding:0 10px 0 0;
+}
+
+.page.twocol div.advancedsearch form.form .selectarea label
+{
+    line-height:32px;
+}
+
+.advancedsearch .form .uncheck
+{
+    position:absolute; 
+    top:16px; 
+    right:0; 
+    line-height:15px; 
+    font-size:10px; 
+    color:#818181; 
+    text-decoration:none;
+    font-family: Arial;
+    cursor: pointer;
+}
+
+.advancedsearch .form .uncheck:hover
+{
+    text-decoration:underline;
+}
+
+.advancedsearch .form .submit
+{
+    margin-left: 560px;
+    clear:both;
+}
+
+.advancedsearch .form .submit input
+{
+    width:95px;
+}
+
+.content .advancedsearch .left
+{
+    width:310px;
+}   
+
+.content .advancedsearch .right
+{
+    width:310px;
+}
+
+.content .advancedsearch .left
+{
+    width:310px;
+}   
+         
+.content .advancedsearch .right
+{
+    width:310px;
+}
+
+/* Page form */
+
+.page.twocol .content .form p
+{
+    clear:both; 
+    padding:10px 0;
+}
+
+.page.twocol .content .form label
+{
+    display:block; 
+    font:bold 12px/30px Arial; 
+    color:#676767;
+}
+
+.page.twocol .content .form label.inline
+{
+    float:left; 
+    width:235px; 
+    font:bold 12px Arial; 
+    color:#676767;
+}
+
+.page.twocol .content .form .info
+{
+    display:block; 
+    padding:5px 0 0; 
+    font:10px/12px Arial; 
+    color:#676767;
+}
+
+.page.twocol .content .form .info.center
+{
+    text-align:center;
+}
+
+.page.twocol .content .form .text
+{
+    width:660px; 
+    height:25px; 
+    line-height:25px; 
+    padding:0 7px; 
+    color:#313131; 
+    border:1px solid #eee; 
+    -moz-border-radius:3px; 
+    -webkit-border-radius:3px; 
+    border-radius:3px;
+}
+
+.page.twocol .content .form .text:focus
+{
+    border-color:#c0c0c0;
+}
+
+.page.twocol .content .form .radio
+{
+    float:left; 
+    margin:0; 
+    padding:0 0 0 40px;
+}
+
+.page.twocol .content .form .radio label
+{
+    float:none; 
+    width:auto; 
+    display:inline; 
+    line-height:8px;
+}
+
+.page.twocol .content .form .radio input
+{
+    display:inline; 
+    margin:0 7px 0 0;
+}
+
+.page.twocol .content .form .checkbox input
+{
+    float:left; 
+    margin:2px 7px 10px 0;
+}
+
+.page.twocol .content .form .checkbox label
+{
+    line-height:16px; 
+    font-weight:normal;
+}
+
+/* Places */
+
+.page.twocol .content .form .places p
+{
+    padding:5px 0;
+}
+
+.page.twocol .content .form .places .button
+{
+    text-decoration:none;
+}
+
+.page.twocol .content .form .places .add
+{
+    float:left; 
+    width:250px;
+}
+
+.page.twocol .content .form .places .add label
+{
+    float:left; 
+    width:60px; 
+    line-height:30px; 
+    margin:0 10px;
+}
+
+.page.twocol .content .form .places .add select
+{
+    width:160px;
+}
+
+.page.twocol .content .form .places .add .text
+{
+    width:145px;
+}
+
+.page.twocol .content .form .places .add .labelsmall label
+{
+    line-height:20px;
+}
+
+.page.twocol .content .form .places .add .buttons
+{
+    padding:20px 0 0 10px;
+}
+
+.page.twocol .content .form .places .existing
+{
+    float:right; 
+    width:365px; 
+    margin:0 15px 0 0;
+}
+
+.page.twocol .content .form .places .existing .buttons
+{
+    float:right;
+}
+
+.page.twocol .content .form .places .existing .buttons a
+{
+    margin-left:5px;
+}
+
+.page.twocol .content .form .places .existing select
+{
+    width:365px; 
+    background:#fff; 
+    border:1px solid #eee; 
+    outline:none;
+}
+
+.page.twocol .content .form .places .existing select:focus
+{
+    border-color:#c0c0c0;
+}
+
+.page.twocol .content .form .places .existing option
+{
+    padding:2px 7px;
+}
+
+.page.twocol .content .form .rightbuttom
+{
+    float:right; 
+    margin:0 15px 0 0; 
+    padding:0;
+}
+
+.page.twocol .content .form .rightbuttom input
+{
+    width:100px;
+}
+
+.page.twocol .content .form .rightbuttom input
+{
+    width:100px
+}
+
+            
+/*---------------------------------------------------------------- */
+/*              Page                                               */
+/*---------------------------------------------------------------- */
+
+.content div.left
+{
+    position:relative; 
+    width:690px; 
+    padding:15px 0 0;
+}
+
+.content div.sidebar
+{
+    float:right; 
+    width:278px; 
+    padding:15px 0 0;
+}
+         
+/* Zoom */
+
+.zoom img.left
+{
+    margin:0 15px 15px 0; 
+    padding:3px; 
+    border:1px solid #e4e4e4;
+}
+
+.zoom .right
+{
+    position:relative; 
+    width:520px; 
+    margin:0 15px 0 0;
+}
+
+.zoom .right p
+{
+    line-height:13px; 
+    font-size:11px; 
+    color:#56768a;
+}
+
+.zoom .right .title
+{
+    line-height:41px; 
+    font:bold 30px Arial; 
+    color:#13496a;
+}
+
+.zoom .right .website
+{
+    position:absolute; 
+    top:0; 
+    right:0; 
+    font-weight:bold; 
+    color:#13496a;
+}
+
+.zoom .infos
+{
+    clear:both; 
+    margin:15px 0 10px; 
+    padding:10px 15px; 
+    background:#fafdff; 
+    border-top:1px solid #eee; 
+    border-bottom:1px solid #eee;
+}
+
+.zoom .infos p
+{
+    padding:0; 
+    line-height:29px; 
+    font-size:12px; 
+    color:#808181; 
+    border-bottom:1px solid #d1dfe8;
+}
+
+.zoom .infos a
+{
+    color:#134a6a;
+}
+
+.zoom .infos strong
+{
+    font:bold 14px Arial; 
+    color:#134a6a;
+}
+
+.zoom .infos .left
+{
+    width:320px; 
+    padding:0;
+}
+
+.zoom .infos .logos a
+{
+    float:none; 
+    display:inline;
+    margin:0 5px 0 0; 
+    padding:0; 
+    border:none;
+}
+
+.zoom .infos .logos a img
+{
+    vertical-align:middle;
+}
+
+.zoom .infos .right
+{
+    width:320px; 
+    margin:0;
+}
+
+.zoom .infos .last
+{
+    border:none;
+}
+
+/* Only */
+
+.zoom.only .infos
+{
+    margin-top:0; 
+    padding-top:10px; 
+    border-top:none;
+}
+
+/* Buttons */
+
+.buttonsactions
+{
+    clear:both; 
+    overflow:hidden; 
+    width:691px; 
+    height:42px; 
+    margin:10px 0 20px; 
+    background:url(../../../images/LJ/img/global/detailbuttonsbg.png) top left no-repeat;
+}
+
+.buttonsactions.first
+{
+    margin-top:0; 
+    position:relative; 
+    top:-11px;
+ }
+
+.buttonsactions a
+{
+    float:left; 
+    font:bold 18px/42px Arial; 
+    text-align:center; 
+    text-decoration:none;
+}
+
+.buttonsactions .add
+{
+    width:355px; 
+    color:#ee6901; 
+    text-shadow:0 1px #fff;
+}
+
+.buttonsactions .apply
+{
+    width:330px; 
+    color:#fff; 
+    text-shadow:0 -1px #f27605;
+}
+
+/* Description */
+
+.description h2
+{
+    margin:0 0 10px; 
+    padding:0 0 10px; 
+    font:bold 18px Arial; 
+    color:#13496a; 
+    border-bottom:1px solid #e5e5e5;
+}
+
+.description p
+{
+    font-size:14px; 
+    color:#515151; 
+    padding:0 8px 10px 0;
+}
+
+/* Annuary */
+
+.annuary
+{
+    padding:5px 0 10px; 
+    text-align:center; 
+    border-bottom:1px solid #eee;
+}
+
+.annuary li
+{
+    display:inline; 
+    font:bold 11px Arial; 
+    color:#656565;
+}
+
+.annuary li a
+{
+    margin:0 5px; 
+    font:bold 11px Arial; 
+    color:#656565; 
+    text-decoration:none;
+}
+
+.annuary li a:hover
+{
+    color:#222;
+}
+
+/* Also */
+
+.also
+{
+    padding:10px 0 0; 
+    border-bottom:1px solid #eee;
+}
+
+.also p
+{
+    font:bold 11px Arial; 
+    color:#13496a;
+}
+
+.content .also a
+{
+    color:#13496a; 
+    text-decoration:none;
+}
+
+.content .also a:hover
+{
+    color:#13496a; 
+    text-decoration:underline;
+}
+
+.also strong
+{
+    font-weight:bold; 
+    color:#ff6a00;
+}
+
+/* Found */
+
+.found
+{
+    padding:5px 0; 
+    border-bottom:1px solid #eee;
+}
+
+.found p
+{
+    float:left; 
+    font-size:11px; 
+    color:#13496a;
+}
+
+.found strong
+{
+    font-weight:bold;
+}
+
+.found .filter
+{
+    float:right; 
+    width:300px; 
+    padding:0 10px 0 0; 
+    text-align:right; 
+    font:bold 11px Arial; 
+    color:#13496a;
+}
+     
+/* Results */
+
+.results .type
+{
+    padding:25px 0; 
+    border-bottom:1px solid #eee;
+}
+
+.results .type h2
+{
+    font:bold 12px Arial; 
+    color:#13496a;
+}
+
+.results .type h2 strong
+{
+    color:#ff7000;
+}
+
+.results .type ul
+{
+    padding:20px 0 0;
+}
+
+.results .type li
+{
+    float:left; 
+    width:220px; 
+    line-height:25px; 
+    margin:0 10px 0 0;
+}
+
+.results .fivecol li
+{
+    width:125px;
+}
+
+.results .type li a
+{
+    font-size:12px; 
+    color:#4e4e4e; 
+    text-decoration:none;
+}
+
+.results .type li a:hover
+{
+    text-decoration:underline;
+}
+
+/* Table */
+
+table.results
+{
+    width:100%;
+}
+
+table.results td
+{
+    vertical-align:middle;
+}
+
+table.results thead td
+{
+    padding:15px 0; 
+    font:bold 12px Arial; 
+    color:#13496a; 
+    border-bottom:1px solid #e6e6e6;
+}
+
+table.results .col1
+{
+    width:275px;
+}
+
+table.results .col2
+{
+    width:100px;
+}
+
+table.results .col3
+{
+    width:100px;
+}
+
+table.results .col4
+{
+    width:100px;
+}
+
+table.results .col5
+{
+    width:70px; 
+    text-align:center;
+}
+
+table.results tbody
+{
+    font-size:11px; 
+    color:#929da6; 
+    font-weight:bold;
+}
+
+table.results tbody td
+{
+    padding:20px 0; 
+    border-bottom:1px solid #e6e6e6;
+}
+
+table.results tbody tr:nth-child(odd)
+{
+    background:#f4f9fd;
+}
+
+table.results tbody .name
+{
+    color:#323232;
+}
+
+table.results tbody .localisation
+{
+    color:#707c85;
+}
+
+table.results tbody .soon
+{
+    color:#ff7000;
+}
+
+table.results tbody .view
+{
+    margin:0 auto;
+}
+
+/* Simple */
+
+.results.basic h2.small
+{
+    padding:20px 0;
+}
+
+.results.basic li
+{
+    clear:both; 
+    padding:0 0 0 15px; 
+    border-bottom:1px solid #eee;
+}
+
+.results.basic li a
+{
+    font:bold 11px/48px Arial; 
+    color:#313131; 
+    text-decoration:none;
+}
+
+.results.basic li a:hover
+{
+    color:#ff6a00; 
+    text-decoration:none;
+}
+
+.results.basic li .enterprise
+{
+    float:right; 
+    margin-right:15px; 
+    color:#929da6; 
+    text-decoration:none;
+}
+
+.results.basic li .enterprise:hover
+{
+    text-decoration:underline;
+}
+
+.results.basic li:nth-child(odd)
+{
+    background:#f4f9fd;
+}
+          
+/* Listing */
+
+.listfooter span
+{
+    color:#134A6A;
+    font: bold 12px Arial;
+}
+
+.listfooter a
+{
+    text-decoration:none;
+    color:#134A6A;
+    font: bold 12px Arial;
+    padding-left: 40px;
+}
+
+.listfooter a:hover
+{
+    text-decoration:underline;
+}
+
+.listing .result .Cresult
+{
+    padding:20px 10px;
+    border-bottom:1px solid #eee;
+
+}
+/*
+.listing .result
+{
+    background:#f4f9fd;
+}
+
+.listing .result:nth-child(odd)
+{
+    background:transparent;
+}
+*/
+.listing .result .left
+{
+    width:465px;
+    padding:0;
+}
+
+.listing .result h2
+{
+    line-height:20px;
+    font:bold 20px Arial;
+    color:#272727;
+}
+
+.listing .result h2 a
+{
+    text-decoration: none;
+    color: #134A6A;
+}
+
+.listing .result h2 a:hover
+{
+    text-decoration: underline;
+}
+
+.listing .result img
+{
+    float:left;
+    margin:0 10px 0 0;
+    padding:3px;
+    background:#fff;
+    border:1px solid #dee3e6;
+}
+
+.listing .result .infos
+{
+    display:block;
+    padding:0 0 10px;
+    font-size:11px;
+    color:#7b7b7b;
+}
+
+.listing .result .infos a
+{
+    color:#134a6a;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+.listing .result .infos a:hover
+{
+    text-decoration:underline;
+}
+
+.listing .result p
+{
+    line-height:14px;
+    font-size:12px;
+    color:#4c4c4c;
+}
+
+/* Actions */
+
+.listing .result .actions
+{
+    float:right;
+    width:160px;
+    padding:0 0 0 30px;
+    background:url(../../../images/LJ/img/global/resultinfos.png) center left no-repeat;
+}
+
+.listing .result .actions a
+{
+    font-size:11px;
+    color:#6a6a6a;
+    text-decoration:none;
+}
+
+.listing .result .actions a:hover
+{
+    text-decoration:underline;
+}
+
+.listing .result .actions .button
+{
+    margin:10px 0 0;
+}
+
+.listing .result .actions .button:hover
+{
+    text-decoration:none;
+}
+
+/* Ad */
+
+.listing .ad
+{
+    padding:20px 0;
+    background:none;
+    text-align:center;
+    border-bottom:1px solid #eee;
+}
+
+         
+
+/* Enterprises */
+
+.enterprises
+{
+    width:100%;
+    padding:20px 0 10px;
+}
+
+.enterprises .enterprise
+{
+    position:relative;
+    float:left;
+    width:327px;
+    height:90px;
+    margin:0 15px 15px 0;
+    border:1px solid #ededed;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+}
+
+.enterprises .enterprise a
+{
+    position:absolute;
+    top:50%;
+    left:50%;
+}
+
+/* Enterprises recruiting */
+
+.recruting
+{
+    padding:20px 0 10px;
+}
+
+.recruting .enterpriserecruiting
+{
+    position:relative;
+    float:left;
+    width:155px;
+    margin:0 15px 50px 0;
+    border:1px solid #ededed;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+}
+
+.recruting .enterpriserecruiting .img
+{
+    position:relative;
+    text-align:center;
+    height:135px;
+}
+
+.recruting .enterpriserecruiting .img img
+{
+    position:absolute;
+    top:50%;
+    left:50%;
+}
+
+.recruting .enterpriserecruiting .desc
+{
+    padding:7px 10px;
+    border-top:1px solid #ededed;
+}
+
+.recruting .enterpriserecruiting .desc p a
+{
+    font-size:11px;
+    color:#545454;
+    text-decoration:none;
+}
+
+.recruting .enterpriserecruiting .offers
+{
+    position:absolute;
+    bottom:-30px;
+    left:5px;
+}
+
+.recruting .enterpriserecruiting .offers a
+{
+    font:bold 12px Arial;
+    color:#13496a;
+    text-decoration:none;
+}
+
+.recruting .enterpriserecruiting .offers a:hover
+{
+    text-decoration:underline;
+}
+
+.recruting .enterpriserecruiting .offers span
+{
+    float:left;
+    height:21px;
+    line-height:21px;
+    margin:0 5px 0 0;
+    color:#fff;
+    background:url(../../../images/LJ/img/global/number.png) top left no-repeat;
+}
+
+.recruting .enterpriserecruiting .offers span span
+{
+    float:left;
+    height:21px;
+    margin:0 0 0 11px;
+    padding:0 11px 0 0;
+    background-position:top right;
+}
+
+/* Offers */
+
+.boxoffers
+{
+    clear:both;
+    padding:40px 0 0 15px;
+}
+
+.boxoffers .offer
+{
+    float:left;
+    width:231px;
+    margin:0 60px 0 0;
+    padding:13px 22px 0;
+    color:#fff;
+    background-image:url(../../../images/LJ/img/global/boxoffer.png);
+    background-repeat:no-repeat;
+    text-shadow:0 1px rgba(0,0,0, 0.15);
+}
+
+.boxoffers .offer a, .boxoffers .offer a:hover
+{
+    color:#fff;
+    text-decoration:none;
+}
+
+.boxoffers .offer h2
+{
+    padding:0 0 5px;
+    font:bold 18px Arial;
+}
+
+.boxoffers .offer h2 strong
+{
+    vertical-align:middle;
+    font-size:30px;
+}
+
+.boxoffers .offer p, .boxoffers .offer li
+{
+    font:bold 12px/18px Arial;
+    color:#fff;
+}
+
+.boxoffers .offer ul
+{
+    padding:5px 0 0 15px;
+}
+
+.boxoffers .offer li
+{
+    padding:0 0 5px;
+    list-style:disc;
+}
+
+.boxoffers .offer .price
+{
+    position:relative;
+    top:5px;
+    left:-22px;
+    display:block;
+    width:275px;
+    height:63px;
+    margin:5px 0 0;
+    padding:20px 0 0;
+    font:bold 50px Arial;
+    text-align:center;
+    background-image:url(../../../images/LJ/img/global/boxoffer.png);
+    background-repeat:no-repeat;
+}
+
+.boxoffers .offer .price .only
+{
+    position:absolute;
+    top:-5px;
+    left:0;
+    display:block;
+    padding:0;
+    font:bold 12px Arial;
+    text-transform:lowercase;
+}
+
+.boxoffers .offer .price .cost
+{
+    position:relative;
+}
+
+.boxoffers .offer .price sup
+{
+    font-size:25px;
+    vertical-align:top;
+}
+
+/* Colors */
+
+.boxoffers .offer.yellow
+{
+    background-position:top left;
+}  .boxoffers .offer.yellow .price
+{
+    background-position:bottom left;
+}
+
+.boxoffers .offer.alt
+{
+    background-position:top right;
+}    
+
+.boxoffers .offer.alt .price
+{
+    background-position:bottom right;
+}
+
+/* Encart */
+
+.encart
+{
+    clear:both;
+    width:635px;
+    margin:0 auto;
+    padding:20px 0;
+    text-align:center;
+    border:1px solid #e4e4e4;
+    -moz-box-shadow:0 0 0 3px #f7f7f7;
+    -webkit-box-shadow:0 0 0 3px #f7f7f7;
+    -ms-box-shadow:0 0 0 3px #f7f7f7;
+    -o-box-shadow:0 0 0 3px #f7f7f7;
+    -o-box-shadow:0 0 0 3px #f7f7f7;
+    box-shadow:0 0 0 3px #f7f7f7;
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    border-radius:2px;
+}
+
+.encart h3
+{
+    padding:0 0 15px;
+    font:bold 13px Arial;
+    color:#414141;
+}
+
+.encart h3 img
+{
+    vertical-align:middle;
+}
+
+.encart li
+{
+    margin:0 0 10px;
+    font:bold 12px Arial;
+    color:#414141;
+}
+
+.encart li a
+{
+    font-weight:normal;
+    color:#134a6a;
+    text-decoration:none;
+}
+
+.encart li a:hover
+{
+    text-decoration:underline;
+}
+
+/* Publish resume */
+
+.publishresume .intro
+{
+    padding:0 0 40px;
+}
+
+.publishresume .intro .pagetitle
+{
+    font-size:18px;
+    line-height:18px;
+    text-align:center;
+    border:none;
+}
+
+.publishresume .intro .button
+{
+    margin:0 auto;
+}
+
+.publishresume .intro .button span
+{
+    width:415px;
+}
+
+/* Centered */
+
+.publishresume .centered .form
+{
+    margin:0;
+    padding:0;
+}
+
+.publishresume .centered .pagecontent
+{
+    width:730px;
+    padding:20px;
+    border:1px solid #e8e8e8;
+    -moz-box-shadow:0 0 0 2px #f7f7f7;
+    -webkit-box-shadow:0 0 0 2px #f7f7f7;
+    -ms-box-shadow:0 0 0 2px #f7f7f7;
+    -o-box-shadow:0 0 0 2px #f7f7f7;
+    -o-box-shadow:0 0 0 2px #f7f7f7;
+    box-shadow:0 0 0 2px #f7f7f7;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+}
+
+.publishresume .centered .areatitle
+{
+    height:48px;
+    margin:0 0 15px;
+    padding:0 15px;
+    background:#f4f9fd;
+    font:bold 14px/47px Arial;
+    color:#13496a;
+    border-top:1px solid #eee;
+    border-bottom:1px solid #eee;
+}
+
+.publishresume .centered .areatitle strong
+{
+    color:#ff6a00;
+}
+
+.publishresume .centered .areatitle .text
+{
+    height:25px;
+    line-height:25px;
+    margin:0 0 0 5px;
+    padding:0 7px;
+    font-weight:bold;
+    color:#404040;
+}
+
+.publishresume .centered div
+{
+    margin:0;
+    padding:0;
+    background:none;
+    border:none;
+}
+
+.publishresume .centered div p
+{
+    clear:none;
+    padding:0 0 15px;
+    line-height:15px;
+    color:#707070;
+}
+
+.publishresume .centered hr
+{
+    margin:0 0 15px;
+}
+
+.publishresume .centered .left
+{
+    width:385px;
+    padding:0 0 0 25px;
+}
+
+.publishresume .centered .right
+{
+    width:320px;
+}
+
+.publishresume .centered .fullsize
+{
+    width:705px;
+    padding:0 0 0 25px;
+}
+
+.publishresume .centered .fullsize strong
+{
+    font-size:12px;
+}
+
+.publishresume .centered .fullsize p
+{
+    font-size:11px;
+    line-height:12px;
+}
+
+.publishresume .centered .submitform
+{
+    left:0;
+}
+
+.publishresume .centered .submitform input
+{
+    width:765px;
+}
+
+/* Pagination */
+
+.pagination
+{
+    padding:15px 10px 0 0;
+    text-align:center;
+}
+
+.pagination ul
+{
+    float:right;
+}
+
+.pagination li
+{
+    float:left;
+    display:block;
+    margin:0 3px;
+}
+
+.pagination .disabled span
+{
+    float:left;
+    height:40px;
+    font:bold 14px/40px Arial;
+    color:#c0c0c0;
+    background:url(../../../images/LJ/img/global/pagination.png) top left no-repeat;
+}
+
+.pagination .disabled span span
+{
+    height:40px;
+    margin:0 0 0 7px;
+    padding:0 12px 0 5px;
+    background:url(../../../images/LJ/img/global/pagination.png) right -40px;
+}
+
+.pagination .active a, .pagination .active a:hover
+{
+    color:#ff7800;
+}
+
+.pagination li a
+{
+    float:left;
+    height:40px;
+    font:bold 14px/40px Arial;
+    color:#606060;
+    background:url(../../../images/LJ/img/global/pagination.png) top left no-repeat;
+    text-decoration:none;
+    cursor:pointer;
+}
+
+.pagination li a span
+{
+    float:left;
+    height:40px;
+    margin:0 0 0 7px;
+    padding:0 12px 0 5px;
+    background:url(../../../images/LJ/img/global/pagination.png) right -40px;
+}
+
+.pagination li a:hover
+{
+    color:#606060;
+    background-position:0 -80px;
+}      
+
+.pagination a:hover span
+{
+    background-position:right -120px;
+}
+
+         
+
+/* Progress */
+
+.progress
+{
+    padding:20px 0 0;
+}
+
+.progress ul
+{
+    overflow:hidden;
+    width:465px;
+}
+
+.progress li
+{
+    float:left;
+    margin:0 10px 0 0;
+    padding-left:27px;
+    font:bold 12px/22px Arial;
+    color:#464646;
+    background-image:url(../../../images/LJ/img/global/steps.png);
+    background-repeat:no-repeat;
+}
+
+.progress li a
+{
+    font:bold 12px Arial;
+    color:#bababa;
+    text-decoration:none;
+}
+
+.progress li a:hover
+{
+    color:#464646;
+}
+
+.progress li .current a
+{
+    color:#464646;
+}
+
+/* Steps */
+
+.progress .step1
+{
+    background-position:0 0;
+}      
+
+.progress .step1.current
+{
+    background-position:0 -22px;
+}
+
+.progress .step2
+{
+    background-position:0 -44px;
+}  
+
+.progress .step2.current
+{
+    background-position:0 -66px;
+}
+
+.progress .step3
+{
+    background-position:0 -88px;
+}  
+
+.progress .step3.current
+{
+    background-position:0 -110px;
+}
+       
+/* Sidebar */
+
+.sidebar .box.nav a
+{
+    font:12px Arial;
+    color:#134A6A;
+    text-decoration: none;
+}
+
+.sidebar .box.nav td
+{
+    font: 12px Arial;
+    color: #134A6A;
+}
+
+.sidebar .box.nav a:hover
+{
+    text-decoration: underline;
+}
+
+#ucMenuRightV2__ctl2_TreeNavigator1_hlToggleAll{padding: 0 0 0 15px;font: bold 12px Arial;color:#676767!important;background:url(http://img.icbdr.com/images/LJ/img/ic/suit-gray.png) center left no-repeat;}
+#ucMenuRightV2__ctl2_TreeNavigator2_hlToggleAll{padding: 0 0 0 15px;font: bold 12px Arial;color:#676767!important;background:url(http://img.icbdr.com/images/LJ/img/ic/city-gray.png) center left no-repeat;}
+#ucMenuRightV2__ctl2_TreeNavigator3_hlToggleAll{padding: 0 0 0 15px;font: bold 12px Arial;color:#676767!important;background:url(http://img.icbdr.com/images/LJ/img/ic/country-gray.png) center left no-repeat;}
+#ucMenuRightV2__ctl2_TreeNavigator4_hlToggleAll{padding: 0 0 0 15px;font: bold 12px Arial;color:#676767!important;background:url(http://img.icbdr.com/images/LJ/img/ic/wrench-gray.png) center left no-repeat;}
+
+.sidebar .box
+{
+    width:276px;
+    margin:0 0 13px;
+    padding:5px 0 0;
+    background:url(../../../images/LJ/img/global/sidebar-box.png) top left no-repeat;
+}
+
+.sidebar .in
+{
+    width:250px;
+    padding:8px 13px 13px;
+    background:url(../../../images/LJ/img/global/sidebar-box.png) bottom left no-repeat;
+}
+
+.sidebar .box h3
+{
+    padding:0 0 5px;
+    font:bold 16px Arial;
+    color:#134a6a;
+}
+
+.sidebar .box p
+{
+    padding:5px 0 8px;
+    font:12px/16px Arial;
+    color:#134a6a;
+}
+
+.sidebar .box ul
+{
+    padding:5px 0 0;
+}
+
+.sidebar .box li
+{
+    line-height:23px;
+}
+
+.sidebar .box .withouticon li
+{
+    padding-left:5px;
+}
+
+.sidebar .box li span
+{
+    font:bold 12px Arial;
+}
+
+.sidebar .box li a
+{
+    font:bold 12px Arial;
+    color:#676767;
+    text-decoration:none;
+}
+
+.sidebar .box li a:hover
+{
+    text-decoration:underline;
+}
+
+.sidebar .box li ul
+{
+    padding:0 0 0 25px;
+}
+
+.sidebar .box li li
+{
+    line-height:35px;
+}
+
+.sidebar .box li li a
+{
+    color:#4b7ea3;
+    font-weight:normal;
+}
+
+.sidebar .box li li a:hover
+{
+    text-decoration:underline;
+}
+
+.FBConnectButton, .FBConnectButton_RTL
+{
+    background: url("../../../images/LJ/img/ic/button-facebook.png") no-repeat scroll 0 0 #29447E !important;
+    display: inline-block !important;
+    outline: medium none !important;
+    padding: 0 0 0 1px !important;
+}
+
+.FBConnectButton_Small
+{
+    background-position: left -232px;
+    font-size: 10px;
+    line-height: 30px !important;
+    padding: 21px 0 3px 2px !important;
+}
+
+.FBConnectButton_RTL_Small
+{
+    background-position: left -232px;
+    font-size: 10px;
+    line-height: 30px !important;
+    padding: 21px 0 3px 2px !important;
+}
+
+.FBConnectButton_Text
+{
+    padding: 0 2px 6px 3px;
+    background: none !important;
+}
+
+#FBShareText
+{
+    display:none !important;
+}
+
+.fb_share_count_nub_right 
+{
+    vertical-align:baseline !important;
+}
+
+/* Number */
+
+.sidebar .box .number
+{
+    text-align:center;
+    height:31px;
+    padding:0;
+    color:#fff;
+    font:bold 16px/31px Arial;
+    background:#13496a;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+}
+
+/* Focus */
+
+.sidebar .focus ul
+{
+    overflow:hidden;
+    width:105%;
+    padding:10px 0 0;
+}
+
+.sidebar .focus li
+{
+    float:left;
+    margin:0 10px 5px 0;
+}
+
+/* Partners */
+
+.sidebar .partners li
+{
+    display:block;
+    padding:0 0 15px;
+    text-align:center;
+}
+
+/* Text */
+
+.sidebar .text
+{
+    padding:0;
+}
+
+.sidebar .ref
+{
+    margin-bottom:20px;
+}
+
+/* Share */
+
+.sidebar .share ul
+{
+    padding:10px 0 5px;
+    text-align:center;
+}
+
+.sidebar .share li
+{
+    display:inline;
+    padding:0 4px;
+}
+
+.sidebar .share p
+{
+    color:#676767;
+}
+
+/* News */
+
+#LJNewsV2
+{
+    color:#808181;
+    font-size:12px;
+    line-height:20px;
+    margin-right:360px;
+}
+
+
+/*Salon*/
+.table_blochaut
+{
+    width: 100%;
+}
+
+.select_leftSB select,
+.box.searchjob select
+{
+    padding-top: 0.8px !important;   
+}
+
+/*JobDetails*/
+
+.logo_company_img
+{
+    float: right;
+    margin-right: 10px;
+}
+
+#LJCOMMON_salons-emploi_ #mxsPage,
+#LJCOMMON_salons-emploi #mxsPage
+{
+   margin: auto;
+}
+
+#LJCOMMON_salons-emploi_en-savoir-plus,
+#LJCOMMON_salons-emploi_en-savoir-plus_,
+#LJCOMMON_salons-emploi_preinscription_,
+#LJCOMMON_salons-emploi_preinscription
+{
+    width: 950px;
+    margin: auto;
+}
+
+/* JRP BlocEntreprise */
+
+#BlocEntrepriseJRP table 
+{
+    border-collapse:separate;
+}
+
+#BlocEntrepriseJRP td
+{
+    vertical-align:top;
+}
+
+#BlocEntrepriseJRP .txt01 {
+    color: #333366;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+}
+
+#BlocEntrepriseJRP .txt04 {
+    color: #333366;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#BlocEntrepriseJRP a.sm:link 
+{
+    color: #4A4B79;
+}
+
+/*---------------------------------------------------------------- */
+/*              RegisterAlertFromResults.aspx                      */
+/*      /INTL/JobSeeker/JobAlerts/RegisterAlertFromResults.aspx    */
+/*---------------------------------------------------------------- */
+
+#LJCOMMON_intl_jobseeker_jobalerts_registeralertfromresults #idRAFRtitle
+{
+    background: none; margin-bottom:0;
+}
+#LJCOMMON_intl_jobseeker_jobalerts_registeralertfromresults cbLitYouAreEditing
+{
+    display:none;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registeralertfromresults .cb_PnlPrimary 
+{
+    border: 0px solid;
+}
+    
+#LJCOMMON_intl_jobseeker_jobalerts_registeralertfromresults .stdInnerContent
+{
+    background: none repeat scroll 0 0 #F4F9FD;
+    border-bottom: 1px solid #EEEEEE ;
+    border-top: 1px solid #EEEEEE ;
+    position: relative !important;
+    padding: 15px;
+    /*margin: 10px;*/  margin: 0 10px 10px;
+    /*width: 520px;*/  width: auto;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registeralertfromresults h2
+{
+    font: 12px/30px Arial !important;
+    color: #707070;
+    font-weight:bold;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registeralertfromresults
+{
+    margin: 0 auto;
+    position: relative;
+    width: 520px;
+    padding: 0 220px 0;
+} 
+
+#LJCOMMON_intl_jobseeker_jobalerts_registeralertfromresults .registerFieldsWrapper input
+{
+    -moz-border-radius: 3px 3px 3px 3px;
+    border: 1px solid #CED6DA;
+    font: 11px Arial;
+    height: 30px;
+    outline: medium none;
+    padding: 0 10px;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registeralertfromresults #ctrlRegister_divContactName, #ctrlRegister_divFirstName, #ctrlRegister_divCity, #ctrlRegister_divZip, #ctrlRegister_divLastName, #JAfrequency, #ctrlRegister_divIntlCity, #ctrlRegister_divIntlPostalCode
+{
+    font: 12px/30px Arial;
+    color: #808181;
+    line-height: 20px;
+    padding: 1px 0 15px;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registeralertfromresults #ctrlJobAlert_SvdJobSearch_SearchName{   border: 1px solid #CED6DA;
+    border-radius: 3px 3px 3px 3px;
+    font: 11px Arial;
+    height: 30px;
+    outline: medium none;
+    padding: 0 10px;
+    width: 188px !important;
+}
+
+
+#LJCOMMON_intl_jobseeker_jobalerts_registeralertfromresults .requiredText
+{
+    color: #FF6A00;
+    font: bold 14px Arial;
+    padding: 10px 0 0;
+    font-size: 10px;
+    padding-right: 20px;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registeralertfromresults .requiredStar
+{
+    color: #FF6A00;
+    font: bold 14px Arial;
+    padding: 10px 0 0;
+    font-size: 10px;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registeralertfromresults .cb_PnlTabbed ul li
+{
+    float: right;
+    padding: 4px 7px;
+    background: none;
+    border-color: #BBBBBB #BBBBBB -moz-use-text-color;
+    border-style: solid solid none;
+    border-width: 0px 0px;
+    margin: 0 0 1px 3px;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registeralertfromresults #cbLitJobAlertHeader
+{
+    display:none;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registeralertfromresults .cb_PnlTabbed a
+{
+    color: #1E3E8C;
+    display: block;
+    float: left;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 10px;
+    padding: 4px 7px;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registeralertfromresults #whyRegisterRightMenu 
+{
+    display:none !important;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registeralertfromresults #ctrlLink
+{
+    color: #FF6A00;
+    font-size: 11px;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registeralertfromresults .alertHeading .clearfix
+{
+    color: #13496A;
+    font-size: 11px;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registeralertfromresults .clearfix
+{
+    color:#FF6A00;
+    font-size: 11px;
+    line-height: 21px;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registeralertfromresults ctrlJobAlert_SvdJobSearch_SearchName
+{
+    width: 215px !important;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registeralertfromresults .alertHeading
+{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registeralertfromresults .submit #btnSave
+{
+    background: url("../../../images/LJ/img/global/button-submit.png") no-repeat scroll left top transparent;
+    border: medium none;
+    color: #FFFFFF;
+    float: left !important;
+    font: bold 13px/32px Arial !important;
+    height: 32px;
+    padding: 0 0 0 0 !important;
+    text-align: center;
+    text-shadow: 0 -1px #BF6A00;
+    margin-left:160px !important;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registeralertfromresults .btn #btnCancel
+{
+    color: #13496A;
+    margin: 0 7px 0 0;
+    text-decoration: none;
+}
+
+#TipsRegisterAlert  .stdInnerContent
+{
+    background:none;
+    border-top:0px;
+    border-bottom:0px;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registeralertfromresults .btnWrapper #btnCancel
+{
+    position:relative;
+    color: #13496A;
+    margin: 0 7px 0 0;
+    text-decoration: none;
+    background-color:#F4F9FD;
+    margin-left: -315px;
+    margin-top: 21px;
+}
+
+.btnWrapper .submit
+{
+    padding-bottom:20px;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registeralertfromresults .cb_PnlPrimary
+{
+    padding:0px;
+    font-size: 11px;
+    line-height: 14px;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registeralertfromresults #tipsRegisterAlert
+{
+    width: 185px;
+}
+
+#TipsRegisterAlert
+{
+    border:0px;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registeralertfromresults .tipHeading #tipTxtBox
+{
+    border: 1px solid #FF6A00;
+    width:185px;
+    font-size: 11px !important;
+    font-weight:normal !important;
+    line-height: 14px;
+    padding: 5px 15px 15px;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registeralertfromresults .registerLeftColumn, .registerCenterColumn
+{
+    width: 50%;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registeralertfromresults 
+{
+    width: 80%;
+}
+
+#JobAlertName{
+    color: #808181;
+    font: 12px/20px Arial;
+    padding-left: 0 !important;
+}
+#JAfrequency{padding-left: 0 !important;}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registeralertfromresults  {padding: 4px}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registeralertfromresults #ctrlJobAlert_SvdJobSearch_EmailFrequency{padding: 6px; width:210px}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registeralertfromresults .registerRightColumn{left: 475px;     margin-top: -100px;}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registeralertfromresults .registerTwoColumns{width: 100%;}
+
+
+/*---------------------------------------------------------------- */
+/*              Login                                              */
+/*---------------------------------------------------------------- */
+
+#LJCOMMON_share_login  #siBoxRt
+{
+    display:none;
+}
+
+#LJCOMMON_share_login .siBox
+{
+     height: auto;
+     width: auto;
+}
+
+#LJCOMMON_share_login .siBox.org 
+{
+    border: 0px solid #AAAAAA;      
+}
+
+/*hack ie 7*/
+*> .silogin_wrapper 
+{
+     float:left;
+    margin-left:0px;
+}
+
+#LJCOMMON_share_login .siBox h3.org 
+{
+    background:none;
+    border-bottom: 1px solid #EEEEEE;
+    color: #13496A;
+    font: bold 24px Arial,Sans-serif;
+    margin: 0 0 0;
+    padding: 15px 0 20px;
+}
+
+#LJCOMMON_share_login .cb_style .grad 
+{
+    background:none;
+}
+
+#LJCOMMON_share_login .cb_style .siContentWrapper 
+{
+    margin: 80px auto 0 260px;
+    position: relative;
+    background: none repeat scroll 0 0 #F4F9FD;
+    border-bottom: 1px solid #EEEEEE;
+    border-top: 1px solid #EEEEEE;
+    height: auto;
+    padding: 7px 0;
+    width: 500px;
+}
+
+*> #LJCOMMON_share_login .cb_style .siContentWrapper 
+{
+    height:180px;
+}
+
+#LJCOMMON_share_login .content
+{
+    background:none;    
+}
+ 
+#LJCOMMON_share_login #siContentID div
+{ 
+    color: #7B7B7B;
+    float: left;
+    font: 12px/30px Arial;
+    /*margin: 0 10px 0 0;*/
+    /*padding: 10px 15px;*/
+    width: 180px;  
+}
+
+#LJCOMMON_share_login #siContentID input[type=password]
+{
+    -moz-border-radius: 3px 3px 3px 3px;
+    border: 1px solid #CED6DA;
+    font: 11px Arial;
+    height: 30px;
+    outline: medium none;
+    padding: 0 10px;
+    width: 90px;
+}
+
+#LJCOMMON_share_login #siContentID input[type=text]
+{
+    -moz-border-radius: 3px 3px 3px 3px;
+    border: 1px solid #CED6DA;
+    font: 11px Arial;
+    height: 30px;
+    outline: medium none;
+    padding: 0 10px;
+    margin-bottom: 15px;
+    width: 205px; 
+}
+
+#LJCOMMON_share_login #PswdForgtLnk 
+{
+    float: right !important;
+    left: -42px;
+    position: relative;
+    top: -90px; 
+}
+
+/*hack ie 7*/
+*+html #LJCOMMON_share_login #PswdForgtLnk 
+{
+  top: -155px; 
+  left: -52px;
+}
+
+#LJCOMMON_share_login #PswdForgtLnk a:hover
+{
+    text-decoration:underline;
+}
+
+#LJCOMMON_share_login #PswdForgtLnk a 
+{
+    color: #7B7B7B;
+    float: right;
+    font: bold 10px/32px Arial;
+    text-decoration: none;
+}
+
+#LJCOMMON_share_login .RXhide
+{
+  width:auto;
+}
+
+#LJCOMMON_share_login .RXhide input
+{
+  height: 45px;  
+}
+
+#LJCOMMON_share_login .RXhide label
+{
+    float: left;
+    margin-left: -2px;
+    margin-top: 11px;
+    padding-left: 0;  
+}
+
+/*hack ie 7*/
+*+html #LJCOMMON_share_login .RXhide label
+{
+    float: left;
+    margin: 0 auto;
+    top:-35px;
+    position:relative;
+    margin-left:20px;
+}  
+
+#LJCOMMON_share_login #btnsignin
+{
+    background: url("../../../images/LJ/img/global/button-submit-500.png") no-repeat scroll left top transparent !important;
+    border: medium none;
+    color: #FFFFFF;
+    float: left;
+    font: bold 13px/32px Arial !important;
+    height: 32px;
+    padding: 0 0 2px 5px;
+    margin-bottom: 12px;
+    margin-left: -9px;
+    margin-top: 20px;
+    text-align: center;
+    text-shadow: 0 -1px #BF6A00;
+    -moz-border-radius-topright: 5px;
+    width:512px;
+}
+
+/*hack ie 7*/
+*+html #LJCOMMON_share_login #signinBtn 
+{
+    left: -300px;
+    position:relative;
+} 
+
+#LJCOMMON_share_login #CreateAccount 
+{
+    margin-top: 20px;
+    margin-top: 32px;
+    text-align: center;
+}
+
+/*hack ie 7*/
+*+html #LJCOMMON_share_login #CreateAccount 
+{
+     margin-top: -50px;
+     margin-left:180px;
+}
+
+#LJCOMMON_share_login #CreateAccount a
+{
+    color: #EB9B34;
+    font: bold 11px Arial;
+    padding: 15px 0 0;
+    text-align:center;
+}
+
+#LJCOMMON_share_login #CreateAccount a:hover
+{
+    color: #FF6A00;
+}
+
+#LJCOMMON_share_login 
+{ 
+   float:left;
+}
+
+
+#LJCOMMON_share_login #MXMessageBoxError
+{
+    float: left;
+    /*
+    float: right;
+    left: 9px;
+    position: relative;
+    top: 111px;
+    */
+}
+
+
+/*hack ie 7*/
+*+html #LJCOMMON_share_login #MXMessageBoxError 
+{
+    left: -220px;
+}
+
+/*--------------- menu right Jobseeker -------------*/
+
+.tab2title
+{
+    padding-bottom: 9px;
+}
+
+.menu2 
+{
+    padding: 0 0 0 !important;
+}
+
+
+.menu2 li
+{
+    padding-left: 10px;
+    padding-top:5px;
+    float: none !important;
+}
+
+/* HACK IE 7 */
+
+*+html .menu2 li
+{
+   padding-top:0px;
+}
+
+/* HACK Chrome - FireFox */
+body:nth-of-type(1) .menu2 li
+{
+    line-height:0px !important;
+    margin:0px !important;
+    padding-top:8px;
+} 
+
+.menu2 li a
+{
+    color: #676767;
+    font: bold 12px Arial;
+    text-decoration: none;
+}
+
+.menu2 li a:hover
+{
+    color: #676767;
+    font: bold 12px Arial;
+    text-decoration: underline;
+}
+
+#bulleContent hr
+{
+    display:none;
+}
+
+#bulleTitle
+{
+    color: #134A6A;
+    font: bold 16px Arial;
+    padding: 0 0 5px;
+}
+
+/* --------------------------------------------------------------------------------- */
+/*		BUREAU CANDIDAT  :/INTL/JobSeeker/MyCB.aspx                    			     */
+/* --------------------------------------------------------------------------------- */
+
+#btnSave,#btnCancel,#btnSubmit,#btnDelete,#qsbButton,#CBLocalizedButton1,#btnSubmit2,#btnAddReplace,#recButtonLink,#submit1,#submit2,#btndefault, #btnremove, #btnAdd
+{
+	background-color:#f36b21;
+	border:0 none;
+	color:#FFFFFF;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px !important;
+	font-weight:bold;
+	margin-left:15px;
+}
+
+#LJCOMMON_intl_jobseeker_mycb
+{
+	margin-left:0px;
+	width:660px;
+}
+
+#LJCOMMON_intl_jobseeker_mycb #myCB_outer 
+{
+	float:left;
+	padding:0px 0;
+	text-align:left;
+}
+
+#LJCOMMON_intl_jobseeker_mycb #myCB_outer .stdOuter 
+{
+	border:1px solid #8395C5 ; /*9AADD5*/
+	font-family:arial,helvetica,serif;
+	font-size:12px;
+	margin-bottom:10px;
+	padding:10px;
+	background:#FFFFFF !important;
+	color:#5A5B92;
+	width:660px;
+}
+
+#LJCOMMON_intl_jobseeker_mycb a
+{
+	color:#5A5B93;
+	font-family:Geneva,Arial,Helvetica,sans-serif;
+	font-size:11px;
+	text-decoration:underline;
+}
+
+#LJCOMMON_intl_jobseeker_mycb a:hover
+{
+	color:#5A5B93;
+	font-family:Geneva,Arial,Helvetica,sans-serif;
+	font-size:11px;
+	text-decoration:underline;
+}
+
+#LJCOMMON_intl_jobseeker_mycb #myCB_outer div div td a 
+{
+	font-size:12px !important;
+}
+
+#LJCOMMON_intl_jobseeker_mycb .stdInnerContent img
+{
+	display:none;
+}
+
+#LJCOMMON_intl_jobseeker_mycb #ucMySearches_mxdlSavedSearches select
+{
+	color:#4A4379;
+	border:1px solid #D5D5D5;
+}
+
+#LJCOMMON_intl_jobseeker_mycb div#StrongPasswordModal span.header 
+{
+	background:#4A4379 none repeat scroll 0 0 !important;
+	border:0 none #4A4379;
+	height:7px;
+	margin-left:-1px;
+	margin-top:-1px;
+
+}
+
+#LJCOMMON_intl_jobseeker_mycb div#StrongPasswordModal
+{
+	background:#FFFFFF none repeat scroll 0 0 !important;
+	font-family:Arial,helvetica,sans-serif !important;
+	font-size:12px !important;
+	width:35em !important;
+	.*>width:450px !important;
+	color:#4A4379;
+
+}
+
+#LJCOMMON_intl_jobseeker_mycb   div#OptionContainer a 
+{
+	background:#4A4379 none repeat scroll 0 0 !important;
+	border-color:#4A4379 !important;
+	font-size:11px;
+	width:15em !important;
+}
+
+#LJCOMMON_intl_jobseeker_mycb   div#OptionContainer a:hover
+{
+	background:#4A4379 none repeat scroll 0 0 !important;
+	border-color:#4A4379 !important;
+	font-size:11px;
+	width:15em !important;
+	text-decoration:none !important;
+	color:#FFFFFF !important
+}
+
+#LJCOMMON_intl_jobseeker_mycb #myCBLeftConentRecs 
+{
+	color:#4A4379;
+	font-family:Arial,helvetica,sans-serif !important;
+	font-size:14px !important;
+	font-weight:bold;
+	
+}
+
+#LJCOMMON_intl_jobseeker_mycb #pnlShowRecs
+{
+	border:1px solid #8395c5 !important;
+	margin-bottom:10px;
+	width:680px;
+}
+
+#LJCOMMON_intl_jobseeker_mycb .jrCompany , #myCBLeftContentCity ,#myCBRecCityInfo,#myCBRecDate
+{
+	color:#5A5B92 !important;
+	font-family:arial,helvetica,serif !important;
+	font-size:11px !important;
+}
+
+#LJCOMMON_intl_jobseeker_mycb #stdInnerContent h2 span
+{
+	margin-right:365px;
+}
+
+#LJCOMMON_intl_jobseeker_mycb #SavedSearchesMessage
+{
+	color:#CC0000;
+	font-size:12px;
+}
+
+/* ---------------------------------------------------------------------------------     */
+/*	GESTION DES ALERTES EMAILS : /INTL/JobSeeker/JobAlerts/MyJobAlertsManager.aspx       */
+/*						 Ajout : /INTL/JobSeeker/JobAlerts/CreateJobAlertPage.aspx		 */
+/*					  Modifier : /INTL/JobSeeker/jobalerts/EditJobAlert.aspx			 */
+/*                               INTL/JobSeeker/JobAlerts/CreateJobAlertFromResults.aspx */
+/* ---------------------------------------------------------------------------------     */
+
+#LJCOMMON_intl_jobseeker_jobalerts_myjobalertsmanager
+{
+	font-family:arial,helvetica,sans-serif;
+	font-size:12px;
+	margin-left:20px;
+	margin-top:10px;
+	width:660px;
+	.*>	width:730px;
+	color:#4A4B79;
+	
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_myjobalertsmanager .cb_PnlPrimary 
+{
+	border:1px solid #8395C5 !important; /*9AADD5*/
+	margin-left:0px;
+}
+
+
+#LJCOMMON_intl_jobseeker_jobalerts_myjobalertsmanager #divmJAM1
+{
+  width: 630px;  
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_myjobalertsmanager .betterJob 
+{
+	color:#4A4B79 !important;
+	display:block;
+	font-family:arial,helvetica,sans-serif !important;
+	font-size:14px !important;
+	font-weight:bold;
+	margin:0 0 5px;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_myjobalertsmanager a
+{
+	color:#5A5B93;
+	font-family:Geneva,Arial,Helvetica,sans-serif;
+	font-size:11px;
+	text-decoration:underline;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_myjobalertsmanager a:hover
+{
+	color:#5A5B93;
+	font-family:Geneva,Arial,Helvetica,sans-serif;
+	font-size:11px;
+	text-decoration:underline;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_myjobalertsmanager #mxdlAlerts
+{
+	margin-top:25px;
+}
+
+
+/*/INTL/JobSeeker/JobAlerts/CreateJobAlertPage.aspx*/
+
+#LJCOMMON_intl_jobseeker_jobalerts_createjobalertpage
+{
+	font-family:arial,helvetica,sans-serif;
+	font-size:12px;
+	margin-left:20px;
+	margin-top:-5px;
+	width:660px;
+	color:#4A4B79;
+	.*>width:750px;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_createjobalertpage .cb_PnlPrimary 
+{
+	border:1px solid #8395C5 !important; /*9AADD5*/	
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_createjobalertpage .betterJob 
+{
+	color:#4A4B79 !important;
+	display:block;
+	font-family:arial,helvetica,sans-serif !important;
+	font-size:14px !important;
+	font-weight:bold;
+	margin:0 0 5px;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_createjobalertpage .betterJob span
+{
+	color:#4A4B79 !important;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_createjobalertpage .requiredNote
+{
+	float:right;
+	margin:-20px 0 0;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_createjobalertpage .alertHeading
+{
+	margin:0 0 30px;
+	width:640px !important;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_createjobalertpage a
+{
+	color:#5A5B93;
+	font-family:Geneva,Arial,Helvetica,sans-serif;
+	font-size:11px;
+	text-decoration:underline;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_createjobalertpage a:hover
+{
+	color:#5A5B93;
+	font-family:Geneva,Arial,Helvetica,sans-serif;
+	font-size:11px;
+	text-decoration:underline;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_createjobalertpage #ctrlJobSearch_MXJobSrchCriteria_Rawwords, #ctrlJobSearch_MXJobSrchCriteria_LJJobType, #ctrlJobAlert_SvdJobSearch_SearchName{
+	width:210px !important;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_createjobalertpage #MXJobSrchCriteria_LJMetier
+{
+	width:282px !important;
+	color:#000000;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_createjobalertpage td
+{
+	white-space:nowrap;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_createjobalertpage #Messagebox1 table
+{
+		width:660px !important;
+
+}
+
+/*/INTL/JobSeeker/jobalerts/EditJobAlert.aspx*/
+
+#LJCOMMON_intl_jobseeker_jobalerts_editjobalert
+{
+	font-family:arial,helvetica,sans-serif;
+	font-size:12px;
+	margin-left:20px;
+	margin-top:-5px;
+	width:660px;
+	color:#4A4B79;
+	.*width:750px;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_editjobalert .cb_PnlPrimary 
+{
+	border:1px solid #8395C5 !important; /*9AADD5*/
+	
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_editjobalert .betterJob 
+{
+	color:#4A4B79 !important;
+	display:block;
+	font-family:arial,helvetica,sans-serif !important;
+	font-size:14px !important;
+	font-weight:bold;
+	margin:0 0 5px;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_editjobalert .betterJob span
+{
+	color:#4A4B79 !important;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_editjobalert .requiredNote
+{
+	float:right;
+	margin:-20px 0 0;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_editjobalert .alertHeading
+{
+	margin:0 0 30px;
+	width:640px !important;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_editjobalert td
+{
+	white-space:nowrap;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_editjobalert #Messagebox1 table
+{
+		width:660px !important;
+
+}
+
+/*LJCOMMON_intl_jobseeker_jobalerts_createjobalertfromresults*/
+
+
+#LJCOMMON_intl_jobseeker_jobalerts_createjobalertfromresults
+{
+	border:1px solid #8395C5;
+	color:#4a4379 !important;
+	font-size:12px;
+	font-family:Arial,Helvetica,sans-serif;
+	margin-left:20px;
+	width:732px;
+	.*>width:660px;
+	margin-top:10px;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_createjobalertfromresults img , hr
+{
+	display:none;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_createjobalertfromresults td
+{
+	border:#FFFFFF !important;
+	border-top-style:solid;
+	border-top-width:0px;
+	padding-left:0px !important;
+	white-space:nowrap;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_createjobalertfromresults .sectionheader
+{
+	background-color:#ffffff !important;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_createjobalertfromresults font
+{
+	color:#4a4379 !important;
+}
+
+/* --------------------------------------------------------------------------------- */
+/*	GESTION DES LETTRES : /JobSeeker/Resumes/EditCoverLetter.aspx				     */
+/*			   Modifier : /JobSeeker/Resumes/ViewCoverLetter.aspx                    */
+/*             Supprimer: /JobSeeker/Resumes/RemoveCoverLetter.aspx                  */
+/* --------------------------------------------------------------------------------- */
+
+#LJCOMMON_jobseeker_resumes_editcoverletter
+{
+	font-family:arial,helvetica,sans-serif;
+	font-size:12px;
+	margin-left:20px;
+	margin-top:10px;
+	width:660px;
+	.*>width:730px;
+	color:#4A4B79;
+	border:1px solid #8395C5;
+}
+
+#LJCOMMON_jobseeker_resumes_editcoverletter  #CoverLetr
+{
+	display:none;
+}
+
+#LJCOMMON_jobseeker_resumes_editcoverletter td
+{
+	background:#ffffff !important;
+	text-align:left;
+
+}
+
+#LJCOMMON_jobseeker_resumes_editcoverletter #btnSave
+{
+	float:left;
+	margin:20px 20px 20px 250px;
+}
+
+#LJCOMMON_jobseeker_resumes_editcoverletter #CvrLtr_CoverletterText
+{
+	.*>margin-top:20px;
+}
+
+#LJCOMMON_jobseeker_resumes_editcoverletter #mxMsgBox table
+{
+	width:580px !important;
+}
+
+#LJCOMMON_jobseeker_resumes_editcoverletter #scpsreditcl1
+{
+    color: #676767;
+    float: left !important;
+    padding-bottom: 20px;
+}
+
+
+/*/JobSeeker/Resumes/ViewCoverLetter.aspx*/
+
+#LJCOMMON_jobseeker_resumes_viewcoverletter
+{
+	font-family:arial,helvetica,sans-serif;
+	font-size:12px;
+	margin-left:20px;
+	margin-top:10px;
+	width:660px;
+	.*>width:730px;
+	color:#4A4B79;
+	border:1px solid #8395C5;
+}
+
+#LJCOMMON_jobseeker_resumes_viewcoverletter h1
+{
+	font-family:arial,helvetica,sans-serif;
+	font-size:14px;
+	padding-left:20px;
+	float:left;
+}
+
+#LJCOMMON_jobseeker_resumes_viewcoverletter #tabVc1
+{
+	clear:both;
+	width:600px;
+}
+
+#LJCOMMON_jobseeker_resumes_viewcoverletter #tdVc1,#tdVc4
+{
+	line-height:50px;
+}
+
+#LJCOMMON_jobseeker_resumes_viewcoverletter #tdVc2,#tdVc3
+{
+	height:0;
+	line-height:1.3;
+	.*>height:10px;
+	.*>line-height:15px;
+	.*>text-align:left;
+	word-wrap: break-word; 
+	
+}
+
+#LJCOMMON_jobseeker_resumes_viewcoverletter a
+{
+	color:#5A5B93;
+	font-family:Geneva,Arial,Helvetica,sans-serif;
+	font-size:11px;
+	text-decoration:underline;
+}
+
+#LJCOMMON_jobseeker_resumes_viewcoverletter a:hover
+{
+	color:#5A5B93;
+	font-family:Geneva,Arial,Helvetica,sans-serif;
+	font-size:11px;
+	text-decoration:underline;
+}
+
+
+/*/JobSeeker/Resumes/RemoveCoverLetter.aspx*/
+
+#LJCOMMON_jobseeker_resumes_removecoverletter
+{
+	font-family:arial,helvetica,sans-serif;
+	font-size:12px;
+	margin-left:20px;
+	margin-top:10px;
+	width:660px;
+	.*>width:730px;
+	color:#4A4B79;
+	border:1px solid #8395C5;
+}
+
+/* --------------------------------------------------------------------------------- */
+/*			MON COMPTE :  /JobSeeker/User/UserInfo.aspx								 */
+/*			   Modifier : /Share/ChangeEmailPwd.aspx                                 */
+/*             Supprimer: /User/UserConfirmation.aspx								 */
+/* --------------------------------------------------------------------------------- */
+
+#LJCOMMON_share_userinfo
+{
+	font-family:arial,helvetica,sans-serif;
+	font-size:12px;
+	/*margin-left: -45px;*/
+	/*margin-top:-12px;*/
+	.*>margin-top:-100px;
+	width:660px;
+	color:#4A4B79;
+}
+
+#LJCOMMON_share_userinfo .borderWrapper  
+{
+	border:1px solid #8395C5 !important; /*9AADD5*/
+	margin:0px !important;
+	width:710px;
+	
+}
+
+#LJCOMMON_share_userinfo .betterJob 
+{
+	color:#4A4B79 !important;
+	display:block;
+	font-family:arial,helvetica,sans-serif !important;
+	font-size:14px !important;
+	font-weight:bold;
+	margin:0 0 5px;
+}
+
+#LJCOMMON_share_userinfo a
+{
+	color:#5A5B93;
+	font-family:Geneva,Arial,Helvetica,sans-serif;
+	font-size:11px;
+	text-decoration:underline;
+}
+
+#LJCOMMON_share_userinfo a:hover
+{
+	color:#5A5B93;
+	font-family:Geneva,Arial,Helvetica,sans-serif;
+	font-size:11px;
+	text-decoration:underline;
+}
+
+#LJCOMMON_share_userinfo .btn 
+{
+	background-color:#8395C5 !important;
+	border:0 none;
+	color:#FFFFFF;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	margin-left:15px;
+}
+
+#LJCOMMON_share_userinfo .resumeInputs td label,
+#LJCOMMON_share_userinfo .resumeInputs div 
+{
+	color:#4A4B79 !important;
+	font-weight: bold;
+}
+
+#LJCOMMON_share_userinfo legend.lrgLegend 
+{
+	background: none repeat scroll 0 0 #DEDEDE;
+	border: 1px solid #F6F6F6;
+	color: #4A4379 !important;
+	font-family: arial,helvetica,sans-serif !important;
+	font-size: 14px !important;
+	height: 25px;
+	margin-left: 0;
+	padding-bottom: 0px !important;
+	padding-left: 10px !important;
+	padding-top: 7px !important;
+	text-transform: uppercase;
+	.*>margin-bottom:20px;
+	width: 690px;
+}
+
+#LJCOMMON_share_userinfo .resumeHeading 
+{
+	display:none;
+}
+
+#LJCOMMON_share_userinfo #Dstartxt 
+{
+	float: right !important;
+	margin-bottom: 5px;
+	margin-right: 36px !important;
+	margin-top: 75px !important;
+	.*>position:relative;
+	.*>top:20px;	
+}
+
+#LJCOMMON_share_userinfo .resumeWrapper 
+{
+	background-color:transparent !important;
+	font-family:Arial;
+	font-size:11px;
+	line-height:16px;
+	margin:0px !important;
+	padding:11px 0 0;
+	width:750px;
+}
+
+#LJCOMMON_share_userinfo .OuterResumeWrapper
+{
+   background-color:transparent !important; 
+}
+
+#LJCOMMON_share_userinfo .resumeInputs td,
+#LJCOMMON_share_userinfo .padleftcolumn
+{
+	width:200;
+	font-size:12px !important;
+}
+
+#LJCOMMON_share_userinfo fieldset 
+{
+	padding-top:15px;
+	.*>padding-top:0px;
+}
+
+#LJCOMMON_share_userinfo  
+{
+	width:25% !important;
+}
+
+#LJCOMMON_share_userinfo  #ucUserInfo_divUSStates
+{
+	margin-left:-298px;
+	.*>position:absolute;
+	.*>margin-top:-20px;
+}
+
+#LJCOMMON_share_userinfo  #ucUserInfo_divUSZip
+{
+	margin-left:-298px;
+	.*>position:absolute;
+	.*>margin-top:-20px;
+}
+
+#LJCOMMON_share_userinfo  #ucUserInfo_divCity
+{
+	margin-left:-87px;
+	margin-top:-5px;
+	.*>margin-top:-25px;
+	.*>position:absolute;
+}
+
+
+#LJCOMMON_share_userinfo #idUIComp
+{
+	 display:none !important; 
+	 font-size :1px !important; 
+	 color:white!important;
+}
+
+#LJCOMMON_share_userinfo .padleftcolumn div, 
+#LJCOMMON_share_userinfo .padleftcolumn div input
+{
+   display:none !important; 
+   height:1px !important;
+   max-height:1px !important; 
+   font-size:1px !important; 
+   color:white!important;
+}
+
+#LJCOMMON_share_userinfo .requiredStar,
+#LJCOMMON_share_userinfo .requiredText
+{
+	color: #CC3300 !important;
+}
+
+#LJCOMMON_share_userinfo input[type="text"], 
+#LJCOMMON_share_userinfo select
+{
+	border: 1px solid #A39E90 !important;
+	color:Black !important;
+	font-family: arial,helvetica,sans-serif;
+	font-size: 12px !important;
+	padding:0px !important; 
+	width: 220px; 
+}
+
+#LJCOMMON_share_userinfo #MXMessageBoxError
+{
+	background-color: White;
+	border: 1px solid #CC0000;
+	margin-left: 15px;
+	text-align: left;
+	width: 732px !important;  
+}
+
+#idLeftColumn
+{
+	.*>width:30% !important;
+}
+
+/*/Share/ChangeEmailPwd.aspx*/
+
+#LJCOMMON_share_changeemailpwd
+{
+	border:1px solid #8395C5;
+	color:#4A4B79;
+	font-family:arial,helvetica,sans-serif;
+	font-size:12px;
+	margin-left:-5px;
+	width:946px;
+	.*>position:relative;
+}
+
+#LJCOMMON_share_changeemailpwd #btnSubmit
+{
+	margin:20px;
+}
+
+#LJCOMMON_share_changeemailpwd .padleftcolumn
+{
+	padding-left:10px !important;
+	.*>margin-left:40px !important;
+
+}
+
+#LJCOMMON_share_changeemailpwd  .padleftcolumn1 
+{
+	padding-left:40px;
+	white-space:nowrap;
+}
+
+#LJCOMMON_share_changeemailpwd .clTip1
+{
+	float:right;
+	padding-bottom:5px;
+	padding-right:6px;
+	width:290px;
+}
+
+#LJCOMMON_share_changeemailpwd  .bdy_gry
+{
+	font-size:14px;
+}
+
+#LJCOMMON_share_changeemailpwd .idTabCEP
+{
+	width:900px !important;
+	margin-top:-18px;
+	.*>margin-top:-10px;
+}
+
+#LJCOMMON_share_changeemailpwd .ChangeEmailPwd
+{
+	width:800px !important;
+}
+
+/*/User/UserConfirmation.aspx*/
+
+#LJCOMMON_user_userconfirmation 
+{
+	font-family:arial,helvetica,sans-serif;
+	font-size:12px;
+	margin-left:0px;
+	padding: 15px;
+	width:650px;
+	color:#4A4B79 !important;
+	border:1px solid #8395C5;
+}
+
+#LJCOMMON_user_userconfirmation  table
+{
+	border:0px !important;
+	background-color:#FFFFFF !important;
+	width: 99% !important;
+	font-size: 12px !important;
+    text-align: justify;
+}
+
+
+#LJCOMMON_user_userconfirmation #btnDelete
+{
+	margin:20px 20px 20px 250px;
+	.*>margin:20px;
+	
+}
+
+/* --------------------------------------------------------------------------------- */
+/*			ALERTE EMAIL :  /jobseeker/emails/emailsubcenter.aspx					 */
+/* --------------------------------------------------------------------------------- */
+
+#LJCOMMON_jobseeker_emails_emailsubcenter
+{
+	border:1px solid #8395C5;
+	color:#4A4B79 !important;
+	font-family:arial,helvetica,sans-serif;
+	font-size:12px;
+	/*margin-left:-35px;*/
+	margin-top:0px;
+ 	/*padding-left:15px;*/
+	/*width:700px;  */
+  overflow:hidden; 
+	.*>width:730px;
+}
+
+#LJCOMMON_jobseeker_emails_emailsubcenter #h1EmailCenter
+{
+	background: none repeat scroll 0 0 #DEDEDE;
+	color: #4A4379 !important;
+	font-family: arial,helvetica,sans-serif !important;
+	font-size: 14px !important;
+	font-weight: bold;
+	height: 40px;
+	padding-bottom: 0 !important;
+	padding-left: 10px !important;
+	padding-top: 7px !important;
+	text-transform: uppercase;
+	/*width: 662px;*/
+}
+
+#LJCOMMON_jobseeker_emails_emailsubcenter h2
+{
+	 color: #4A4B79;
+}
+
+#LJCOMMON_jobseeker_emails_emailsubcenter .bandeauHaut
+{
+	margin-bottom: 15px;
+	text-align: justify;
+	width: 650px;
+}
+
+#LJCOMMON_jobseeker_emails_emailsubcenter .bandeauHaut h2
+{
+	color: #4A4379 !important;
+	font-family: arial,helvetica,sans-serif !important;
+	font-size: 12px !important;
+	font-weight: normal;    
+}
+
+#LJCOMMON_jobseeker_emails_emailsubcenter #EmailCenterWrapper 
+{
+	float:left;
+	line-height:16px;
+	padding: 0 0 0 6px;
+	text-align:left;
+	width:95%  !important;
+}
+
+#LJCOMMON_jobseeker_emails_emailsubcenter  .cb_PnlTabbed ul 
+{
+	margin:0 0 0 -5px;
+	display:none;
+}
+
+#LJCOMMON_jobseeker_emails_emailsubcenter .cb_PnlTabbed ul li.active 
+{
+	background:#8395C5 !important;
+	border-bottom:2px solid #8395C5 !important;
+	border-color:#8395C5 #8395C5 #8395C5 !important;
+}
+
+#LJCOMMON_jobseeker_emails_emailsubcenter .cb_PnlTabbed ul li.active a
+{
+	color:#FFFFFF !important;
+	text-decoration:none;
+}
+
+#LJCOMMON_jobseeker_emails_emailsubcenter .cb_PnlTabbed ul li.active a:hover 
+{
+	text-decoration:none;
+}
+
+#LJCOMMON_jobseeker_emails_emailsubcenter .cb_PnlTabbed ul li 
+{
+	background:#FFFFFF !important;
+	float:left;
+	margin:0 0 1px 3px;
+	padding:0;
+	border: 1px solid #CCCCCC !important;
+	border-bottom:0px;
+}
+
+#LJCOMMON_jobseeker_emails_emailsubcenter .cb_PnlTabbed ul li a 
+{
+	color:#8395C5 !important;
+	display:block;
+	float:left;
+	font-size:10px;
+	font-weight:bold;
+	line-height:10px;
+	padding:4px 7px;
+	text-decoration:none;
+}
+
+#LJCOMMON_jobseeker_emails_emailsubcenter h1 
+{
+	color:#4A4B79;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:14px  !important;
+	font-weight:bold;
+}
+
+#LJCOMMON_jobseeker_emails_emailsubcenter #qsbButton
+{
+	margin-left:250px;
+}
+
+#LJCOMMON_jobseeker_emails_emailsubcenter #pnlJobMail a
+{
+	color:#5A5B93;
+	font-family:Geneva,Arial,Helvetica,sans-serif;
+	font-size:11px !important;
+	text-decoration:underline;
+}
+
+#LJCOMMON_jobseeker_emails_emailsubcenter #pnlJobMail a:hover
+{
+	color:#5A5B93;
+	font-family:Geneva,Arial,Helvetica,sans-serif;
+	font-size:11px !important;
+	text-decoration:underline;
+}
+
+#LJCOMMON_jobseeker_emails_emailsubcenter span.emailTypeDesc 
+{
+	clear:both;
+	.*>clear:none;
+}
+
+#LJCOMMON_jobseeker_emails_emailsubcenter .registerTwoColumns span
+{
+	.*>width:620px;
+}
+
+#LJCOMMON_jobseeker_emails_emailsubcenter .tipTxt
+{
+	color: #808080;
+	width: 660px;
+}
+
+#LJCOMMON_jobseeker_emails_emailsubcenter .registerRightColumn 
+{
+	left: 0px !important;
+    margin-top: 0px !important;
+    position:relative !important;
+}
+
+
+
+/* PostResumeRecommendations/RecommendedHQ */
+ 
+#LJCOMMON_jobseeker_resumes_postresumerecommendations .stdInnerContent {
+  color: #676767;
+    font: 12px/18px Arial;
+    padding: 5px 0 10px;
+}
+
+#LJCOMMON_jobseeker_resumes_postresumerecommendations #divHeader{   
+    color: #13496A;
+    font: bold 24px Arial,Sans-serif;
+    margin: 0;
+}
+
+#LJCOMMON_jobseeker_resumes_postresumerecommendations .stdInnerContent a, #LJCOMMON_jobseeker_resumes_postresumerecommendations #divRecExplanation a {
+    color: #EB9B34;      font: 12px/18px Arial !important;      text-decoration: underline;
+}
+#LJCOMMON_jobseeker_resumes_postresumerecommendations .stdInnerContent a:hover, #LJCOMMON_jobseeker_resumes_postresumerecommendations #divRecExplanation a:hover {
+    color: #FF6A00;     font: 12px/18px Arial !important;      text-decoration: underline;
+}
+
+#LJCOMMON_jobseeker_resumes_postresumerecommendations #jr_listpanel,
+#LJCOMMON_jobseeker_resumes_postresumerecommendations .hq_wideList{border:none; background:none !important}
+
+#LJCOMMON_jobseeker_resumes_postresumerecommendations table.results tbody tr:nth-child(odd){background:none; height: 50px;}
+
+#LJCOMMON_jobseeker_resumes_postresumerecommendations th.title a,
+#LJCOMMON_jobseeker_resumes_postresumerecommendations .location a,
+#LJCOMMON_jobseeker_resumes_postresumerecommendations th.company a, 
+#LJCOMMON_jobseeker_resumes_postresumerecommendations .date a{ color: #13496A;  font: bold 13px Arial,Sans-serif;}
+
+
+
+/* -----------------------------------------------------------------------------------   */
+/* -----------------------------------------------------------------------------------   */
+/*						INTL/jobseeker/careeradvice/article.aspx                      	 */
+/* -----------------------------------------------------------------------------------   */
+/* -----------------------------------------------------------------------------------   */
+
+.RXart{
+	text-align:left !important;
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #4a4b79;
+}	
+
+#cbArticle_lblHeadline{
+	color:#000066;
+	font-size:20px;
+	text-align:center;
+	text-transform:uppercase;	
+}	
+
+#INTL_articles{margin-top:0px !important;}
+
+
+#INTL_articles a{
+	 color: #353267;
+	 font-size: 12px;
+	 font-family:  Arial, Helvetica, sans-serif;
+}
+
+/*my saved jobs*/ 
+#LJCOMMON_jobseeker_jobs_mysavedjobs .svContentWrapper {float: right; width: 608px !important}
+#LJCOMMON_jobseeker_jobs_mysavedjobs .svContentWrapper #printLink {color: #FF8200 !important;  font-size: 12px;}
+
+#LJCOMMON_jobseeker_jobs_mysavedjobs .svContentWrapper h1,
+#LJCOMMON_jobseeker_jobs_mysavedjobs a.srt_on, 
+#LJCOMMON_jobseeker_jobs_mysavedjobs a.srt_on:hover,
+#LJCOMMON_jobseeker_jobs_mysavedjobs a.srt_off, 
+#LJCOMMON_jobseeker_jobs_mysavedjobs a.srt_off:hover,
+#LJCOMMON_jobseeker_jobs_mysavedjobs .sv_data th{color: #13496A !important}
+
+#LJCOMMON_jobseeker_jobs_mysavedjobs #mxdlSavedJobs { font-size: 11px;}
+#LJCOMMON_jobseeker_jobs_mysavedjobs #btnSubmit, #LJCOMMON_jobseeker_jobs_mysavedjobs .btn  {width: 90px;}
+
+#LJCOMMON_jobseeker_jobs_mysavedjobs #sjApply, #LJCOMMON_jobseeker_jobs_mysavedjobs #SendEmailButton {
+    background: url("../../../images/LJ/img/global/button-submit-500.png") no-repeat scroll left top transparent;
+    border: medium none;
+    color: white;
+    font: bold 13px/32px Arial !important;
+    height: 32px;
+    padding: 0 0 2px 5px;
+    text-align: center;
+    text-shadow: 0 -1px #BF6A00;
+    width: 90px !important;
+}
+
+#LJCOMMON_jobseeker_jobs_mysavedjobs .sv_PnlTabbed ul li a{text-decoration:none; color: #BEBEBE; padding: 8px;}
+#LJCOMMON_jobseeker_jobs_mysavedjobs .sv_PnlTabbed ul li a:hover{text-decoration:none; color: #FF8200; padding: 8px;}
+#LJCOMMON_jobseeker_jobs_mysavedjobs .sv_PnlTabbed ul li{border-radius: 3px 3px 3px 3px; border: 1px solid #CED6DA !important; background: white;     margin-bottom: 25px;}
+#LJCOMMON_jobseeker_jobs_mysavedjobs .ESJL_emailHD {padding-left: 5px;color: #13496A !important}
+#LJCOMMON_jobseeker_jobs_mysavedjobs #ESJL_EmailBox{width: 150px!important; padding: 2px; border: 1px solid #CED6DA; border-radius: 3px 3px 3px 3px; font: 11px Arial;}
+    
+/*shared page*/    
+#LJCOMMON_lj_share_page .td_titre {color: #13496A !important; font: bold 16px Arial,Sans-serif;  padding-bottom: 20px;}
+#LJCOMMON_lj_share_page .sm2 {color: #13496A !important; font: bold 14px Arial,Sans-serif;}
+#LJCOMMON_lj_share_page ul li .sm2 {color: #FF9600 !important; font: normal 12px Arial,Sans-serif;}
+#LJCOMMON_lj_share_page .txt-actu span, #LJCOMMON_lj_share_page ul {color: #808181; font-size: 12px; line-height: 20px;}
+#LJCOMMON_lj_share_page a {color: #FF9600 !important; font-size: 12px;}
+#LJCOMMON_lj_share_page .table_marge, 
+#LJCOMMON_lj_share_page .txt-actu {color: #808181; font-size: 12px;} 
+
+/*Video*/ 
+#LJCOMMON_lj_homevideo h1 {color: #13496A !important; font: bold 16px Arial,Sans-serif; padding-bottom: 20px;}
+#LJCOMMON_lj_homevideo .table_marge,#LJCOMMON_lj_homevideo .width100pc {width: 691px;}
+/*#LJCOMMON_lj_homevideo table{border:1px solid #DBDBDB !important}*/
+
+#LJCOMMON_lj_homevideo .table_marge .txt04{height:60px !important}
+#LJCOMMON_lj_homevideo .sm5 {color: #FF9600 !important; font: normal 12px Arial,Sans-serif;margin-left: 6px;}
+#LJCOMMON_lj_homevideo td{vertical-align: top !important;color: #808181;    font-size: 12px;}
+#LJCOMMON_lj_homevideo a img, #LJCOMMON_lj_homevideo object{padding: 12px}
+#LJCOMMON_lj_homevideo .titre01 {color: #13496A !important;    display: block;      font: bold 16px Arial,Sans-serif;       margin-top: 18px;}
+
+
+/*recommendation*/
+#LJCOMMON_jobseeker_resumes_jobrecommendationsnodid #jrRight{margin: 0 0 0 430px; color: #808181; font-size: 12px; line-height: 20px;  width: 250px;}
+#LJCOMMON_jobseeker_resumes_jobrecommendationsnodid #jrRight a{color: #EB9B34; text-decoration: underline;  float: left;}
+#LJCOMMON_jobseeker_resumes_jobrecommendationsnodid #jrRight a:hover{color: #FF6A00}
+
+#LJCOMMON_jobseeker_resumes_jobrecommendationsnodid #jrLeft,
+#LJCOMMON_jobseeker_resumes_jobrecommendationsnodid #jrError h4 {color: #808181; font-size: 12px; line-height: 20px;}
+#LJCOMMON_jobseeker_resumes_jobrecommendationsnodid #jrError h1 {color: #13496A; font: bold 16px Arial,Sans-serif; margin: 0 0 0; padding: 15px 0 20px;}
+
+#LJCOMMON_jobseeker_resumes_jobrecommendationsnodid #jrError h3,
+#LJCOMMON_jobseeker_resumes_jobrecommendationsnodid #jrError h2 {border-bottom: 1px solid #EEEEEE; color: #FF6A00;        font-size: 14px;     font-weight: bold;         margin: 0 0 5px;     padding-top: 6px; border-top:0}
+
+
+#LJCOMMON_jobseeker_resumes_recommendedhq .jr_listpanel,
+#LJCOMMON_jobseeker_jobs_recommendedjobs .jr_listpanel{background: none}
+
+#LJCOMMON_jobseeker_resumes_recommendedhq .hq_wideList,
+#LJCOMMON_jobseeker_jobs_recommendedjobs .hq_wideList{border: none}
+
+#LJCOMMON_jobseeker_resumes_recommendedhq h1,
+#LJCOMMON_jobseeker_jobs_recommendedjobs #divHeader {color: #13496A; font: bold 16px Arial,Sans-serif; margin: 0; padding: 15px 0 20px;}
+
+#LJCOMMON_jobseeker_resumes_recommendedhq .jr_list,
+#LJCOMMON_jobseeker_resumes_recommendedhq .jr_listcaption,
+#LJCOMMON_jobseeker_jobs_recommendedjobs .jr_list,
+#LJCOMMON_jobseeker_jobs_recommendedjobs .jr_listcaption {color: #808181; font-size: 12px; line-height: 20px;}
+
+#LJCOMMON_jobseeker_resumes_recommendedhq .recFeedback,
+#LJCOMMON_jobseeker_jobs_recommendedjobs .recFeedback {font-size: 12px !important}
+
+#LJCOMMON_jobseeker_resumes_recommendedhq table.results th.title, 
+#LJCOMMON_jobseeker_resumes_recommendedhq table.results td.title,
+#LJCOMMON_jobseeker_jobs_recommendedjobs table.results th.title,
+#LJCOMMON_jobseeker_jobs_recommendedjobs table.results td.title {width: 40%;}
+
+#LJCOMMON_jobseeker_resumes_recommendedhq table.results th.similarjob,
+#LJCOMMON_jobseeker_resumes_recommendedhq table.results td.similarjob,
+#LJCOMMON_jobseeker_jobs_recommendedjobs table.results th.similarjob,
+#LJCOMMON_jobseeker_jobs_recommendedjobs table.results td.similarjob {width: 9%;}
+
+#LJCOMMON_jobseeker_resumes_recommendedhq table.results th.similarjob a,
+#LJCOMMON_jobseeker_resumes_recommendedhq table.results td.similarjob a,
+#LJCOMMON_jobseeker_jobs_recommendedjobs table.results th.similarjob a,
+#LJCOMMON_jobseeker_jobs_recommendedjobs table.results td.similarjob a,
+#LJCOMMON_jobseeker_jobs_recommendedjobs #divResults { color: #FF8200 !important;     font-size: 11px; }
+
+#LJCOMMON_jobseeker_resumes_recommendedhq .btnPrefSelected,
+#LJCOMMON_jobseeker_resumes_recommendedhq .btnPrefHover,
+#LJCOMMON_jobseeker_resumes_recommendedhq .btnFeedSelected,
+#LJCOMMON_jobseeker_resumes_recommendedhq .btnFeedHover,
+#LJCOMMON_jobseeker_resumes_recommendedhq #tdFeedback{display:none}
+
+#LJCOMMON_jobseeker_resumes_recommendedhq #RecList_mxdlJobs__ctl0_customHeaderRow a,
+#LJCOMMON_jobseeker_jobs_recommendedjobs #WideRecsList_mxdlJobs__ctl0_JobTitleHeaderCell a,
+#LJCOMMON_jobseeker_jobs_recommendedjobs a.columnHeader:link, 
+#LJCOMMON_jobseeker_jobs_recommendedjobs a.columnHeader:active, 
+#LJCOMMON_jobseeker_jobs_recommendedjobs a.columnHeader:visited, 
+#LJCOMMON_jobseeker_jobs_recommendedjobs #divJobTitle,
+#LJCOMMON_jobseeker_jobs_recommendedjobs #divCompanyName,
+#LJCOMMON_jobseeker_jobs_recommendedjobs #JobRecTitleHyperlink{color: #13496A !important; font: normal 12px Arial,Sans-serif;}
+
+#divPhone input
+{
+    width: 205px !important;
+    /*margin-left: 40px;*/  margin-left: 0px;
+}
+
+#divCountrySelect select
+{
+    width: 225px !important;
+    /*margin-left: 45px;*/    margin-left: 0px;   padding: 4px;
+}
+
+#divCountry select
+{
+	width:25% !important;
+}
+
+#LJCOMMON_share_register #tipPassword
+{
+  height:10px;
+  font-size:10px;
+  font-style:italic;
+  color:#666666;
+  width: 611px;
+}
+
+#LJCOMMON_share_register input[type=text], #LJCOMMON_share_register  input[type=password], #LJCOMMON_share_register select
+{
+  border: 1px solid #d5dfe2;
+  font: normal 13px Arial,Sans-serif;
+  color: #466e7e;
+  border-radius: 3px;
+  height: 28px;
+  padding: 0 8px;
+  max-width: 250px;
+}               
+#LJCOMMON_share_register #registrationControl .validationWrapper p
+{
+  margin-top : -15px;
+}

@@ -1,0 +1,7907 @@
+﻿/**********************************************************************/
+/*                          MANAGEMENT RULES                          */
+/*                                                                    */
+/*   for this page is as clean as possible please respect these rules */
+/*   Before adding a css                                              */
+/*    - Research in this page the name of the page edit               */
+/*      ex : rechercher /defaut.aspx                                  */
+/*    - add the css at the end of the class                           */
+/*                                                                    */
+/**********************************************************************/
+ 
+/* ------------------------------------------------------------------ */
+/*							CSS / GLOBAL : LESJEUDIS	              */
+/* ------------------------------------------------------------------ */
+#LJFixedCss {
+    display:none;
+}
+.showhide_jobindustry{
+	display:none;
+}
+
+.showhide_jobmanages{
+	display:none;
+}
+
+.showhide_jobtype{
+	display:none;
+}
+
+.showhide_jobeducation{
+	display:none;
+}
+
+.showhide_jobtravel{
+	display:none;
+}
+
+.showhide_jobrelocation{
+	display:none;
+}
+
+.tipsRightSide{
+	display:none;
+}
+
+.JobTemplate_ApplicationOptions{
+	display:none;
+}
+
+#EndDateDiv{
+   display:none;
+}
+
+#expirationDate{
+	display:none;
+}
+
+#feedbackLink{
+	display:none;
+}
+
+#Job_CompanyOther{
+	display:none;
+}
+
+#ShowApplyOnline{
+	display:none;
+}
+
+
+/* New Home */
+#pnlInnerWrapper {
+    max-width: 100%;
+    padding: 0;
+    width: 100%;
+}
+
+#recent-search dt {
+    color: #FFF;
+    font-weight:900;
+    font-size:1.4em;
+}
+
+.recent-search-item {
+    color: #FFF;
+    margin-left:.9em;
+}
+
+.recent-search-list dd {
+    font-weight: 600;
+    list-style-type: none;
+    margin-left: .9em;
+    margin-bottom:0em;
+}
+
+.new-recent-search, .recent-search {
+    color: #6EA23D;
+}
+
+.clearRecentSearch {
+    color: #CCCCCC;
+    font-weight: normal;
+    font-size: small;
+}
+.new-homepage {
+    background: #EFEFEF;
+}
+
+.new-homepage * {
+    font-family: Lato, Helvetica, Arial, sans-serif;
+}
+
+.new-homepage strong, .new-homepage b {
+    font-weight: 900;
+}
+
+.new-homepage #panelRow > div {
+    background: #FFF;
+    float: left;
+    margin-left: 2.6666%;
+    position: relative;
+    text-align: center;
+    width: 23%;
+}
+
+#panelRow > .panel:first-child {
+    margin-left: 0;
+}
+
+.panel hr {
+    border: 1px dashed #00466B;
+    opacity: 0.2;
+}
+
+/*.panel {
+    background: #f2f2f2;
+    border-color: #d8d8d8;
+    border-style: solid;
+    border-width: 1px;
+    color: #333;
+    margin-bottom: 68px;
+    padding: 1.25rem;
+}*/
+
+.new-homepage .get-started h3,.new-homepage .news h3, .new-homepage .seo h3 {
+    color: #023658;
+    font-size: 2.5em;
+    font-weight: 300;
+}
+.new-homepage .seo h3 {
+    margin-bottom:35px;
+}
+.new-homepage .get-started h4 {
+    font-size: 1.5em;
+    font-weight: 300;
+    margin-top: -.4em;
+}
+.new-homepage .news h4 {
+    font-size: 1.5em;
+    font-weight: 300;
+    margin: 0 0 60px 0;
+    line-height: 1.2em;
+}
+.new-homepage .hero h1 {
+    text-align: center;
+}
+.column.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.new-homepage .popular-search,.new-homepage .feat-employer,.new-homepage .seo {
+    background: #FFF;
+    background-color: #FFF;
+    padding: 25px 0;
+}
+
+.new-homepage .popular-search a.browse {
+    color: #1A8EC0;
+}
+
+.new-homepage .popular-search a.browse span {
+    font-size: 1.5em;
+    margin-right: 1em;
+}
+
+.new-homepage .popular-search h2 {
+    color: #797979;
+    font-size: 2em;
+    font-weight: 300;
+    margin-bottom: 0.2em;
+}
+
+.new-homepage .popular-search h1,.new-homepage .feat-employer h1 {
+    color: #00476B;
+    font-size: 2.25em;
+    font-weight: 300;
+    margin-bottom: 1.5em;
+}
+
+.new-homepage .popular-search a {
+    font-weight: 400;
+}
+
+.new-homepage .popular-search h3,.new-homepage .feat-employer h3 {
+    color: #023658;
+    font-size: 2.5em;
+    font-weight: 300;
+}
+
+.new-homepage .featEmp {
+    width: 135px;
+    border: 1px #EFEFEF solid;
+    /*max-height: 60px;*/
+}
+
+.new-homepage .popular-search .row.browse-all {
+    margin-top: 6em;
+}
+
+.new-homepage i {
+    font-family: FontAwesome;
+}
+
+.new-homepage h1, .new-homepage h2, .new-homepage h3, .new-homepage h4, .new-homepage h5, .new-homepage h6 {
+    font-weight: 600;
+}
+
+.new-homepage .hero-wrapper {
+    background-image: url(http://img.icbdr.com/images/LJ/home/Banner/homepage-hero-lj.jpg);
+    background-position: top center;
+    background-size: cover;
+    /*border-bottom: 1em #93ABBA solid;*/
+}
+
+.new-homepage .hero-wrapper .hero {
+    height: auto;
+    padding-top: 2.25em;
+    width: 100%;
+   padding-bottom: 2.25em;
+}
+
+.new-homepage .hero-wrapper h1 {
+    color: #FFF;
+    font-size: 2.25em;
+    font-weight: 300;
+    margin-bottom: .5em;
+}
+
+.new-homepage .hero-wrapper .search {
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 8px;
+    padding: 1.2em 2.5em;
+}
+
+.new-homepage .hero-wrapper label {
+    color: #FFF;
+    font-size: 1em;
+    font-weight: 300;
+}
+
+.new-homepage .hero-wrapper input[type=text] {
+    border: none;
+    border-radius: 2px;
+    box-shadow: none;
+    color: #1A8EC0;
+    font-size: 1.5em;
+    height: 60px;
+    margin-top: .25em;
+    padding: .75em;
+}
+
+.new-homepage .hero-wrapper #search-button {
+    background-color: #2BA6CB;
+    border-radius: 2px;
+    font-size: 1.5em;
+    font-weight: 700;
+    height: 60px;
+    margin: 30px 0 0;
+}
+
+.new-homepage .hero-wrapper .input-wrapper:nth-of-type(1), .new-homepage .hero-wrapper .input-wrapper:nth-of-type(2) {
+    padding: 0 .125em;
+    width: 37.5%;
+}
+
+.new-homepage .hero-wrapper .input-wrapper:nth-of-type(3) {
+    padding: 0 .125em;
+    width: 25%;
+}
+
+.new-homepage .hero-wrapper .button.expand {
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+}
+
+.new-homepage .popular-search p {
+    color: #A9A9A9;
+    font-weight: 300;
+    line-height: 1.875;
+    margin-bottom: 1em;
+}
+
+.new-homepage .popular-search p a,.new-homepage .feat-employer a,.new-homepage .news a,.new-homepage .seo a  {
+    color: #1A8EC0;
+    text-decoration: none;
+    float: right;
+}
+
+.new-homepage .news .item a {
+    float: none;
+}
+
+.new-homepage .news h4 a  {
+    color: inherit;
+    text-decoration: none;
+    line-height: 24px;
+}
+.new-homepage .news .itemTitle a{
+    float: left;
+}
+.new-homepage .popular-search .browse img {
+    height: 24px;
+    margin-right: 1em;
+    width: auto;
+}
+.new-homepage .feat-employer .right {
+    margin-top: 27px;
+}
+.new-homepage .feat-employer .feat-emmployer-logo {
+    margin-top: 10px;
+}
+.new-homepage .banner-home {
+    margin: 25px 0px;
+    width: 1060px;
+}
+.new-homepage .news{
+    margin-top: 25px ;  
+    padding-bottom: 25px ;    
+}
+.new-homepage .news img {
+    width: 182px;
+    height: 136px;
+}
+.new-homepage .news p {
+    font-size: 15px;
+}
+.new-homepage .news h3 {
+    margin-bottom: 20px;
+}
+.new-homepage .seo h4 {
+    font-size: 1.5em;
+    font-weight: 300;
+    margin-top: -0.4em;
+}
+/*.new-homepage .news  .item  {
+    margin-right: 50px;
+}*/
+.new-homepage .seo .item a {
+    float: none;
+    padding-right:32px;
+}
+
+/*.get-started .small-10, .popular-search .small-10 {
+    padding: 0 2.5em;
+}*/
+
+span.header {
+    color: #000;
+    font-family: Lato, sans-serif;
+    font-size: 1.5em;
+}
+
+#advancedSearch {
+    float: right;
+    width: 25%;
+    text-align: center;
+    color: #fff;
+    margin-top: -12px;
+}
+
+#add-resume-container {
+    float: left;
+    margin-top: 1.6em;
+}
+#add-resume-container .button {
+    border-radius: 2px;
+    font-weight: bold;
+}
+#addresumebutton {
+   background-color:#F36B21;
+   border-color:#F36B21;
+}
+
+#addresumebutton:hover, #addresumebutton:focus {
+    background-color: #F38422; 
+    border-color: #F38422;
+}
+
+#careerInsightsPanel, #resume-upload {
+  padding: 1em 0;
+}
+
+.career-insights-prop strong {
+  margin-top: 15px;
+  color: #158DB8;
+  float: left;
+  width: 40%;
+  text-align: center;
+  font-size: 2.5em;
+  line-height: 3rem;
+}
+
+.career-insights-prop {
+  background-color: white;
+  float: left;
+  border: 2px solid #E9E9E9;
+  width: 100%;
+}
+
+#search-label {
+    font-size: 100%;
+    line-height:1.2;
+    margin-top: 19px;
+    color:#797979;
+    font-weight:500;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    width:60%;
+    float:left;
+}
+
+#views-label {
+    font-size: 100%;
+    line-height:1.2;
+    margin-top: 19px;
+    color:#797979;
+    font-weight:500;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    width:60%;
+    float:left;
+}
+
+#reports-label {
+    font-size: 100%;
+    line-height:1.2;
+    margin-top: 19px;
+    color:#797979;
+    font-weight:500;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    width:60%;
+    float:left;
+}
+/**/
+#LJCOMMON_blog_ {
+    min-height:500px;
+}
+
+#search-button:after{
+  content: "Rechercher";
+}
+#label-search-key:after {
+    content:"Métier, technologie ou société";
+}
+#addresumebutton:after{
+      content: "Ajouter votre CV maintenant";
+     }
+
+@media screen and (max-width:825px){
+     #search-button:after{
+      content: "\f002";
+      font-family: FontAwesome;
+      font-size: 28px;
+     }
+    .new-homepage .hero-wrapper #search-button {
+        height: 61px;
+        margin: 29px 0px 0px;
+     }
+     #label-search-key:after {
+         content:"Mots-clés";
+     }
+     #addresumebutton:after{
+      content: "Ajouter votre CV";
+     }     
+}
+
+
+/* header */
+
+
+header#gs-header h2 a img {
+    max-width: 130% !important;
+}
+
+#container{
+	margin:auto;
+	min-height:100%;
+	width:950px !important;
+	padding:0 10px;
+	position:relative;	
+}
+
+
+
+
+.title01 {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	padding-left: 10px;
+}
+
+.title02 {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	color: #FFFFFF;
+	padding-left: 10px;
+}
+
+.txt_footer {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #415794;
+	text-decoration: none;
+
+}
+
+.width_bc {
+	width:88%;
+}
+
+.champs_form_contact {
+
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	background-color:#FFFFFF;
+	padding:2px;
+	color: #5A5B92;
+	font-weight: normal;
+	text-decoration: none;
+	border: 1px solid #5A5B92;
+}
+
+.select_home {
+
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color: #5A5B92;
+	font-weight: normal;
+	text-decoration: none;
+	border: 1px solid #5A5B92;
+}
+.select_home_couleur {
+	color:#0F0A67;
+}
+
+.bouton_class {
+	border: 1px solid #5A5B92;
+	background-image: url(../../../images/LJ/bg_menu_haut.gif);
+	font-weight: bold;
+	color: #5A5B92;
+	font-family : Geneva,Arial,Helvetica,sans-serif;
+	cursor:pointer;
+}
+
+
+/* liste.asp */
+
+
+
+/*Pagination*/
+div.pagination {
+  text-align:left;
+  padding: 7px;
+  margin: 3px;
+}
+
+div.pagination a {
+  padding: 2px 5px 2px 5px; 
+  margin: 2px;
+  border: 1px solid #cccccc;
+  text-decoration: none; /* no underline */
+  color: #000000;
+}
+div.pagination a:hover, div.pagination a:active {
+  border: 1px solid #cccccc;
+  background-color:#cccccc;
+  color: #000000;
+}
+div.pagination span.current {
+  padding: 2px 5px 2px 5px;
+  margin: 2px; 
+  border: 1px solid #cccccc;
+ 
+  font-weight: bold;
+  background-color: #cccccc;
+  color: #000000;
+} 
+div.pagination span.disabled {
+  padding: 2px 5px 2px 5px;
+  margin: 2px;
+  border: 1px solid #EEE;
+
+  color: #DDD; 
+}
+
+
+h1{
+	color:#4A4B79 ;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:20px ;
+	font-weight:bold ;
+}
+
+h2{
+	color:#4A4B79 ;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:14px ;
+	font-weight:bold ;
+}
+
+.CompDiv
+{
+	border:1px solid #CCCCCC;
+	margin: 5px;
+	text-align:center;
+	padding-top:10px;
+}
+
+.listEntrep td
+{
+	width:33%;
+}
+
+.txt_blanc 
+{
+	width:100px;
+	.*width:80px;
+}
+
+#centralcolumn2 table
+{
+	width:100%;
+}
+
+.td_login 
+{
+	min-width:185px !important;
+}
+
+.td_login #bulleContent
+{
+	margin-top: -4px;
+}
+
+/* --------------------------------------------------------------------------------- */
+/*				HOME  : /default.aspx												 */
+/* --------------------------------------------------------------------------------- */
+
+
+#LJCOMMON_lj_default #LatestJob
+{
+	/*width:325px !important;*/
+	padding-bottom:10px;
+}
+#_SingleApply_cbhlLogin
+{
+	display:none;
+}
+
+#LJCOMMON_lj_default #searchbox_MXJobSrchCriteria_Rawwords
+{
+	.*>width:240px !important;
+}
+
+#LJCOMMON_lj_default #searchbox_MXJobSrchCriteria_LJJobType,
+#LJCOMMON_lj_default #searchbox_MXJobSrchCriteria_States,
+#LJCOMMON_lj_default #MXJobSrchCriteria_LJMetier
+{
+	.*>width:243px !important;
+}
+
+#LJCOMMON_lj_default input[type=submit]
+{
+	.*>width:243px !important;
+}
+
+
+
+
+/* --------------------------------------------------------------------------------- */
+/*				DETAIL OFFRE : /jobseeker/jobs/jobdetail.aspx					     */
+/* --------------------------------------------------------------------------------- */
+
+
+#ucJobDetails1_ucJobDetails_phApplyTop_cbhlApplyOnline, #ucJobDetails1_ucJobDetails_ucSaveJobDetails__ucSaveJobGlobal_cbhlSaveJob,
+#ucJobDetails1_ucJobDetails_phApplyBottom_cbhlApplyOnline,#ucJobDetails1_ucJobDetails_SaveJobBottom__ucSaveJobGlobal_cbhlSaveJob 
+{
+	color:#FF9900 !important;
+	font-family:Arial,Helvetica,sans-serif !important;
+	font-size:14px !important;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+#JobSaved
+{
+    color: #FF9900 !important;
+    font-family: Arial,Helvetica,sans-serif !important;
+    font-size: 12px !important;
+    font-weight: normal !important;
+    line-height: 21px;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+#ucJobDetails1_ucJobDetails_ucSaveJobDetails__ucSaveJobGlobal_saveJobPopupWrapper,#ucJobDetails1_ucJobDetails_SaveJobBottom__ucSaveJobGlobal_saveJobPopupWrapper
+{
+	display:none;
+}
+
+#ucJobDetails1_ucJobDetails_ucSaveJobDetails__ucSaveJobGlobal_cbhlSavedJobNotes
+{
+	color:#F66B0C !important;
+	cursor:pointer !important;
+	font-size:0.7em !important;
+	font-weight:bold !important;
+	text-decoration:none !important;
+	font-family:Arial,Helvetica,sans-serif !important;
+}
+
+.idJDNSCEnt a
+{
+	color:#333366;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	text-decoration:none;	
+}
+
+.idJDNSCEnt a:hover
+{
+	color:#333366;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	text-decoration:underline;	
+}
+
+.idJDNSCVoir a 
+{
+	color:#669933;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	text-decoration:none;	
+}
+
+.idJDNSCVoir a:hover
+{
+	color:#669933;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	text-decoration:underline;	
+}
+
+#idBlocEntrep22 table
+{
+	width:100%;
+}
+
+#idBlocEntrep22 #page table
+{
+	width:100%;
+	.*>height:50px !important;
+}
+
+#idVAt
+{
+	border:1px solid #d5d5d5 !important;
+	margin-bottom:20px;
+}
+
+/*offre plus en ligne*/
+
+#titre_bloc_m12
+{
+	border:1px solid #d5d5d5;
+	padding:10px;
+	color:#333366;
+	font-family:arial,helvetica,sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	padding-bottom:10px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:10px;
+}
+
+#titre_bloc_m12 a
+{
+	color:#333366;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	text-decoration:none;
+}
+
+#titre_bloc_m12 a:hover
+{
+	color:#333366;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	text-decoration:underline;	
+}
+
+
+
+/*Offre expiré*/
+
+#expiredWrapper 
+{
+	border:1px solid #d5d5d5 !important;
+	margin:10px auto;
+	width:80%;
+	padding:10px;
+	text-align:left;
+}
+
+#expiredWrapper  h2
+{
+	font-size:12px !important;
+	color:#333366;
+}
+
+a#JobDetails__ucExpiredJob_cbhlSearchAgain, a#JobDetails__ucExpiredJob_cbhlNewSearch
+{
+	color:#333366;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	text-decoration:none;	
+}
+
+a:hover#JobDetails__ucExpiredJob_cbhlSearchAgain , a:hover#JobDetails__ucExpiredJob_cbhlNewSearch
+{
+	color:#333366;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	text-decoration:underline;	
+}
+
+
+/* --------------------------------------------------------------------------------- */
+/*				POPUP SAUVEGARDER UNE OFFRE : /jobseeker/jobs/jobresults.aspx	     */
+/*				POPUP ENVOYER CET  EMPLOI	  /JobSeeker/Jobs/MySavedJobs.aspx       */
+/* --------------------------------------------------------------------------------- */
+
+
+#sj_form , #sj_saving,#sj_noteSaved
+{
+	border:1px solid #000064 !important;
+}
+
+#SaveJobTitleCompany 
+{
+	font-family:Arial,Helvetica,sans-serif !important;
+	color:#676767 !important;
+}
+
+.btn,#btnRequest
+{
+	background-color:#5A5B92;
+	border:0 none;
+	color:#FFFFFF;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;
+	font-weight:bold;
+}
+
+#SaveJobBoxForm label 
+{
+	font-family:arial,helvetica,sans-serif;
+}
+
+#sj_noteSaved a
+{
+	color:#333366;
+	text-decoration:none;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;
+}
+
+#sj_noteSaved a:hover
+{
+	color:#333366;
+	text-decoration:underline;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;
+}
+
+
+/*MySavedJobs.aspx*/
+
+#LJCOMMON_jobseeker_jobs_mysavedjobs
+{
+	border:1px solid #d5d5d5;
+	padding:10px;
+	margin-right: 10px;
+	width: 760px;
+}
+
+#LJCOMMON_jobseeker_jobs_mysavedjobs .svWrapper 
+{
+	border:0px !important;
+	width:625px;
+}
+
+.svContentWrapper h1 
+{
+	color:#4A4B79 !important;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:20px !important;
+	font-weight:bold !important;
+}
+
+#LJCOMMON_jobseeker_jobs_mysavedjobs .email_list 
+{
+	margin-top:20px;
+	text-align:center;
+	width:650px;
+}
+
+#LJCOMMON_jobseeker_jobs_mysavedjobs #ESJL_EmailBox
+{
+    vertical-align:top !important;
+}
+
+#LJCOMMON_jobseeker_jobs_mysavedjobs #sjApply
+{
+    width:auto !important;
+}
+
+#LJCOMMON_jobseeker_jobs_mysavedjobs .sv_PnlTabbed 
+{
+	margin:20px 0 -2px -45px;
+	.*>margin:20px 0 -2px -5px;
+}
+
+#LJCOMMON_jobseeker_jobs_mysavedjobs .sv_PnlTabbed ul li.active 
+{
+	background:#EEEEEE !important;
+	border-bottom:0px solid #FFC928 !important;
+	border-color:#d5d5d5 !important;
+	height:25px;
+}
+
+#LJCOMMON_jobseeker_jobs_mysavedjobs .sv_PnlTabbed ul li a 
+{
+	color:#1E3E8C;
+	display:block;
+	float:left;
+	font-size:12px !important;
+	font-weight:bold;
+	line-height:10px;
+	padding:4px 30px !important;
+	text-decoration:none !important;
+}
+
+#LJCOMMON_jobseeker_jobs_mysavedjobs .sv_data th 
+{
+	border-bottom:2px solid #4A4B79 !important;
+}
+
+#LJCOMMON_jobseeker_jobs_mysavedjobs .sv_DataTable 
+{
+	background:#FFFFFF none !important;
+	border:1px solid #d5d5d5 !important;
+	margin:0;
+	padding:5px 0 0;
+	text-align:left;
+	width: 762px;
+}
+
+#LJCOMMON_jobseeker_jobs_mysavedjobs .jt
+{
+	color:#333366 !important;
+}
+
+#LJCOMMON_jobseeker_jobs_mysavedjobs .option_links
+{
+	white-space:nowrap;
+	width:158px !important;	
+}
+
+#LJCOMMON_jobseeker_jobs_mysavedjobs .ESJL_emailHD 
+{
+	vertical-align:top;
+}
+
+/*Ajouter/ modifer un commentaire*/
+
+.cb_style .grad 
+{
+	background:#FFFFFF none;
+}
+
+.askUserInfo #ExternalAppUserInfoRequest
+{
+	background: #FFFFFF url(../../images/JS/JobResults/bg_cb_PnlPrimary-UK.gif) repeat-x; /*border: 1px solid #3A71AE;*/ 
+	text-align:center;
+}
+
+.sj_submit #btn_saveJob , #sj_noteSaved .btn 
+{
+	background-color:#5A5B92 !important;
+	border:0 none !important;
+	color:#FFFFFF !important;
+	font-family:Arial,Helvetica,sans-serif !important;
+	font-size:12px !important;
+	font-weight:bold !important;
+	background:#5A5B92 none !important;
+}
+
+/*Envoyer cet emploi*/
+
+.defaultPopup
+{
+	border:1px solid #000064 !important;
+}
+
+#btn_sendEmail
+{
+	background-color:#5A5B92 !important;
+	border:0 none !important;
+	color:#FFFFFF !important;
+	font-family:Arial,Helvetica,sans-serif !important;
+	font-size:12px !important;
+	font-weight:bold !important;
+	background:#5A5B92 none !important;
+}
+
+/* --------------------------------------------------------------------------------- */
+/*				ENVOYER A UN AMI	  /jobseeker/accessible/emailjob.aspx            */
+/* --------------------------------------------------------------------------------- */
+
+#LJCOMMON_jobseeker_accessible_emailjob #emailJobForm
+{
+	border:1px solid #D5D5D5 !important;
+	font-size:12px;
+	padding:20px;
+	width:570px;
+    font-family :arial,helvetica,sans-serif;
+    height: auto;
+}
+
+
+#LJCOMMON_jobseeker_accessible_emailjob #prompt
+{
+	font-size:16px ;
+}
+
+#LJCOMMON_jobseeker_accessible_emailjob .popheader
+{
+	color:#4A4B79;
+	font-size:14px;
+	margin-bottom:20px;
+}
+
+#LJCOMMON_jobseeker_accessible_emailjob #emailJobForm .ej_split label 
+{
+	font-weight :normal !important;
+}
+
+#LJCOMMON_jobseeker_accessible_emailjob #MessageBody
+{
+	/*margin-left:-67px;*/
+	margin-top:15px;
+	width:257px;
+	vertical-align:top;
+}
+
+/* --------------------------------------------------------------------------------- */
+/*						LOGIN	  /share/login.aspx									 */
+/* --------------------------------------------------------------------------------- */
+
+#LJCOMMON_share_login
+{
+	width: 950px;
+}
+
+#LJCOMMON_share_login  #MXMessageBoxError
+{
+	width: 550px !important;
+}
+
+#LJCOMMON_share_login .siBox h3.org 
+{
+	background:none;
+	font-family: Geneva,Arial,Helvetica,sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#LJCOMMON_share_login .siBox h3.blue 
+{
+	background:none !important;
+	color:#FFFFFF;
+	font-size:15px;
+	margin:0;
+	padding:6px 8px 4px 10px;
+}
+
+#LJCOMMON_share_login .siBox.blu 
+{
+	border:1px solid #5A5B92 !important;
+	display:none;
+}
+
+#LJCOMMON_share_login #siBoxRt .LogInHead
+{
+	background:#5A5B92;
+}
+
+#LJCOMMON_share_login .cb_style .btn 
+{
+	background: none #5A5B92 !important;
+	border-color: transparent !important;
+	/*border-right: 0px solid transparent !important;
+	border-style: solid;
+	border-width: 0px !important;  */
+}
+
+#LJCOMMON_share_login #JobSeekerLogin1_cbRegister
+{
+	background-color:#5A5B92 !important;
+	border:0 none !important;
+	color:#FFFFFF !important;
+	font-family:Arial,Helvetica,sans-serif !important;
+	font-size:12px !important;
+	font-weight:bold !important;
+	background:#5A5B92 none !important;
+}
+
+#LJCOMMON_share_login .siItalic
+{
+	display:none;
+}
+
+#LJCOMMON_share_login .cb_style .siContentWrapper 
+{
+	border: 0 none;
+	margin: 0;
+	padding: 10px;
+	background:transparent;
+}
+
+#LJCOMMON_share_login .siContent div,
+#LJCOMMON_share_login .siContent p
+{
+	color: #808181;
+	font-family: Arial,helvetica,Sans-Serif;
+	font-size: 12px;
+	font-weight: bold;
+    line-height: 20px;
+}
+
+#LJCOMMON_share_login #PswdForgtLnk
+{
+	padding:0px;
+}
+
+#LJCOMMON_share_login #CreateAccount
+{
+   float: right;
+   margin-top: -20px;
+}
+
+.cb_style h3 
+{
+	border-bottom:0px !important;
+}
+/*LJCOMMON_lj_share_page*/
+
+#LJCOMMON_lj_share_page hr
+{
+	display:inline
+}
+
+#bodyBrandBuilder 
+{
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;
+	width:100% !important;
+	padding:10 !important;
+}
+
+#tblBenefitBoxes
+{
+	display:none;
+}
+
+.joblevel
+{
+	display:none;
+}
+/* --------------------------------------------------------------------------------- */
+/*						LOGOUT	  /share/logout.aspx								 */
+/* --------------------------------------------------------------------------------- */
+
+#LJCOMMON_share_logout
+{
+	width:950px;
+}
+
+#LJCOMMON_share_logout h3
+{
+	color:#5A5B92 !important;
+	background:#FFFFFF !important;
+	text-align:center !important;
+}
+
+/*--- rajouter pour retirer le 4ème bloc */
+
+#LJCOMMON_share_logout .bottomBoxWrapper 
+{
+	border:1px solid #D3DEFC;
+	margin:0;
+	padding:0;
+	width:99.8%;
+}
+
+#LJCOMMON_share_logout .leftLogout 
+{
+	float:left !important;
+	width:65% !important;
+	.*>width:64.9% !important;
+}
+
+#LJCOMMON_share_logout .jsLogoutBox 
+{
+	border-right:1px solid #D3DEFC;
+	float:right !important;
+	height:200px;
+	padding-bottom:20px;
+	width:49% !important;
+}
+
+#LJCOMMON_share_logout .rightLogout 
+{
+	float:left !important;
+	text-align:left;
+	width:35% !important;
+}
+
+
+#LJCOMMON_share_logout .jpLogoutBox 
+{
+	border-right:1px solid #D3DEFC;
+	float:left !important;
+	height:200px;
+	padding-bottom:20px;
+	width:100% !important;
+}
+
+#LJCOMMON_share_logout .jpLogoutBox.last 
+{
+	border-right:0 none !important;
+	width:50%;
+	display:none;
+}
+
+
+
+/*jobdetail.aspx*/
+
+#LJCOMMON_lj_jobseeker_jobs_jobdetails #titre_bloc_m12
+{
+	border:1px solid #d5d5d5;
+	padding:10px;
+	color:#333366;
+	font-family:arial,helvetica,sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	padding-bottom:10px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:10px;
+}
+
+#LJCOMMON_lj_jobseeker_jobs_jobdetails #titre_bloc_m12 a
+{
+	color:#333366;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	text-decoration:none;
+}
+
+#LJCOMMON_lj_jobseeker_jobs_jobdetails #titre_bloc_m12 a:hover
+{
+	color:#333366;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	text-decoration:underline;	
+}
+
+
+/* -----------------------------------------------------------------------------------   */
+/*		APRES POSTULER :    /JobSeeker/ApplyOnline/ApplyFinish.aspx                 	 */
+/* -----------------------------------------------------------------------------------   */
+
+#LJCOMMON_jobseeker_applyonline_applyfinish #heading2
+{
+	color:#202245 ;
+	display:block;
+	font-family:arial,helvetica,sans-serif;
+	font-size:12px;
+    line-height: 200%;
+	padding:10px;
+	position:relative;
+	width:980px;
+	z-index:1;
+}
+#LJCOMMON_jobseeker_applyonline_applyfinish #uploadCV {
+    display: inline-block;
+    vertical-align: middle;
+}
+#LJCOMMON_jobseeker_applyonline_applyfinish #BackToResult {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 2px;
+}
+#LJCOMMON_jobseeker_applyonline_applyfinish h1, #LJCOMMON_jobseeker_applyonline_applyfinish h2 {
+    color: #134A6A;
+    display: block;
+    font: 19px Arial,Sans-serif;
+}
+#LJCOMMON_jobseeker_applyonline_applyfinish #_BackToResults_cbhlStartNewSearch ,#LJCOMMON_jobseeker_applyonline_applyfinish #_BackToResults_cbhlBackToResults 
+{
+    background: #134A6A none repeat scroll 0% 0% !important;
+    width: auto ;
+    border-radius: 3px;
+    color: #FFF;
+    font: 18px/32px Lato,Arial,sans-serif;
+    padding: 0px 5px 0px 5px;
+    height: 36px;
+    border: medium none;
+    text-shadow: none;
+    text-decoration:none;
+    text-align: center;
+    display:inline-block;
+    margin-right:35px;
+}
+
+#LJCOMMON_jobseeker_applyonline_applyfinish #IUploadCV2_LinkUploadCV {
+    background: #F36B21 url("../../../images/LJ/Refresh/upload_cv.png") no-repeat scroll 25px 5px / 25px 25px;
+    text-shadow: none;
+    text-align: center;
+    width: 300px;
+    border-radius: 3px;
+    color: #FFF;
+    font: 18px/32px Lato,Arial,sans-serif;
+    height: 36px;
+    border: medium none;
+    margin-top: 13px !important;
+    margin-left: 0px;
+    display: block;
+    text-decoration: none;
+    
+}
+
+#LJCOMMON_jobseeker_applyonline_applyfinish .iconeCV { display: none; }
+
+#LJCOMMON_jobseeker_applyonline_applyfinish .subtitle { display: none; }
+
+#LJCOMMON_jobseeker_applyonline_applyfinish .box_uploadcv {
+    margin-bottom: 0px;
+}
+
+#LJCOMMON_jobseeker_applyonline_applyfinish .box_uploadcv .w {
+    height:80px;
+}
+
+#LJCOMMON_jobseeker_applyonline_applyfinish #applyForm
+{
+	border:none;
+	color:#333366;
+	display:block;
+	float:left;
+	font-family:arial,helvetica,sans-serif;
+	font-size:12px;
+	line-height:20px;
+	margin:0px 0 0;
+	position:relative;
+	width:100%;
+	.*>width:945px;
+	z-index:1;
+}
+
+
+#LJCOMMON_jobseeker_applyonline_applyfinish #applyForm a 
+{
+	
+	color:#202245;
+	font-family:arial,helvetica,sans-serif;
+	font-size:12px;	
+	text-decoration:none !important;
+}
+
+#LJCOMMON_jobseeker_applyonline_applyfinish table#results td.company {   
+    color: #202245;
+}
+
+#LJCOMMON_jobseeker_applyonline_applyfinish #formInput3 
+{
+	margin:20px 15px;
+}
+
+#LJCOMMON_jobseeker_applyonline_applyfinish .QuickPreview img, 
+#LJCOMMON_jobseeker_applyonline_applyfinish .QuickPreview span
+{
+	background-color:#FFFFFF !important;
+	text-align:center;
+	width:5%;
+}
+
+#LJCOMMON_jobseeker_applyonline_applyfinish table#results td.QuickCheck 
+{
+	background-color:#FFFFFF !important;
+	text-align:center;
+	width:5%;
+}
+
+
+#LJCOMMON_jobseeker_applyonline_applyfinish table#results th
+{
+	 text-align: left;
+     color:#202245;
+     padding-bottom: 10px;
+}
+
+#LJCOMMON_jobseeker_applyonline_applyfinish #btnSend,
+#LJCOMMON_jobseeker_applyonline_applyfinish #btnSendFt
+{
+	background-color:#4A4379 !important;
+	width:100px !important;
+}
+
+/*------ suite --------*/
+
+/*/JobSeeker/ApplyOnline/ApplyScreener.aspx*/
+
+#LJCOMMON_jobseeker_applyonline_applyscreener
+{
+	border:1px solid #D5D5D5 !important;
+	padding:10px;
+	
+}
+
+#LJCOMMON_jobseeker_applyonline_applyscreener #heading
+{
+	color:#4A4379;
+	float:none;
+	font-family:arial,helvetica,sans-serif;
+	font-size:12px;
+	width:auto;
+}
+
+#LJCOMMON_jobseeker_applyonline_applyscreener #heading h3
+{
+	color:#4A4379;
+	float:none;
+	font-family:arial,helvetica,sans-serif;
+	font-size:14px !important;
+	width:auto;
+}
+
+#LJCOMMON_jobseeker_applyonline_applyscreener .applyform  fieldset
+{
+	border:0px !important;
+	color:#4A4379;
+	font-family:arial,helvetica,serif !important;
+	font-size:12px;
+	
+}
+
+#LJCOMMON_jobseeker_applyonline_applyscreener .applyform  legend
+{
+	color:#4A4379;
+	
+}
+#LJCOMMON_jobseeker_applyonline_applyscreener #buttonSubmit
+{
+	background-color:#4A4379 !important;
+}
+
+#LJCOMMON_jobseeker_applyonline_applyscreener #ucScreener_lblIntroText2
+{
+	font-family:arial,helvetica,serif !important;
+	font-size:12px; 
+}
+
+/* -----------------------------------------------------------------------------------   */
+/*						INTL/jobseeker/applyonline.aspx                      	         */
+/* -----------------------------------------------------------------------------------   */
+
+.as-content h1, h2.sa-contact-info-header,#DetailJob h2{
+  color: #134A6A;
+  display: block;
+  font: 19px Arial,Sans-serif;
+  margin-bottom: 3px;
+}
+.as-header-message {
+  font: 12px Arial,sans-serif;
+}
+.as-more-info-link {
+    display:none;
+}
+.sa-contact-info-label {
+    font: bold 14px Arial,sans-serif;
+}
+#LJCOMMON_jobseeker_applyonline_intlapplybegin .sa-contact-info input[type="text"],#LJCOMMON_jobseeker_applyonline_intlapplybegin .sa-contact-info input[type="email"]{
+    width: 360px !important;
+    border: 1px solid #D5DFE2 !important;
+    font: 13px Arial,sans-serif !important;
+    color: #466E7E !important;
+    height: 28px !important;
+    padding: 0px 8px !important;
+    box-shadow:none !important;
+    max-width: 250px !important;
+}
+
+#SingleApply #divButton {
+    float: left;
+    margin-bottom: 10px;
+}
+
+#_SingleApply_pnlJSLoginModal h2 {
+    color:#134A6A !important;
+
+}
+
+#LJCOMMON_jobseeker_applyonline_intlapplybegin .cb_PnlTabbed ul li a {
+    padding: 9px 19px;
+    font-size: 14px;
+    color:#666;
+    border-raduis:3px;
+}
+#LJCOMMON_jobseeker_applyonline_intlapplybegin .cb_PnlTabbed ul li.active {
+    border-color: #d5d5d5;
+    border-bottom: 2px solid #d5d5d5;
+    background: #d5d5d5 none repeat scroll 0% 0%;
+}
+.resume-table-header-text {
+    font-size: 12px !important;
+}
+
+.sa-contact-info-header, #LJCOMMON_jobseeker_applyonline_intlapplybegin #DetailJob {
+    color: #13496A !important;
+    font-size: 18px;
+}
+#LJCOMMON_jobseeker_applyonline_intlapplybegin .SingleApply {
+    width: 64%;
+}
+
+#LJCOMMON_jobseeker_applyonline_intlapplybegin #_SingleApply_pnlJSLoginModal {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#LJCOMMON_jobseeker_applyonline_intlapplybegin .jobDetails {
+   margin-top: 30px;
+}
+#LJCOMMON_jobseeker_applyonline_intlapplybegin .tips {
+    color: #666;
+    font-style: italic;
+    font: 10px Arial,sans-serif;
+    margin-bottom: 3px;
+}
+
+/* -----------------------------------------------------------------------------------   */
+/*						INTL/jobseeker/careeradvice/article.aspx                      	 */
+/* -----------------------------------------------------------------------------------   */
+
+.RXart
+{
+	text-align:left !important;
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #4a4b79;
+}	
+
+#cbArticle_lblHeadline
+{
+	color:#000066;
+	font-size:20px;
+	text-align:center;
+	text-transform:uppercase;	
+}	
+
+#INTL_articles
+{
+	 margin-top:0px !important;
+}
+
+#ljsubemu {
+    margin : 10px 0px 10px 0px;
+    text-align: center;
+}
+#ljsubemu li {
+    display: inline;
+    margin :10px 5px 5px 5px;    
+}
+#ljsubemu li a {
+    text-decoration : none;
+}
+#ljsubemu li a:hover {
+    text-decoration : underline;
+}
+/* --------------------------------------------------------------------------------- */
+/*				RECHERCHE PAR ENTREP : /LJ/seo/NicheJobResults.aspx?type=company	 */
+/* --------------------------------------------------------------------------------- */
+
+
+/*New company */
+
+.company-page * {
+    font-family: Lato, Helvetica, Arial, sans-serif;
+}
+
+.company-page strong, .company-page b {
+    font-weight: 900;
+}
+.company-page h1{
+    color: #023658;
+    font-size: 2.5em;
+    font-weight: 300;
+}
+
+.company-page h2 {
+    color: #222222;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+.company-page #ucNicheJobResults2_rptCompResultCount td {
+    vertical-align: bottom;
+}
+.company-page .list-company {
+    margin-top: 30px;
+}
+.company-page .CompDiv{
+    /*height:165px;*/
+   width: 260px;
+   margin: 0 45px;
+}
+
+.company-page #Top10CompaniesNew_MXSpotLJTop10Companies {
+    width: 100%;
+}
+
+
+#CopmLinkCount a {
+	color: #1A8EC0;
+	font-family: Lato, Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	text-decoration: none;
+    font-weight :400;
+}
+
+#CopmLinkCount a:hover {
+	text-decoration: underline;
+}
+/*old annuaire enntreprise*/
+
+/* --------------------------------------------------------------------------------- */
+/*	Open Spot page : opage.aspx                                 					   */
+/* --------------------------------------------------------------------------------- */
+.full {
+    width: 1260px;
+}
+
+
+/* --------------------------------------------------------------------------------- */
+/*	DETAIL OFFRE - NOTE: /jobseeker/accessible/savejob.aspx							 */
+/* --------------------------------------------------------------------------------- */
+
+#LJCOMMON_jobseeker_accessible_savejob #sj_form
+{
+	padding:20px;
+	width:510px;
+	line-height:30px;
+	border:0 none !important;
+}
+
+#LJCOMMON_jobseeker_accessible_savejob h3
+{
+	color:#5A5B92;
+	font-size:14px;
+}
+
+#LJCOMMON_jobseeker_accessible_savejob #Notes
+{
+	margin-bottom:20px;
+	padding-bottom:20px;
+	margin-top:30px;
+	width:450px;
+}
+
+#LJCOMMON_jobseeker_accessible_savejob  #idNoteSJ
+{
+	float:left;
+	padding-top : 40px;
+}
+
+#LJCOMMON_jobseeker_accessible_savejob #sj_noteSaved
+{
+	border:0 none !important;
+	width:500px;
+}
+
+/* --------------------------------------------------------------------------------- */
+/*	CREATION DE COMPTE : /INTL/JobSeeker/JobAlerts/RegisterAlertFromResults.aspx	 */
+/* --------------------------------------------------------------------------------- */
+
+
+#LJCOMMON_intl_jobseeker_jobalerts_registeralertfromresults
+{
+	border:1px solid #d5d5d5;
+	font-family:arial,helvetica,serif;
+	font-size:12px;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registeralertfromresults #idRAFRtitle
+{
+	background:#5A5B92 none repeat scroll 0 0;
+	color:#FFFFFF;
+	height:20px;
+	margin-left:-9px;
+	margin-top:-51px;
+	padding-top:0px;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registeralertfromresults h1
+{
+	color:#FFFFFF !important;	
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registeralertfromresults .alertHeading
+{
+	background:none !important;	
+	color:#FFFFFF;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	height:50px;
+	padding:4px 4px 4px 10px;
+	text-decoration:none;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registeralertfromresults .cb_PnlPrimary 
+{
+	border:0px solid #D5D5D5;
+	padding:9px;
+	text-align:left;
+	margin-bottom:-56px;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registeralertfromresults .cb_PnlTabbed ul li 
+{
+	background:#FFFFFF! important;
+	border-color:#FFFFFF #FFFFFF !important;
+	border-style:solid solid none;
+	border-width:0px 0px medium !important;
+	margin:0 0 1px 3px;
+	padding:0;
+	width:155px;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registeralertfromresults .stdInnerContent
+{
+	border:0px solid #D5D5D5;
+	margin:0 0 25px;
+	padding:9px;
+	text-align:left;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registeralertfromresults #btnSave
+{
+	margin-left:200px;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registeralertfromresults #idRegisterAFR1
+{
+	margin-left:480px;
+	color:#000000;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registeralertfromresults #idRegisterAFR2
+{
+	color:#000000;
+	float:right;
+	margin-top:-16px;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registeralertfromresults .registerLeftColumn, 
+#LJCOMMON_intl_jobseeker_jobalerts_registeralertfromresults .registerCenterColumn
+{
+	width:50% !important;
+	.*>width:48% !important;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registeralertfromresults .registerRightColumn 
+{
+	float:left;
+	margin-bottom:-10px;
+	width:100%;
+}
+
+
+/* --------------------------------------------------------------------------------- */
+/*							404.aspx												 */
+/* --------------------------------------------------------------------------------- */
+
+
+#LJCOMMON_intl_404 div , #LJCOMMON_intl_404 span
+{
+	color:#5A5B93;
+	font-family:Geneva,Arial,Helvetica,sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	width:400px;
+}
+
+/* --------------------------------------------------------------------------------- */
+/*		EXIGENCE POUR  LE POSTE  :/JobSeeker/ApplyOnline/AOReviewReq.aspx			 */
+/* --------------------------------------------------------------------------------- */
+
+#LJCOMMON_jobseeker_applyonline_aoreviewreq
+{
+	border:1px solid #d5d5d5;
+	padding:10px;
+	font-family:arial,helvetica,sans-serif;
+	color:#333366;
+	font-size:12px;	
+}
+
+#LJCOMMON_jobseeker_applyonline_aoreviewreq #cbButSubmit
+{
+	background-color:#5A5B92;
+	border:0 none;
+	color:#FFFFFF;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	margin-left:15px;
+}
+#LJCOMMON_jobseeker_applyonline_aoreviewreq a#returnLink
+{
+	background-color:#5A5B92;
+	border:0 none;
+	color:#FFFFFF;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	margin-left:15px;
+	padding:1px 10px;
+	text-decoration:none;
+}
+
+
+#LJCOMMON_jobseeker_applyonline_aoreviewreq a:hover#returnLink
+{
+	background-color:#5A5B92;
+	border:0 none;
+	color:#FFFFFF;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	margin-left:15px;
+	padding:1px 10px;
+	text-decoration:none;
+}
+
+#LJCOMMON_jobseeker_applyonline_aoreviewreq a
+{
+	color:#4A4B79;
+	font-family:Geneva,Arial,Helvetica,sans-serif;
+	font-size:12px;
+	text-decoration:none;
+}
+
+#LJCOMMON_jobseeker_applyonline_aoreviewreq a:hover
+{
+	color:#4A4B79;
+	font-family:Geneva,Arial,Helvetica,sans-serif;
+	font-size:12px;
+	text-decoration:underline;
+}
+
+#LJCOMMON_jobseeker_applyonline_aoreviewreq .d_tbl_details
+{
+	line-height:25px;
+	padding-left:10px;
+}
+
+#LJCOMMON_jobseeker_applyonline_aoreviewreq .d_cell_title
+{
+	line-height:25px;
+	padding-left:15px;
+}
+
+#LJCOMMON_jobseeker_applyonline_aoreviewreq #d_cell_title_up
+{
+	padding-left:0px;
+}
+
+
+#LJCOMMON_jobseeker_applyonline_aoreviewreq .cell_sectionheader
+{
+	font-size:14px;
+}
+
+
+/* --------------------------------------------------------------------------------- */
+/*		BUREAU CANDIDAT  :/INTL/JobSeeker/MyCB.aspx                    			     */
+/* --------------------------------------------------------------------------------- */
+
+#btnSave,#btnCancel,#btnSubmit,#btnDelete,#qsbButton,#CBLocalizedButton1,#btnSubmit2,#btnAddReplace,#recButtonLink,#submit1,#submit2,#btndefault, #btnremove, #btnAdd,#btnContinue
+{
+	background: none;
+	background-color:#f36b21;
+	border:0 none;
+	color:#FFFFFF;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px !important;
+	font-weight:bold;
+	margin-left:15px;
+    width: 160px;
+    height: 32px;
+    cursor: pointer;
+    border-radius: 3px;
+
+}
+
+#LJCOMMON_intl_jobseeker_mycb
+{
+	margin-left:20px;
+	width:660px;
+}
+
+#LJCOMMON_intl_jobseeker_mycb #myCB_outer 
+{
+	float:left;
+	padding:10px 0;
+	text-align:left;
+}
+
+#LJCOMMON_intl_jobseeker_mycb #myCB_outer .stdOuter 
+{
+	border:1px solid #8395C5 ; /*9AADD5*/
+	font-family:arial,helvetica,serif;
+	font-size:12px;
+	margin-bottom:10px;
+	padding:10px;
+	background:#FFFFFF !important;
+	color:#5A5B92;
+	width:660px;
+}
+
+#LJCOMMON_intl_jobseeker_mycb a
+{
+	color:#5A5B93;
+	font-family:Geneva,Arial,Helvetica,sans-serif;
+	font-size:11px;
+	text-decoration:underline;
+}
+
+#LJCOMMON_intl_jobseeker_mycb a:hover
+{
+	color:#5A5B93;
+	font-family:Geneva,Arial,Helvetica,sans-serif;
+	font-size:11px;
+	text-decoration:underline;
+}
+
+#LJCOMMON_intl_jobseeker_mycb #myCB_outer div div td a 
+{
+	font-size:12px !important;
+}
+
+#LJCOMMON_intl_jobseeker_mycb .stdInnerContent img
+{
+	display:none;
+}
+
+#LJCOMMON_intl_jobseeker_mycb #ucMySearches_mxdlSavedSearches select
+{
+	color:#4A4379;
+	border:1px solid #D5D5D5;
+}
+
+#LJCOMMON_intl_jobseeker_mycb div#StrongPasswordModal span.header 
+{
+	background:#4A4379 none repeat scroll 0 0 !important;
+	border:0 none #4A4379;
+	height:7px;
+	margin-left:-1px;
+	margin-top:-1px;
+
+}
+
+#LJCOMMON_intl_jobseeker_mycb div#StrongPasswordModal
+{
+	background:#FFFFFF none repeat scroll 0 0 !important;
+	font-family:Arial,helvetica,sans-serif !important;
+	font-size:12px !important;
+	width:35em !important;
+	.*>width:450px !important;
+	color:#4A4379;
+
+}
+
+#LJCOMMON_intl_jobseeker_mycb   div#OptionContainer a 
+{
+	background:#4A4379 none repeat scroll 0 0 !important;
+	border-color:#4A4379 !important;
+	font-size:11px;
+	width:15em !important;
+}
+
+#LJCOMMON_intl_jobseeker_mycb   div#OptionContainer a:hover
+{
+	background:#4A4379 none repeat scroll 0 0 !important;
+	border-color:#4A4379 !important;
+	font-size:11px;
+	width:15em !important;
+	text-decoration:none !important;
+	color:#FFFFFF !important
+}
+
+#LJCOMMON_intl_jobseeker_mycb #myCBLeftConentRecs 
+{
+	color:#4A4379;
+	font-family:Arial,helvetica,sans-serif !important;
+	font-size:14px !important;
+	font-weight:bold;
+	
+}
+
+#LJCOMMON_intl_jobseeker_mycb #pnlShowRecs
+{
+	border:1px solid #8395c5 !important;
+	margin-bottom:10px;
+	width:680px;
+}
+
+#LJCOMMON_intl_jobseeker_mycb .jrCompany , #myCBLeftContentCity ,#myCBRecCityInfo,#myCBRecDate
+{
+	color:#5A5B92 !important;
+	font-family:arial,helvetica,serif !important;
+	font-size:11px !important;
+}
+
+#LJCOMMON_intl_jobseeker_mycb #stdInnerContent h2 span
+{
+	margin-right:365px;
+}
+
+#LJCOMMON_intl_jobseeker_mycb #SavedSearchesMessage
+{
+	color:#CC0000;
+	font-size:12px;
+}
+
+/* --------------------------------------------------------------------------------- */
+/*		MOT DE PASSE OUBLIE : /share/ForgotMyPassword.aspx						     */
+/*                            /Share/ConfirmNewPassword.aspx               			 */
+/*                            /Share/UserSendPw.aspx                                 */
+/* --------------------------------------------------------------------------------- */
+
+#LJCOMMON_share_forgotmypassword
+{
+	font-family:arial,helvetica,sans-serif;
+	font-size:12px;
+    margin: 0 auto;
+}
+
+#LJCOMMON_share_forgotmypassword #password_wrapper 
+{
+	border: 0 none;
+    margin: 0 auto 0 114px;
+    width: 61%;
+}
+
+#LJCOMMON_share_forgotmypassword h1
+{
+    color: #134a6a;
+    display: block;
+    font: 19px Arial,sans-serif;
+}
+
+#LJCOMMON_share_forgotmypassword h4
+{
+	font-size:12px !important;
+}
+
+#LJCOMMON_share_forgotmypassword .form
+{
+	margin: 45px 15px 10px;
+    text-align: left;
+}
+
+#LJCOMMON_share_forgotmypassword #pass_heading
+{
+    border-bottom: none !important;
+}
+
+#LJCOMMON_share_forgotmypassword .info_box
+{
+    background: none repeat scroll 0 0 #E1E1E1 !important;
+    border: 1px solid #C3C3C3;
+    width: 360px;
+}
+
+#LJCOMMON_share_forgotmypassword .password_wrapper input 
+{
+	margin-bottom: 10px;
+}
+
+#LJCOMMON_share_forgotmypassword #emailSubmit 
+{
+	width: 310px;
+}
+
+#LJCOMMON_share_forgotmypassword #MXMessageBoxError 
+{
+	width: 415px!important;
+}
+
+#LJCOMMON_share_forgotmypassword #enterEmailPrompt {
+    padding-left: 13px;
+    padding-top: 12px;
+    text-align: left;
+}
+
+#LJCOMMON_share_forgotmypassword #txtEmail {
+    border: 1px solid #d5dfe2;
+    border-radius: 3px;
+    color: #466e7e;
+    font: 13px/28px Lato,Arial,sans-serif;
+    height: 28px;
+    margin: 5px 0;
+    padding: 0 8px !important;
+    width: 46%;
+}
+
+#LJCOMMON_share_forgotmypassword #info_box {
+    display: none;
+}
+
+#LJCOMMON_share_forgotmypassword #emailSubmit {
+    background: none repeat scroll 0 0 #f7961e !important;
+    border: medium none;
+    border-radius: 3px;
+    cursor: pointer;
+    height: 32px;
+    margin-top: 3px;
+    float:right;      
+    width: 160px;
+}
+
+/*ConfirmNewPassword*/
+
+#LJCOMMON_share_confirmnewpassword
+{
+	border:1px solid #d5d5d5 !important;
+	font-family:arial,helvetica,sans-serif;
+	font-size:12px;
+	margin-left:200px;
+	padding:10px;
+	text-align:left;
+	width:600px;
+}
+
+#LJCOMMON_share_confirmnewpassword .password_wrapper
+{
+	border:0px !important;
+}
+
+#LJCOMMON_share_confirmnewpassword h1
+{
+	font-size:14px !important;
+}
+
+#LJCOMMON_share_confirmnewpassword h4
+{
+	font-size:12px !important;
+}
+
+#LJCOMMON_share_confirmnewpassword .info_box
+{
+	line-height:20px;
+	margin-top:20px;
+	padding:10px;
+}
+
+/*/Share/UserSendPw.aspx*/
+
+#LJCOMMON_share_usersendpw
+{
+	border:1px solid #d5d5d5 !important;
+	font-family:arial,helvetica,sans-serif;
+	font-size:12px;
+	padding:10px;
+	text-align:left;
+	color:#4A4379;
+}
+
+#LJCOMMON_share_usersendpw a
+{
+	color:#5A5B93;
+	font-family:Geneva,Arial,Helvetica,sans-serif;
+	font-size:12px;
+	text-decoration:underline;
+}
+
+#LJCOMMON_share_usersendpw a:hover
+{
+	color:#5A5B93;
+	font-family:Geneva,Arial,Helvetica,sans-serif;
+	font-size:12px;
+	text-decoration:underline;
+}
+
+/* ---------------------------------------------------------------------------------     */
+/*	GESTION DES ALERTES EMAILS : /INTL/JobSeeker/JobAlerts/MyJobAlertsManager.aspx       */
+/*						 Ajout : /INTL/JobSeeker/JobAlerts/CreateJobAlertPage.aspx		 */
+/*					  Modifier : /INTL/JobSeeker/jobalerts/EditJobAlert.aspx			 */
+/*                               INTL/JobSeeker/JobAlerts/CreateJobAlertFromResults.aspx */
+/* ---------------------------------------------------------------------------------     */
+
+#LJCOMMON_intl_jobseeker_jobalerts_myjobalertsmanager
+{
+	font-family:arial,helvetica,sans-serif;
+	font-size:12px;
+	margin-left:20px;
+	margin-top:10px;
+	width:660px;
+	.*>	width:730px;
+	color:#4A4B79;
+	
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_myjobalertsmanager .cb_PnlPrimary 
+{
+	border:1px solid #8395C5 !important; /*9AADD5*/
+	
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_myjobalertsmanager .betterJob 
+{
+	color:#4A4B79 !important;
+	display:block;
+	font-family:arial,helvetica,sans-serif !important;
+	font-size:14px !important;
+	font-weight:bold;
+	margin:0 0 5px;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_myjobalertsmanager a
+{
+	color:#5A5B93;
+	font-family:Geneva,Arial,Helvetica,sans-serif;
+	font-size:11px;
+	text-decoration:underline;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_myjobalertsmanager a:hover
+{
+	color:#5A5B93;
+	font-family:Geneva,Arial,Helvetica,sans-serif;
+	font-size:11px;
+	text-decoration:underline;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_myjobalertsmanager #mxdlAlerts
+{
+	margin-top:25px;
+}
+
+
+/*/INTL/JobSeeker/JobAlerts/CreateJobAlertPage.aspx*/
+
+#LJCOMMON_intl_jobseeker_jobalerts_createjobalertpage
+{
+	font-family:arial,helvetica,sans-serif;
+	font-size:12px;
+	margin-left:20px;
+	margin-top:-5px;
+	width:660px;
+	color:#4A4B79;
+	.*>width:750px;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_createjobalertpage .cb_PnlPrimary 
+{
+	border:1px solid #8395C5 !important; /*9AADD5*/
+	
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_createjobalertpage .betterJob 
+{
+	color:#4A4B79 !important;
+	display:block;
+	font-family:arial,helvetica,sans-serif !important;
+	font-size:14px !important;
+	font-weight:bold;
+	margin:0 0 5px;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_createjobalertpage .betterJob span
+{
+	color:#4A4B79 !important;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_createjobalertpage .requiredNote
+{
+	float:right;
+	margin:-20px 0 0;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_createjobalertpage .alertHeading
+{
+	margin:0 0 30px;
+	width:640px !important;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_createjobalertpage a
+{
+	color:#5A5B93;
+	font-family:Geneva,Arial,Helvetica,sans-serif;
+	font-size:11px;
+	text-decoration:underline;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_createjobalertpage a:hover
+{
+	color:#5A5B93;
+	font-family:Geneva,Arial,Helvetica,sans-serif;
+	font-size:11px;
+	text-decoration:underline;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_createjobalertpage #ctrlJobSearch_MXJobSrchCriteria_Rawwords, #ctrlJobSearch_MXJobSrchCriteria_LJJobType, #ctrlJobAlert_SvdJobSearch_SearchName
+{
+	width:282px !important;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_createjobalertpage #MXJobSrchCriteria_LJMetier
+{
+	width:282px !important;
+	color:#000000;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_createjobalertpage td
+{
+	white-space:nowrap;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_createjobalertpage #Messagebox1 table
+{
+		width:660px !important;
+
+}
+
+/*/INTL/JobSeeker/jobalerts/EditJobAlert.aspx*/
+
+#LJCOMMON_intl_jobseeker_jobalerts_editjobalert
+{
+	font-family:arial,helvetica,sans-serif;
+	font-size:12px;
+	margin-left:20px;
+	margin-top:-5px;
+	width:660px;
+	color:#4A4B79;
+	.*width:750px;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_editjobalert .cb_PnlPrimary 
+{
+	border:1px solid #8395C5 !important; /*9AADD5*/
+	
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_editjobalert .betterJob 
+{
+	color:#4A4B79 !important;
+	display:block;
+	font-family:arial,helvetica,sans-serif !important;
+	font-size:14px !important;
+	font-weight:bold;
+	margin:0 0 5px;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_editjobalert .betterJob span
+{
+	color:#4A4B79 !important;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_editjobalert .requiredNote
+{
+	float:right;
+	margin:-20px 0 0;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_editjobalert .alertHeading
+{
+	margin:0 0 30px;
+	width:640px !important;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_editjobalert td
+{
+	white-space:nowrap;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_editjobalert #Messagebox1 table
+{
+		width:660px !important;
+
+}
+
+/*LJCOMMON_intl_jobseeker_jobalerts_createjobalertfromresults*/
+
+
+#LJCOMMON_intl_jobseeker_jobalerts_createjobalertfromresults
+{
+	border:1px solid #8395C5;
+	color:#4a4379 !important;
+	font-size:12px;
+	font-family:Arial,Helvetica,sans-serif;
+	margin-left:20px;
+	width:732px;
+	.*>width:660px;
+	margin-top:10px;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_createjobalertfromresults img , hr
+{
+	display:none;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_createjobalertfromresults td
+{
+	border:#FFFFFF !important;
+	border-top-style:solid;
+	border-top-width:0px;
+	padding-left:0px !important;
+	white-space:nowrap;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_createjobalertfromresults .sectionheader
+{
+	background-color:#ffffff !important;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_createjobalertfromresults font
+{
+	color:#4a4379 !important;
+}
+
+/* --------------------------------------------------------------------------------- */
+/*	GESTION DES LETTRES : /JobSeeker/Resumes/EditCoverLetter.aspx				     */
+/*			   Modifier : /JobSeeker/Resumes/ViewCoverLetter.aspx                    */
+/*             Supprimer: /JobSeeker/Resumes/RemoveCoverLetter.aspx                  */
+/* --------------------------------------------------------------------------------- */
+
+#LJCOMMON_jobseeker_resumes_editcoverletter
+{
+	font-family:arial,helvetica,sans-serif;
+	font-size:12px;
+	margin-left:20px;
+	margin-top:10px;
+	width:660px;
+	.*>width:730px;
+	color:#4A4B79;
+	border:1px solid #8395C5;
+}
+
+#LJCOMMON_jobseeker_resumes_editcoverletter  #CoverLetr
+{
+	display:none;
+}
+
+#LJCOMMON_jobseeker_resumes_editcoverletter td
+{
+	background:#ffffff !important;
+	text-align:left;
+
+}
+
+#LJCOMMON_jobseeker_resumes_editcoverletter #btnSave
+{
+	float:left;
+	margin:20px 20px 20px 250px;
+}
+
+#LJCOMMON_jobseeker_resumes_editcoverletter #CvrLtr_CoverletterText
+{
+	.*>margin-top:20px;
+}
+
+#LJCOMMON_jobseeker_resumes_editcoverletter #mxMsgBox table
+{
+	width:580px !important;
+}
+
+
+/*/JobSeeker/Resumes/ViewCoverLetter.aspx*/
+
+#LJCOMMON_jobseeker_resumes_viewcoverletter
+{
+	font-family:arial,helvetica,sans-serif;
+	font-size:12px;
+	margin-left:20px;
+	margin-top:10px;
+	width:660px;
+	.*>width:730px;
+	color:#4A4B79;
+	border:1px solid #8395C5;
+}
+
+#LJCOMMON_jobseeker_resumes_viewcoverletter h1
+{
+	font-family:arial,helvetica,sans-serif;
+	font-size:14px;
+	padding-left:20px;
+	float:left;
+}
+
+#LJCOMMON_jobseeker_resumes_viewcoverletter #tabVc1
+{
+	clear:both;
+	width:600px;
+}
+
+#LJCOMMON_jobseeker_resumes_viewcoverletter #tdVc1,#tdVc4
+{
+	line-height:50px;
+}
+
+#LJCOMMON_jobseeker_resumes_viewcoverletter #tdVc2,#tdVc3
+{
+	height:0;
+	line-height:1.3;
+	.*>height:10px;
+	.*>line-height:15px;
+	.*>text-align:left;
+	word-wrap: break-word; 
+	
+}
+
+#LJCOMMON_jobseeker_resumes_viewcoverletter a
+{
+	color:#5A5B93;
+	font-family:Geneva,Arial,Helvetica,sans-serif;
+	font-size:11px;
+	text-decoration:underline;
+}
+
+#LJCOMMON_jobseeker_resumes_viewcoverletter a:hover
+{
+	color:#5A5B93;
+	font-family:Geneva,Arial,Helvetica,sans-serif;
+	font-size:11px;
+	text-decoration:underline;
+}
+
+
+/*/JobSeeker/Resumes/RemoveCoverLetter.aspx*/
+
+#LJCOMMON_jobseeker_resumes_removecoverletter
+{
+	font-family:arial,helvetica,sans-serif;
+	font-size:12px;
+	margin-left:20px;
+	margin-top:10px;
+	width:660px;
+	.*>width:730px;
+	color:#4A4B79;
+	border:1px solid #8395C5;
+}
+
+/* --------------------------------------------------------------------------------- */
+/*			MON COMPTE :  /JobSeeker/User/UserInfo.aspx								 */
+/*			   Modifier : /Share/ChangeEmailPwd.aspx                                 */
+/*             Supprimer: /User/UserConfirmation.aspx								 */
+/* --------------------------------------------------------------------------------- */
+
+#LJCOMMON_share_userinfo
+{
+	font-family:arial,helvetica,sans-serif;
+	font-size:12px;
+	margin-left:20px;
+	margin-top:-12px;
+	width:660px;
+	color:#4A4B79;
+}
+
+#LJCOMMON_share_userinfo .borderWrapper  
+{
+	border:1px solid #8395C5 !important; /*9AADD5*/
+	margin-top:10px;
+	width:710px;
+	.*>width:730px;
+	.*>float:left;
+	.*>position:relative;
+	.*>margin-top:-40px;
+	
+}
+
+#LJCOMMON_share_userinfo .betterJob 
+{
+	color:#4A4B79 !important;
+	display:block;
+	font-family:arial,helvetica,sans-serif !important;
+	font-size:14px !important;
+	font-weight:bold;
+	margin:0 0 5px;
+}
+
+#LJCOMMON_share_userinfo a
+{
+	color:#5A5B93;
+	font-family:Geneva,Arial,Helvetica,sans-serif;
+	font-size:11px;
+	text-decoration:underline;
+}
+
+#LJCOMMON_share_userinfo a:hover
+{
+	color:#5A5B93;
+	font-family:Geneva,Arial,Helvetica,sans-serif;
+	font-size:11px;
+	text-decoration:underline;
+}
+
+#LJCOMMON_share_userinfo .btn 
+{
+	background-color:#8395C5 !important;
+	border:0 none;
+	color:#FFFFFF;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	margin-left:15px;
+}
+
+#LJCOMMON_share_userinfo .resumeInputs td label,
+#LJCOMMON_share_userinfo .resumeInputs div 
+{
+	color:#4A4B79 !important;
+	font-weight: bold;
+}
+
+#LJCOMMON_share_userinfo legend.lrgLegend 
+{
+	background: none repeat scroll 0 0 #DEDEDE;
+	border: 1px solid #F6F6F6;
+	color: #4A4379 !important;
+	font-family: arial,helvetica,sans-serif !important;
+	font-size: 14px !important;
+	height: 25px;
+	margin-left: 0;
+	padding-bottom: 0px !important;
+	padding-left: 10px !important;
+	padding-top: 7px !important;
+	text-transform: uppercase;
+	.*>margin-bottom:20px;
+	width: 690px;
+}
+
+#LJCOMMON_share_userinfo .resumeHeading 
+{
+	display:none;
+}
+
+#LJCOMMON_share_userinfo #Dstartxt 
+{
+	float: right !important;
+	margin-bottom: 5px;
+	margin-right: 21px !important;
+	margin-top: 75px !important;
+	.*>position:relative;
+	.*>top:20px;	
+}
+
+#LJCOMMON_share_userinfo .resumeWrapper 
+{
+	background-color:transparent !important;
+	font-family:Arial;
+	font-size:11px;
+	line-height:16px;
+	margin:0px !important;
+	padding:11px 0 0;
+	width:750px;
+}
+
+#LJCOMMON_share_userinfo .resumeInputs td,
+#LJCOMMON_share_userinfo .padleftcolumn
+{
+	width:200;
+	font-size:12px !important;
+}
+
+#LJCOMMON_share_userinfo fieldset 
+{
+	padding-top:15px;
+	.*>padding-top:0px;
+}
+
+#LJCOMMON_share_userinfo  
+{
+	width:25% !important;
+}
+
+#LJCOMMON_share_userinfo  #ucUserInfo_divUSStates
+{
+	margin-left:-298px;
+	.*>position:absolute;
+	.*>margin-top:-20px;
+}
+
+#LJCOMMON_share_userinfo  #ucUserInfo_divUSZip
+{
+	margin-left:-298px;
+	.*>position:absolute;
+	.*>margin-top:-20px;
+}
+
+#LJCOMMON_share_userinfo  #ucUserInfo_divCity
+{
+	margin-left:-87px;
+	margin-top:-5px;
+	.*>margin-top:-25px;
+	.*>position:absolute;
+}
+
+#LJCOMMON_share_userinfo 
+{
+	.*>margin-left:87px;
+}
+
+#LJCOMMON_share_userinfo
+{
+	.*>margin-left:300px;
+}
+
+#LJCOMMON_share_userinfo #idUIComp
+{
+	 display:none !important; 
+	 font-size :1px !important; 
+	 color:white!important;
+}
+
+#LJCOMMON_share_userinfo .padleftcolumn div, 
+#LJCOMMON_share_userinfo .padleftcolumn div input
+{
+   display:none !important; 
+   height:1px !important;
+   max-height:1px !important; 
+   font-size:1px !important; 
+   color:white!important;
+}
+
+#LJCOMMON_share_userinfo .requiredStar,
+#LJCOMMON_share_userinfo .requiredText
+{
+	color: #CC3300 !important;
+}
+
+#LJCOMMON_share_userinfo input[type="text"], 
+#LJCOMMON_share_userinfo select
+{
+	border: 1px solid #A39E90 !important;
+	color:Black !important;
+	font-family: arial,helvetica,sans-serif;
+	font-size: 12px !important;
+	padding:0px !important; 
+	width: 220px; 
+}
+
+#LJCOMMON_share_userinfo #MXMessageBoxError
+{
+	background-color: White;
+	border: 1px solid #CC0000;
+	margin-left: 15px;
+	text-align: left;
+	width: 732px !important;  
+}
+
+#idLeftColumn
+{
+	.*>width:30% !important;
+}
+
+#LJCOMMON_share_userinfo #ucUserInfoV2_prLeftContent {
+    width: 850px !important;
+}
+
+/*---------------------*/
+
+#LJCOMMON_share_userinfo h1 {
+    color: #134A6A;
+    display: block;
+    font: 19px Arial,Sans-serif;
+    margin-bottom: 3px;
+}
+
+#LJCOMMON_share_userinfo .page_header div {
+    margin-bottom:40px;
+}
+
+#LJCOMMON_share_userinfo #ucUserInfoV2_prLeftContent input[type="text"], 
+#LJCOMMON_share_userinfo #ucUserInfoV2_prLeftContent select {
+    border: 1px solid #D5DFE2 !important;
+    font: 13px Arial,Sans-serif;
+    color: #466E7E !important;
+    border-radius: 3px;
+    height: 28px;
+    padding: 0px 8px !important;
+    max-width: 250px;
+}
+
+#LJCOMMON_share_userinfo .field select {
+    min-width: 377px;
+}
+
+#LJCOMMON_share_userinfo #ucUserInfoV2_pnlLinks {
+    width:355px !important;
+}
+
+#LJCOMMON_share_userinfo .links-container {
+    float:right !important;
+}
+
+#LJCOMMON_share_userinfo .links {
+    margin-left:0px;
+    line-height: 150%;
+}
+
+#LJCOMMON_share_userinfo .resumeWrapper {
+    width: 845px !important;
+}
+
+#LJCOMMON_share_userinfo a {
+    color:#666;
+    font-family: Arial,Sans-serif;
+    font-size: 11px;
+    text-decoration: none;
+}
+
+#LJCOMMON_share_userinfo a:hover {
+    color:#666;
+    font-family: Arial,Sans-serif;
+    font-size: 11px;
+}
+
+#LJCOMMON_share_userinfo .save-btn .btn {
+    background: none repeat scroll 0% 0% #F36B21 !important ;
+    border: 0px none;
+    color: #FFF;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px !important;
+    font-weight: bold;
+    margin-left: 0px;
+    width: 160px;
+    height: 32px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+#LJCOMMON_share_userinfo h2 {
+    font: bold 14px Arial,Sans-serif;
+    color: rgb(32, 34, 69) ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#LJCOMMON_share_userinfo .label {
+    font: bold 12px Arial,Sans-serif;
+    color: rgb(32, 34, 69) ;
+    margin-bottom: 0.5em;
+}
+
+/*-----------------------*/
+
+/*/Share/ChangeEmailPwd.aspx*/
+
+#LJCOMMON_share_changeemailpwd
+{
+	border:0px !important;
+	color:#4A4B79;
+	font-family:arial,helvetica,sans-serif;
+	font-size:12px;
+	margin-left:-5px;
+	width:946px;
+    margin-top: 70px;
+	.*>position:relative;
+}
+
+#LJCOMMON_share_changeemailpwd #btnSubmit
+{
+	margin:20px;
+}
+
+#LJCOMMON_share_changeemailpwd .padleftcolumn
+{
+	padding-left:10px !important;
+    vertical-align:top;
+    color: #202245 !important;
+    font: bold 14px Arial,Sans-serif;
+    width: 250px;
+	.*>margin-left:40px !important;
+
+}
+
+#LJCOMMON_share_changeemailpwd .padrightcolumn {
+     width: 300px;
+     padding-left: 44px;
+}
+
+#LJCOMMON_share_changeemailpwd  .padleftcolumn1 
+{
+	color: #202245 !important;
+    font: bold 14px Arial,Sans-serif;
+    padding-left:40px;
+	white-space:normal !important;
+}
+
+#LJCOMMON_share_changeemailpwd .clTip1
+{
+	float:right;
+	padding-bottom:5px;
+	padding-right:6px;
+	width:93px !important;
+}
+
+#LJCOMMON_share_changeemailpwd .bdy_gry
+{
+    color: #134A6A !important;
+    display: block;
+    font: 19px Arial,Sans-serif !important;
+    margin-bottom: 30px;
+}
+
+#LJCOMMON_share_changeemailpwd .padinput {
+    color: #202245 !important;
+    font: bold 14px Arial,Sans-serif;
+}
+
+#LJCOMMON_share_changeemailpwd input[type=text],
+#LJCOMMON_share_changeemailpwd input[type=password]
+ {
+    border: 1px solid #d5dfe2;
+    font: normal 13px Arial,Sans-serif;
+    color: #466e7e;
+    border-radius: 3px;
+    height: 28px;
+    padding: 0 8px;
+    margin-top: 8px;
+    max-width: 250px;
+}
+
+#LJCOMMON_share_changeemailpwd .idTabCEP
+{
+	width:900px !important;
+}
+
+#LJCOMMON_share_changeemailpwd .ChangeEmailPwd
+{
+	color: #666;
+    padding-top: 30px;
+    width:950px !important;
+}
+
+#LJCOMMON_share_changeemailpwd .ChangeEmailPwd td
+{
+	vertical-align:top;
+}
+
+#LJCOMMON_share_changeemailpwd #idChangeEmailPwd1 {
+    width: 115px !important;
+    left: 4px;
+    margin-top: 44px;
+    position: absolute;
+    top: 0px;
+    text-align: left;
+}
+
+/*/User/UserConfirmation.aspx*/
+
+#LJCOMMON_user_userconfirmation 
+{
+	font-family:arial,helvetica,sans-serif;
+	font-size:12px;
+	margin-left:120px;
+	width:700px;
+	color:#4A4B79 !important;
+	border:1px solid #8395C5;
+}
+
+#LJCOMMON_user_userconfirmation  table
+{
+	border:0px !important;
+	background-color:#FFFFFF !important;
+}
+
+
+#LJCOMMON_user_userconfirmation #btnDelete
+{
+	margin:20px 20px 20px 250px;
+	.*>margin:20px;
+	
+}
+
+/* --------------------------------------------------------------------------------- */
+/*			ALERTE EMAIL :  /jobseeker/emails/emailsubcenter.aspx					 */
+/* --------------------------------------------------------------------------------- */
+
+#LJCOMMON_jobseeker_emails_emailsubcenter
+{
+	border:1px solid #8395C5;
+	color:#4A4B79 !important;
+	font-family:arial,helvetica,sans-serif;
+	font-size:12px;
+	height:500px !important;
+	margin-left:20px;
+	margin-top:10px;
+	padding-left:15px;
+	width:700px;
+	.*>width:730px;
+}
+
+#LJCOMMON_jobseeker_emails_emailsubcenter #h1EmailCenter
+{
+	background: none repeat scroll 0 0 #DEDEDE;
+	color: #4A4379 !important;
+	font-family: arial,helvetica,sans-serif !important;
+	font-size: 14px !important;
+	font-weight: bold;
+	height: 40px;
+	padding-bottom: 0 !important;
+	padding-left: 10px !important;
+	padding-top: 7px !important;
+	text-transform: uppercase;
+	width: 662px;
+}
+
+#LJCOMMON_jobseeker_emails_emailsubcenter .bandeauHaut
+{
+	margin-bottom: 15px;
+	text-align: justify;
+	width: 650px;
+}
+
+#LJCOMMON_jobseeker_emails_emailsubcenter .bandeauHaut h2
+{
+	color: #4A4379 !important;
+	font-family: arial,helvetica,sans-serif !important;
+	font-size: 12px !important;
+	font-weight: normal;    
+}
+
+#LJCOMMON_jobseeker_emails_emailsubcenter #EmailCenterWrapper 
+{
+	float:left;
+	line-height:16px;
+	padding: 0 0 0 6px;
+	text-align:left;
+	width:95%  !important;
+}
+
+#LJCOMMON_jobseeker_emails_emailsubcenter  .cb_PnlTabbed ul 
+{
+	margin:0 0 0 -5px;
+	display:none;
+}
+
+#LJCOMMON_jobseeker_emails_emailsubcenter .cb_PnlTabbed ul li.active 
+{
+	background:#8395C5 !important;
+	border-bottom:2px solid #8395C5 !important;
+	border-color:#8395C5 #8395C5 #8395C5 !important;
+}
+
+#LJCOMMON_jobseeker_emails_emailsubcenter .cb_PnlTabbed ul li.active a
+{
+	color:#FFFFFF !important;
+	text-decoration:none;
+}
+
+#LJCOMMON_jobseeker_emails_emailsubcenter .cb_PnlTabbed ul li.active a:hover 
+{
+	text-decoration:none;
+}
+
+#LJCOMMON_jobseeker_emails_emailsubcenter .cb_PnlTabbed ul li 
+{
+	background:#FFFFFF !important;
+	float:left;
+	margin:0 0 1px 3px;
+	padding:0;
+	border: 1px solid #CCCCCC !important;
+	border-bottom:0px;
+}
+
+#LJCOMMON_jobseeker_emails_emailsubcenter .cb_PnlTabbed ul li a 
+{
+	color:#8395C5 !important;
+	display:block;
+	float:left;
+	font-size:10px;
+	font-weight:bold;
+	line-height:10px;
+	padding:4px 7px;
+	text-decoration:none;
+}
+
+#LJCOMMON_jobseeker_emails_emailsubcenter h1 
+{
+	color:#4A4B79;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:14px  !important;
+	font-weight:bold;
+}
+
+#LJCOMMON_jobseeker_emails_emailsubcenter #qsbButton
+{
+	margin-left:250px;
+}
+
+#LJCOMMON_jobseeker_emails_emailsubcenter #pnlJobMail a
+{
+	color:#5A5B93;
+	font-family:Geneva,Arial,Helvetica,sans-serif;
+	font-size:11px !important;
+	text-decoration:underline;
+}
+
+#LJCOMMON_jobseeker_emails_emailsubcenter #pnlJobMail a:hover
+{
+	color:#5A5B93;
+	font-family:Geneva,Arial,Helvetica,sans-serif;
+	font-size:11px !important;
+	text-decoration:underline;
+}
+
+#LJCOMMON_jobseeker_emails_emailsubcenter span.emailTypeDesc 
+{
+	clear:both;
+	.*>clear:none;
+}
+
+#LJCOMMON_jobseeker_emails_emailsubcenter .registerTwoColumns span
+{
+	.*>width:620px;
+}
+
+#LJCOMMON_jobseeker_emails_emailsubcenter .tipTxt
+{
+	color: #808080;
+	width: 670px;
+}
+
+#LJCOMMON_jobseeker_emails_emailsubcenter #cbhlJobAlerts 
+{
+    display:none;
+}
+
+/*Jobseeker/PostNewResume.aspx view/Edit Resume */
+.styled-file-input input { vertical-align: top; margin: 0; }
+.styled-file-input, .hidden-file-input { width: 235px; }
+#LJCOMMON_jobseeker_postnewresume {
+    margin-top : 10px;
+    font: 12px Arial,Sans-serif;
+    margin-bottom:20px;
+
+}
+
+#LJCOMMON_jobseeker_vieweditresume #divViewEditResume #ResumeReview h1 {
+margin-top : 10px;
+}
+
+#LJCOMMON_jobseeker_postnewresume input[type=text],#LJCOMMON_jobseeker_postnewresume input[type=password],#LJCOMMON_jobseeker_postnewresume select,#LJCOMMON_jobseeker_postnewresume #JobSeekerLogin1_cbsys_login_email,
+#LJCOMMON_jobseeker_vieweditresume input[type=text],#LJCOMMON_jobseeker_vieweditresume input[type=password],#LJCOMMON_jobseeker_vieweditresume select,#LJCOMMON_jobseeker_vieweditresume textarea {
+    border: 1px solid #d5dfe2;
+    font: normal 13px Arial,Sans-serif;
+    color: #466e7e;
+    border-radius :3px;
+    height: 28px;
+    padding: 0 8px;
+    max-width: 250px;
+}
+
+#LJCOMMON_jobseeker_postnewresume h1,
+#LJCOMMON_jobseeker_vieweditresume h1,
+#LJCOMMON_jobseeker_resumes_jobrecommendationspref p.jrcaption
+{
+    color: #134A6A;
+    display: block;
+    font: 19px Arial,Sans-serif;
+    margin-bottom:3px;
+}
+
+#LJCOMMON_jobseeker_resumes_jobrecommendationspref #prefsWrapper #prefbox {
+    margin-top:16px;
+}
+
+#LJCOMMON_jobseeker_postnewresume h2{
+    color: #134A6A;
+    display: block;
+    font: bold 14px Arial,Sans-serif;
+}
+LJCOMMON_jobseeker_postnewresume #cbhlAuthenticatedSignInLink {
+    color: #134A6A;
+}
+#LJCOMMON_jobseeker_postnewresume .tips, #LJCOMMON_jobseeker_postnewresume #ApplyToJobsPrivacy {
+    font-style: italic;
+    font: 10px Arial,Sans-serif;
+}
+#LJCOMMON_jobseeker_postnewresume #PostNewResume #ResumeDesiredRegion {
+    margin-top:0px;
+}
+#LJCOMMON_jobseeker_postnewresume #ucResumeUpload_rblPrivacy td {
+    margin-bottom:3px;
+    display:block;
+}
+#LJCOMMON_jobseeker_postnewresume #ucRegister_ucUserEmailOptions_TipsRegisterAlert {
+    display:none;
+}
+#LJCOMMON_jobseeker_vieweditresume #divViewEditResume #main h2 {
+    background :none;
+    border : none;
+    border-bottom : 1px solid #D5DFE2;
+    margin-bottom : 10px;
+    margin-top : 15px;
+    display: block;
+    color: #13496a !important;
+    padding-left : 0px;
+}
+#LJCOMMON_jobseeker_vieweditresume #divViewEditResume #main h3 {
+    font-size : 12px;
+}
+#LJCOMMON_jobseeker_vieweditresume .content,#LJCOMMON_jobseeker_vieweditresume div {
+    background: none;
+    font-family: Arial, sans-serif;
+    font-size: 12px ;
+    font-style: normal;
+}
+#LJCOMMON_jobseeker_vieweditresume .resumeSection {
+    border-top: none;
+}
+#LJCOMMON_jobseeker_vieweditresume #divViewEditResume .left {
+    text-align: left;
+    width: 15%;
+}
+#LJCOMMON_jobseeker_vieweditresume #divViewEditResume .middle {
+     width: 64%;
+}
+#LJCOMMON_jobseeker_vieweditresume #ResumeInfo_spanPrivacyDesc_public {
+     font: 10px Arial,Sans-serif;
+     color: #666;
+}
+#LJCOMMON_jobseeker_vieweditresume #divResTitle h3 {
+    display : none;
+}
+#LJCOMMON_jobseeker_vieweditresume #spanResumeTitleH2 {
+    display: block;
+    font-size: 20px;
+}
+#divViewEditResume .floatright {
+    margin-top: 15px;
+}
+#divViewEditResume #ResumeContactInfo .headerEditLinks {
+    margin-top: 15px;
+}
+#LJCOMMON_jobseeker_vieweditresume .separator {
+    display:none;
+}
+#LJCOMMON_jobseeker_vieweditresume #divViewEditResume .delete {
+    padding: 0px 0px 0px 10px;
+    border-left: none;
+    display: inline-block;
+    line-height: 20px;
+    color : #134A6A !important;
+}
+#LJCOMMON_jobseeker_vieweditresume .btn {
+    background-color: #f36b21;
+    border: 0 none;
+    color: #FFFFFF;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px !important;
+    font-weight: bold;
+    margin: 10px 0 0 0;
+    width: 160px;
+    height: 32px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+#LJCOMMON_jobseeker_vieweditresume #ResumeBottom_ContinueToRecs {
+    margin : 0;
+    padding : 0;
+    display:block;
+    text-align:center;
+    line-height : 32px;
+    margin-bottom: 20px;
+
+}
+#LJCOMMON_jobseeker_vieweditresume #divViewEditResume .editBox .cancel, #LJCOMMON_jobseeker_vieweditresume #resumeDocumentControl_cbhlDownloadResumeDoc, #LJCOMMON_jobseeker_vieweditresume .cancel {
+    display: inline-block;
+    /*vertical-align: middle;*/
+    margin-top: 10px;
+    color: #13496a;
+    border: 1px solid #13496a;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 3px;
+    width: 158px;
+    text-align: center;
+    font-size: 12px;
+}
+#LJCOMMON_jobseeker_vieweditresume #divViewEditResume .editBox .cancel:hover, #LJCOMMON_jobseeker_vieweditresume #resumeDocumentControl_cbhlDownloadResumeDoc:hover, #LJCOMMON_jobseeker_vieweditresume .cancel:hover {
+    background: #13496a;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#LJCOMMON_jobseeker_vieweditresume #divViewEditResume div.headerEditLinks a.edit, #LJCOMMON_jobseeker_vieweditresume #divViewEditResume a.editLink, #LJCOMMON_jobseeker_vieweditresume #divViewEditResume a.addField {
+    background: url(https://secure.icbdr.com/images/LJ/Refresh/edit_16.png) no-repeat center center;
+    background-size :16px;
+    color: #FFFFFF;
+    padding: 0 10px;
+    height: 25px;
+    line-height: 25px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 3px;
+    font-size: 12px;
+    text-decoration: none;
+    text-indent: -999px;
+}
+#LJCOMMON_jobseeker_vieweditresume #divViewEditResume div.headerEditLinks #resumeDocumentControl_cbhlReplaceResume, #LJCOMMON_jobseeker_vieweditresume #divViewEditResume a.addField {
+    text-indent: 0px;
+    background: #13496a;
+}
+
+#LJCOMMON_jobseeker_vieweditresume #divViewEditResume a.addField {
+    font-weight: normal;
+}
+
+#LJCOMMON_jobseeker_vieweditresume #divViewEditResume a.addField span {
+    color: #FFFFFF;
+    font-weight: normal;
+}
+
+#LJCOMMON_jobseeker_vieweditresume #ResumeDocument .headerEditLinks {
+    margin-top: 15px;
+}
+#LJCOMMON_jobseeker_vieweditresume #resumeDocumentControl_cbhlDownloadResumeDoc {
+    margin-top: 0;
+    height: 23px;
+    line-height: 23px;
+}
+
+#LJCOMMON_jobseeker_vieweditresume #ResumeDocument .addField:last-child {
+    display: none;
+}
+#LJCOMMON_jobseeker_vieweditresume #divViewEditResume .editBox .editlabels {
+    width: 15%;
+    text-align: left;
+}
+#LJCOMMON_jobseeker_vieweditresume #divViewEditResume .special.field {
+    margin-left: 16%;
+}
+#LJCOMMON_jobseeker_vieweditresume #divViewEditResume .editBox .label, #LJCOMMON_jobseeker_vieweditresume #divViewEditResume .editBox .editlabelsFunctions{
+   width:15%;
+   text-align:left;
+}
+#LJCOMMON_jobseeker_vieweditresume #divViewEditResume #Resume_LJFunctions {
+    height:150px;
+}
+#LJCOMMON_jobseeker_vieweditresume #divViewEditResume a.addLanguage, #LJCOMMON_jobseeker_vieweditresume #divViewEditResume .editBox .removeLanguage, #LJCOMMON_jobseeker_vieweditresume #divViewEditResume span.plus {
+    color: #134A6A;
+    margin-left: 0px;
+    font-weight:normal;
+}
+#LJCOMMON_jobseeker_vieweditresume #divViewEditResume .workexperience .left {
+    padding:0px;
+}
+#LJCOMMON_jobseeker_vieweditresume #divViewEditResume #WorkExperienceInfo .employmentDate,#LJCOMMON_jobseeker_vieweditresume #divViewEditResume .editBoxLJTechSkills .LJTechSkillsFields {
+    text-align:left;
+}
+#LJCOMMON_jobseeker_vieweditresume #divViewEditResume .delete,
+#LJCOMMON_jobseeker_vieweditresume #divViewEditResume #ResumeLJTechSkillsToolsLang .addToolsLang,
+#LJCOMMON_jobseeker_vieweditresume #divViewEditResume #ResumeLJTechSkillsToolsLang .removeToolsLang,
+#LJCOMMON_jobseeker_vieweditresume #divViewEditResume #ResumeLJTechSkillsDB .addDB,
+#LJCOMMON_jobseeker_vieweditresume #divViewEditResume #ResumeLJTechSkillsDB .removeDB,
+#LJCOMMON_jobseeker_vieweditresume #divViewEditResume #ResumeLJTechSkillsHardWare .addHardWare,
+#LJCOMMON_jobseeker_vieweditresume #divViewEditResume #ResumeLJTechSkillsHardWare .removeHardWare,
+#LJCOMMON_jobseeker_vieweditresume #divViewEditResume #ResumeLJTechSkillsSystems .addSystems,
+#LJCOMMON_jobseeker_vieweditresume #divViewEditResume #ResumeLJTechSkillsSystems .removeSystems,
+#LJCOMMON_jobseeker_vieweditresume #divViewEditResume #ResumeLJTechSkillsMethodology .addMethodology,
+#LJCOMMON_jobseeker_vieweditresume #divViewEditResume #ResumeLJTechSkillsMethodology .removeMethodology,
+#LJCOMMON_jobseeker_vieweditresume #divViewEditResume #ResumeLJTechSkillsOther .addOther,
+#LJCOMMON_jobseeker_vieweditresume #divViewEditResume #ResumeLJTechSkillsOther .removeOther{ 
+    padding: 0px 0px 0px 10px;
+    border-left: none;
+    display: inline-block;
+    line-height: 27px;
+    color : #134A6A !important;
+}
+#LJCOMMON_jobseeker_vieweditresume #divViewEditResume #ResumeSalaryInfo .addFieldDisabled {
+    display:none;
+}
+#LJCOMMON_jobseeker_vieweditresume #divViewEditResume .editBox textarea {
+    display: block;
+    max-width: 325px;
+}
+#LJCOMMON_jobseeker_vieweditresume #divViewEditResume .iconError, #LJCOMMON_jobseeker_vieweditresume #divViewEditResume .iconSuccess {
+    width: 16px;
+    height: 16px;
+}
+
+/*/JobSeeker/Resumes/RecommendedHQ.aspx*/
+
+#LJCOMMON_jobseeker_resumes_recommendedhq
+{
+	/*border:1px solid #8395C5 !important;*/
+	margin-left:0px;
+	margin-top:10px;
+	padding:0 10px 10px 0px !important;
+	width:930px !important;
+	.*>width:950px !important;
+}
+
+#LJCOMMON_jobseeker_resumes_recommendedhq #recButtonLinkWrapper a#recButtonLink 
+{
+	background-image:none !important;
+	border:0px !important;
+}
+
+#LJCOMMON_jobseeker_resumes_recommendedhq .jr_listpanel 
+{
+	border:1px solid #8395c5 !important;
+	width:917px;
+}
+
+#LJCOMMON_jobseeker_resumes_recommendedhq .PageHeader 
+{
+	color:#4A4B79 !important;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:14px !important;
+	font-weight:bold !important;
+}
+
+#LJCOMMON_jobseeker_resumes_recommendedhq .PageRecExplanation
+{
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px !important;	
+	color:#666666 !important;	
+}
+
+#LJCOMMON_jobseeker_resumes_recommendedhq .LeftAlign
+{
+	color:#666666;
+	font-family:arial,helvetica,sans-serif;
+	font-size:11px;
+	text-align:left;
+}
+
+#LJCOMMON_jobseeker_resumes_recommendedhq .LocationLeft ,#divSortBy, #spnRadius
+{
+	color:#4A4B79;
+}
+
+#LJCOMMON_jobseeker_resumes_recommendedhq  a 
+{
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #4a4b79 !important;
+	text-decoration: none;
+}
+
+#LJCOMMON_jobseeker_resumes_recommendedhq a:hover 
+{
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #4a4b79 !important;
+	text-decoration: underline;
+}
+
+
+
+/*jobseeker/jobs/recommendedjobs.aspx*/
+
+#LJCOMMON_jobseeker_jobs_recommendedjobs #container {
+    width:auto !important;
+}
+
+#LJCOMMON_jobseeker_jobs_recommendedjobs
+{
+	/*border:1px solid #8395C5 !important;*/
+	margin-left:0px;
+	margin-top:10px;
+	padding:0 10px 10px 0px !important;
+	width:930px !important;
+	.*>width:950px !important;
+}
+
+#LJCOMMON_jobseeker_jobs_recommendedjobs #recButtonLinkWrapper a#recButtonLink 
+{
+	background-image:none !important;
+	border:0px !important;
+}
+
+
+/*jobseeker/resumes/jobrecommendationspref.aspx*/
+
+#LJCOMMON_jobseeker_resumes_jobrecommendationspref
+{
+	/*border:1px solid #8395C5 !important;*/
+	/*margin-left:10px; */
+	margin-top:10px;
+	/*padding:0 10px 10px 30px !important;*/
+	/*width:890px;*/
+	
+}
+
+#LJCOMMON_jobseeker_resumes_jobrecommendationspref #locationsetting #btndefault
+{
+    margin-left:0px !important;
+}
+
+#LJCOMMON_jobseeker_resumes_jobrecommendationspref #locationsetting p.controlheader {
+    width:250px;
+}
+
+/*
+#LJCOMMON_jobseeker_resumes_jobrecommendationspref p.jrcaption
+{
+	color:#4A4379 !important;
+	font-size:14px !important;
+}
+*/
+
+#LJCOMMON_jobseeker_resumes_jobrecommendationspref #prefsContent 
+{
+	clear:both;
+	font-size:11px;
+	padding:6px 0 20px;
+	width:800px !important;
+	color:#4A4379;
+}
+
+#LJCOMMON_jobseeker_resumes_jobrecommendationspref p.jrcaptionparagraph 
+{
+	color:#4A4379 !important;
+}
+
+#LJCOMMON_jobseeker_resumes_jobrecommendationspref #bodywrapper, 
+#LJCOMMON_jobseeker_resumes_jobrecommendationspref #prefsWrapper
+{
+	width:800px !important;
+}
+
+/*
+#LJCOMMON_jobseeker_resumes_jobrecommendationspref #prefsWrapper
+{
+  margin-left:200px;  
+}
+*/
+
+#LJCOMMON_jobseeker_resumes_jobrecommendationspref #prefboxmain
+{
+	width:800px !important;
+	border:1px solid #d5d5d5;
+	.*>margin-top:30px;	
+}
+
+#LJCOMMON_jobseeker_resumes_jobrecommendationspref input#submit1, input#submit2
+{
+	background:#8395c5 !important;
+	border-color:#8395c5 #8395c5 #8395c5 !important;
+}
+
+#LJCOMMON_jobseeker_resumes_jobrecommendationspref #submit2
+{
+	background:#F36B21 !important;
+    border-style:none;
+	/*border-color:#8395c5 #8395c5 #8395c5 !important;*/
+}
+
+#LJCOMMON_jobseeker_resumes_jobrecommendationspref .head_link 
+{
+	float:right;
+	margin-bottom:10px;
+	margin-right:-171px !important;
+	padding-right:-28px !important;
+	padding-top:10px;
+}
+
+#LJCOMMON_jobseeker_resumes_jobrecommendationspref p.section_body 
+{
+	color:#666666;
+	font-size:11px;
+	line-height:13px;
+	margin:0;
+	padding:0;
+	width:600px;
+}
+
+#LJCOMMON_jobseeker_resumes_jobrecommendationspref .contentbox 
+{
+	padding-left:0px !important;
+}
+
+#LJCOMMON_jobseeker_resumes_jobrecommendationspref #prefboxbottom 
+{
+	background:none !important;
+	clear:both;
+	height:41px;
+	width:100%;
+}
+
+#LJCOMMON_jobseeker_resumes_jobrecommendationspref span.jrcaptiongrey 
+{
+	color:#4A4379 !important;
+}
+
+#LJCOMMON_jobseeker_resumes_jobrecommendationspref p.section_header 
+{
+	font-size:12px;
+	/*float:left;*/
+}
+
+#LJCOMMON_jobseeker_resumes_jobrecommendationspref #emailsetting p
+{
+	clear:both;
+	width:555px;
+	
+}
+
+#LJCOMMON_jobseeker_resumes_jobrecommendationspref #chkClear 
+{
+	margin-left:-12px;
+}
+
+#LJCOMMON_jobseeker_resumes_jobrecommendationspref .locationinput span , #usstatenation span
+{
+	color:#4A4379 !important;
+	font-size:12px !important;
+}
+
+#LJCOMMON_jobseeker_resumes_jobrecommendationspref a 
+{
+	/*color:#5A5B93 !important; */
+	color:#FFFFFF !important;
+	font-family:Geneva,Arial,Helvetica,sans-serif !important;
+	font-size:12px;
+	text-decoration:none;
+	font-style:normal !important;
+	cursor:pointer; 
+}
+
+#LJCOMMON_jobseeker_resumes_jobrecommendationspref a:hover
+{
+	color:#5A5B93;
+	font-family:Geneva,Arial,Helvetica,sans-serif !important;
+	font-size:12px;
+	text-decoration:underline;
+	font-style:normal !important; 
+}
+
+/*
+#LJCOMMON_jobseeker_resumes_jobrecommendationspref p.locationinput
+{
+	margin-left:-114px !important;
+	.*> margin-left:0px;
+}
+
+
+#LJCOMMON_jobseeker_resumes_jobrecommendationspref #locationsetting 
+{
+	 margin-left:120px;
+}
+*/
+
+#LJCOMMON_jobseeker_resumes_jobrecommendationspref  input#btnAdd 
+{
+	/*margin-top:-31px;*/
+	margin-left:72px;
+	/*position:absolute;*/
+	.*>margin-top:-51px !important;
+	.*>margin-left:165px !important;
+}
+
+#LJCOMMON_jobseeker_resumes_jobrecommendationspref .countryline 
+{
+	border-bottom-width:0px !important;
+}
+
+#LJCOMMON_jobseeker_resumes_jobrecommendationspref  #txtCity 
+{
+	.*>margin-top:-35px;
+	.*>margin-left:73px;
+}
+
+#LJCOMMON_jobseeker_resumes_jobrecommendationspref #txtZip
+{
+	.*>margin-top:-40px;
+	.*>margin-left:73px;
+}
+
+#LJCOMMON_jobseeker_resumes_jobrecommendationspref #clearUserCache .section_body 
+{
+	.*>margin-top:-17px;
+	.*>margin-left:25px;
+}
+
+#LJCOMMON_jobseeker_resumes_jobrecommendationspref #btnremove 
+{
+	width:70px !important;
+}
+
+
+/* --------------------------------------------------------------------------------- */
+/*	DEPOT ALERTE DECONNECTE CV :  INTL/Jobseeker/JobAlerts/RegisterJobAlert.aspx     */
+/* --------------------------------------------------------------------------------- */
+
+#LJCOMMON_intl_jobseeker_jobalerts_registerjobalert
+{
+	font-family:arial,helvetica,sans-serif;
+	font-size:12px;
+	width:950px;	
+	color:#4A4B79;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registerjobalert #MXMessageBoxError
+{
+	 margin-left: 0;
+	 width: 949px !important;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registerjobalert .cb_PnlPrimary 
+{
+	border:1px solid #8395C5 !important; /*9AADD5*/
+	padding:15px;
+	
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registerjobalert .betterJob 
+{
+	color:#4A4B79 !important;
+	display:block;
+	font-family:arial,helvetica,sans-serif !important;
+	font-size: 20px !important;
+	font-weight:bold;
+	margin:0 0 5px;
+	padding-left: 36px;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registerjobalert .betterJob span
+{
+	color:#4A4B79 !important;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registerjobalert .requiredNote
+{
+	float: right;
+	margin: -27px 28px 0 0;
+	color: #5A5B92;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registerjobalert .alertHeading
+{
+	margin:0 0 30px;
+	width:900px !important
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registerjobalert a
+{
+	color:#5A5B93;
+	font-family:arial,helvetica,sans-serif;
+	font-size:12px;
+	text-decoration:underline;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registerjobalert a:hover
+{
+	color:#5A5B93;
+	font-family:arial,helvetica,sans-serif;
+	font-size:12px;
+	text-decoration:underline;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registerjobalert table td
+{
+	color: #5A5B92;
+	font-family: arial,helvetica,sans-serif;
+	font-size: 12px;
+	padding-left: 0 !important;	
+	padding-top: 5px;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registerjobalert #divJobAlert td
+{
+	white-space:nowrap;
+	padding-left:0px !important;	
+	width:52%;
+
+}
+/*
+#LJCOMMON_intl_jobseeker_jobalerts_registerjobalert label , input
+{
+	float:none !important;
+	clear:both;
+	vertical-align: middle;
+}
+*/
+
+#LJCOMMON_intl_jobseeker_jobalerts_registerjobalert #ctrlJobSearch_MXJobSrchCriteria_Rawwords, 
+#LJCOMMON_intl_jobseeker_jobalerts_registerjobalert #ctrlJobSearch_MXJobSrchCriteria_LJJobType, 
+#LJCOMMON_intl_jobseeker_jobalerts_registerjobalert #ctrlJobAlert_SvdJobSearch_SearchName
+{
+	width:282px !important;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registerjobalert #MXJobSrchCriteria_LJMetier
+{
+	width:282px !important;
+	color:#000000;
+}
+ 
+#LJCOMMON_intl_jobseeker_jobalerts_registerjobalert .registerRightColumn 
+{
+	clear:both;
+	float:left;
+	width:100%;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registerjobalert .registerLeftColumn, 
+#LJCOMMON_intl_jobseeker_jobalerts_registerjobalert .registerCenterColumn
+{
+	width:47% !important;
+	.*>width:48% !important;
+}
+ 
+#LJCOMMON_intl_jobseeker_jobalerts_registerjobalert .registerCenterColumn div,
+#LJCOMMON_intl_jobseeker_jobalerts_registerjobalert .registerCenterColumn p
+{
+	margin-left: 42px;
+}
+
+#INTL_articles_main a
+{
+	font-family:Geneva,Arial,Helvetica,sans-serif;
+	font-size:11px;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registerjobalert span.emailTypeDesc 
+{
+	clear:both;
+	float:left;
+	margin-left:20px;
+	margin-bottom: 12px;	
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registerjobalert .registerTwoColumns span
+{
+	width:600px;
+	.*>width:620px;
+}
+  
+#LJCOMMON_intl_jobseeker_jobalerts_registerjobalert #INTL_Register_Job_Alerts .jaPageWrapper
+{
+	width:850px;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registerjobalert #INTL_Register_Job_Alerts .jaPageWrapper h2
+{
+	color: #FFFFFF ;   
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registerjobalert .registerTwoColumns input
+{
+   width:0px !important;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registerjobalert select,
+#LJCOMMON_intl_jobseeker_jobalerts_registerjobalert input
+{
+	width:280px;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registerjobalert .RegiterJobAlerth2
+{
+   background: none repeat scroll 0 0 #5A6A9E;
+   padding: 7px !important;
+   
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registerjobalert #divJobAlert
+{
+	margin-bottom:5px;
+}
+
+#LJCOMMON_intl_jobseeker_jobalerts_registerjobalert #btnSave,
+#LJCOMMON_intl_jobseeker_jobalerts_registerjobalert #btnCancel
+{
+   background-image: url("../../../images/LJ/bg_menu_haut.gif") !important;
+	border: 1px solid #5A5B92 !important;
+	color: #5A5B92;
+	font-family: Arial,Helvetica,sans-serif;
+	font-weight: bold;
+	height: 30px;
+	width: 170px;
+}
+
+/* --------------------------------------------------------------------------------- */
+/*		BRANDBUILDER :  jobSeeker/Companies/CompanyJobResults.aspx					 */
+/* --------------------------------------------------------------------------------- */
+
+#LJCOMMON_jobseeker_companies_companydetails a
+{
+	font-size:22px;
+	font-family:Arial,Helvetica,sans-serif;
+}
+
+#ucCompanyDetails a:link
+{
+	text-decoration: none !important;
+	text-align:center;
+	font-size:25px;
+}
+
+.WMBorder
+{
+	border-right: 1px solid #5A5B92 !important;
+	padding: 0px 0px 0px 0px !important;
+}
+
+#ucCompanyDetails_tblCellBannerHeader, #ucCompanyJobResults_tblCellHeader, #tblCellBannerHeader
+{
+	border-top: 1px solid #5A5B92 !important;
+	border-right: 1px solid #5A5B92 !important;
+	border-left: 1px solid #5A5B92 !important;
+}
+
+#ucCompanyDetails_tblCellBannerFooter
+{
+	border-right: 1px solid #5A5B92 !important;
+	border-left: 1px solid #5A5B92 !important;
+}
+
+#ucCompanyDetails_tblCellHeader
+{
+	border-right: 1px solid #5A5B92 !important;
+	border-left: 1px solid #5A5B92 !important;
+}
+
+#ucCompanyDetails_tblCellBannerHeader
+{
+    border-bottom: 0px !important;
+}
+
+#tblCellHeader, #ucCompanyDetails_tblCellFooter, #tblCellFooter
+{
+	border-right: 1px solid #5A5B92 !important;
+	border-left: 1px solid #5A5B92 !important;
+}
+
+#ucCompanyDetails_tblCellFooter, #tblCellFooter
+{
+	border-right: 1px solid #5A5B92 !important;
+	border-left: 1px solid #5A5B92 !important;
+	border-bottom: 1px solid #5A5B92 !important;
+}
+
+#ucCompanyDetails_tblCellLeftNav, #tblCellLeftNav
+{
+	border-left: 1px solid #5A5B92 !important;
+	text-align: left;
+}
+
+#tblCellRightNav
+{
+	border-right: 1px solid #5A5B92 !important;
+}
+
+#forLJ1
+{
+	padding-right:89px !important;
+	padding-left: 20px; 
+	padding-top: 10px;
+}
+
+#forLJ2
+{
+	padding-top :0px !important;
+	width:249px !important;
+	text-decoration: none !important;
+	background-color:#828284;
+	border-right: 1px solid #5A5B92 !important;
+}
+
+#tdTopJobCateg
+{
+	display:none;
+}
+
+#ucCompanyDetails_imgBullet1
+{
+	display:none;
+}
+
+#ucCompanyDetails_imgBullet3
+{
+	display:none;
+}
+
+#ucCompanyDetails_imgBullet5
+{
+	display:none;
+}
+
+#ucCompanyDetails_imgBullet8
+{
+	display:none;
+}
+
+table#_ctl0_ucConnexionAutre_MXSpotBandeauCVLJ2
+{
+	margin:0 auto;
+	width: 728px;
+}
+
+#LJCompDetails
+{
+	text-decoration: none !important;
+	color: #FFFFFF !important;
+}
+ 
+.hdr_14, .hdr_15
+{
+	color:#FFFFFF !important;
+	font-weight: bolder !important;
+	text-align: left;
+}
+
+#bodyBrandBuilder
+{
+    width: 770px !important;
+}
+
+.CompanyWrapper td 
+{
+    border: 1 solid #5A5B92 !important;
+}
+
+#searchBoxCompJobResLJ
+{
+    padding:2px !important;
+    background-color: #EAEAEA !important;
+    width: 50% !important;
+}
+
+#SB_LJBackgroundColor
+{
+    background-color: #EAEAEA !important;
+    padding: 0px 0px 10px 0px !important;
+    margin: 0px 0px 10px 0px !important;
+}
+
+#LJCOMMON_jobseeker_companies_companyjobresults #CompanyPageNoResults
+{
+    background-color: #EAEAEA !important;
+    padding-left:0px !important;
+    padding-bottom: 10px;
+}
+
+#CompanyPageNoResults strong
+{
+    padding-left:19px;
+}
+
+#LJCOMMON_jobseeker_companies_companyjobresults  #SB_tSearchBox
+{
+    padding: 0 0 10 0 !important;
+    margin-top: 0px !important;
+}
+
+#LJCOMMON_jobseeker_companies_companyjobresults  #SB_tcCountrySelect
+{
+    display:none;
+}
+
+#TNJC_hlToggleAll, #TNJC_pnlToggleAll
+{
+    display:none;
+}
+
+#SB_pnlSearchInfo
+{
+    display:none;
+}
+
+LJCOMMON_jobs_societe_c8f1nw79jp8scjnrp1d_cisco-offres_
+{
+    display:none;
+}
+
+/* --------------------------------------------------------------------------------- */
+/*		CONNEXION :  /jobseeker/accessible/savejob.aspx             				 */
+/* ---------------------------------------------'------------------------------------ */
+
+#LJCOMMON_jobseeker_accessible_savejob
+{
+	font-family:arial,helvetica,sans-serif !important;
+	font-size:12px !important;
+	border:1px solid #d5d5d5  !important;
+	padding:10px;
+	
+}
+
+#LJCOMMON_jobseeker_accessible_savejob a 
+{
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #4a4b79;
+	text-decoration: none;
+}
+
+#LJCOMMON_jobseeker_accessible_savejob a:hover 
+{
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #4a4b79;
+	text-decoration: underline;
+}
+
+#LJCOMMON_jobseeker_accessible_savejob input, 
+#LJCOMMON_jobseeker_accessible_savejob label ,
+#LJCOMMON_jobseeker_accessible_savejob #LoginControl1_lnkForgotPassword
+{
+	float:left;
+}
+
+#LJCOMMON_jobseeker_accessible_savejob #LoginControl1_LoginPassword
+{
+	margin-left:43px;
+	margin-top:8px;
+}
+
+#LJCOMMON_jobseeker_accessible_savejob .btn
+{
+	clear:both;
+	margin-left:80px;
+	margin-top:20px;
+	padding:5px;
+}
+
+#LJCOMMON_jobseeker_accessible_savejob  .LoginInner 
+{
+	line-height:21px;
+}
+
+#LJCOMMON_jobseeker_accessible_savejob #LoginWrapper 
+{
+   float:left;
+}
+
+#LJCOMMON_jobseeker_accessible_savejob #SaveJobWidget
+{
+   margin-left:20px;
+   width: 600px !important;
+}
+
+#LJCOMMON_jobseeker_accessible_savejob label
+{
+	padding-top:8px;
+}
+
+#LJCOMMON_jobseeker_accessible_savejob #sj_error
+{
+	font-family:arial,helvetica,sans-serif !important;
+	font-size:12px !important;
+	padding:10px;
+}
+
+#LJCOMMON_jobseeker_accessible_savejob #LoginControl1_cbhlRegister
+{
+    display: block;
+    line-height:25px;
+}
+
+/* --------------------------------------------------------------------------------- */
+/*						/JobSeeker/Resumes/ResumeFormatTip.aspx						 */
+/* --------------------------------------------------------------------------------- */
+
+#LJCOMMON_jobseeker_resumes_resumeformattip
+{
+	font-family:arial,helvetica,sans-serif;
+	font-size:12px;
+	margin-left:20px;
+	margin-top:10px;
+	width:660px;
+	color:#4A4B79;
+	.*>width:750px;
+	border:1px solid #8395c5;
+}
+
+#LJCOMMON_jobseeker_resumes_resumeformattip .cbPrivacy_inner 
+{
+	margin:10px;
+}
+
+#LJCOMMON_jobseeker_resumes_resumeformattip h1
+{
+	font-family:arial,helvetica,sans-serif;
+	font-size:14px !important;
+	
+}
+
+#LJCOMMON_jobseeker_resumes_resumeformattip a 
+{
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #4a4b79;
+	text-decoration: none;
+}
+
+#LJCOMMON_jobseeker_resumes_resumeformattip a:hover 
+{
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #4a4b79;
+	text-decoration: underline;
+}
+
+
+/* ------------------------------------------------------------------------------------------------*/
+/*		JOB RECO:         /JobSeeker/Resumes/JobRecommendationsNoDID.aspx								   */
+/* ----------------------------------------------------------------------------------------------- */
+
+
+#LJCOMMON_jobseeker_resumes_jobrecommendationsnodid 
+{
+	border:1px solid #d5d5d5;
+	font-family:arial,helvetica,sans-serif !important;
+	font-size:12px !important;
+	color:#4A4B79;
+	margin-top:20px;	
+	width:922px;
+	padding:10px;
+    margin-bottom: 20px;
+}
+
+
+#LJCOMMON_jobseeker_resumes_jobrecommendationsnodid  a 
+{
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #4a4b79 !important;
+	text-decoration: none;
+}
+
+#LJCOMMON_jobseeker_resumes_jobrecommendationsnodid a:hover 
+{
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #4a4b79 !important;
+	text-decoration: underline;
+}
+
+#LJCOMMON_jobseeker_resumes_jobrecommendationsnodid  #jrError h1 
+{
+	color: #134A6A;
+    display: block;
+    font: 19px Arial,Sans-serif !important;
+    margin-bottom: 3px;
+    margin: 0 0 0;
+    padding: 15px 0 20px;
+    font-weight:normal;
+}
+
+ #LJCOMMON_jobseeker_resumes_jobrecommendationsnodid #jrError h2 {
+    color: #000 !important;
+    font-size:12px !important;
+ }
+
+#LJCOMMON_jobseeker_resumes_jobrecommendationsnodid  #jrError h3 
+{
+	border-bottom: 1px solid #EEEEEE;
+	color: #000 !important;
+    font-size:12px !important;
+	margin:0 0 5px;
+	padding-top:6px;
+	padding-left:2px;
+}
+
+#LJCOMMON_jobseeker_resumes_jobrecommendationsnodid  #jrError h4 
+{
+	color:#333 !important;
+	float:left;
+	font-family:arial,helvetica,sans-serif;
+	font-size:12px !important;
+	margin:20px 0 25px;
+}
+
+#LJCOMMON_jobseeker_resumes_jobrecommendationsnodid  .grad 
+{
+	border-top:0px solid #FF6600 !important;
+}
+
+#LJCOMMON_jobseeker_resumes_jobrecommendationsnodid #jrLeft 
+{
+	font: 12px Arial,Sans-serif;
+    line-height: 150%;
+    color: #000;
+      width: 860px;
+    margin:0px;
+}
+
+#LJCOMMON_jobseeker_resumes_jobrecommendationsnodid #jrLeft li {
+    color: #000;
+}
+
+#LJCOMMON_jobseeker_resumes_jobrecommendationsnodid #jrLeft li a {
+    color: #666 !important;
+    font-family: Arial,Sans-serif;
+    font-size: 12px;   
+    text-decoration:underline;   
+}
+
+#LJCOMMON_jobseeker_resumes_jobrecommendationsnodid #jrLeft li a:hover {
+    color: #666;
+    font-family: Arial,Sans-serif;
+    font-size: 12px;
+}
+
+#LJCOMMON_jobseeker_resumes_jobrecommendationsnodid #jrLeft li {
+    color: #000;
+}
+
+#LJCOMMON_jobseeker_resumes_jobrecommendationsnodid #jrLeft li a {
+    color: #666 !important;
+    font-family: Arial,Sans-serif;
+    font-size: 12px;   
+    text-decoration:underline;   
+}
+
+#LJCOMMON_jobseeker_resumes_jobrecommendationsnodid #jrLeft li a:hover {
+    color: #666;
+    font-family: Arial,Sans-serif;
+    font-size: 12px;
+}
+
+#LJCOMMON_jobseeker_resumes_jobrecommendationsnodid #jrRight 
+{
+	margin:0px !important;
+    float:left;
+    width:715px;
+}
+
+ #LJCOMMON_jobseeker_resumes_jobrecommendationsnodid .content div.left {
+    width: auto;
+    padding: 15px 0 0;
+    margin: 0 auto;   
+}
+
+ #LJCOMMON_jobseeker_resumes_jobrecommendationsnodid .content div.left {
+    width: auto;
+    padding: 15px 0 0;
+    margin: 0 auto;   
+}
+
+#LJCOMMON_jobseeker_resumes_jobrecommendationsnodid .jreForm 
+{
+	font-size:11px;
+	margin-left:9px;
+	margin-top:5px;
+}
+
+#LJCOMMON_jobseeker_resumes_jobrecommendationsnodid #frmJRNoDID_content 
+{
+	clear:both;	
+	margin:88px 10px 30px 0px;
+	margin-top:0;
+	padding:5px;
+	width: 600px;
+	line-height:25px;
+}
+
+#LJCOMMON_jobseeker_resumes_jobrecommendationsnodid #frmJRNoDID_content b {
+    font-weight: normal;
+    color: #000;
+}
+
+#LJCOMMON_jobseeker_resumes_jobrecommendationsnodid #frmJRNoDID_content  b
+{
+	white-space:nowrap;
+	.*>float:left;
+	.*>clear:both;
+}
+
+#LJCOMMON_jobseeker_resumes_jobrecommendationsnodid #noAccount
+{
+	color:#4A4B79 !important;
+	float:left;
+	padding:10px;
+	width:600px;
+    margin-top:0px !important;
+	
+}
+
+#LJCOMMON_jobseeker_resumes_jobrecommendationsnodid .jreLabel
+{
+	text-align:right;
+	white-space:nowrap;
+	width:80px;
+	.*>width:120px;
+}
+
+#LJCOMMON_jobseeker_resumes_jobrecommendationsnodid #Submit
+{
+	margin-top:10px;
+}
+
+#LJCOMMON_jobseeker_resumes_jobrecommendationsnodid #frmJRNoDID_content b {
+    font-weight: normal;
+    color: #000;
+}
+    
+#LJCOMMON_jobseeker_resumes_jobrecommendationsnodid #cbSignInLink b  {
+    top: -54px;
+    left: 220px;
+    color: #666;
+    font-weight: bold;
+    text-decoration:underline;
+    position:absolute;
+}
+
+#LJCOMMON_jobseeker_resumes_jobrecommendationsnodid #cbSignInLink  {
+    float: right !important;    
+    display: inline;
+    color: #666;
+    text-decoration:underline;
+    font-weight: bold;
+}
+
+#LJCOMMON_jobseeker_resumes_jobrecommendationsnodid #cbhlRegister2 {
+    color: #666 !important;
+}
+
+#LJCOMMON_jobseeker_resumes_jobrecommendationsnodid #jrRight a {
+    font-family: Arial,Sans-serif;
+    font-size: 12px;       
+    font-weight:bold;
+    position: absolute;
+}
+#LJCOMMON_jobseeker_resumes_jobrecommendationsnodid #jrRight a:hover {
+    color: #666;
+    font-family: Arial,Sans-serif;
+    font-size: 12px;
+    font-weight:bold;
+}
+#LJCOMMON_jobseeker_resumes_jobrecommendationsnodid .textOr {
+    width:236px;
+    text-align:center;
+}
+
+#LJCOMMON_jobseeker_resumes_jobrecommendationsnodid div.social_buttons.sb_24.sb_facebook {
+  width: 125px;
+  color: #ffffff !important;
+}
+
+#LJCOMMON_jobseeker_resumes_jobrecommendationsnodid div.social_buttons.sb_24.sb_google
+{
+  width: 125px;
+  color: #ffffff !important;
+  float:right !important;
+  margin-left: 132px;
+  margin-top: -25px;
+}
+
+#LJCOMMON_jobseeker_resumes_jobrecommendationsnodid #fbAuthLink {
+    color:#ffffff !important;
+}
+
+/*JobSeeker/Resumes/PostResumeRecommendations.aspx*/
+
+#LJCOMMON_jobseeker_resumes_postresumerecommendations
+{
+	color:#4a4379;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+#LJCOMMON_jobseeker_resumes_postresumerecommendations  a 
+{
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #4a4b79 !important;
+	text-decoration: none;
+}
+
+#LJCOMMON_jobseeker_resumes_postresumerecommendations a:hover 
+{
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #4a4b79 !important;
+	text-decoration: underline;
+}
+
+#LJCOMMON_jobseeker_resumes_postresumerecommendations .jr_listpanel 
+{
+	border:1px solid #8395c5 !important;
+	width:917px;
+}
+
+#LJCOMMON_jobseeker_resumes_postresumerecommendations .PageHeader 
+{
+	color:#4A4B79 !important;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:14px !important;
+	font-weight:bold !important;
+}
+
+#LJCOMMON_jobseeker_resumes_postresumerecommendations .editResume {
+	border: 1px solid;
+	font-family: arial,helvetica,sans-serif;
+	font-size: 12px;
+	margin-top: 13px;
+	padding: 15px;
+	text-align: center;
+	width: 600px;
+}
+
+
+/*/jobseeker/jobs/recommendedjobs.aspx*/
+
+#LJCOMMON_jobseeker_jobs_recommendedjobs
+{
+	color:#4a4379;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+#LJCOMMON_jobseeker_jobs_recommendedjobs  a 
+{
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #4a4b79 !important;
+	text-decoration: none;
+}
+
+#LJCOMMON_jobseeker_jobs_recommendedjobs a:hover 
+{
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #4a4b79 !important;
+	text-decoration: underline;
+}
+
+#LJCOMMON_jobseeker_jobs_recommendedjobs .jr_listpanel 
+{
+	border:1px solid #8395C5 !important;
+	margin-top:20px;
+	width:940px;
+}
+
+#LJCOMMON_jobseeker_jobs_recommendedjobs .PageHeader 
+{
+	color:#4A4B79 !important;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:14px !important;
+	font-weight:bold !important;
+}
+
+#LJCOMMON_jobseeker_jobs_recommendedjobs #divJobTitle 
+{
+	color:#4A4B79 !important;
+	float:left;
+}
+
+/* --------------------------------------------------------------------------------- */
+/*	DESINSCRIPTION AUX MAILS  : /JobSeeker/Emails/EmailUnSubscribe.aspx              */
+/* --------------------------------------------------------------------------------- */
+
+#LJCOMMON_jobseeker_emails_emailunsubscribe #EmailCenterWrapper 
+{
+	border:1px solid #D5D5D5 !important;
+	color:#333366;
+	float:left;
+	line-height:16px;
+	margin-left:5px;
+	padding:20px;
+	text-align:left;
+	width:900px !important;
+	font-family:arial,helvetica,sans-serif;
+	font-size:12px;
+}
+
+#LJCOMMON_jobseeker_emails_emailunsubscribe a
+{
+	font-family:arial,helvetica,sans-serif;
+	font-size:12px;
+	color:#4A4B79 !important;
+	text-decoration:none;
+}
+
+#LJCOMMON_jobseeker_emails_emailunsubscribe a:hover
+{
+	font-family:arial,helvetica,sans-serif;
+	font-size:12px;
+	color:#4A4B79 !important;
+	text-decoration:underline;
+}
+
+#LJCOMMON_jobseeker_emails_emailunsubscribe #rblUnSub input 
+{
+	clear:left;
+	float:left !important;
+	margin:0;
+	width:20px;
+}
+
+#LJCOMMON_jobseeker_emails_emailunsubscribe #btnSubmit
+{
+	background-color:#5A5B92 !important;
+	border:0 none;
+	color:#FFFFFF;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+/*----------- LJ fixed ---------- */
+
+
+#ucMySavedJobs_mxdlSavedJobs__ctl0_TableCell10, 
+#ucMySavedJobs_mxdlSavedJobs__ctl1_TableCell10,
+#ucMySavedJobs_mxdlSavedJobs__ctl2_TableCell10,
+#ucMySavedJobs_mxdlSavedJobs__ctl3_TableCell10,
+#ucMySavedJobs_mxdlSavedJobs__ctl4_TableCell10,
+#ucMySavedJobs_mxdlSavedJobs__ctl5_TableCell10,
+#ucMySavedJobs_mxdlSavedJobs__ctl6_TableCell10,
+#ucMySavedJobs_mxdlSavedJobs__ctl7_TableCell10,
+#ucMySavedJobs_mxdlSavedJobs__ctl8_TableCell10,
+#ucMySavedJobs_mxdlSavedJobs__ctl9_TableCell10
+{
+	display:none;
+}
+
+.resumeSubmit 
+{
+	color:#333333;
+	float:left !important;
+	font-size:12px;
+	margin:-200px 25px 20px 580px !important;
+	padding:15px 0 0;
+	text-align:center;
+	position:relative;
+}
+
+
+.QuickPreview  a
+{
+	display:none;
+}
+
+#LJCOMMON_intl_jobposter_ecommerce_jobproducts
+{
+	width:948px !important;
+}
+
+#LJCOMMON_intl_jobposter_ecommerce_jobproducts.cb_style .jobprodwrapper .rightwrapper 
+{
+	float:right;width:37% !important;
+}
+
+/*-------- confirmation des infos UserInfo.aspx ---- */
+
+.OuterResumeWrapper 
+{
+	background:transparent none repeat scroll 0 0 !important;
+	font-family:Arial;
+	margin:0;
+	padding:0;
+	text-align:center;
+	width:100%;
+}
+
+#divui img
+{
+	display:none;
+}
+
+#divui td
+{
+	background-color:transparent !important;
+}
+
+#divui span
+{
+	color:#4A4B79 !important;
+	font-size:12px !important;
+}
+
+.resumeWrapper 
+{
+	background-color:transparent !important;
+	border:0px solid #D5D5D5;
+	font-family:Arial;
+	font-size:11px;
+	line-height:16px;
+	margin:20px auto 0 !important;
+	padding:11px 0 0;
+	width:750px;
+}
+
+.CompanyWrapper {
+	width:100% !important;
+}
+
+.cb_style .header {
+   background:none !important;
+    background-color: #F2F5F8 !important;
+}
+
+#divPhone input
+{
+    width:95% !important;
+    /*margin-left: 40px;*/  margin-left: 0px;
+}
+
+#divCountrySelect select
+{
+    width: 225px !important;
+    /*margin-left: 45px;*/    margin-left: 0px;   padding: 4px;
+}
+
+#divCountry select
+{
+	width:25% !important;
+}
+
+/*ViewEditResume*/
+
+
+
+
+#divViewEditResume .resumeComments div{
+    width:89%;
+    max-height:100px;
+    overflow:auto;
+    white-space:pre-line;
+}
+#divViewEditResume .editBox .editfieldsCatWork { text-align: left; width: 50%; }
+#divViewEditResume .editBox .specialFunctions { text-align: left; margin-top: 255px; }
+#divViewEditResume .editBox .editlabelsFunctions {     
+	text-align: right;
+    padding-right: .75em;
+    vertical-align: top;
+	margin-top: 95px;
+}
+#divViewEditResume .editBoxLJTechSkills .LJTechSkillsFields  { text-align: right; width: 100%; }
+#divViewEditResume .middleToolsLang { width: 75%; margin-left: 130px; }
+#divViewEditResume .editBoxLJTechSkills a { font-size: 12px; }
+#divViewEditResume .editBoxLJTechSkills a:hover  { text-decoration: none; }
+
+#divViewEditResume .editBoxLJTechSkills { 
+	background-color: whiteSmoke;
+	line-height: 33px;
+	padding: 0.5em; 
+}
+#divViewEditResume .editBoxLJTechSkills .cancel { margin-left: 1.5em; font-size: 12px; }
+
+/* New JRP on INTL */
+
+#container 
+{
+	width: 1000px !important;
+    min-height: 375px;
+}
+#container_job_skin
+{
+    width: 100%;
+}
+#container_job_skin .table_blochaut
+{
+    width:100%;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 0;   
+}
+#container_job_skin #JobDetails_ucJobDetailsSkin_tdJSCenter
+{
+    width: 950px;
+    display: block;
+    margin:0 auto;
+}
+#container_job_skin #JobDetails_ucJobDetailsSkin__JobSkinHeaderV2_tblIntlHeader {
+    width:1070px !important;
+}
+#ukheaderNEW,#header_overlay,#center
+{
+    width:100%;
+}
+
+#pnlOne
+{
+  margin-top: -7px;  
+}
+
+.displayNone 
+{
+    display: none;
+}
+
+#location_wrapper, #keywords_wrapper{
+    width: 38% !important;
+}
+
+#CobrandSearchBox
+{
+    display: block;
+    width: 1000px;
+}
+
+#pnlInnerWrapper 
+{
+    margin-left: 0;
+    margin-top: 0px;
+}
+
+#panels #pnlSearchFields #pnlSearchRight 
+{
+    display: none;
+}
+
+#BelowSearchBoxGradient
+{
+    height: 14px;
+    width: auto;
+}
+
+
+.cb_style .stdPageWrapper 
+{
+    margin: 15px auto;
+    width: 1000px;
+}
+
+.jobList_table .spnLocation .litlocation {
+    text-transform: uppercase;
+}
+
+
+/* ----- NEW JDP ----*/
+
+#JobDetails_ucJobDetails__ucApplyBarTop_JDReportBtn,  
+#JobDetails_ucJobDetails__ucApplyBarTop_ucJobFeedbackV3_jobFeedbackWrapper,
+#IndustrieLabel,.SimilarJobsIndustries,
+#JobDetails_ucJobDetails_JobDetailApplybarLogo
+{
+    display:none;
+}
+
+#jdpSnapShot #jdbLesJeudis
+{
+    display: block;
+    float: left;
+    margin-left: 0;
+    width: auto;
+    padding: 15px 0 0 6px;
+}
+
+#jdpSnapShot #jdbLesJeudis #jdpSectionHeading
+{
+    width: auto;   
+}
+
+#jdpSnapShot #jdbLesJeudis span 
+{
+    color:#000000;
+    clear: left;
+    float: left;
+    padding-left:5px;
+}
+
+#jdpSnapShot #jdbLesJeudis div div 
+{
+    clear: none;
+    float: left;
+    margin: 0;
+    padding: 0px 5px 5px 5px;
+}
+
+#jdbLesJeudis div span
+{
+    font-weight:normal;
+    padding-bottom: 10px;
+}
+
+
+#jdpSnapShot #jdpSimilarJobs,
+#jdpSnapShot #jdbLesJeudis 
+{
+    background: none repeat scroll 0 0 #EFEFEF !important;
+}
+
+#jdpSnapShot #jdbLesJeudis .jdpSectionHeading
+{
+    padding-bottom:10px;
+    width:100%;
+}
+
+#jdpSnapShot #ApplyJobTR
+{
+    padding: 0;
+    width: 180px;
+}
+
+#jdpSnapShot #ApplyJobTR a
+{
+    border-top-color: #FF7700 !important;
+    color: #FFFFFF !important;
+    font-size: 13px !important;
+    margin-bottom: -5px;
+    margin-left: 17px;
+    margin-top: 5px;
+    padding: 5px !important;
+}
+
+#jdpLeftWrapper #ActionBarBottom #ApplyBtnFixed {
+    background: none repeat scroll 0 0 #FF7700 !important;
+    border: 2px solid #FF8828 !important;
+    bottom: 0;
+    position: fixed;
+    z-index: 100;
+}
+
+#jdpLeftWrapper #ActionBarBottom #ApplyBtnFixed a{
+    background: none repeat scroll 0 0 #FF7700 !important;
+    border-top-color: #FF7700 !important;
+    padding:0px !important;
+}
+
+
+#jdpLeftWrapper #jdpSnapShot #jdpSnapShotHeader ,
+#jdpLeftWrapper #jdpDescrption #jdpDescriptionHeader,
+#jdpLeftWrapper #jdpRequirements #jdpRequirementsHeader
+{
+    background: url("../../images/uk/js/jdp/jobdetsimilar.jpg") repeat-x scroll ;
+    color:#FFFFFF !important;
+    font-size:14px !important;
+}
+
+#FollowCompFixed
+{
+    line-height: 30px !important;
+    left: -61px;
+
+} 
+
+#btnAllJobs {
+    background: none repeat scroll 0% 0% rgb(243, 107, 33) !important;
+    text-shadow: none !important;
+    width: 160px !important;
+    border-radius: 3px !important;
+    color: #FFF;
+    font: bold 13px/32px Lato,Arial,Sans-serif !important;
+    padding: 0px 0px 0px 5px !important; 
+    height:28px;
+}
+
+#jdpSnapShot div div, 
+#jdpSnapShot div a 
+{
+     color:#134A6A !important;
+     font-weight:bold;
+}
+
+#jdpLeftWrapper #jdpSnapShot #jdpSimilarJobs #jdpSimilarJobsHeader
+{
+     color:#FFFFFF;
+}
+
+#jdpLeftWrapper .jdpInfo div div 
+{
+   line-height: 1.5em;
+   
+}
+
+#jdpLeftWrapper .jdpInfo 
+{
+    background:#efefef !important;
+}
+
+#HorizApplyBar img
+{
+    display:none;
+}
+
+#JobDetails_ucJobDetails_pnlJob #jdpLeftWrapper .jdpContent a 
+{
+    color: #CE003D !important;
+}
+
+#JobDetails_pnlJDP {
+    margin-top: 25px;
+}
+
+.fb-share-button
+{
+    float:right;
+    vertical-align:top;
+    white-space:nowrap;
+    height:25px;
+    width:135px;
+}
+
+#lieuKey, #lieuValue{display:none;}
+
+#jdpSnapShot #ApplyJobTR .externalApply, #pnlJob #jdpLeftWrapper #ActionBarBottom #ApplyBtnFixed .externalApply, #JobDetails_pnlSkinnedJDP #ApplyBarBtnNew #ApplyButton .externalApply {
+  background: url('../../../images/LJ/Refresh/external-link.png') no-repeat 70% center #f36b21 !important;
+  text-align: left !important;
+  text-indent: 40px;
+}
+
+/* jobskin*/
+
+.jobSkinHdrLinks 
+{
+    margin-top:4px;
+}
+
+.jobSkinHdrLinks a
+{
+    font-size:14px !important;
+}
+    
+.jobSkinHdrLogo 
+{
+    background: none repeat scroll 0 0 #13496a;
+    padding: 13px 5px 5px 14px;
+    width: 273px;
+}
+
+#tbl_jobskin
+{
+    background:#13496a !important;
+}
+
+.topIntlNavLinks,.topIntlLastNavLink
+{
+    border-left: 1px solid #13496a !important;
+    border-right: 1px solid #13496a !important;
+    background-color: #13496a !important; 
+    padding: 22px 16px 3px !important;
+}
+
+.topIntlNavLinks a ,
+.topIntlLastNavLink a
+{
+    color:#ffffff !important;
+}
+
+#JobDetails_ucJobDetailsSkin__JobSkinHeaderV2_cbhlOtherJobs
+{
+    padding-left:14px;
+}
+
+.CBResumeResults #loadingSpinner {top: 385px !important; left: 37% !important;}
+
+/*Browse page*/
+#browsepage #divDDLLocation {
+    display: none !important;
+}
+#browsepage #divTxtLocation {
+    display: inline !important;
+} 
+#browsepage .Ad,#browsepage .ad {
+    display:none;
+}
+#browsepage #CobrandSearchBox {
+   width:100%;   
+}
+#browsepage #SearchBoxFields #intlFlexSearchBox #iFSBContainer input {
+    margin: 0 5px !important;
+    width: 95% !important;
+}
+#browsepage #iFSBContainer #location_wrapper {
+    width: 320px !important;
+}
+#browsepage #browsepage_inner {
+width:980px;
+margin:auto;
+}
+
+#technologies {
+float:left;
+clear:both;
+}
+
+#browsepage_inner #companies, #browsepage_inner #titles, #browsepage_inner #industries,#browsepage_inner #technologies,#browsepage_inner #companies,#browsepage_inner #industries {
+width:100%
+}
+#browsepage #left, #browsepage #right,#browsepage #center,
+#browsepage #tleft, #browsepage #tright, #browsepage #tcenter {
+margin-bottom:50px;
+}
+
+#browsepage h1 {
+  color: #134A6A;
+  font: 19px Arial,Sans-serif;
+}
+#browsepage h2 {
+    color: #134A6A;
+    display: block;
+    font: bold 14px Arial,Sans-serif;
+}
+#browsepage a {
+    color: #4E4E4E;
+    font-size: 12px;
+    text-decoration: none;
+}  
+#browsepage .grid-column{
+    width:33% !important;
+    margin:15px 0 25px 0 !important;
+    float:left;
+}
+#browsepage .grid-column table, #browsepage .divinner table {
+    width: 90%;
+}
+#browsepage .divinner {
+    float: left;
+    width: 50%;
+    margin:0 0 25px 0 !important;
+}
+#browsepage .grid-column table tr:nth-child(odd),#browsepage .divinner #BodyLinks tr:not([id^=BodyLinks__]):nth-child(odd),#browsepage .divinner #BodyLinksPt2 tr:not([id^=BodyLinksPt2__]):nth-child(odd),#browsepage .divinner li:nth-child(odd)  {
+    background-color:#F9F9F9;
+}
+#browsepage li {
+line-height:34px;
+padding-left:10px;
+}
+#browsepage ul {
+margin:5px 0 10px 0;
+}
+#browsepage  td[id^=ucBrowsable] {
+line-height:24px;
+}
+
+#browsepage .grid-column{
+    width:33% !important;
+    margin:15px 0 25px 0 !important;
+    float:left;
+}
+#browsepage .grid-column table, #browsepage .divinner table {
+    width: 90%;
+}
+#browsepage .divinner {
+    float: left;
+    width: 50%;
+    margin:0 0 25px 0 !important;
+}
+#browsepage .grid-column table tr:nth-child(odd),#browsepage .divinner #BodyLinks tr:not([id^=BodyLinks__]):nth-child(odd),#browsepage .divinner #BodyLinksPt2 tr:not([id^=BodyLinksPt2__]):nth-child(odd),#browsepage .divinner li:nth-child(odd)  {
+    background-color:#F9F9F9;
+}
+#browsepage li {
+line-height:34px;
+padding-left:10px;
+}
+#browsepage ul {
+margin:5px 0 10px 0;
+}
+#browsepage  td[id^=ucBrowsable] {
+line-height:24px;
+}
+
+/* --------- /intl/share/help/faq.aspx ------------- */
+
+#LJCOMMON_intl_share_help_faq .HelpMainContent {
+    width: 990px;
+}
+
+#LJCOMMON_intl_share_help_faq .HelpFAQBox{
+    width:502px;
+}
+
+#LJCOMMON_intl_share_help_faq .HelpFAQBoxContent{
+   background: url('http://img.icbdr.com/images/js/help/help_grad_bg.gif') repeat-x scroll 0% 0% #FFF;
+   width:78%;
+}
+
+#LJCOMMON_intl_share_help_faq .HelpPageWrapper {
+    margin-bottom: 40px;
+}
+
+#LJCOMMON_intl_share_help_faq .HelpMainContentLeft {
+    width:470px;
+}
+
+#LJCOMMON_intl_share_help_faq .HelpMainContentRight {
+    width: 490px;
+}
+
+#LJCOMMON_intl_share_help_faq .HelpMainContentRightLeft {
+  float: left;
+  width: 220px;
+   margin-left: 40px;
+}
+
+#LJCOMMON_intl_share_help_faq .HelpMainContentRightRight {
+  float: left;
+  width: 200px;
+  margin-left: 25px;
+}
+
+#LJCOMMON_intl_share_help_faq .HelpH2Center {
+     margin-bottom: 20px;
+     font-weight: bold;
+    font-size: 14px;
+}
+
+#LJCOMMON_intl_share_help_faq .HelpFAQBoxContent h3 {
+    width: auto;
+    padding-left: 24px;
+    padding-top: 7px;
+    text-transform: lowercase;
+    color: #006;
+    font-size: 14px;
+}
+
+#LJCOMMON_intl_share_help_faq .HelpFAQBoxContent h3:first-letter {
+    text-transform: capitalize;
+}
+
+#LJCOMMON_intl_share_help_faq .HelpHeader {
+    margin-bottom: 50px;
+}
+
+#LJCOMMON_intl_share_help_faq .HelpHeader {
+    color: #134A6A;
+    display: block;
+    font: 19px Arial,Sans-serif;
+}
+
+#LJCOMMON_intl_share_help_faq #SearchingBox , 
+#LJCOMMON_intl_share_help_faq #ResumesBox, 
+#LJCOMMON_intl_share_help_faq #MyAccountBox,
+#LJCOMMON_intl_share_help_faq #JobAlertsBox,
+#LJCOMMON_intl_share_help_faq #SecurityBox,
+#LJCOMMON_intl_share_help_faq #RecommendationsBox {
+    line-height: 180%;    
+    margin-top: 31px;   
+    width: 225px;      
+    margin-left: 30px;
+}
+
+#LJCOMMON_intl_share_help_faq #SearchingBox h3,
+#LJCOMMON_intl_share_help_faq #ResumesBox  h3,
+#LJCOMMON_intl_share_help_faq #MyAccountBox h3,
+#LJCOMMON_intl_share_help_faq #JobAlertsBox h3,
+#LJCOMMON_intl_share_help_faq #SecurityBox h3,
+#LJCOMMON_intl_share_help_faq #RecommendationsBox h3 {
+   display:none;
+}
+
+#LJCOMMON_intl_share_help_faq #ResumesBox table,
+#LJCOMMON_intl_share_help_faq #MyAccountBox table,
+#LJCOMMON_intl_share_help_faq #MyAccountBox table,
+#LJCOMMON_intl_share_help_faq #JobAlertsBox table,
+#LJCOMMON_intl_share_help_faq #SecurityBox table,
+#LJCOMMON_intl_share_help_faq #RecommendationsBox table,
+#LJCOMMON_intl_share_help_faq .HelpEmailBox table {
+
+    margin-top: 20px;
+}
+
+#LJCOMMON_intl_share_help_faq a {
+    color:#333;
+    font-size: 12px;
+    font-family: Arial,Sans-serif;
+}
+
+#LJCOMMON_intl_share_help_faq #ResumesBox {
+    width: 270px;
+    line-height: 180%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#LJCOMMON_intl_share_help_faq .HelpEmailBox li {
+    list-style: none;
+}
+
+#LJCOMMON_intl_share_help_faq .JobSeekerTabActive {
+    width: 90px;
+}
+
+#LJCOMMON_intl_share_help_faq .HelpCallHeader {
+    margin-bottom:20px;
+}
+
+#LJCOMMON_intl_share_help_faq .HelpCallJobSeeker, #LJCOMMON_intl_share_help_faq .HelpCallEmployers {
+  margin: 10px;
+  line-height: 250%;
+}
+
+#LJCOMMON_share_register #MXMessageBoxError{
+margin:0 !important;
+}
+#LJCOMMON_share_register #idRegister1{
+float: left !important;
+}
+#LJCOMMON_share_register #idRegister2{
+    border: 0px none !important;
+
+}
+#LJCOMMON_share_register #idRegister5{
+float: none !important;
+width:300px !important;
+margin-top:88px !important;
+left: 0px !important;
+}
+#LJCOMMON_share_register #registrationControl .positionDiv {
+   margin: 6px 0 0 0;
+}
+
+#LJCOMMON_share_register #ucUserEmailOptions_TipsRegisterAlert,
+#LJCOMMON_jobseeker_emails_emailsubcenter #cbhlJobAlerts,
+#LJCOMMON_jobseeker_emails_emailsubcenter #pnlJobMail
+{
+display:none !important;
+}
+
+.submit input, #btnRegisterNow{
+  background: none;
+  background: #f36b21;
+  text-shadow: none;
+  font: 900 13px/28px Lato,Arial,Sans-serif;
+  border: none;
+  -moz-border-radius:3px;
+  -webkit-border-radius:3px;
+  border-radius:3px;
+  color:#ffffff;
+  float: initial;
+  width: 160px;
+  line-height: 36px;
+  height: 32px;
+  padding: 0 0 2px 5px;
+  text-align: center;
+}
+
+#LJCOMMON_share_login .silogin_wrapper{ width: 1070px; }
+#LJCOMMON_share_login #siBoxRt { display: block !important; float: left; border: none !important; margin-left: 30px; }
+#LJCOMMON_share_login .siContentWrapper { padding: 0 !important; 
+border:none !important;}
+#LJCOMMON_share_login #siBoxLft { float: left !important; }
+#LJCOMMON_share_login .cb_style .siBox .siContentWrapper { margin: 0 !important;}
+#LJCOMMON_share_login .cb_style .siContentWrapper{ width: 460px; }
+#LJCOMMON_share_login #JobSeekerLogin1_cbRegister{ text-decoration: none; width: 160px; text-align:center; background: #13496A !important; border:none; border-radius: 3px; float: right;line-height: 26px; }
+#LJCOMMON_share_login #btnsignin{ cursor: pointer; width: 160px; background: #F7961E !important; height: 32px; line-height: 26px !important; margin-top: 13px;border-radius: 3px; margin-left: 279px;border:none;}
+#LJCOMMON_share_login #siBoxLft .LogInHead h3{ background: #F7961E !important; color: #fff !important; padding: 6px 8px 4px 10px !important; height: 16px !important;border:none;}
+#LJCOMMON_share_login #siBoxRt .LogInHead h3{ background: #13496A !important; color: #fff !important;border:none; }
+#LJCOMMON_share_login .siContent{
+margin: 0 10px 10px 10px !important;
+}
+#LJCOMMON_share_login .dJSNewDiv{
+height: 60px;
+}
+#LJCOMMON_share_login #siBoxLft,#LJCOMMON_share_login #siBoxRt {
+border-top-left-radius : 10px;
+border-top-right-radius : 10px;
+}
+
+/* FIX PAGE LOGIN RECRUITER*/
+
+       .silogin_wrapper.RXJP #siContentID {
+            color: #7B7B7B;
+            float: left;
+            line-height: 133%;
+         }
+
+        .silogin_wrapper.RXJP #siContentID input[type="email"] {
+            float: right;
+            position: absolute;
+            top: 22px;
+            left: 163px;
+        }
+        .silogin_wrapper.RXJP #siContentID input[type="password"] {
+            float: right;
+            position: absolute;
+            top: 60px;
+            left: 163px;
+            width: 180px !important;
+        }
+
+        .silogin_wrapper.RXJP #siContentID #PswdForgtLnk {
+            float: left !important;
+            margin-left: 0px;
+        }
+        .silogin_wrapper.RXJP #siContentID #btnsignin {
+            margin-left: 262px;
+        }
+        .silogin_wrapper.RXJP .siContent #EmployerLogin1_cbRegister {
+            display: none;
+            width: 150px;
+            text-align: center;
+            background: #13496A none repeat scroll 0% 0% !important;
+            background-image:none;
+            border: medium none;
+            border-radius: 3px;
+            float: right;
+            line-height: 26px;
+            font-size: 10px;
+        }
+#siContentID input[type="email"] {
+	height:30px;
+	width:170px;
+	border:1px solid #CED6DA;
+	outline:medium none;
+	padding:0 10px;
+}
+#siContentID input[type="password"] {
+	width:170px !important;
+}
+#siContentID #PasswordHeader {
+	clear:both;
+}
+#siContentID .siTextInpt {
+	margin-top:10px;
+}
+#siContentID .RXhide input {
+	float:left;
+}
+#siContentID .dJSNewDiv,#siContentID #PswdForgtLnk {
+	clear:both;
+}
+#siContentID .RXhide .lblRememberMe {
+    margin-left: 5px;
+}
+/* FIX PAGE LOGIN */
+#LJCOMMON_share_login #siContentID div {
+	width:168px;
+}
+#LJCOMMON_share_login .siItalic {
+	display:none;
+}
+#LJCOMMON_share_login #messagebox {
+	margin:0 auto !important;
+}
+#LJCOMMON_share_login #MXMessageBoxError {
+	float:left;
+	position:inherit;
+}
+.description p b {
+	font-weight:bold;
+}
+.RXhide label {
+	padding-right:5px !important;
+}
+
+/* ------------------------------------------------------------------ */
+/*							CSS / JUNIORS       	                  */
+/* ------------------------------------------------------------------ */
+
+
+
+.grand_titre1 {
+color:#7BAC45;
+font-family:Arial,Helvetica,sans-serif;
+font-size:17px;
+font-weight:bold;
+}
+
+a.sm:link {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #4a4b79;
+	text-decoration: none;
+}
+a.sm:visited {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #4a4b79;
+	text-decoration: none;
+}
+a.sm:hover {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #4a4b79;
+	text-decoration: underline;
+	
+}
+
+a.sm-click {
+	background-color : #999999;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #4a4b79;
+	text-decoration: underline;
+}
+
+
+.table_marge {
+	margin-bottom: 10px;
+	width:100%;
+}
+
+.td_login {
+	border: 1px solid #669933;
+	/*background-image: url(/img/bg_login.gif);*/
+	background-image: url(../../../images/LJ/bg_login.gif);
+	width:250px;
+	height:89px;
+}
+
+.td_img_login {
+	/*background-image: url(/img/bg_deco.gif);*/
+	background-image: url(../../../images/LJ/bg_deco.gif);
+	background-repeat: no-repeat;
+
+}
+
+.txt_vert_bold {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #336600;
+	text-decoration: none;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.separation{
+color: #cccccc;
+background-color:#cccccc;
+height: 1px;
+border: 0;
+}
+
+.titre01 {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #4a4b79;
+	text-decoration: none;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.td_titre {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #7BAC45;
+	text-decoration: none;
+	padding-top: 4px;
+	padding-right: 4px;
+	padding-bottom: 4px;
+	padding-left: 10px;
+	background-color: #7BAC45;
+	/*font-variant: small-caps;*/
+	height:50px;
+	/*background:url(/img/trait_junior.gif) 10px -2px no-repeat;*/
+	background:url(../../../images/LJ/trait_junior.gif) 10px -2px no-repeat;
+}
+
+
+.td_titre_fe {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #7BAC45;
+	text-decoration: none;
+	padding-top: 4px;
+	padding-right: 4px;
+	padding-bottom: 4px;
+	padding-left: 10px;
+	background-color: #7BAC45;
+	/*font-variant: small-caps;*/
+	width:400px;
+	height:50px;
+	/*background:url(/img/trait_junior.gif) 10px -2px no-repeat;*/
+	background:url(../../../images/LJ/trait_junior.gif) 10px -2px no-repeat;
+}
+
+.txt_fonctions_junior {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #336600;
+	text-decoration: none;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	font-variant: small-caps;
+}
+
+
+.txt_vert {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #336600;
+	text-decoration: none;
+	padding-left:5px;
+}
+
+.txt_vert_sansbold {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #336600;
+	text-decoration: none;
+	padding-bottom:0px;
+	padding-top:0px;
+}
+
+.trait {
+	border-bottom: 1px solid #BCD36B;
+	width:100%;
+	height:2px;
+	font-size: 0px;
+	padding-top:2px !important;
+	padding-top:0px;
+}
+
+.td_encart_vert {
+	background-color: #EBF3E4;
+	padding: 15px;
+}
+
+.td_encart {
+	/*background-image: url(/img/bg_encart.gif);*/
+	background-repeat: repeat-x;
+	/*border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #CCCCCC; */
+	padding: 5px 10px 5px 10px;
+}
+
+.bouton {
+	border: 1px solid #658D38;
+	/*background-image: url(/img/bg_menu_haut.gif);*/
+	background-image: url(../../../images/LJ/bg_menu_haut.gif);
+	width:280px;
+	height:30px;
+}
+
+.tdsepmoteur {
+	width:280px;
+	border-bottom:1px solid #B2B2DD;
+	font-size:1px;
+}
+
+.tdsepmoteur2 {
+	width:473px;
+	height:15px;
+	font-size:1px;
+}
+
+.tdsepmoteur3 {
+	width:433px important!;
+	border-bottom:1px solid #cccccc;
+}
+
+.rubrique {
+
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a.sm_titre:link {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #7BAC45;
+	text-decoration: none;
+}
+a.sm_titre:visited {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #7BAC45;
+	text-decoration: none;
+}
+a.sm_titre:hover {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #7BAC45;
+	text-decoration: underline;
+}
+
+
+
+a.sm2:link {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #BDDF45;
+	text-decoration: none;
+}
+
+a.sm2:visited {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #BDDF45;
+	text-decoration: none;
+}
+
+a.sm2:hover {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a.sm3:link{
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #4a4b79;
+	text-decoration: none;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	font-variant: small-caps;
+}
+
+a.sm3:visited{
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #4a4b79;
+	text-decoration: none;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	font-variant: small-caps;
+}
+
+a.sm3:hover{
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #4a4b79;
+	text-decoration: none;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	font-variant: small-caps;
+	text-decoration: underline;
+}
+
+a.sm:link {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #4a4b79;
+	text-decoration: none;
+}
+a.sm:visited {
+	font-family: Geneva,Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #4a4b79;
+	text-decoration: none;
+}
+a.sm:hover {
+	font-family: Geneva,Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #4a4b79;
+	text-decoration: underline;
+
+}
+
+a.sm_sans_bold:link {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #4a4b79;
+	text-decoration: none;
+}
+
+a.sm_sans_bold:visited {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #4a4b79;
+	text-decoration: none;
+}
+
+a.sm_sans_bold:hover {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #4a4b79;
+	text-decoration: underline;
+}
+
+a.sm_lien_connecte:link {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #336600;
+	text-decoration: none;
+}
+a.sm_lien_connecte:visited {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #336600;
+	text-decoration: none;
+}
+a.sm_lien_connecte:hover {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #336600;
+	text-decoration: underline;
+}
+a.sm_lien_pas_connecte:link {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #336600;
+	text-decoration: none;
+}
+a.sm_lien_pas_connecte:visited {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #336600;
+	text-decoration: none;
+}
+a.sm_lien_pas_connecte:hover {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #336600;
+	text-decoration: underline;
+}
+
+a.acttitre:link {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #4a4b79;
+	text-decoration: none;
+}
+
+a.acttitre:visited {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #4a4b79;
+	text-decoration: none;
+}
+
+a.acttitre:hover {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #4a4b79;
+	text-decoration: underline;
+}
+
+a.act:link {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #4a4b79;
+	text-decoration: none;
+}
+
+a.act:visited {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #4a4b79;
+	text-decoration: none;
+}
+
+a.act:hover {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #4a4b79;
+	text-decoration: none;
+}
+
+.txt_vertbig {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: #336600;
+	text-decoration: none;
+	padding-bottom: 5px;
+}
+
+.titre-actu {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #4a4b79;
+	text-decoration: none;
+	padding-bottom: 5px;
+}
+
+.txt-actu {
+ 	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #4a4b79;
+}
+
+.table_blochaut {
+	width:950px;
+	height:90px;
+	margin-bottom: 10px;
+}
+
+.td_blochaut_pub {
+	width:728px;
+}
+
+.td_sep10 {
+	width:10px;
+}
+
+.td_blochaut_sep2 {
+	width:55px;
+}
+
+.width100pc {
+	width:100%;
+}
+
+.height22px {
+	height:22px;
+}
+
+.width180px {
+	width:180px;
+}
+
+.width100px {
+	width:100px;
+}
+
+.bouton {
+	border: 1px solid #669933;
+	/*background-image: url(/img/bg_menu_haut.gif);*/
+	background-image: url(../../../images/LJ/bg_menu_haut.gif);
+	width:280px;
+	height:30px;
+	font-weight: bold;
+	color: #336600;
+	font-family : Arial,Helvetica,sans-serif;
+	cursor:pointer;
+}
+
+.champs_form02 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	background-color:#FFFFFF;
+	padding-top: 0px;
+	color: #336600;
+	width: 199px;
+	font-weight: normal;
+	text-decoration: none;
+	/*height: 25px;*/
+	margin-bottom: 2px;
+	border: 1px solid #669933;
+}
+
+.champs_form04 {
+
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	background-color:#FFFFFF;
+	padding:0px;
+	color: #336600;
+	width: 100px;
+	font-weight: normal;
+	text-decoration: none;
+	height: 15px;
+	margin-bottom: 2px;
+	border: 1px solid #669933;
+}
+
+.champs_form05 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	background-color:#FFFFFF;
+	padding-top: 0px;
+	color: #336600;
+	font-weight: normal;
+	text-decoration: none;
+	/*height: 25px;*/
+	margin-bottom: 2px;
+	border: 1px solid #669933;
+}
+
+.champs_form06 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	background-color:#FFFFFF;
+	padding-top: 0px;
+	color: #336600;
+	font-weight: normal;
+	text-decoration: none;
+	width: 165px;
+	/*height: 25px;*/
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #669933;
+}
+/* MENUS */
+
+.txt_menu_blanc {
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #7BAC45;
+}
+
+/* SOUS MENUS */
+
+.table_vert {
+	margin-bottom: 10px;
+	/*background:url(/img/juniors/bg_sousmenu.gif);*/
+	background:url(../../../images/LJ/juniors/bg_sousmenu.gif);
+	width:950px;
+	height:56px;
+	margin-top:-2px;
+
+}
+
+.sousmenu_global {
+	height:45px;
+}
+
+.sousmenu_trait {
+	width:1px;
+	border-right:1px solid #BCD36B;
+}
+
+ 
+.sousmenu_1 {
+	width:80px;
+	height:40px;
+}
+
+.sousmenu_2 {
+	width:150px;
+	height:40px;
+}
+
+.sousmenu_5 {
+	width:180px;
+	height:40px;
+}
+
+.sousmenu_3 {
+	width:100px;
+	height:40px;
+}
+
+.sousmenu_4 {
+	width:90px;
+	height:40px;
+}
+
+.grand_titre {
+  font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	color: #7BAC45;
+}
+.grand_titre2 {
+  font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 22px;
+	color: #4a4b79;
+}
+
+.chrono{
+ font-size:14px;
+ font-family: Arial, Helvetica, sans-serif;
+ color:#7BAC45;
+}
+
+a.newlink:link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+/*	font-weight: bold;*/
+	color: #7BAC45;
+	text-decoration: none;
+}
+
+a.newlink:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+/*	font-weight: bold;*/
+	color: #7BAC45;
+	text-decoration: none;
+}
+
+a.newlink:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+/*	font-weight: bold;*/
+	color: #7BAC45;
+	text-decoration: underline;
+}
+
+.encart_titre_td {
+	border:0px;
+	padding:10px;
+	background-color:#EAEAEA;
+	color:#7BAC45;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+}
+
+.td_titre2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #7BAC45;
+	text-decoration: none;
+	padding-top: 4px;
+	padding-right: 4px;
+	padding-bottom: 4px;
+	padding-left: 0px;
+	background-color: #FFFFFF;
+/*	background:url(/img/trait_junior2.gif) 0px -2px no-repeat;*/
+	background:url(../../../images/LJ/trait_junior2.gif) 0px -2px no-repeat;
+}
+
+.cadre{
+border: 1px solid #7BAC45;
+text-align: center;
+}
+
+.input_new_submit {
+  font-size: 12px;
+  font-weight: bold;
+  color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:#7BAC45;
+	border:0px;
+}
+a.suite:link {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #4a4b79;
+	text-decoration: none;
+}
+a.suite:visited {
+	font-family: Geneva,Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #4a4b79;
+	text-decoration: none;
+}
+a.suite:hover {
+	font-family: Geneva,Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #4a4b79;
+	text-decoration: underline;
+
+}
+
+/* ---------------------------------------- Ajout ----------------------------------------------------*/
+
+#td_junior
+{
+	background-color:#7BAC45 !important;
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	/*color: #160A67;*/
+	text-decoration: none;
+	background-color: #7BAC45;
+	background:#7BAC45 !important;
+}
+
+#juniors
+{
+	color:#FFFFFF;
+}
+
+/* ------------------------------------------------------------------ */
+/*							CSS / JEUDIS MAG     	                  */
+/* ------------------------------------------------------------------ */
+.td_login {
+	border: 1px solid #8B64BF;
+	background-image: url(../../../images/LJ/bg_login.gif);
+	width:250px;
+	height:89px;
+}
+
+.td_img_login {
+	background-image: url(../../../images/LJ/bg_deco.gif);
+	background-repeat: no-repeat;
+}
+
+.txt_vert_bold {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #660099;
+	text-decoration: none;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.txt_vert_sansbold {
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #660099;
+	text-decoration: none;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.titre_vert_bold {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #4a4b79;
+	text-decoration: none;
+}
+
+.titre2_vert_bold {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #666666;
+	text-decoration: none;
+}
+
+.separation{
+color: #cccccc;
+background-color:#cccccc;
+height: 1px;
+border: 0;
+}
+
+
+.titre01 {
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #4a4b79;
+	text-decoration: none;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.td_titre {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #743D9A;
+	text-decoration: none;
+	padding-top: 4px;
+	padding-right: 4px;
+	padding-bottom: 4px;
+	padding-left: 10px;
+	/*font-variant: small-caps;*/
+	height:50px;
+	background:url(../../../images/LJ/trait_mag.gif) 10px -2px no-repeat;
+}
+
+.txt_vert {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: none;
+	color: #666666;
+	text-decoration: none;
+}
+
+
+.td_encart_vert {
+	background-color: #EBE4F3;
+	padding: 15px;
+}
+
+
+.txt_fonctions_mag{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color:  #4a4b79;
+	text-decoration: none;
+	margin-top: 0px;
+	padding-top: 0px;
+  margin-bottom: 4px;
+	padding-bottom: 4px;
+	font-variant: small-caps;
+}
+
+.txt_fonctions_mag_new{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color:  #4a4b79;
+	text-decoration: none;
+	margin-top: 0px;
+	padding-top 0px;
+  margin-bottom: 4px;
+	padding-bottom: 4px;
+	/*font-variant: small-caps;*/
+}
+
+.td_encart {
+	/*background-image: url(../../../images/LJ/bg_encart.gif);*/
+	background-repeat: repeat-x;
+	/*border-bottom: 1px dashed #D8D2DE;*/
+	padding: 5px 10px 5px 10px;
+}
+.bouton {
+	border: 1px solid #660099;
+	background-image: url(../../../images/LJ/bg_menu_haut.gif);
+	width:280px;
+	height:30px;
+	font-weight: bold;
+	color : #660099;
+}
+
+.tdsepmoteur {
+	width:290px;
+	/*border-bottom:1px dashed #D8D2DE;*/
+	font-size:1px;
+}
+
+.tdsepmoteur2 {
+	width:280px;
+	height:15px;
+	font-size:1px;
+}
+
+
+
+.rubrique {
+
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a.sm_titre:link {
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #743D9A;
+	text-decoration: none;
+}
+a.sm_titre:visited {
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #743D9A;
+	text-decoration: none;
+}
+a.sm_titre:hover {
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #743D9A;
+	text-decoration: underline;
+}
+a.sm2:link {
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #C18BDF;
+	text-decoration: none;
+}
+a.sm2:visited {
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #C18BDF;
+	text-decoration: none;
+}
+a.sm2:hover {
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	
+}
+
+a.sm:link {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #4a4b79;
+	text-decoration: none;
+}
+a.sm:visited {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #4a4b79;
+	text-decoration: none;
+}
+a.sm:hover {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #4a4b79;
+	text-decoration: underline;
+	
+}
+
+a.sm-click {
+	background-color : #999999;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #4a4b79;
+	text-decoration: underline;
+}
+
+a.sm_sans_bold:link {
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #660099;
+	text-decoration: none;
+}
+
+a.sm_sans_bold:visited {
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #660099;
+	text-decoration: none;
+}
+
+a.sm_sans_bold:hover {
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #660099;
+	text-decoration: underline;
+}
+a.sm_lien_connecte:link {
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #660099;
+	text-decoration: none;
+}
+a.sm_lien_connecte:visited {
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #660099;
+	text-decoration: none;
+}
+
+a.sm_lien_connecte:hover {
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #660099;
+	text-decoration: underline;
+}
+a.sm_lien_pas_connecte:link {
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #660099;
+	text-decoration: none;
+}
+a.sm_lien_pas_connecte:visited {
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #660099;
+	text-decoration: none;
+}
+a.sm_lien_pas_connecte:hover {
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #660099;
+	text-decoration: underline;
+}
+
+a.acttitre:link {
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #4a4b79;
+	text-decoration: none;
+}
+
+a.acttitre:visited {
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #4a4b79;
+	text-decoration: none;
+}
+
+a.acttitre:hover {
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #4a4b79;
+	text-decoration: underline;
+}
+.acttitre2 {
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #4a4b79;
+	text-decoration: none;
+}
+
+a.act:link {
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #4a4b79;
+	text-decoration: none;
+}
+
+a.act:visited {
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #4a4b79;
+	text-decoration: none;
+}
+
+a.act:hover {
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #4a4b79;
+	text-decoration: none;
+}
+
+.rubrique {
+
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.txt_vertbig {
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: #660099;
+	text-decoration: none;
+	padding-bottom: 5px;
+	padding-left: 12px;
+}
+
+.titre-actu {
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #4a4b79;
+	text-decoration: none;
+	padding-bottom: 5px;
+}
+
+.txt-actu {
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #4a4b79;
+}
+
+.table_blochaut {
+	width:950px;
+	height:90px;
+	margin-bottom: 10px;
+}
+
+.td_blochaut_pub {
+	width:728px;
+}
+
+.td_sep10 {
+	width:10px;
+}
+
+.td_blochaut_sep2 {
+	width:55px;
+}
+
+.height22px {
+	height:22px;
+}
+
+.width150px {
+	width:150px;
+}
+
+.width100px {
+	width:100px;
+}
+
+.chapo {
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #4a4b79;
+	text-decoration: none;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	font-style: italic;
+}
+
+.champs_form04 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	background-color:#FFFFFF;
+	padding:0px;
+	color: #660099;
+	width: 100px;
+	font-weight: normal;
+	text-decoration: none;
+	height: 15px;
+	margin-bottom: 2px;
+	border: 1px solid #660099;
+}
+
+.champs_form06 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	background-color:#FFFFFF;
+	padding-top: 0px;
+	color: #666666;
+	font-weight: bold;
+	text-decoration: none;
+	width: 300px;
+	margin-top:10px;
+	/*height: 25px;*/
+	border: 1px solid #d6dae6;
+}
+
+/* MENUS */
+
+.txt_menu_blanc {
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	/*color: #160A67;*/
+	text-decoration: none;
+	background-color: #8B64BF;
+}
+
+/* SOUS MENUS */
+
+
+.table_vert {
+	margin-bottom: 10px;
+	background:url(../../../images/LJ/mag/bg_sousmenu.gif);
+	width:950px;
+	height:56px;
+	margin-top:-2px;
+
+}
+
+.sousmenu_global {
+	height:45px;
+}
+
+.sousmenu_trait {
+	width:1px;
+	border-right:1px solid #C8BAEB;
+}
+
+
+.sousmenu_1 {
+	width:80px;
+	height:40px;
+}
+
+.sousmenu_2 {
+	width:150px;
+	height:40px;
+}
+
+.sousmenu_3 {
+	width:100px;
+	height:40px;
+}
+
+.sousmenu_4 {
+	width:50px;
+	height:40px;
+}
+
+.sousmenu_5 {
+	width:150px;
+	height:40px;
+}
+
+.sousmenu_6 {
+	width:100px;
+	height:40px;
+}
+
+.sousmenu_7 {
+	width:200px;
+	height:40px;
+}
+
+.sousmenu_8 {
+	width:125px;
+	height:40px;
+}
+.sousmenu_9 {
+	width:50px;
+	height:40px;
+}
+.titreAccueil {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #999999;
+	font-size: 11px;
+}
+
+/*********************************** JEUDI MAG V.2 ************************/
+
+.tableFilAriane {
+width:950px;
+height:20px;
+padding-left:5px;
+margin-bottom:10px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#999999;
+background-color:#F4F4F4;
+}
+
+.titreEncadre {
+height:20px;
+font-family:Arial, Helvetica, sans-serif;
+font-weight:bold;
+font-size:14px;
+color:#733E98;
+border-bottom:1px solid #D5D5D5;
+}
+
+.rechercheEvenement {
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+color:#4a4b79;
+}
+
+.inputEvenement {
+border:1px solid #5D699D;
+background-color:#FFFFFF;
+width:285px;
+}
+
+/************************* FORM AJOUT EVENEMENT *************************/
+
+.titreEncadre {
+height:20px;
+font-family:Arial, Helvetica, sans-serif;
+font-weight:bold;
+font-size:14px;
+color:#733E98;
+border-bottom:1px solid #D5D5D5;
+}
+.titreAddEvenement {
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+font-weight: bold;
+color:#4a4b79;
+padding-bottom:3px;
+padding-left:0px;
+
+}
+.titreInputEvent {
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+color:#666666;
+}
+.inputAjoutEvenement {
+border:1px solid #D6DAE6;
+background-color:#FFFFFF;
+}
+
+/*********************** NOUVEAU DESIGN JANVIER 2008 *****************************/
+
+.td_titre2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #733E98;
+	text-decoration: none;
+	padding-top: 4px;
+	padding-right: 4px;
+	padding-bottom: 4px;
+	padding-left: 0px;
+	background-color: #FFFFFF;
+	background:url(../../../images/LJ/trait_mag2.gif) 0px -2px no-repeat;
+}
+
+.txtmaggris {
+	font: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#666666;
+	text-decoration:none;
+}
+
+.input_txt_form {
+	border:1px solid #D7D9E6;
+	background-color:#FFFFFF;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#660099;
+	font-size:12px;
+	padding-left:5px;
+	width:300px;
+}
+
+.input_submit_form {
+	border:1px solid #D7D9E6;
+	background-color:#FFFFFF;
+	color:#666666;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	width:300px;
+}
+
+.grand_titre {
+  font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	color: #660099;
+}
+.grand_titre2 {
+  font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 22px;
+	color: #4a4b79;
+}
+.chrono{
+ font-size:14px;
+ font-family: Arial, Helvetica, sans-serif;
+ color:#660099;
+}
+
+.moyen_titre {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #660099;
+	text-decoration: none;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.moyen_titre_noir {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #4a4b79;
+	text-decoration: none;
+	padding-top: 2px;
+	padding-bottom: 5px;
+}
+
+.txt_gris {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #4a4b79;
+	text-decoration: none;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.txt_noir {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #4a4b79;
+	text-decoration: none;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.input_new_submit {
+  font-size: 12px;
+  font-weight: bold;
+  color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:#660099;
+	border:0px;
+}
+
+
+a.newlink:link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+/*	font-weight: bold;*/
+	color: #660099;
+	text-decoration: none;
+}
+
+a.newlink:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+/*	font-weight: bold;*/
+	color: #660099;
+	text-decoration: none;
+}
+
+a.newlink:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+/*	font-weight: bold;*/
+	color: #660099;
+	text-decoration: underline;
+}
+
+.input_new_txt {
+  border:1px solid #D7D9E6;
+	background-color:#FFFFFF;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#660099;
+	font-size:10px;
+	padding-left:5px;
+	width:250px;
+}
+
+.encart_titre_td {
+	border:0px;
+	padding:10px;
+	background-color:#EAEAEA;
+	color:#660099;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+}
+
+/* modif axelle  new cms*/
+
+.T1 {
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: #4a4b79;
+}
+
+.T3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #4a4b79;
+}
+
+.espace{
+  font-family: Arial, Helvetica, sans-serif;
+	padding: 10px;
+	font-size: 12px;
+	color: #4a4b79;
+}
+
+.traitvertical{
+  width:10px;
+  height:80px;
+	border-right:0.5px solid #d6dae6;
+
+}
+
+.contour {
+	border: 1px solid #d6dae6;
+	width:250px;
+	height:60px;
+	padding-top:20px;
+
+}
+
+a.newlink_voir:link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #660099;
+	text-decoration: none;
+	font-weight:normal;
+}
+
+a.newlink_voir:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #660099;
+	text-decoration: none;
+}
+
+a.newlink_voir:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #660099;
+	text-decoration: underline;
+}
+
+a.sm_bold:link {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #4a4b79;
+	text-decoration: none;
+}
+a.sm_bold:visited {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #4a4b79;
+	text-decoration: none;
+}
+a.sm_bold:hover {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #4a4b79;
+	text-decoration: underline;
+
+}
+
+.li_bloc_droit{
+ list-style-type:disc;
+ list-style-position : outside;
+ color: #660099;
+
+
+}
+.grand_titre1{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 17px;
+	color: #660099;
+
+}
+.grand_titre2 {
+  font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 22px;
+	color: #4a4b79;
+}
+.td_menu{
+ padding: 5px 15px 15px 15px;
+}
+
+.cadre{
+border: 1px solid #660099;
+text-align: center;
+}
+a.suite:link {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #4a4b79;
+	text-decoration: none;
+}
+a.suite:visited {
+	font-family: Geneva,Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #4a4b79;
+	text-decoration: none;
+}
+a.suite:hover {
+	font-family: Geneva,Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #4a4b79;
+	text-decoration: underline;
+
+}
+
+.liste_sommaire
+{
+   list-style-type:	none;
+
+
+   text-align:left;
+}
+
+
+
+.atm_jeudis
+{
+color : #0F0A68;
+font-weight:bold;
+font-size:17px;
+margin-left:0px;
+font-family: Arial, Helvetica, sans-serif;
+   text-align:left;
+}
+
+.atm_jeudis a
+{
+color : #0F0A68;
+font-weight:bold;
+font-size:17px;
+font-family: Arial, Helvetica, sans-serif;
+text-align:left;
+text-decoration:none;
+}
+
+.descrip_atm
+{
+	color: #333333;
+font-size:10px;
+margin-left: 20px;
+font-weight:normal;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.puce_carre
+{
+margin:10px 10px 0px 0px ;
+width:10px;
+
+
+
+}
+
+.puce_carreff
+{
+margin:10px 10px 0px 0px ;
+width:6px;
+height:6px;
+
+
+
+}
+
+.puce_carrebis
+{
+margin:10px 10px 0px 0px ;
+width:10px;
+
+}
+
+.thema_decale
+{
+padding-left: 0px;
+margin:0px;
+}
+
+.thema_table
+{
+margin-top:10px;
+}
+
+
+.retour_aligne
+{
+margin: 0px;
+padding: 0px;
+margin-left:25px;
+}
+
+/* -----------------------------------------------------------------------------------   */
+/*						INTL/jobseeker/careeradvice/article.aspx                      	 */
+/* -----------------------------------------------------------------------------------   */
+
+.RXart
+{
+	text-align:left !important;
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #4a4b79;
+}	
+
+#cbArticle_lblHeadline
+{
+	color:#000066;
+	font-size:20px;
+	text-align:center;
+	text-transform:uppercase;	
+}	
+
+#INTL_articles
+{
+	 margin-top:0px !important;
+     /*border:1px solid #D5D5D5;*/
+}
+
+/* ---------------------------------------- Ajout ----------------------------------------------------*/
+
+#td_jeudis_mag
+{
+	background-color:#8B64BF !important;
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	/*color: #160A67;*/
+	text-decoration: none;
+	background-color: #8B64BF;
+	background:#8B64BF !important;
+}
+
+#mag
+{
+	color:#FFFFFF;
+}
+
+
+/* /lj/jobposter/ecommer/jobproducts.aspx */
+.main {
+    background: url("../../../images/LJ/img/global/top.png") repeat-x scroll left bottom #FFFFFF;
+}
+.container, .header, .footer, .content {
+    font-family: Arial;
+}
+.content {
+    background: url("../../../images/LJ/img/global/content.png") repeat-x scroll left 1px #FFFFFF;
+}
+.twocol .content .wrap {
+    background: url("../../../images/LJ/img/global/twocol.png") repeat-y scroll 690px 0 rgba(0, 0, 0, 0);
+}
+.content .wrap {
+    padding: 0 0 40px;
+}
+.content div.left {
+    padding: 15px 0 0;
+    position: relative;
+    width: 690px;
+}
+.left {
+    float: left;
+}
+.content strong {
+    font-weight: bold;
+}
+.pagetitle strong {
+    color: #FF6A00;
+}
+.content .title {
+    color: #000000;
+    font-family: arial;
+    font-size: 16px;
+    font-weight: normal;
+}
+div.title {
+    position: relative;
+}
+.pagetitle.small {
+    font-size: 16px;
+    margin-bottom: 0;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+.pagetitle, #idRegister4 h1 {
+    border-bottom: 1px solid #EEEEEE;
+    color: #13496A;
+}
+.content div.text {
+    padding: 10px 0 0;
+}
+.content div.sidebar {
+    float: right;
+    padding: 15px 0 0;
+    width: 278px;
+}
+.content div.text p, .content div.text li {
+    color: #676767;
+    font: 12px/18px Arial;
+    padding: 5px 0 10px;
+}
+.content div.text ul {
+    padding: 0 0 0 30px;
+}
+.content div.text li {
+    line-height: 18px;
+    list-style: disc outside none;
+    padding: 0 0 7px;
+}
+.content div.text p, .content div.text li {
+    color: #676767;
+}
+.content div.sidebar {
+    padding: 15px 0 0;
+    width: 278px;
+}
+.sidebar .box {
+    background: url("../../../images/LJ/img/global/sidebar-box.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+    margin: 0 0 13px;
+    padding: 5px 0 0;
+    width: 276px;
+}
+.sidebar .in {
+    background: url("../../../images/LJ/img/global/sidebar-box.png") no-repeat scroll left bottom rgba(0, 0, 0, 0);
+    padding: 8px 13px 13px;
+    width: 250px;
+}
+.sidebar .box h3 {
+    color: #134A6A;
+    font: bold 16px Arial;
+    padding: 0 0 5px;
+}
+.sidebar .box p {
+    color: #134A6A;
+    font: 12px/16px Arial;
+    padding: 5px 0 8px;
+}
+.sidebar .box .number {
+    background: none repeat scroll 0 0 #13496A;
+    border-radius: 3px;
+    color: #FFFFFF;
+    font: bold 16px/31px Arial;
+    height: 31px;
+    padding: 0;
+    text-align: center;
+}
+.sidebar .box ul {
+    padding: 5px 0 0;
+}
+.sidebar .partners li {
+    display: block;
+    padding: 0 0 15px;
+    text-align: center;
+}
+.sidebar .box li {
+    line-height: 23px;
+}
+.boxoffers {
+    clear: both;
+    padding: 40px 0 0 15px;
+}
+
+
+
+/* /share/login.aspx */
+
+#LJCOMMON_share_login {
+    float: left;
+}
+#LJCOMMON_share_login .silogin_wrapper {
+    width: 1070px;
+}
+* > .silogin_wrapper {
+    float: left;
+    margin-left: 0;
+}
+.silogin_wrapper {
+    margin: 0 auto;
+    text-align: left;
+    width: 689px;
+}
+#LJCOMMON_share_login .cb_style .grad {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+#LJCOMMON_share_login .siBox.org {
+    border: 0 solid #AAAAAA;
+}
+#LJCOMMON_share_login .siBox {
+    height: auto;
+    width: auto;
+}
+#LJCOMMON_share_login #siBoxLft .LogInHead h3 {
+    background: none repeat scroll 0 0 #F7961E !important;
+    border: medium none;
+    color: #FFFFFF !important;
+    height: 16px !important;
+    padding: 6px 8px 4px 10px !important;
+}
+#LJCOMMON_share_login .siBox h3.org {
+    border: medium none !important;
+    font: bold 16px Arial,Sans-serif !important;
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #13496A;
+    font: bold 24px Arial,Sans-serif;
+    margin: 0;
+    padding: 15px 0 20px;
+}
+#LJCOMMON_share_login .cb_style .siContentWrapper {
+    background: none repeat scroll 0 0 #F4F9FD;
+    border-bottom: 1px solid #EEEEEE;
+    border-top: 1px solid #EEEEEE;
+    margin: 80px auto 0 260px;
+    padding: 7px 0;
+    position: relative;
+    width: 460px;
+    height: 205px;
+}
+#LJCOMMON_share_login .siItalic {
+    display: none;
+}
+#LJCOMMON_share_login #siContentID div {
+    color: #7B7B7B;
+    float: left;
+    font: 12px/30px Arial;
+}
+#LJCOMMON_share_login .dJSNewDiv {
+    height: 60px;
+}
+#siContentID input[type="email"] {
+    border: 1px solid #CED6DA;
+    height: 30px;
+    outline: medium none;
+    padding: 0 10px;
+    width: 170px;
+}
+#siContentID .siTextInpt {
+    margin-top: 10px;
+}
+#siContentID input[type="password"] {
+    width: 170px !important;
+}
+#registrationControl .inputWrapper input, #LJCOMMON_share_login #siContentID input [type="text"], #LJCOMMON_share_login #siContentID input[type="password"] {
+    line-height: 30px;
+}
+#LJCOMMON_share_login #siContentID input[type="password"] {
+    border: 1px solid #CED6DA;
+    font: 11px Arial;
+    height: 30px;
+    outline: medium none;
+    padding: 0 10px;
+    width: 90px;
+}
+#LJCOMMON_share_login #PswdForgtLnk a {
+    color: #7B7B7B;
+    float: right;
+    font: bold 10px/32px Arial;
+    text-decoration: none;
+}
+#LJCOMMON_share_login #PswdForgtLnk a:hover {
+    text-decoration: underline;
+}
+#LJCOMMON_share_login #PswdForgtLnk {
+    float: right !important;
+    left: -42px;
+    position: relative;
+    top: -80px;
+}
+#LJCOMMON_share_login .RXhide {
+    line-height: 28px;
+    width: auto;
+}
+#LJCOMMON_share_login .RXhide input {
+    height: 45px;
+}
+#LJCOMMON_share_login .RXhide label {
+    color: #808181;
+    float: left;
+    margin-left: -2px;
+    margin-top: 11px;
+    padding-left: 0;
+}
+#LJCOMMON_share_login #btnsignin {
+    font: bold 13px/32px Arial !important;
+    text-shadow: 0 -1px #BF6A00;
+}
+
+#LJCOMMON_share_login {
+    padding: 0 0 40px;
+}
+
+/* /share/register.aspx */
+
+#idRegister4 h1 {
+    margin-top: 12px;
+    width: 980px;
+}
+.pagetitle, #idRegister4 h1 {
+    border-bottom: 1px solid #EEEEEE;
+    color: #13496A;
+    font: bold 24px Arial,Sans-serif;
+    margin: 0;
+    padding: 15px 0 20px;
+}
+#idRegister4 h2 {
+    color: #454545;
+    display: none;
+    font: bold 12px Arial;
+    padding: 15px 0;
+    width: 100%;
+}
+#idRegister3 {
+    display: none;
+}
+#idRegister5 {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: medium none;
+    color: #13496A;
+    float: none;
+    font-size: 11px !important;
+    font-weight: bold;
+    left: 510px;
+    margin: 70px 0 0;
+    position: absolute;
+}
+#chblSignIn {
+    color: #FF6A00;
+    display: inline;
+    float: none;
+    font-size: 11px !important;
+    padding: 0;
+}
+#divPhone input {
+    margin-left: 0;
+    width: 205px !important;
+}
+.centered .form div, #AccountInformation, #ContactInformation, .UserEmailOptions, #MostRecentDetail, .desiredPosition {
+    border-image: none;
+    border-left: none;
+    border-right:  none;
+    border-style:  none;
+    border-width: 0px medium;
+    padding: 7px 0;
+    position: relative;
+}
+#AccountInformation, #MostRecentDetail, .desiredPosition {
+    margin-top: 45px;
+    padding-bottom: 25px;
+    padding-left: 12px;
+}
+#LJCOMMON_share_register .UserEmailOptions,
+#LJCOMMON_share_register #ContactInformation {
+    margin-top: 0px;
+    padding-bottom: 25px;
+    padding-left: 12px;
+}
+#LJCOMMON_share_register .bandeauHaut h2 {
+    display: block !important;
+}
+.centered .form label, #idRegister2 label {
+    color: #7B7B7B;
+    float: left;
+    font: 12px/30px Arial;
+    margin: 0 10px 0 0;
+    width: 180px;
+}
+.inputWrapper label {
+    width: 180px;
+}
+.centered .form .text, #idRegister2 input[type="text"], #idRegister2 input[type="password"] {
+    border: 1px solid #CED6DA;
+    border-radius: 3px;
+    font: 11px Arial;
+    height: 30px;
+    outline: medium none;
+    padding: 0 10px;
+    width: 205px;
+}
+#LJCOMMON_share_register input[type="text"], #LJCOMMON_share_register input[type="password"], #LJCOMMON_share_register select {
+    border: 1px solid #D5DFE2;
+    border-radius: 3px;
+    color: #466E7E;
+    font: 13px Arial,Sans-serif;
+    height: 28px;
+    max-width: 250px;
+}
+.requiredStarRes {
+    color: #7B7B7B !important;
+}
+.clear {
+    clear: both;
+    display: block;
+}
+#LJCOMMON_share_register #registrationControl .inputWrapper {
+    margin: 20px auto 10px !important;
+    width: 450px !important;
+}
+.centered .form label, #idRegister2 label {
+    color: #7B7B7B;
+    font: 12px/30px Arial;
+}
+.centered .form .choices label, .emailTypeDesc {
+    color: #575757;
+    float: none;
+    font: 11px/14px Arial;
+    margin: 0;
+    padding: 0;
+}
+.emailTypeDesc {
+    display: block;
+    margin-left: 40px !important;
+}
+.UserEmailOptions .registerTwoColumns {
+    width: 98% !important;
+}
+.centered .form .choices strong, .registerTwoColumns label {
+    color: #2A668E !important;
+    display: block !important;
+    font: bold 12px Arial !important;
+    padding: 0 0 3px !important;
+}
+.registerTwoColumns label {
+    float: none !important;
+    width: auto !important;
+}
+#idRegister2 {
+    border: medium none;
+    margin: -30px auto auto;
+    position: relative;
+    width: 520px;
+}
+#LJCOMMON_share_register {
+    padding: 0 0 40px;
+}
+#LJCOMMON_share_register #tipPassword {
+    color: #666666;
+    font-size: 10px;
+    font-style: italic;
+    height: 10px;
+    width: 611px;
+}
+#LJCOMMON_share_register #btnRegisterNow {
+    font: bold 13px/32px Arial !important;
+}
+
+
+
+
+/* Home New*/
+
+
+
+/* Home OLD*/
+#LJCOMMON_lj_default #custom_bg_home {
+    height: 400px;
+    cursor: pointer !important;
+    max-width: 100%;
+}
+#LJCOMMON_lj_default .top .box {
+    margin-top: 0 !important;
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    height: 155px;
+    margin-bottom: 0;
+    width: 330px;
+}
+#LJCOMMON_lj_default #custom_bg_home .searchjob {
+    background: none repeat scroll 0 0 #FFFFFF !important;
+    border-radius: 3px;
+    cursor: default;
+    padding: 5px;
+}
+#LJCOMMON_lj_default .top .wrap {
+    padding-top: 50px;
+    pointer-events: none;
+    position: relative;
+}
+#LJCOMMON_lj_default .top .title {
+    color: #134A6A;
+    display: block;
+    font: 20px/49px Arial,Sans-serif;
+    height: 35px;
+    letter-spacing: -0.025em;
+    margin: 0 2px 5px;
+    position: relative;
+    z-index: 1;
+}
+#LJCOMMON_lj_default .top .title_home {
+    color: #134A6A !important;
+    font: 19px/40px Arial,sans-serif !important;
+}
+#LJCOMMON_lj_default .searchjob .title, #LJCOMMON_lj_default .page .top .title {
+    background: url("../../../images/LJ/img/ic/search-big.png") no-repeat scroll left center rgba(0, 0, 0, 0);
+    padding: 0 0 0 41px;
+}
+#LJCOMMON_lj_default .submit_big_orange a {
+    background: url("../../../images/LJ/Refresh/upload_cv.png") no-repeat scroll 25px 5px / 25px 25px #F36B21;
+    border: medium none;
+    border-radius: 3px;
+    color: #FFFFFF;
+    display: block;
+    font: 18px/32px Lato,Arial,Sans-serif;
+    height: 36px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: none;
+    width: 300px;
+}
+#LJCOMMON_lj_default .title.actuahome {
+    display: block;
+    margin-bottom: 20px;
+}
+#LJCOMMON_lj_default .content .title {
+    color: #000000;
+    font-family: arial;
+    font-size: 16px;
+    font-weight: normal;
+}
+#LJCOMMON_lj_default #LJNewsV2 {
+    color: #808181;
+    font-size: 12px;
+    line-height: 20px;
+    width: 600px;
+    margin-right: 360px;
+}
+#LJCOMMON_lj_default .logos {
+    overflow: hidden;
+    padding: 20px 0 0;
+    width: 100%;
+}
+#LJCOMMON_lj_default .logos a:last-child, .logos .last {
+    margin-right: 15px;
+}
+#LJCOMMON_lj_default .logos a {
+    border: 1px solid #EDEDED;
+    float: left;
+    margin: 0 15px 15px 0;
+}
+#LJCOMMON_lj_default .iFlexRawwords  {
+    border: 1px solid #D5DFE2 !important;
+    border-radius: 3px !important;
+    color: #466E7E !important;
+    font: 13px/28px Lato,Arial,Sans-serif;
+    height: 28px !important;
+    margin: 5px 0 !important;
+    padding: 0 8px !important;
+    width: 302px !important;
+}
+#LJCOMMON_lj_default #TextLogoLeft {
+    float: left;
+    width: 66%;
+}
+#LJCOMMON_lj_default #AdRight {
+    float: left;
+    margin: 15px;
+}
+#LJCOMMON_lj_default #iFSBContainer #location_wrapper {
+    height: auto;
+    margin: 0 !important;
+}
+
+
+/*Opage*/
+#LJCOMMON_lj_opage .td_encart {
+    background-image: url("../../../images/LJ/bg_encart.gif");
+    background-repeat: repeat-x;
+    border-bottom: 1px dotted #CCCCCC;
+    color: #5A5B93;
+    font-family: Geneva,Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 10px;
+    text-decoration: none;
+}
+#LJCOMMON_lj_opage .txt-actu {
+    color: #5A5B93;
+    font-family: Geneva,Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+}
+#LJCOMMON_lj_opage p {
+    margin-bottom: 12px;
+}
+#LJCOMMON_lj_opage table {
+    margin-top: 1px;
+}
+
+/*Specific pages changes*/
+#LJCOMMON_salons-emploi_preinscription_ .table_blochaut {
+    width: auto !important;
+}
+#LJCOMMON_jobseeker_jobs_recommendedjobs .hq_wideList {
+    border: none;
+}
+#LJCOMMON_share_register #AccountInformation {
+    width: 950px;
+
+}
+#LJCOMMON_share_register #registrationControl .validationWrapper,
+#LJCOMMON_share_register #registrationControl .tipWrapper {
+    margin-left: 43%;
+}
+
+/*header_footer*/
+body {
+    cursor: default;
+    font: 100% Arial,Sans-serif;
+}
+/*reset*/
+.container, .header, .footer, .content {
+    font-family: Arial;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    border: 0 none;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+ol, ul {
+    list-style: none outside none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+.move-right > .inner-wrap {
+-webkit-transform: translate3d(17.625rem, 0, 0);
+-moz-transform: translate3d(17.625rem, 0, 0);
+-ms-transform: translate(17.625rem, 0);
+-o-transform: translate3d(17.625rem, 0, 0);
+transform: translate3d(17.625rem, 0, 0);
+}
+.move-right .exit-off-canvas {
+ -webkit-backface-visibility: hidden;
+ box-shadow: -4px 0 4px rgba(0, 0, 0, 0.5), 4px 0 4px rgba(0, 0, 0, 0.5);
+ cursor: pointer;
+ transition: background 300ms ease;
+ -webkit-tap-highlight-color: transparent;
+ background: rgba(255, 255, 255, 0.2);
+ bottom: 0;
+ display: block;
+ left: 0;
+ position: absolute;
+ right: 0;
+ top: 0;
+ z-index: 1002; }
+ @media only screen and (min-width: 40.0625em) {
+   .move-right .exit-off-canvas:hover {
+     background: rgba(255, 255, 255, 0.05); } }
+ .off-canvas-wrap.move-right, .off-canvas-wrap.move-left, .off-canvas-wrap.move-bottom, .off-canvas-wrap.move-top {
+   min-height: 100%;
+   -webkit-overflow-scrolling: touch; }
+ 
+.no-csstransforms .move-right > .inner-wrap {
+ left: 15.625rem; }
+.left-off-canvas-menu {
+    width: 17.625rem;
+}
+.accordion {
+ margin-bottom: 0;
+ margin-left: 0; }
+ .accordion:before, .accordion:after {
+   content: " ";
+   display: table; }
+ .accordion:after {
+   clear: both; }
+ .accordion .accordion-navigation, .accordion dd {
+   display: block;
+   margin-bottom: 0 !important; }
+   .accordion .accordion-navigation.active > a, .accordion dd.active > a {
+     background: #e8e8e8;
+     color: #222222; }
+   .accordion .accordion-navigation > a, .accordion dd > a {
+     background: #EFEFEF ;
+     color: #222222 ;
+     display: block;
+     font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif !important;
+     font-size: 1rem;
+     padding: 1rem !important; }
+     .accordion .accordion-navigation > a:hover, .accordion dd > a:hover {
+       background: #e3e3e3; }
+   .accordion .accordion-navigation > .content, .accordion dd > .content {
+     display: none;
+     padding: 0.9375rem; }
+     .accordion .accordion-navigation > .content.active, .accordion dd > .content.active {
+       background: #FFFFFF;
+       display: block; }
+
+.lesjeudisHeader i {
+    font-style:normal !important;
+    line-height: .75em !important;
+}
+.footer-links .fa-2x {
+    font-size: 2em !important;
+    line-height: 1em !important;
+}
+#vieweditresume .top-bar .title-area {
+    margin-top:0px;
+}
+.gs-alert .gs-alert-dismiss button {
+  color: #127ab3;
+  background: none;
+  padding: 3px;
+  float: right;
+  margin-bottom: 0px;
+}

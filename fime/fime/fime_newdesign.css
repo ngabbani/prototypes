@@ -1,0 +1,159 @@
+body {
+  background: #F2F2F2;
+  font-family: 'Lato', sans-serif;
+}
+
+.button.border.white {
+  border-color: white;
+  color: white !important;
+  padding: 10px !important;
+  float: right !important;
+}
+
+.button.border.white:hover, .button.border.white:focus {
+  color: #63967d !important;
+  background: white !important;
+}
+
+.top-bloc {
+  background: linear-gradient(135deg,  #023558, #63967d);
+  padding: 3rem 0;
+}
+
+.top-bloc h1 {
+  color: white;
+}
+
+.top-bloc p {
+  color: white;
+  text-align: justify;
+  overflow: hidden;
+  height: 111px;
+  cursor: pointer;
+}
+
+.top-bloc p.see-you {
+  height: auto;
+}
+
+.left-top-align {
+  margin-top: -200px;
+}
+
+.bloc-cube {
+  padding: 0.9375rem;
+  box-shadow: 0px 0px 1px #888;
+  background: white;
+  margin-bottom: 30px;
+  text-align: justify;
+  min-height: 246px;
+}
+
+.bloc-cube h2 {
+  font-size: 1.3rem !important;
+  text-transform: uppercase;
+}
+
+.bloc-cube h2 span {
+  display: block;
+  font-weight: 100;
+  font-size: 1.1rem;
+  margin-top: -2px;
+}
+
+.bloc-cube p {
+  margin: 0;
+}
+
+.big-number {
+  font-size: 2.8rem;
+  color: #85CE3F;
+  text-shadow: 1px 1px 2px #000;
+}
+
+.job {
+  margin-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+  font-size: 0.8rem;
+}
+
+.job:last-child {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.job a {
+  display: block;
+  font-size: 1rem;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.bump {
+  padding-top: 20px;
+}
+
+ul.top {
+  list-style: none;
+  margin: 0 !important;
+}
+
+ul.top li:nth-child(-n+3):before {
+  content: "\f091";
+  font-family: FontAwesome;
+  margin-right: 5px;
+}
+
+ul.top li:nth-child(1) {
+  font-size: 1.3rem;
+  color: #E8CF2C;
+}
+
+ul.top li:nth-child(2) {
+  font-size: 1.2rem;
+  color: #9A9A9A;
+}
+
+ul.top li:nth-child(3) {
+  font-size: 1.1rem;
+  color: #957254;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #F3F3F3;
+  margin-bottom: 5px;
+}
+
+.progress {
+  position: relative;
+}
+
+.progress-value {
+  position: absolute;
+  top: 1px;
+  left: 5px;
+  right: 5px;
+  color: white;
+  text-shadow: 0 0 3px #000;
+  font-size: 0.9rem;
+}
+
+.progress-value span {
+  float: right;
+}
+
+.progress-meter {
+  height: 100%;
+  background: #09a0db;
+}
+
+.progress-meter span {
+  float: right;
+}
+
+@media only screen and (max-width: 1024px) {
+  .left-top-align {
+    margin-top: 20px !important;
+  }
+}

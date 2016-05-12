@@ -1,0 +1,203 @@
+.CBResumeResults #resultpane {
+  border: none !important;
+}
+
+.CBResumeResults #facets {
+  background: none !important;
+}
+
+.rrLegendWrapper, .CBResumeResults #compwrapper {
+  border-width: 1px !important;
+}
+
+.CBResumeResults #compwrapper {
+  border-radius: 4px !important;
+}
+
+.CBResumeResults #Pagination .pagination a, .CBResumeResults #Pagination2 .pagination a {
+  background-color: #13496A !important;
+  border-color: #13496A !important;
+}
+
+.CBResumeResults #Pagination .pagination .current, .CBResumeResults #Pagination2 .pagination .current {
+  background-color: #09a0db !important;
+  border-color: #09a0db !important;
+  color: white !important;
+}
+
+.CBResumeResults #Pagination .pagination .current.prev, .CBResumeResults #Pagination .pagination .current.next, .CBResumeResults #Pagination2 .pagination .current.prev, .CBResumeResults #Pagination2 .pagination .current.next {
+  color: white !important;
+}
+.CBResumeResults #gotopage select, .CBResumeResults #controlsearchwrapper select {
+  margin-top: -9px !important;
+}
+
+.CBResumeResults #gotopage {
+  margin-top: 10px !important;
+}
+
+.cb_style select {
+  border: 1px solid #B4B4B4 !important;
+  color: #333 !important;
+  font-size: 11px !important;
+  height: 28px !important;
+  line-height: 28px !important;
+  margin: 3px 0 !important;
+  padding: 0 !important;
+}
+
+.CBResumeResults .facetplaceholder input.textcontrol {
+  box-shadow: none !important;
+  border-color: #B4B4B4 !important;
+  background: #F8F8F8 !important;
+  padding: 5px !important;
+}
+
+#LJCOMMON_jobposter_resumes_resumeresults #FRRegion, #LJCOMMON_jobposter_resumes_resumeresults #Region, #LJCOMMON_jobposter_resumes_resumeresults #OutsideCountries, #LJCOMMON_jobposter_resumes_resumeresults #relocation, #LJCOMMON_jobposter_resumes_resumeresults #OtherCountries {
+  height: 95px !important;
+}
+
+.CBResumeResults .btn-action input {
+  background: #DF691E !important;
+  color: #FFF !important;
+  font-size: 14px !important;
+  text-shadow: 1px 1px 0px #ac4f14 !important;
+  text-transform: initial !important;
+  box-shadow: none !important;
+  border: none !important;
+  border-radius: 4px !important;
+}
+
+.CBResumeResultsSearchLinks {
+  margin-bottom: 0 !important;
+}
+
+.CBResumeResultsSearchLinks #saveSearch {
+  margin-bottom: 0 !important;
+}
+
+.CBResumeResultsSearchLinks {
+  padding-left: 0 !important;
+}
+
+#_savedSearch, #cbhlNewSearch, #_modifySearch {
+  margin-top: 10px !important;
+  margin-right: 10px !important;
+  box-shadow: none !important;
+  border: 1px solid #09a0db !important;
+  color: #09a0db !important;
+  height: 28px !important;
+  line-height: 28px !important;
+  background: #fff !important;
+  padding: 5px 15px !important;
+}
+
+.CBResumeResultsSearchLinks:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.cbui .cbtabs .ui-tabs .ui-tabs-nav {
+  padding: 0 !important;
+  background: none !important;
+  padding-top: 10px !important;
+}
+
+.cbui .cbtabs .ui-tabs .ui-tabs-nav li {
+  margin-left: 5px !important;
+}
+
+.CBResumeResults .candidatesname span.namegroup a {
+  font-size: 16px !important;
+  color: #09a0db !important;
+}
+
+.recordaffordance {
+  background: none !important;
+  margin-right: 10px !important;
+}
+
+.recordaffordance a img, .addLabel img, .seeallrel img {
+  display: none;
+}
+
+.recordaffordancecontainer .recordaffordance a {
+  color: #0071BC !important;
+}
+
+.recordaffordancecontainer .recordaffordance a:before, .addLabel:before, .seeallrel:before, .oneIcon:before {
+  content: "\f24a";
+  font-family: FontAwesome;
+  margin-right: 5px;
+  font-size: 12px;
+}
+
+.recordaffordancecontainer .recordaffordance:nth-child(5) a:before{
+  content: "\f24a";
+}
+
+.recordaffordancecontainer .recordaffordance:nth-child(4) a:before {
+  content: "\f0c7";
+}
+
+.recordaffordancecontainer .recordaffordance:nth-child(3) a:before {
+  content: "\f02f";
+}
+
+.recordaffordancecontainer .recordaffordance:nth-child(1) a:before {
+  content: "\f05e";
+}
+
+.addLabel:before {
+  content: "\f0e5";
+}
+
+.seeallrel:before {
+  content: "\f01a";
+}
+
+.addLabel {
+  float: none !important;
+}
+
+.CBResumeResults .candidatesinfo .allrelocations {
+  padding-left: 0 !important;
+}
+
+#LJCOMMON_jobposter_resumes_resumeresults .batchAction {
+  top: -4px !important;
+}
+
+.oneIcon, .oneIconDef {
+  display: inline-block !important;
+  vertical-align: middle !important;
+  float: none !important;
+}
+
+.oneIcon {
+  background: none !important;
+  height: auto !important;
+}
+
+.iconViewed:before {
+  content: "\f06e";
+}
+
+.iconCoworkerViewed:before {
+  content: "\f234";
+}
+
+.iconSaved:before {
+  content: "\f0c7";
+}
+
+.iconForwarded:before {
+  content: "\f064";
+}
+
+.iconEmailed:before {
+  content: "\f003";
+}
+
+

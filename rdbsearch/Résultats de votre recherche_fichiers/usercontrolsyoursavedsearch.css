@@ -1,0 +1,239 @@
+#YourSavedSearches{
+	display: none;
+	position:absolute; 
+	background:white; 
+	border:1px solid #666;
+	width: 625px; 
+	height: 31.1em; 
+	top: 85px;
+	color: #000;
+	left: 256px;
+	z-index:100;
+	
+	}
+	
+#YourSavedSearches #indention{
+	padding: 2em;
+	padding-top: 23px;
+	}
+	
+#YourSavedSearches #indention>:first-child{
+	letter-spacing: -0.055em;
+	font-size: 1.58333em;
+	color: #555;
+	font-weight:bold;
+}
+
+#YourSavedSearches #box{
+	position: relative;
+	border: 1px solid #AAA;
+	padding: 4px;
+	height: 24em;
+	width: 100%;
+	padding-right: 0px;
+	-webkit-box-sizing: border-box;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	box-shadow: inset 0 1px 4px #CCC;
+	-webkit-box-shadow: inset 0 1px 4px #CCC;
+	}
+	
+#YourSavedSearches #searchBox{
+position: relative;
+float: right;
+height: 20.95em;
+width: 99.3%;
+overflow-y: scroll;
+position: relative;
+	}
+
+#YourSavedSearches #manageSearches{
+	position:absolute;
+	top: 3em;
+	left: 74%;
+	cursor: pointer;
+	color: #224ea7;
+}
+
+#YourSavedSearches #triangle{
+	height: .6em;
+	width:1em;
+	display: block;
+	background: url(triangle.png) no-repeat scroll right top;
+	position: absolute;
+	left: 44.6%;
+	top: .9em;
+	z-index: 200;
+}
+	
+
+#YourSavedSearches #closer{
+background: url(http://img.icbdr.com/images/JS/Widgets/close.gif) no-repeat scroll right top;
+border: none;
+cursor: pointer;
+float: right;
+position: absolute;
+top: 9px;
+right: 8px;
+height: 14px;
+width: 14px;
+}
+
+#YourSavedSearches #searchNamesTitle{
+	font-weight: bold;
+	text-overflow: ellipsis;
+	color: #224ea7;
+	cursor: pointer;
+	padding-left: 1%;
+	padding-right: 22%;
+}
+
+#YourSavedSearches #yourSavedNames{
+	position:absolute;
+	top: 4px;
+	max-width: 140px;
+}
+
+#YourSavedSearches .truncate{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+	
+
+	
+
+#YourSavedSearches #lastModified{
+	position:absolute;
+	top: 4px;
+	left: 167.5px;
+}
+
+#YourSavedSearches #lastExecuted{
+	position:absolute;
+	top: 4px;
+	left:319px;
+}
+/*
+#YourSavedSearches #searchNamesTitle:hover{
+	background-color: #F3F6F9;
+}
+
+#YourSavedSearches #searchModifiedTitle:hover{
+	background-color: #F3F6F9;
+}
+
+#YourSavedSearches #searchExecutedTitle:hover{
+	background-color: #F3F6F9;
+}
+*/
+
+#YourSavedSearches #searchModifiedTitle{
+	padding-left: 1%;
+	padding-right: 12%;
+	font-weight: bold;
+	color: #224ea7;
+	cursor: pointer;
+	}
+	
+#YourSavedSearches #searchExecutedTitle{
+	padding-left: 1%;
+	font-weight: bold;
+	cursor: pointer;
+	color: #224ea7;
+}
+	
+#YourSavedSearches #titleRow{
+	height: 1.1em;
+padding: .6em;
+background-color: #F3F6F9;
+position: relative;
+width: 98.3%;
+bottom: 4px;
+right: 4px;
+	-moz-box-shadow: inset 0px 1px 2px 0px white, 0 1px 2px rgba(0, 0, 0, .2);
+	-webkit-box-shadow: inset 0px 1px 2px 0px white, 0 1px 2px rgba(0, 0, 0, .2);
+	box-shadow: inset 0px 1px 2px 0px white, 0 1px 2px rgba(0, 0, 0, .2);
+	background: -webkit-gradient( linear, left top, left bottom, color-stop(0.1, #F3f6f9), color-stop(1, #e4eff9) );
+	background: -moz-linear-gradient(center top , #F3f6f9 10%, #E4eff9 100%) repeat scroll 0 0 e4eff9;
+	background-color: #E4EFF9;
+border-bottom: 1px solid #999;
+	}
+
+#YourSavedSearches .row #btnYourSearches{
+	height: 25px;
+	width: 20%;
+}
+	
+#YourSavedSearches .row .runButton{
+	float: right;
+	
+	margin: 2.5px -2px 0;
+	-moz-box-shadow: inset 0px 1px 2px 0px white, 0 1px 2px rgba(0, 0, 0, .2);
+	-webkit-box-shadow: inset 0px 1px 2px 0px white, 0 1px 2px rgba(0, 0, 0, .2);
+	box-shadow: inset 0px 1px 2px 0px white, 0 1px 2px rgba(0, 0, 0, .2);
+	background: -webkit-gradient( linear, left top, left bottom, color-stop(0.1, #F38503), color-stop(1, #E19605) );
+	background-color: #F38503;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	border: 1px solid #B58126;
+	display: inline-block;
+	color: white;
+	font-size: 11px;
+	font-weight: bold;
+	padding-right: 5px;
+	padding-left: 5px;
+	text-decoration: none !important;
+	height: 1.6em;
+	width: 36px;
+}
+
+#YourSavedSearches .row .editButton{
+	float: right;
+	
+	margin: 2.5px 13px 0;
+	-moz-box-shadow: inset 0px 1px 2px 0px white, 0 1px 2px rgba(0, 0, 0, .2);
+	-webkit-box-shadow: inset 0px 1px 2px 0px white, 0 1px 2px rgba(0, 0, 0, .2);
+	box-shadow: inset 0px 1px 2px 0px white, 0 1px 2px rgba(0, 0, 0, .2);
+	background: -webkit-gradient( linear, left top, left bottom, color-stop(0.1, #4e4e4e), color-stop(1, #797979) );
+	background-color: #797979;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	border: 1px solid #6D6C6B;
+	display: inline-block;
+	color: white;
+	font-size: 11px;
+	font-weight: bold;
+	padding-right: 5px;
+	padding-left: 5px;
+	text-decoration: none !important;
+	height: 1.6em;
+	width: 36px;
+}
+
+#YourSavedSearches .row{
+	height: 25px;
+	cursor: default;
+	width:99%;
+	position: relative;
+	border-bottom: 1px dotted #bbb;
+}
+
+#YourSavedSearches .row:hover{
+	background: -webkit-gradient( linear, left top, left bottom, color-stop(0.1, #fffbf5), color-stop(1, #fff0DD) );
+	background-color: #fffbf5;
+}
+
+
+	
+	
+#YourSavedSearches #runningCircle{
+	display:none;
+	position:absolute;
+	top:3em;
+	left:45%;
+}
+	
+	

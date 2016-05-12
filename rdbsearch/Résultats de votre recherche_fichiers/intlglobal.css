@@ -1,0 +1,833 @@
+
+body { margin: 0; padding: 0; background:#fff;}
+.pnlOuterWrapper { width: 100%; text-align: center; }
+.pnlInnerWrapper { margin: 0 auto; text-align: left; }
+
+.jsBodyBlueGrad { background: #fff url(../../images/gradients/js_bluegrad.jpg) repeat-x; padding: 1px 0 1px 0; margin: 0; }
+.cb_style { font-family: Arial, helvetica, Sans-Serif; font-size: 12px; }
+.cb_style .grad { border: 1px solid #aaa; background:linear-gradient(#ffffff 20%, #f1f0ee 90%) repeat scroll 0 0 rgba(0, 0, 0, 0); margin-bottom: 1px;}
+.cb_style .graygrad { border:1px solid #aaa; background: url(../../images/intl/LightGrayGradient.jpg) top left repeat-x; }
+.cb_style .grayborder { border: 1px solid #aaa; }
+.cb_style .gray  { background-color: #e8e8e8; }
+
+.cb_style .stdPageWrapper { margin: 15px auto; }
+.cb_style .stdOuter { margin-bottom: 10px; }
+.cb_style .stdInnerContent { margin: 10px; }
+.cb_style .stdOuterNew { margin-bottom: 2px; }
+.cb_style .stdInnerContentNew { margin: 4px; }
+.cb_style table { text-align: left; }
+.cb_style .stdInnerContent ul {	list-style-position: outside; margin: 5px 0 5px 15px; padding: 0 }
+.cb_style img { border: 0; }
+
+/* headlines */
+.cb_style h1 { font-size: 20px; color: #006; font-weight:bold;}
+.cb_style h2 { font-size: 16px; color: #c7560a; font-weight:normal; border: 0; }
+.cb_style h3 { font-size: 14px; color: #000066; border-bottom: 1px solid #ccc; }
+.cb_style h4 { font-size: 12px; }
+.cb_style h5 { font-size: 11px; }
+.cb_style h6 { font-size: 10px; }
+
+/* links */
+.cb_style a { font-weight: normal; color: #1e3e8c; text-decoration: none; }
+.cb_style a:hover { text-decoration: underline; }
+.cb_style a:visited	{ color: #666666; }
+
+/* fieldset */
+.cb_style fieldset { }
+.cb_style legend { font-size: 16px; color: #006; font-weight: bold; }
+.cb_style legend span { }
+
+/* stupid asterisk */
+.cb_style .requiredStar { font-size: 14px; text-align:center; color:#ff6600; vertical-align: bottom;}
+.cb_style .requiredText { font-weight: bold; font-size: 10px; color: #FF6600;}
+
+/* Buttons */
+.cb_style .btn, .cb_style a.btn, .ui-dialog .btn {
+    text-decoration: none;
+    font-weight: bold;
+    font-size:14px;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid #c30;
+    padding: 5px 10px;
+    background: #ff7d00 url("../../images/btn_orange.png") 0 0 repeat-x;
+}
+.cb_style .btn:hover, .cb_style a.btn:hover { text-decoration: none; }
+.cb_style .btn.lrg { font-size: 110%; }
+.cb_style .btn.blue, .cb_style a.btn.blue, .ui-dialog .btn.blue {
+    text-decoration: none;
+    font-weight: bold;
+    font-size:14px;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid #006;
+    padding: 5px 10px;
+    background: #2629a5 url("../../images/btn_blue.png") 0 0 repeat-x;
+}
+.cb_style .btn.blue:hover, .cb_style a.btn.blue:hover { text-decoration: none; }
+.cb_style .btn.blue.lrg { font-size: 110%; }
+
+/* this is for links that have the btn style applied */
+a.btn { display: inline-block; }/* will only work for IE.  allows padding to be applied w/o 100% width */
+
+/*Textbox style*/
+.cb_style input[type=text],
+.cb_style input[type=email],
+.cb_style input[type=password],
+.cb_style textarea,
+.cb_style .txt,
+.cb_style .siTextInpt,
+.ui-dialog input[type=text]
+{ font: inherit; padding: 4px; border: 1px solid #B4B4B4; z-index: 11; }
+
+/*Dropdown style*/
+.cb_style select
+{ font: inherit; padding: 4px; border: 1px solid #B4B4B4; z-index: 11; }
+
+/* override for doubled boxes on login page  */
+.siContentWrapper.grad 
+{
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 0px;
+}
+
+/*Gradient below searchbox*/
+#BelowSearchBoxGradient { background: url("http://img.icbdr.com/images/UK/JS/HP10/bar-shadow.png") repeat-x scroll left top rgba(0, 0, 0, 0); height: 14px; }
+
+.displayNone {display: none;}
+.displayBlock {display: block;}
+#S_CBImgExpRefine, #S_CBImgCollapseRefine {margin-left: 10px;vertical-align:top}
+#S_CBImgCollapseRefine { vertical-align:bottom}
+.utilityBar, #_ctl1__ctl1_Div1 { background-color:#1C263E !important;}
+
+/* Clearing floats - Hat Tip: http://www.positioniseverything.net/easyclearing.html  */
+.clear { clear: both; overflow: hidden; height: 1px; }
+.brclear { clear: both; height: 0; margin: 0; font-size: 1px; line-height: 0; }
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+/* JCK - added this next line to remove the extra spacing in Safari and Firefox */
+.c\learfix:after { line-height: 0; }
+.clearfix {display: inline-block;}
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+
+/* Begin Header Styles */
+/* ******************* */
+#shareHeaderTop { background: #ffffff url(../../images/INTL/bg_intl_PBar.gif) repeat-x; text-align: center; margin: 0; padding: 0; height:22px; }
+#shareTopHeader_inner { width: 750px; margin: 0 auto; text-align: left; font-family: verdana; }
+
+.memoryleft, #memoryleft { text-align: left; font-size: 10px; padding: 1px 0px 0px 15px; height: 17px; min-width: 100px; float:left; border: 0; }
+.memoryright, #memoryright { text-align: left; font-size: 10px; padding: 5px 40px 0px 15px; height: 17px; float:right; }
+.memoryright a, #memoryright a { color: #fff; font-weight: bold; }
+.memoryleft a, #memoryleft a { font-size: 12px; font-family: arial; color: #000; text-decoration:none; font-weight:bold; }
+
+#shareHeader { background: #fff url('../../images/intl/TopBG.gif') repeat-x; text-align: center; margin: 0; padding: 0; width:100%; }
+#shareHeader_inner { width: 750px; margin:0 auto 5px auto; text-align: left; }
+#shareHeader_logo { margin:20px 0 0 10px; float: left; display: inline; }
+#shareHeader_right { float: right; width: 500px; }
+ 
+ .signinbg
+{
+    background-image:url("../../images/INTL/sign_in_bg.gif");
+    background-repeat:no-repeat;
+    width:120px;
+    height:26px;
+    margin-top:0px;
+    z-index:1000;
+    font-size: 12px; 
+    font-family: arial; 
+    color: #fff; 
+    font-weight:bold;
+    text-decoration:none;
+ }
+     
+/* ***************** */
+/* End Header Styles */
+
+/* START JS NAVIGATION CLASSES */
+/* ************************ */
+.cb_nav { background-color:#fff; padding:0px; font-weight:bold; width:100%; text-align: center; margin: 0; background: #fff url(../../images/shell/bg_cb_MainNav.gif) left bottom repeat-x; }
+.cb_nav .cb_nav_inner { width:750px; margin:0 auto; text-align: left; clear: both; }
+.cb_nav .nav_wrapper ul { border: 0; margin: 0; padding: 0; list-style-type: none; float: left; }
+.cb_nav .nav_wrapper ul li { display: block; float: left; text-align: center; padding: 0; margin: 0; position:relative; background: transparent url(../../images/shell/bg_cb_MainNav-li.gif) right bottom no-repeat; }
+.cb_nav .nav_wrapper ul li a { height: 17px; padding: 8px 11px 6px 11px !important; padding: 9px 11px 7px 11px ; color: #1e3e8c; text-decoration: none; display: block; text-align: center; font: bold 11px arial, sans-serif; float:left; }
+
+.cb_nav .nav_wrapper ul li a:visited, .cb_nav .nav_wrapper ul li a:link { color: #1e3e8c; }
+.cb_nav .nav_wrapper ul li a:hover { text-decoration: underline; }
+/*.cb_nav .nav_wrapper li.active { background: transparent url(../../images/shell/bg_cb_MainNav-li-active-a.gif) left bottom repeat-x; }*/
+.cb_nav .nav_wrapper li.active a:link, .cb_nav .nav_wrapper li.active a:visited, .cb_nav .nav_wrapper li.active a:hover { color: #1e3e8c; }
+.cb_nav .nav_wrapper li.active ul li a { background: #ffffff; color: #ff6600; }
+.cb_nav .nav_wrapper li.active ul li a:hover { color: #1e3e8c; }
+
+.cb_nav .nav_wrapper ul ul { 
+	position: absolute;
+	z-index: 10500;
+	display: none;
+	border-bottom: 1px solid #bbbbbb;
+	top: -1px !important;
+	top: 0px;
+	left: -1px;
+}
+
+.cb_nav .nav_wrapper ul ul li { width: 100%; background-image: none; }
+.cb_nav .nav_wrapper ul ul li a {
+	display: block;
+	text-decoration: none;
+	background: #fff;
+	border-left: 1px solid #bbb;
+	border-right: 1px solid #bbb;
+	border-top: 1px solid #eee;
+	border-bottom: 0;
+	float: none;
+	text-align: left;
+	font-size: 10px;
+	line-height: 12px;
+}
+
+.cb_nav .nav_wrapper ul ul.jobalerts { width: 88px; }
+.cb_nav .nav_wrapper ul ul.advice { width: 135px; padding: 0 1px; }
+.cb_nav .nav_wrapper ul ul li a:link, .cb_nav .nav_wrapper ul ul li a:visited { color: #1e3e8c; }
+.cb_nav .nav_wrapper ul ul li a:hover { color: #1e3e8c; background-color: #ffffdd; }
+.cb_nav .nav_wrapper ul ul li.first a:link,
+.cb_nav .nav_wrapper ul ul li.first a:visited {
+	color: #1e3e8c;
+	font-size: 11px;
+	border: 0;
+	display: block;
+	text-decoration: none;
+	background-color: #fff;
+	float:none;
+	text-align: left;
+	line-height: 14px;
+	white-space: nowrap;
+}
+
+.cb_nav .nav_wrapper ul ul li.first a:hover { color: #1e3e8c; }
+.cb_nav .nav_wrapper ul li:hover ul, .cb_nav .nav_wrapper ul li.over ul { display: block; }
+
+/* Fix IE. Hide from IE Mac \*/
+* .cb_nav .nav_wrapper html ul li { float: left; height: 1%; }
+* .cb_nav .nav_wrapper html ul li a { height: 1%; }
+/* End */
+/* ********************** */
+/* END JS NAVIGATION CLASSES */
+
+/* START Employer Nav Box classes */
+/* ****************************** */
+.cb_EmpNav {
+	margin: 0;
+	float: right;
+	margin-bottom:-19px;
+	background-color: #888;
+	font-family: Arial, helvetica, Sans-Serif;
+	font-size: 10px;
+	line-height: 10px;
+	font-weight: bold;
+	width: 265px;
+	padding: 2px 5px 5px;
+	text-align: center;
+	border-top: 1px solid #777;
+	height: 12px;
+	white-space: nowrap;
+}
+
+.cb_EmpNav a { color:White; text-decoration:none; }
+.cb_EmpNav a:visited { color:White; text-decoration:none; }
+.cb_EmpNav ul { list-style: none; margin: 0 auto; display: inline; padding: 0; }
+.cb_EmpNav ul li { display: inline; margin: 0; padding: 0; }
+.cb_EmpNav ul li ul  { }
+.cb_EmpNav ul li ul li  { padding: 0 5px 0 5px; background: transparent url(../../images/shell/bg_cb_EmpNav-li.gif) right center no-repeat; }
+.cb_EmpNav ul li ul li.l  { background: none; }
+/* **************************** */
+/* END Employer Nav Box classes */
+
+/* Begin Footer Styles */
+/* ******************* */
+#cust_footer	
+{
+	clear: both;
+	width: 100%;
+	border-top: 1px solid #E0E0E0;
+	border-bottom: 1px solid #E0E0E0;
+	margin: 0 auto;
+	margin-top: 30px;
+	background-color: #f1f1f1;
+	padding: 9px 0 0 0;
+	height: 33px;
+	text-align: center;
+	font-size: 1em;
+	font-family: Arial, helvetica, Sans-Serif;
+}
+#cust_footer * { vertical-align: middle; }	
+#links_footer { text-align: center; margin-top: 10px; }
+#links_footer a { font-size: 1em; }
+#footer_group {
+background: #fff url(../../images/gradients/js_bluegrad.jpg) repeat-x;
+	padding: 1px 0 1px 0; 
+	font-family: Arial, helvetica, Sans-Serif;
+	font-size: 1em;
+}
+#footer_group a { color:#555; text-decoration: none; }
+#footer_group a:hover { text-decoration: underline; }
+#footer_group a:visited { color:#555; }
+/* ***************** */
+/* End Footer Styles */
+
+
+/* ***************************************************** */
+/* Primary Panel
+-------------------------------------------------------- */
+.cb_PnlPrimary { border: 1px solid #fa0; text-align: left; margin: 0 0 25px; padding: 9px; }
+.cb_PnlTabbed { margin: 0; padding: 0 0 0 2px; position: relative; z-index: 100; }
+.cb_PnlTabbed ul { list-style: none; margin: 0; padding: 0; }
+.cb_PnlTabbed ul li 
+{
+	float: left;
+	margin: 0 0 1px 3px;
+	padding: 0;
+	border: 1px solid #bbb;
+	border-bottom: none;
+background: linear-gradient(#ffffff 20%, #f1f0ee 90%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.cb_PnlTabbed ul li.active 
+{
+	border-color: #fa0;
+	border-bottom: 2px solid #ffc928;
+}
+.cb_PnlTabbed ul li a 
+{
+	display: block;
+	padding: 4px 7px;
+	font-size: 10px;
+	line-height: 10px;
+	font-weight: bold;
+	color: #1e3e8c;
+	float: left;
+}
+.cb_PnlTabbed ul li.active a:hover { text-decoration: none; }
+
+/* Secondary Panel
+-------------------------------------------------------- */
+.cb_PnlSecondary 
+{
+background: transparent url(../../images/shell/bg_cb_PnlSecondary.gif) left top repeat-x;
+	border: 1px solid #ddd;
+	text-align: left;
+	margin: 0 0 25px;
+	padding: 9px;
+}
+.cb_PnlSecondary h3 {}
+
+/* Tertiary Panel
+-------------------------------------------------------- */
+.cb_PnlTertiary { background: #fff; text-align: left; margin: 0 0 25px; }
+.cb_PnlTertiary h3 { border-bottom: 1px solid #ddd; }
+/* ******************* */
+/* End Panels and tabs */
+
+/* Begin Massive JRP Styles */
+/* ************************ */
+
+/* links for active sorters */
+a:link.srt_on, a:visited.srt_on, a:hover.srt_on, a:active.srt_on { color: #FFFFFF; }
+
+/* links for inactive sorters */
+a:link.srt_off, a:visited.srt_off, a:hover.srt_off, a:active.srt_off { color: #FFFFFF; }
+
+/* links within the job result rows */
+a:link.rslt, a:visited.rslt { color: #666666;}
+a:hover.rslt, a:active.rslt { color: #FF6600; }
+
+/* job search box */
+.cb_style .srchbox_tbl{ background-color: #FF6500; border: 1px #ff9900 solid; width: 98%; color: #ffffff;}
+.cb_style .srchbox_hdr{ font-weight: bold; padding-left: 2px; }
+.cb_style .srchbox_keywords_div{ padding-right: 6px; }
+.cb_style .srchbox_keywords_cell{ vertical-align: bottom; padding-right: 10px; font-weight: bold; }
+.cb_style .srchbox_location_cell{ vertical-align: bottom; padding-right: 10px; font-weight: bold; }	
+.cb_style .srchbox_category_cat{ vertical-align: bottom; padding-right: 10px; font-weight: bold; width: 150px;} 
+.cb_style .srchbox_category_cell{ vertical-align: bottom;  font-weight: bold; width: 100%; }
+.cb_style .srchbox_other_cell{ vertical-align: bottom; padding-right: 5px; font-weight: bold; }
+.cb_style .srchbox_keywords_inp{ font-size: 12px; width: 100%; }
+.cb_style .searchgs_inputselect{ font-size: 12px; width: 210px; }
+.cb_style .srchbox_city_inp{ font-size: 12px; width: 100%; }
+.cb_style .srchbox_freshness_sel{ font-size: 12px; margin-bottom: 1px; }
+.cb_style .srchbox_tip{ font-size: 10px; }
+.cb_style .srchbox_advanced_link{ font-size: 10px; color: #FFFF63; }
+.cb_style .srchbox_submit{ font-size: 12px; margin-bottom: 2px; width: 80px; }
+.cb_style .srchbox_sug{ padding: 0px 4px 4px 4px; font-size: 12px; font-style:italic; font-weight: bold; color: #FF6600; }
+.cb_style .srchbox_mult_cell{ padding: 4px; }
+.cb_style .srch_info_div{ padding: 10px 0px; font-size: 12px; }
+
+a:link.srchbox_advanced_link, a:visited.srchbox_advanced_link, a:hover.srchbox_advanced_link, a:active.srchbox_advanced_link { color: #FFFF63; }
+	
+/* advanced job search box */
+.cb_style .advsrchbox { color:#ffffff; }
+.cb_style .advsrchbox_tbl{ background-color: #FF6500; border: 1px #ff9900 solid; width: 500px;}
+.cb_style .advsrchbox_hdr{ font-weight: bolder; font-size: 18px; padding-left: 2px; color:#FFFF63; }
+.cb_style .advsrchbox_location_tip{ font-size: 10px; }
+
+/* geo suggestions box */
+.cb_style .sugbox_outer_div{ background-color: #F6F6F6; border: solid 1px #999999; margin-top: 12px; }
+.cb_style .sugbox_hdr_div{ border-bottom: dashed 1px #999999; text-align: left; margin: 6px 6px 0px 6px; padding-bottom: 6px; }
+.cb_style .sugbox_links_div{ text-align: left; margin: 6px; font-size: 10px; }
+
+/* job results stuff */
+.cb_style .jobresults_nav_container { padding: 0px 5px 0px 5px; vertical-align:top; }
+.cb_style .jobresults_nav_headertxt { font-size: 12px; font-family: arial,helvetica,Sans-Serif; font-weight: bolder; background-color:#FF6500; color: #ffffff; text-align: center; padding: 2px; }
+.cb_style .jobresults_list_container { padding-right: 5px; }
+
+.cb_style .jl_companyName_span {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 11px;
+	color: #FF6600;
+	padding: 0px;
+	margin: 0px;
+}
+.cb_style .jl_companyName_span a {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 11px;
+	color: #FF6600;
+	padding: 0px;
+	margin: 0px;
+	border-bottom:1px dotted #FF6600;
+	text-decoration: none; 
+}
+.intl_jd_contentcontainer { float: left; width: 610px; }
+.intlJRSkyscraper { float: left; width: 120px; margin: 10px 0 0 5px; }
+
+/********************************/
+/* New iQSB styles defined here kxr*/ 
+/********************************/
+.cb_style #iQSBContainer { margin: 0 10px; padding: 10px 0; text-align: center; }	
+.cb_style #iQSBContainer span { font-size: 10px; color: #555; padding: 0; font-style: italic; }
+.cb_style #iQSBContainer .input_sm_label { font-size: 11px; font-weight: bold; color: #006; font-style: normal; }
+.cb_style #iQSBContainer input { width: 99%; height: auto; }
+.cb_style #iQSBContainer select { width: 99%; }
+.cb_style #iQSBContainer label { font-size: 14px; font-weight: bold; }
+
+.cb_style #iQSBContainer #OtherCountries   { font-size:10px; text-align:left; display:none; }
+.cb_style #iQSBContainer #keywords_wrapper { float: left; width: 48%; margin: 0; text-align: left; }
+.cb_style #iQSBContainer #location_wrapper { float: right; width: 48%; margin: 0px; text-align: left; }
+.cb_style #iQSBContainer #countries_wrapper { float: left; width: 48%; margin:0px; text-align: left; visibility: hidden; }
+.cb_style #iQSBContainer #findbutton_wrapper { float: right; width: 48%; text-align: left; padding-top: 1em; }
+.cb_style #iQSBContainer #categories_wrapper { float: left; width: 48%; text-align: left; clear: left; }
+.cb_style #iQSBContainer #otherlinks_wrapper { clear: both; text-align: left; padding-top: 10px; }
+
+/*****************************/
+/*  iFSB styles overridde    */ 
+/*****************************/
+.cb_style #iFSBContainer { margin: 0 10px; padding: 10px 0; text-align: center; }	
+.cb_style #iFSBContainer select { width: 99%;}
+.cb_style #iFSBContainer input { width: 99%; }
+.cb_style #iFSBContainer #OtherCountries   { font-size:10px; text-align:left;}
+.cb_style #iFSBContainer #keywords_wrapper { float: left; width: 48%; margin: 0 0 14px 0; text-align: left; position:relative;z-index:0;}
+.cb_style #iFSBContainer #location_wrapper { float: right; width: 48%; margin: 0 0 14px 0; *margin: 1px 0 15px 0; text-align: left;}
+.cb_style #iFSBContainer #countries_wrapper { float: right; width: 48%; margin:0 0 2px 0; text-align: left; position:relative;z-index:-1;}
+.cb_style #iFSBContainer #categories_wrapper { float: left; width: 48%; margin:0 0 2px 0; text-align: left; clear:left;position:relative;z-index:-1;}
+.cb_style #iQSBContainer #otherlinks_wrapper { clear: both; text-align: left; padding-top: 10px; }
+.cb_style #iFSBContainer #findbutton_wrapper { float: right; width: 48%; text-align: left; padding-top: 1em;}
+.cb_style #iFSBContainer #divmsgkeywords {color:Red; position:absolute; width:100%;border: 1px solid #ff6600; 
+                                         height:auto; top:-40px; padding:0.2em; z-index:30;}                                       
+.cb_style #iFSBContainer label {font-size:12px; font-weight:bold; color:#006; font-style:normal}
+
+.cb_style .cb_SA .intlFlexSearchBox.grad {background: 0;}
+.cb_style .cb_SA  .intlQuickSearchBox { border: 0px; text-align: left;margin: 0 0 10px 9px; }
+.cb_style .cb_SA #iFSBContainer { margin: 0; padding: 0; text-align: center;}
+.cb_style .cb_SA  #iFSBContainer select { width: 100%; }
+.cb_style .cb_SA  #iFSBContainer input { width: 200px;}
+.cb_style .cb_SA  #iFSBContainer #OtherCountries   { font-size:10px; text-align:left;}
+.cb_style .cb_SA  #iFSBContainer #keywords_wrapper { float: left;width: 25%;margin: 0 12px 0 0; position:relative; }
+.cb_style .cb_SA  #iFSBContainer #location_wrapper { float: left;width: 25%;margin: 0 12px 0 0; }
+.cb_style .cb_SA  #iFSBContainer #countries_wrapper {float: left;width: 25%;margin: 0 12px 0 0; }
+.cb_style .cb_SA  #iFSBContainer #findbutton_wrapper {float: left;width: 15%;margin:0 12px 0 0; clear:none; padding-top:0.8em; }
+.cb_style .cb_SA  #iFSBContainer #categories_wrapper {float: left;width: 30%;margin: 0 10px 0 0;}
+.cb_style .cb_SA  #iFSBContainer #otherlinks_wrapper {float: left;width: 30%;margin: 0 10px 0 0; }
+#iFSBContainer #location_wrapper_label_ex { display: none; }
+#iFSBContainer #keywords_wrapper_label_ex { display: none; }
+
+#ucQuickSearch_CBHyperLink1 {display:none;} 
+
+.cb_style #myCBMyRecs
+{
+	border: solid 1px #ff6600;
+}
+
+.cb_style .myCBRecHeader
+{
+	color: #ff6600;
+}
+
+.cb_style #myCBMyRecs a.joblink
+{
+	color: #ff6600;
+}
+
+#myCBLeftConentRecs
+{
+	color: #008800;
+}
+
+/* Begin INTL Hot Categories Base Styles */
+#intlHotCategoriesBar {
+	margin: 0 0 10px 0;
+	font-family: Arial;
+}
+
+#intlHotCategoriesBar .b1f, #intlHotCategoriesBar .b2f, 
+#intlHotCategoriesBar .b3f, #intlHotCategoriesBar .b4f {
+ 	font-size: 1px; 
+	overflow: hidden; 
+	display:block;
+	height: 1px; 
+	background: #738CD1; 
+}
+
+#intlHotCategoriesBar .b1f { margin: 0 5px; }
+#intlHotCategoriesBar .b2f { margin: 0 3px; }
+#intlHotCategoriesBar .b3f { margin: 0 2px; }
+#intlHotCategoriesBar .b4f { margin: 0 1px; }
+
+#intlHotCategoriesBar ul.HotCatsBar {
+	list-style-type: none;
+	margin: 0;
+	padding: 2px 0;
+	background: #738CD1;
+}
+#intlHotCategoriesBar ul.HotCatsBar li {
+	float: left;
+	padding: 0 25px;
+	margin: 0;
+	text-align: center;
+	font-weight: bold;	
+	font-size: 11px;	
+	border-right: 1px solid #f1f1f1;
+}
+#intlHotCategoriesBar ul.HotCatsBar li.first {
+	width: 110px;
+	font-size: 11px;
+	font-weight: bold;
+	color: #f1f1f1;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+#intlHotCategoriesBar ul.HotCatsBar li.last {
+	border: 0;
+}
+#intlHotCategoriesBar ul.HotCatsBar li a {	
+	font-weight: bold;
+	font-size: 11px;
+	color: #fff;
+	font-family: Arial;
+}
+/* End INTL Hot Categories Base Styles */
+
+/* Footer */
+.IntFootInfo {margin-bottom: 7px; font-size: 12px}
+.IntFootSites {text-align: center; font-size: 12px}
+
+/* Featured employers and recruiters headings */
+.FeaturedEmployee #iQSBContainer #keywords_wrapper,
+.FeaturedEmployee #iQSBContainer #location_wrapper,
+.FeaturedEmployee #iQSBContainer #countries_wrapper,
+.FeaturedEmployee #iQSBContainer #findbutton_wrapper,
+.FeaturedEmployee #iQSBContainer #categories_wrapper { float: left; width: 100%; text-align: left; padding: 5px 0; }
+
+.FeaturedEmployee .featureEmpHead {border-bottom: 1px solid #ccc;}
+.FeaturedEmployee .employer {border-bottom: 1px solid #ccc; padding:10px 10px 10px 0px; display:inline-block; width:100%;}
+.FeaturedEmployee .employer.nodesc {width:23%;}
+.FeaturedEmployee .employer .cbhlLogo {width:24%;float:left;}
+.FeaturedEmployee .employer .CompDesc {width:76%;float:right;margin:0;}
+
+/* Universal Article Pages */
+.Articles_main 
+{	
+	margin-right: 10px;
+	background: #ececec;
+	border: 1px solid #ccc;
+}
+
+.featArticle 
+{
+	border: 1px solid #fc0;
+	background: #ffc;
+	margin: 10px;
+}
+.featArticle .ArticleLinks {
+	font-size: 11px;
+	line-height: 16px;
+}
+.featArticle a
+{
+	color: #006;
+	font-weight: bold;
+}
+.featArticleSpot td {
+	width: 50%;
+	vertical-align: top;
+}
+.featArticleSpot td h2 {
+	margin: 0;
+}
+.ArticleSections {
+	margin: 10px;
+}
+.ArticleSections td {
+	vertical-align: top;
+}
+.ArticleSections td a {
+	color: #000;
+	text-decoration: none;
+	font-size: 11px;
+	line-height: 18px;
+}
+.ArticleSections td span.title {
+	color: #006;
+	font-weight: bold;
+	display: block;
+	margin: 10px 0 3px 0;
+}
+/* End Universal Article Pages */
+
+/* Universal View Article Page */
+.articleShare_Main { width: 100%; text-align: left; }
+.articleShare_left_AP { float: left; width: 100%; margin-right: 10px; text-align: left; }
+.articleShare_right_AP { float: right; width: 43%; margin: 15px 0 15px 15px; }
+.sandBagDiv { width: 1px; height: 200px; float: left; clear: left; font-size: 0px; }
+.articleShare_UpperLeft {
+	float: left;
+	clear: left;
+	margin: 20px 10px 10px 0;
+}
+.articleShare_UpperRight { margin-top: 15px; }
+/* End Universl View Article Page */
+
+/* Logout page */
+.cb_style .leftLogout h3 {color: #FFF; }
+.cb_style .rightLogout h3 { color: #FFF; }
+/* End Logout page */
+
+#ucResumeAdditionalSkills_Resume_MostRecentPayTypeRW label {padding-left:5px; padding-right:10px}
+#ucResDesiredPos_Resume_DesiredPayType label {padding-left:3px; padding-right:6px}
+
+/* Shared Country Footer */
+#pnlCountryLinks { width: 750px; margin: 10px auto 10px auto; }
+#pnlCountryLinks .pnlFooterLinks { width: 750px; text-align: center; }
+#pnlCountryLinks .pnlFooterLinks span { display: inline-block; margin: 0 6px; }
+#pnlCountryLinks .pnlFooterLinks span a { white-space: nowrap; text-align: center; font-size: 11px; }
+
+.hrshow{display:none;}
+.ScreenerTabs_wrapper #CBHyperLink1 {display:none}
+
+#jobSummary #editOpts {top:6px !important; right:150px !important; }
+#jobSummary #editOpts a:hover {color:#000099}
+#editOpts {margin-top:240px;}
+
+
+/* iTranslator link */
+
+.iTransDiv {position:absolute; width:160px; height:13px; top:20px; left:40px; background-color:Lime; z-index:10000;
+            border:solid 3px #000; text-align:center; font-size:12px}
+.iTransDiv a {color:#000; line-height:6px; *line-height:11px; text-align:center}
+.iTransDiv a:hover {color:#000}
+.iTransDiv a:visited {color:#000}
+
+.itArticles{
+	width: 750px;
+	margin: 0px auto;
+}
+
+/* Back button for MSN Article pages and some other INTL article pages */
+.ViewArticle_BackButton {text-align:center; color:#FFFFFF; height:18px; background-image:url(../../images/UK/JS/NewHomePage/backTo_Btn.gif ); background-repeat:no-repeat; margin-left:20px; width:170px; padding-top:2px; float:left; margin-top:10px; margin-bottom:5px;}  
+.ViewArticle_BackButton a {color:#FFFFFF;}
+.ViewArticle_BackButton a:hover {cursor:pointer; text-decoration:none; color:#FFFFFF;}
+.ViewArticle_BackButton a:link {cursor:pointer; text-decoration:none; color:#FFFFFF;}
+.ViewArticle_BackButton a:visited {cursor:pointer; text-decoration:none; color:#FFFFFF;}
+
+/* Overriden styles for new jobseeker resumes pages */
+#ResumePostLegalChecks > table { margin: 20px 0px 0px 0px !important; }
+#ResumePostLegalChecks textarea { width: 600px !important; height: 100px !important; }
+/*Post New Resume*/
+#password_wrapper h1 {margin: 0 !important;}
+
+
+#PostNewResume .UserEmailOptions .registerTwoColumns {
+    float: left;
+    margin: 0 2% 0 0;
+    width: 95%;
+}
+#PostNewResume .UserEmailOptions .registerRightColumn .tipHeading {
+    color: #FF6600;
+    font-size: 11px;
+}
+#PostNewResume .registerRightColumn
+{    
+    clear: both;
+    position: absolute;
+    left: 750px;
+    border: 1px solid #F6AA00;
+	padding: 5px 13px 13px;
+    position: absolute;
+    width: 24%;
+}
+#PostNewResume .UserEmailOptions {
+	margin: 20px 0 0;
+}
+#PostNewResume .emailTypeDesc {
+    display: block;
+    margin-left: 32px !important;
+	float: none;
+    font: 11px Arial;
+	color: #575757;
+}
+
+#ProfileRegister label {
+	display: block;
+	font: bold 12px Arial, Helvetica;
+}
+#ProfileRegister .submitBar input,
+#ProfileLogin .submitBar input,
+#UploadResume .submitBar input{
+    margin-top: 0 !important;
+	margin-left: 0px;
+}
+#ProfileRegister a,
+#ProfileLogin a,
+#UploadResume a {
+	text-decoration: none;
+}
+#ProfileRegister a:hover,
+#ProfileLogin a:hover,
+#UploadResume a:hover {
+	text-decoration: underline;
+}
+#divViewEditResume  h3 { font-size: 14px; border-bottom: 0px !important; }
+
+/* jQuery UI widget style overrides */
+.ui-dialog div.ui-dialog-content {
+    font-size: 13px;
+    margin: 17px 25px 15px 15px;
+}
+div.ui-widget-content a {
+    color: #11249A;
+    font-weight: normal;
+}
+div.ui-widget-content p { margin: 0; }
+div.ui-widget {
+    font-family: Arial,Helvetica,sans-serif;
+    border-radius: 8px;
+    border-color: #7F8081;
+}
+div.ui-widget.confirmationDialog {
+	border: 1px solid black;
+    background-color: #F7F6F1;
+}
+.ui-dialog div.ui-dialog-titlebar {
+    background: none;
+    border: none;
+    color: #006;
+    font-size: 18px;
+    cursor: auto;
+    padding: 0;
+}
+.ui-dialog span.ui-dialog-title {
+    margin: 25px 25px 0 15px;
+}
+.ui-dialog a.ui-dialog-titlebar-close {
+    top: 12px;
+    right: 5px;
+}
+.ui-dialog a.ui-dialog-titlebar-close.ui-state-hover {
+    background: none;
+    border: none;
+    padding: 1px;
+}
+.ui-dialog .ui-dialog-titlebar-close span.ui-icon-closethick, 
+.ui-dialog .ui-dialog-content a.ui-icon-closethick {
+    width: 25px;
+    height: 25px;
+    font-size: 0px;
+    background: url('http://img.icbdr.com/images/js/modal_close_icon.png') no-repeat;
+    margin-left: -4px;
+}
+a.ui-dialog-titlebar-close:hover { text-decoration: none; }
+.ui-dialog div.ui-dialog-buttonpane {
+    margin: 0 25px 15px 15px;
+    padding: 0;
+    border-width: 0;
+    background: none;
+}
+.ui-dialog div.ui-dialog-buttonpane button { margin: 0 0 0 15px; }
+.ui-dialog div.ui-resizable-handle { display: none; }
+div.ui-widget-overlay { background: #000; }
+.ui-dialog span.ui-button-text {
+    padding: 0;
+    line-height: normal;
+}
+.ui-widget input[type="submit"] { font-size: 14px; }
+/* end jQuery UI widget style overrides */
+/*Large Screen Size*/
+@media all and (max-width: 2560px) and (min-width: 1920px) {
+    #PostNewResume .registerRightColumn {      
+        left: 980px;
+        width:20%;
+    }
+}
+
+.browseTitle {
+    margin-bottom:0px !important;
+}
+
+.browseSelectLocation {
+    font-size:13px;
+    text-decoration:underline;
+}
+
+.divBrowseLetters {
+    font-size:1rem !important;
+}
+
+#browsepage_inner #companies, #browsepage_inner #titles, #browsepage_inner #industries {
+    float:left;
+    clear:both;
+    margin-bottom:25px;
+}
+
+#browsepage #titleLeft, #browsepage #titleCenter, #browsepage #titleRight,
+#browsepage #left, #browsepage #right,#browsepage #center,
+#browsepage #tleft, #browsepage #tright, #browsepage #tcenter,
+#browsepage #compLeft, #browsepage #compRight, #browsepage #compCenter,
+#browsepage #industryLeft, #browsepage #industryCenter, #browsepage #industryLRight {
+    float:left;
+    margin-right:25px;
+}
+
+#browseByTitle {
+    clear:both;
+}
+
+#browseFooter {
+    float:left;
+    clear:both;
+    margin-bottom:50px;
+}
+#browsepage h2 {
+    margin-bottom:10px;
+}
+#browsepage #locations td,#browsepage #technologies td,#browsepage #companies td,#browsepage #titles td,#browsepage #browsepage_inner td {
+    padding: 5px 10px 5px 10px;
+
+}
+
+/* Media Queries */
+/* max-width 640px, mobile-only styles, use when QAing mobile issues */
+@media only screen and (max-width: 40em) {
+    .pnlInnerWrapper {padding:10px;}
+}
+
+/* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+    .pnlInnerWrapper {padding:10px;}
+}

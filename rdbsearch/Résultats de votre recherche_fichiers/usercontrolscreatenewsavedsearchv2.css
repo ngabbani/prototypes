@@ -1,0 +1,240 @@
+
+
+#NewSavedSearch{
+	display: none;
+	position:absolute; 
+	background:white; 
+	border:1px solid #666;
+	width: 500px; 
+	height: 285px; 
+	top: 20px;
+	left: 8px;
+	z-index:100;
+	
+	}
+#NewSavedSearch #indent{
+	padding:18px;
+	}
+
+#NewSavedSearch #indent>:first-child{
+	letter-spacing: -0.055em;
+	font-size: 1.58333333em;
+	color: #555;
+	font-weight:bold;
+}
+
+#NewSavedSearch #searchName #namePrompt{
+	float:left;
+	line-height:26px; 
+	font-weight:bold; 
+	font-size:12px;
+	width:99px;
+	}
+
+#NewSavedSearch #searchName input{
+	width:250px;
+	float:left;
+	font-size:12px;
+	margin: 0 7px 0 0;
+}
+
+#NewSavedSearch #searchName #charMax{
+	float:left; 
+	padding-top:4px !important; 
+	width:100px; font-size:11px; 
+	font-style:italic; 
+	color:#666;
+}
+
+#NewSavedSearch div.spacer{
+	clear:both;
+	padding:0;
+	margin:0;
+	font-size:1px;
+	line-height:1px;
+}
+
+#NewSavedSearch #popUpCloser{
+background: url(http://img.icbdr.com/images/JS/Widgets/close.gif) no-repeat scroll right top;
+border: none;
+cursor: pointer;
+float: right;
+position: absolute;
+top: 9px;
+right: 8px;
+height: 14px;
+width: 14px;
+}
+
+#NewSavedSearch #saveCircle{
+	background: url(http://img.icbdr.com/images/images/jpimages/ffloading.gif) no-repeat scroll right top;
+	position: absolute;
+	top: 127px;
+	right: 235px;
+	height: 50px;
+	width: 50px;
+	display: none;
+}
+
+#NewSavedSearch #saving{
+	position: absolute;
+	top: 33px;
+	left: 16px;
+	font-weight: bold;
+	display: none;
+}
+
+#NewSavedSearch #saveSuccessMessage{
+	display: none;
+	position: absolute;
+	top: 9em;
+	font-size: 1.2em;
+	left: 26%;
+}
+
+#NewSavedSearch #saveFailMessage{
+	display: none;
+	position: absolute;
+	top: 9em;
+	font-size: 1.2em;
+	left: 17.5%;
+	color: #C00;
+}
+
+#NewSavedSearch #frequency #invalidEmail{
+	visibility: visible;
+	position: absolute;
+	top: -1.9em;
+	left: 103.3%;
+	font-size: .88em;
+	color: #C00;
+	width: 350%;
+}
+
+#NewSavedSearch #frequency #invalidEmails{
+	visibility: visible;
+	position: absolute;
+	top: -1.9em;
+	left: 103.3%;
+	font-size: .88em;
+	color: #C00;
+	width: 350%;
+}
+
+#NewSavedSearch #frequency #noEmail{
+	visibility: visible;
+	position: absolute;
+	top: -1.9em;
+	left: 103.3%;
+	font-size: .88em;
+	color: #C00;
+	width: 350%;
+}
+
+
+
+
+#NewSavedSearch #searchNameFail{
+	display: none;
+	position: absolute;
+	top: 8.4em;
+	left: 24.1%;
+	font-size: .87em;
+	color: #C00;
+}
+
+#NewSavedSearch #weeklyEmailMessage{
+	display: none;
+	position: absolute;
+	width: 250%;
+	font-size: 10px;
+	top: 2.5em;
+	left: 100%;
+	color: #666;
+}
+
+#NewSavedSearch #closeWindow{
+	display: none;
+	position: absolute;
+	cursor: pointer;
+	top: 13em;
+	left: 38%;	
+}
+
+
+#NewSavedSearch #receiveEmail input{
+	float:left;
+	vertical-align:middle; 
+	margin-right:7px;
+}
+
+#NewSavedSearch #receiveEmail p{
+	font-weight:bold; 
+	font-size:12px; 
+	float:left; 
+	vertical-align:middle;
+	color:#555;
+}
+
+
+#NewSavedSearch #emails{
+	margin-left:21px; 
+	margin-top:9px;
+}
+
+#NewSavedSearch #emails #emailPrompt{
+	float:left; 
+	font-size:11px; 
+	width:80px;
+}
+
+#NewSavedSearch #emails textarea{
+	resize: none;
+	float:left; 
+	width:250px;
+	font-size:11px;
+	height:50px; 
+	margin: 0 7px 0 0;
+}
+
+#NewSavedSearch .emailEnable{
+	color:black;
+}
+
+
+#NewSavedSearch #emails #instruction{
+	float:left; 
+	font-size:11px; 
+	font-style:italic;  
+	width:100px; 
+	padding-top:4px !important;
+}
+
+#NewSavedSearch #frequency{
+	margin-left:21px; 
+	margin-top: 1.6em;
+}
+
+#NewSavedSearch #frequency select{
+	float: left; 
+	width: auto;
+}
+
+
+#NewSavedSearch #saveButton{
+
+	position:absolute;
+	top:222px;
+	right:25px;
+}
+
+#NewSavedSearch #saveButton #btnSaveSearch{
+	padding: 5px 37px;
+}
+
+#NewSavedSearch #frequency div{
+	float:left; 
+	font-size:11px; 
+	width:80px;
+	position: relative;
+}
