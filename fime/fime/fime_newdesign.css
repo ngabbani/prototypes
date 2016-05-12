@@ -3,6 +3,16 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+.height-auto {
+  height: auto !important;
+  min-height: 0 !important;
+}
+
+.reso a{
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+
 .button.border.white {
   border-color: white;
   color: white !important;
@@ -11,12 +21,13 @@ body {
 }
 
 .button.border.white:hover, .button.border.white:focus {
-  color: #63967d !important;
+  color: #09a0db !important;
   background: white !important;
 }
 
 .top-bloc {
-  background: linear-gradient(135deg,  #023558, #63967d);
+  background: linear-gradient(135deg,  #023558, #09a0db);
+  background:#1B7CB2;
   padding: 3rem 0;
 }
 
