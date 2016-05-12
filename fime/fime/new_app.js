@@ -21,14 +21,14 @@ $(document).ready(function(){
     });
   });
 
-  $('#see-more, .top-bloc p').click(function(){
+  $('.see-more, .top-bloc p').click(function(){
     $('.top-bloc p').toggleClass('see-you');
     var h = $('.top-bloc p').height();
     console.log($('.top-bloc p').hasClass('see-you'));
     if( $('.top-bloc p').hasClass('see-you') ){
-      $('.left-top-align').css('margin-top', "-" + (h + 89) + "px");
+      $('.left-top-align').css('margin-top', "-" + (h + 97) + "px");
     } else {
-      $('.left-top-align').css('margin-top', "-200px");
+      $('.left-top-align').css('margin-top', "-194px");
     }
   });
 });

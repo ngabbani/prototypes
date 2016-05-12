@@ -41,21 +41,32 @@ body {
 .top-bloc p {
   color: #333;
   background: white;
-  box-shadow: 0px 0px 1px #888;
   box-sizing: border-box;
   padding: 10px;
   text-align: justify;
   overflow: hidden;
-  height: 111px;
+  height: 117px;
   cursor: pointer;
+  margin-bottom: 0;
 }
 
 .top-bloc p.see-you {
   height: auto;
 }
 
+.see-more {
+  padding-top: 20px;
+  text-align: center;
+  color: #09A0DB;
+  cursor: pointer;
+  position: relative;
+  margin-top: -15px;
+  font-variant: small-caps;
+  background: linear-gradient(to bottom, rgba(255,255,255,0), #fff 30%, #fff);
+}
+
 .left-top-align {
-  margin-top: -200px;
+  margin-top: -194px;
 }
 
 .bloc-cube {
