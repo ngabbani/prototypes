@@ -21,12 +21,12 @@ body {
 }
 
 .button.border.white:hover, .button.border.white:focus {
-  color: #09a0db !important;
+  color: #63967d !important;
   background: white !important;
 }
 
 .top-bloc {
-  background: linear-gradient(135deg,  #023558, #09a0db);
+  background: linear-gradient(135deg,  #023558, #63967d);
   padding: 3rem 0;
 }
 
@@ -78,7 +78,6 @@ body {
 .big-number {
   font-size: 2.8rem;
   color: #85CE3F;
-  /*text-shadow: 1px 1px 2px #000;*/
 }
 
 .job {
