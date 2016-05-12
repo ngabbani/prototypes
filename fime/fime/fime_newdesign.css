@@ -26,16 +26,24 @@ body {
 }
 
 .top-bloc {
-  background: linear-gradient(135deg,  #023558, #63967d);
+  /*background: linear-gradient(135deg,  #023558, #63967d);*/
+  background-image: url(bg.jpg);
+  background-size: cover;
+  background-position: top center;
   padding: 3rem 0;
 }
 
 .top-bloc h1 {
   color: white;
+  font-weight: bold;
 }
 
 .top-bloc p {
-  color: white;
+  color: #333;
+  background: white;
+  box-shadow: 0px 0px 1px #888;
+  box-sizing: border-box;
+  padding: 10px;
   text-align: justify;
   overflow: hidden;
   height: 111px;
