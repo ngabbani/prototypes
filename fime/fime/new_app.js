@@ -7,16 +7,18 @@ $(document).ready(function(){
 
   $('.progress-calcul').each(function(){
     var bar = $(this).find('.progress');
-    var total = 0;
+    var big = 0;
    
     bar.each(function(){
       var number = $(this).data('calcul');
-      total = total + number;
+      if(number >= big) {
+        big = number;
+      }
     });
 
     bar.each(function(){
       var number = $(this).data('calcul');
-      var percent = number * 100 / total;
+      var percent = number * 100 / big;
       $(this).find('.progress-meter').css('width', percent + "%");
     });
   });
