@@ -8,6 +8,14 @@ body {
   min-height: 0 !important;
 }
 
+.mb0 {
+  margin-bottom: 0;
+}
+
+.fl-r {
+  float: right;
+}
+
 .reso a{
   font-size: 1.5rem;
   margin-right: 10px;
@@ -178,6 +186,10 @@ ul.top li:nth-child(3) {
 
 .progress-meter span {
   float: right;
+}
+
+.cv-text {
+  line-height: 48px;
 }
 
 @media only screen and (max-width: 1024px) {
