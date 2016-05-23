@@ -1,0 +1,58 @@
+/*[class*="block-grid-"] {
+	width: 52%;
+	float: left;
+}
+
+.list-block .label-block li a .body {
+	text-align: justify;
+}
+
+.big-label-block {
+	min-height: 235px !important;
+}
+
+.label-block li a {
+	border-bottom: 0 !important;
+}
+
+.list-block h4 {
+	padding-left: 1rem;
+}
+
+.label-block-fake li a {
+	display: block;
+    padding: 0.8rem 1.2rem 0.5rem 1rem;
+}*/
+
+[class*="block-grid-"] {
+	width: 52%;
+	float: left;
+	min-height: 235px !important;
+}
+
+.list-block .label-block li a .body {
+	text-align: justify;
+}
+
+.label-block li a {
+	border-bottom: 0 !important;
+}
+
+.list-block h4 {
+	padding-left: 1rem;
+}
+
+#old-job-list {
+	list-style: none;
+}
+
+#old-job-list li {
+	float: left;
+	width: 47.5%;
+	margin-right: 5%;
+	margin-bottom: 10px;
+}
+
+#old-job-list li:nth-child(even) {
+	margin-right: 0;
+}
