@@ -42,6 +42,15 @@
 	margin-right: 0;
 }
 
+.social {
+	float: right;
+	margin-top: -50px;
+}
+
+.social a:last-child {
+	margin-right: 0 !important;
+}
+
 @media only screen and (max-width: 1024px) {
 	[class*="block-grid-"], #old-job-list li {
 		width: 100%;
