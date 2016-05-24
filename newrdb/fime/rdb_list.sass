@@ -1,0 +1,149 @@
+@import "compass"
+
+body
+  font-family: 'Lato', sans-sherif
+  position: relative
+  height: 100%
+
+.fl-l
+  float: left
+
+.fl-r
+  float: right
+
+.on-left
+  position: absolute
+  top: 0
+  left: 15px
+
+.on-right
+  position: absolute
+  top: 0
+  right: 15px
+
+.cb_style select
+  border: 1px solid #B4B4B4 !important
+  color: #333 !important
+  font-size: 11px !important
+  height: 30px !important
+  border-radius: 5px !important
+  margin-bottom: 0 !important
+
+.bubbles
+  margin: 10px 0
+  +clearfix
+
+.bubble
+  padding: 5px 10px
+  background: #09a0db
+  color: white
+  float: left
+  display: block
+  margin-right: 1px
+  margin-top: 1px
+  text-align: center
+  .bubble-title
+    display: block
+    margin-bottom: 3px
+    text-transform: uppercase
+    font-size: 1rem
+    span
+      display: inline-block
+      vertical-align: top
+  &.mini-bubble
+    .bubble-title
+      display: inline-block
+      vertical-align: top
+      span
+        display: none
+
+.bubble-white
+  @extend .bubble
+  background: white
+  color: #333
+  font-size: 1.1rem !important
+
+#content
+  width: 1000px
+  margin: 0 auto
+  position: relative
+
+#jobs-list-header
+  background: #F9F9F9
+  height: 60px
+  text-align: center
+  position: relative
+  border-bottom: 1px solid #ccc
+  h2
+    margin: 0 !important
+    line-height: 60px !important
+  a
+    float: left
+    display: block
+    height: 60px
+    line-height: 65px
+    margin-right: 15px
+    font-size: 1.5rem
+  select
+    width: 120px
+    margin-top: 15px
+
+.job-list
+  display: block
+  border-bottom: 1px solid #ccc
+  color: #333
+  +transition-duration(0.3s)
+  +scale(1)
+  background: white
+  position: relative
+  overflow: hidden
+  height: 0
+  padding-bottom: 117px
+  padding-top: 15px
+  a
+    color: #333
+  h3
+    margin: 0 !important
+    margin-right: 15px !important
+    line-height: 28px !important
+  h3, .city
+    display: inline-block
+    vertical-align: bottom
+  .city
+    font-size: 0.9rem
+    color: #666
+  .date
+    top: 12px
+  .candidatesresumetitle
+    display: block
+    font-weight: bold
+  &:hover
+    color: #333
+    background: #F3F3F3
+    padding: 15px
+    padding-bottom: 250px
+    +scale(1.05)
+    +box-shadow(0 0 5px #ccc)
+    z-index: 30
+    .bubble
+      font-size: 1.5rem
+      &.mini-bubble
+        .bubble-title
+          display: block
+          margin-bottom: 3px
+          span
+            display: inline-block
+            vertical-align: top
+          
+  .job-list-menu
+    +clearfix
+    font-size: 0.7rem
+    text-align: right
+    margin-top: 20px
+    a
+      color: #09a0db
+      display: inline-block
+      vertical-align: bottom
+      margin-right: 10px
+      &:last-child
+        margin-right: 0
