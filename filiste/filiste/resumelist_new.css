@@ -23,6 +23,10 @@
 	width: 100%;
 }
 
+.label-block li a:hover:after {
+	content: "";
+}
+
 .list-block h4.align {
 	padding-left: 1rem;
 }
