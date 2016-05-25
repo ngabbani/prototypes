@@ -57,7 +57,7 @@ body
 
 .bubble-white
   @extend .bubble
-  background: white
+  background: #F9F9F9
   color: #333
   font-size: 1.1rem !important
 
@@ -131,10 +131,7 @@ body
   +transition-duration(0.3s)
   background: white
   position: relative
-  overflow: hidden
-  height: 0
-  padding-bottom: 117px
-  padding-top: 15px
+  padding: 15px
   &:first-child
     padding-top: 0
   a
@@ -157,11 +154,11 @@ body
   &:hover
     color: #333
     background: #F3F3F3
-    padding: 15px
-    padding-bottom: 250px
-    z-index: 50
+    padding: 15px !important
     +box-shadow(0 0 5px #ccc)
-    z-index: 30
+    .job-list-menu
+      opacity: 1 !important
+  &.details
     .bubble
       font-size: 1.2rem
       &.mini-bubble
@@ -177,6 +174,7 @@ body
     font-size: 0.7rem
     text-align: right
     margin-top: 20px
+    opacity: 0
     a
       color: #09a0db
       display: inline-block

@@ -9,6 +9,11 @@ $(document).ready(function(){
   });
 
 
+  $('#details-button').click(function(e){
+    e.preventDefault();
+    $('.job-list').toggleClass('details');
+  });
+
   $button = $('.filter').find('filter-title');
   $icon = $button.find('.filter-button');
   $content = $('.filter').find('.filter-content');

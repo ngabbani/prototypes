@@ -66,7 +66,7 @@ body {
 }
 
 .bubble-white {
-  background: white;
+  background: #F9F9F9;
   color: #333;
   font-size: 1.1rem !important;
 }
@@ -174,10 +174,7 @@ body {
   transition-duration: 0.3s;
   background: white;
   position: relative;
-  overflow: hidden;
-  height: 0;
-  padding-bottom: 117px;
-  padding-top: 15px;
+  padding: 15px;
 }
 .job-list:first-child {
   padding-top: 0;
@@ -208,22 +205,22 @@ body {
 .job-list:hover {
   color: #333;
   background: #F3F3F3;
-  padding: 15px;
-  padding-bottom: 250px;
-  z-index: 50;
+  padding: 15px !important;
   -moz-box-shadow: 0 0 5px #ccc;
   -webkit-box-shadow: 0 0 5px #ccc;
   box-shadow: 0 0 5px #ccc;
-  z-index: 30;
 }
-.job-list:hover .bubble, .job-list:hover .bubble-white {
+.job-list:hover .job-list-menu {
+  opacity: 1 !important;
+}
+.job-list.details .bubble, .job-list.details .bubble-white {
   font-size: 1.2rem;
 }
-.job-list:hover .bubble.mini-bubble .bubble-title, .job-list:hover .mini-bubble.bubble-white .bubble-title {
+.job-list.details .bubble.mini-bubble .bubble-title, .job-list.details .mini-bubble.bubble-white .bubble-title {
   display: block;
   margin-bottom: 3px;
 }
-.job-list:hover .bubble.mini-bubble .bubble-title span, .job-list:hover .mini-bubble.bubble-white .bubble-title span {
+.job-list.details .bubble.mini-bubble .bubble-title span, .job-list.details .mini-bubble.bubble-white .bubble-title span {
   display: inline-block;
   vertical-align: top;
 }
@@ -233,6 +230,7 @@ body {
   font-size: 0.7rem;
   text-align: right;
   margin-top: 20px;
+  opacity: 0;
 }
 .job-list .job-list-menu a {
   color: #09a0db;
