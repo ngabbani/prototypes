@@ -160,9 +160,6 @@ body {
 #jobs-list-content.active .job-list h3 {
   font-size: 20px;
 }
-#jobs-list-content.active .job-list:hover {
-  padding-bottom: 275px;
-}
 
 .job-list {
   display: block;
@@ -204,11 +201,6 @@ body {
 }
 .job-list:hover {
   color: #333;
-  background: #F3F3F3;
-  padding: 15px !important;
-  -moz-box-shadow: 0 0 5px #ccc;
-  -webkit-box-shadow: 0 0 5px #ccc;
-  box-shadow: 0 0 5px #ccc;
 }
 .job-list:hover .job-list-menu {
   opacity: 1 !important;
