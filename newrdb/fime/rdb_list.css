@@ -1,7 +1,5 @@
 body {
   font-family: "Lato", sans-sherif;
-  position: relative;
-  height: 100%;
 }
 
 .fl-l {
@@ -52,7 +50,7 @@ body {
 .bubble .bubble-title, .bubble-white .bubble-title {
   display: block;
   margin-bottom: 3px;
-  text-transform: uppercase;
+  font-variant: small-caps;
   font-size: 1rem;
 }
 .bubble .bubble-title span, .bubble-white .bubble-title span {
@@ -103,6 +101,69 @@ body {
   margin-top: 15px;
 }
 
+#jobs-list-sous-menu {
+  overflow: hidden;
+  *zoom: 1;
+}
+
+#jobs-list-container {
+  position: relative;
+}
+
+#jobs-list-push {
+  -moz-transform: translateX(-30%);
+  -ms-transform: translateX(-30%);
+  -webkit-transform: translateX(-30%);
+  transform: translateX(-30%);
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+#jobs-list-push.active {
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+}
+#jobs-list-push.active #jobs-list-filter {
+  opacity: 1;
+}
+
+#jobs-list-filter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 12px;
+  width: 27%;
+  margin-right: 3%;
+  background: #F9F9F9;
+  box-sizing: border-box;
+  opacity: 0;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+#jobs-list-content {
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  width: 100%;
+  margin-left: 30%;
+}
+#jobs-list-content.active {
+  width: 70%;
+}
+#jobs-list-content.active .job-list h3 {
+  font-size: 20px;
+}
+#jobs-list-content.active .job-list:hover {
+  padding-bottom: 275px;
+}
+
 .job-list {
   display: block;
   border-bottom: 1px solid #ccc;
@@ -122,6 +183,9 @@ body {
   padding-bottom: 117px;
   padding-top: 15px;
 }
+.job-list:first-child {
+  padding-top: 0;
+}
 .job-list a {
   color: #333;
 }
@@ -130,19 +194,19 @@ body {
   margin-right: 15px !important;
   line-height: 28px !important;
 }
-.job-list h3, .job-list .city {
+.job-list .candidatesname, .job-list .city {
   display: inline-block;
   vertical-align: bottom;
 }
 .job-list .city {
-  font-size: 0.9rem;
   color: #666;
+  margin-left: 10px;
 }
 .job-list .date {
-  top: 12px;
+  font-size: 0.8rem;
+  color: #333;
 }
-.job-list .candidatesresumetitle {
-  display: block;
+.job-list .candidatesname {
   font-weight: bold;
 }
 .job-list:hover {
@@ -150,6 +214,7 @@ body {
   background: #F3F3F3;
   padding: 15px;
   padding-bottom: 250px;
+  z-index: 50;
   -moz-transform: scale(1.05, 1.05);
   -ms-transform: scale(1.05, 1.05);
   -webkit-transform: scale(1.05, 1.05);
@@ -160,7 +225,7 @@ body {
   z-index: 30;
 }
 .job-list:hover .bubble, .job-list:hover .bubble-white {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 .job-list:hover .bubble.mini-bubble .bubble-title, .job-list:hover .mini-bubble.bubble-white .bubble-title {
   display: block;
@@ -185,4 +250,39 @@ body {
 }
 .job-list .job-list-menu a:last-child {
   margin-right: 0;
+}
+
+#jobs-list-filter .filter {
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+#jobs-list-filter .filter:first-child {
+  padding-top: 0;
+}
+#jobs-list-filter .filter-title {
+  cursor: pointer;
+}
+#jobs-list-filter .filter-title .filter-button {
+  margin-top: 6px;
+}
+#jobs-list-filter select {
+  background-color: #FFF !important;
+  margin-bottom: 0 !important;
+  margin-top: 8px !important;
+  -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+#jobs-list-filter input[type="checkbox"], #jobs-list-filter input[type="radio"] {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+  margin-top: -2px;
+}
+#jobs-list-filter input[type="checkbox"] + label, #jobs-list-filter input[type="radio"] + label {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+  margin-left: 2px;
+  font-size: 0.8rem;
 }
