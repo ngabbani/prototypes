@@ -32,7 +32,7 @@ body {
 }
 
 .bubbles {
-  margin: 10px 0;
+  padding-top: 15px;
   overflow: hidden;
   *zoom: 1;
 }
@@ -171,7 +171,7 @@ body {
   transition-duration: 0.3s;
   background: white;
   position: relative;
-  padding: 10px 0 5px 0;
+  padding: 15px 0;
 }
 .job-list:first-child {
   padding-top: 0;
@@ -183,6 +183,7 @@ body {
 .job-list h3 {
   margin: 0 !important;
   line-height: 28px !important;
+  color: #09a0db;
 }
 .job-list .candidatesname, .job-list .city {
   display: inline-block;
