@@ -171,17 +171,17 @@ body {
   transition-duration: 0.3s;
   background: white;
   position: relative;
-  padding: 15px;
+  padding: 10px 0 5px 0;
 }
 .job-list:first-child {
   padding-top: 0;
 }
 .job-list a {
   color: #333;
+  display: block;
 }
 .job-list h3 {
   margin: 0 !important;
-  margin-right: 15px !important;
   line-height: 28px !important;
 }
 .job-list .candidatesname, .job-list .city {
@@ -195,6 +195,7 @@ body {
 .job-list .date {
   font-size: 0.8rem;
   color: #333;
+  margin-top: 3px;
 }
 .job-list .candidatesname {
   font-weight: bold;
@@ -232,6 +233,9 @@ body {
 }
 .job-list .job-list-menu a:last-child {
   margin-right: 0;
+}
+.job-list .job-list-menu a:hover {
+  color: #39b3e1;
 }
 
 #jobs-list-filter .filter {
