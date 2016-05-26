@@ -39,7 +39,7 @@ body {
 
 .bubble, .bubble-white {
   padding: 5px 10px;
-  background: #09a0db;
+  background: #182642;
   color: white;
   float: left;
   display: block;
@@ -49,9 +49,10 @@ body {
 }
 .bubble .bubble-title, .bubble-white .bubble-title {
   display: block;
-  margin-bottom: 3px;
   font-variant: small-caps;
-  font-size: 1rem;
+  font-size: 0.8rem;
+  line-height: 1;
+  margin-bottom: 5px;
 }
 .bubble .bubble-title span, .bubble-white .bubble-title span {
   display: inline-block;
@@ -94,7 +95,8 @@ body {
   height: 60px;
   line-height: 65px;
   margin-right: 15px;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
+  color: #333;
 }
 #jobs-list-header select {
   width: 120px;
@@ -104,10 +106,51 @@ body {
 #jobs-list-sous-menu {
   overflow: hidden;
   *zoom: 1;
+  height: 45px;
+  padding: 10px 0;
+  border-bottom: 1px solid #CCC;
+  margin-bottom: 20px;
+}
+#jobs-list-sous-menu .btn {
+  background: #DF691E;
+  color: #FFF;
+  font-size: 14px;
+  height: 25px;
+  line-height: 25px;
+  font-weight: bold;
+  border-radius: 3px;
+  padding: 0 15px;
+  display: inline-block;
+  vertical-align: bottom;
+  text-shadow: 1px 1px 0px #ac4f14;
+  text-decoration: none;
+}
+
+.pagination {
+  height: 25px;
+  line-height: 25px;
+}
+.pagination a, .pagination span {
+  display: inline-block;
+  vertical-align: bottom;
+  margin-right: 5px;
+  padding: 0 4px;
+  background: #F9F9F9;
+  color: #333;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+.pagination a.current, .pagination span.current {
+  background: #023558;
+  color: white;
+}
+.pagination a:hover, .pagination span:hover {
+  text-decoration: underline;
 }
 
 #jobs-list-container {
   position: relative;
+  overflow: hidden;
 }
 
 #jobs-list-push {
@@ -183,7 +226,7 @@ body {
 .job-list h3 {
   margin: 0 !important;
   line-height: 28px !important;
-  color: #09a0db;
+  font-size: 1.2rem;
 }
 .job-list .candidatesname, .job-list .city {
   display: inline-block;
@@ -197,6 +240,7 @@ body {
   font-size: 0.8rem;
   color: #333;
   margin-top: 3px;
+  display: none;
 }
 .job-list .candidatesname {
   font-weight: bold;

@@ -33,7 +33,7 @@ body
 
 .bubble
   padding: 5px 10px
-  background: #09a0db
+  background: #182642
   color: white
   float: left
   display: block
@@ -42,9 +42,10 @@ body
   text-align: center
   .bubble-title
     display: block
-    margin-bottom: 3px
     font-variant: small-caps
-    font-size: 1rem
+    font-size: 0.8rem
+    line-height: 1
+    margin-bottom: 5px
     span
       display: inline-block
       vertical-align: top
@@ -81,16 +82,53 @@ body
     height: 60px
     line-height: 65px
     margin-right: 15px
-    font-size: 1.5rem
+    font-size: 1.3rem
+    color: #333
   select
     width: 120px
     margin-top: 15px
 
 #jobs-list-sous-menu
   +clearfix
+  height: 45px
+  padding: 10px 0
+  border-bottom: 1px solid #CCC
+  margin-bottom: 20px
+  .btn
+    background: #DF691E
+    color: #FFF
+    font-size: 14px
+    height: 25px
+    line-height: 25px
+    font-weight: bold
+    border-radius: 3px
+    padding: 0 15px
+    display: inline-block
+    vertical-align: bottom
+    text-shadow: 1px 1px 0px #ac4f14
+    text-decoration: none
+
+.pagination
+  height: 25px
+  line-height: 25px
+  a, span
+    display: inline-block
+    vertical-align: bottom
+    margin-right: 5px
+    padding: 0 4px
+    background: #F9F9F9
+    color: #333
+    font-size: 0.9rem
+    cursor: pointer
+    &.current
+      background: #023558
+      color: white
+    &:hover
+      text-decoration: underline
 
 #jobs-list-container
   position: relative
+  overflow: hidden
 
 #jobs-list-push
   +translateX(-30%)
@@ -138,7 +176,7 @@ body
   h3
     margin: 0 !important
     line-height: 28px !important
-    color: #09a0db
+    font-size: 1.2rem
   .candidatesname, .city
     display: inline-block
     vertical-align: bottom
@@ -149,6 +187,7 @@ body
     font-size: 0.8rem
     color: #333
     margin-top: 3px
+    display: none
   .candidatesname
     font-weight: bold
   &:hover
