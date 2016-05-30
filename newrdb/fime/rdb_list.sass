@@ -124,7 +124,7 @@ body
 
 .pagination
   height: 45px
-  line-height: 45px
+  line-height: 44px
   text-align: center
   a, span
     display: inline-block
@@ -135,15 +135,19 @@ body
     color: #333
     font-size: 1.2rem
     cursor: pointer
+    border: 1px solid white
     i.fa
       font-size: 2.2rem
       position: relative
       top: 5px
     &.current
-      background: #023558
-      color: white
-    &:hover
       background: #09A0DB
+      color: white
+      &:hover
+        background: white
+    &:hover
+      color: #09A0DB
+      border-color: #09A0DB
 
 .legend-content
   font-size: 0.7rem

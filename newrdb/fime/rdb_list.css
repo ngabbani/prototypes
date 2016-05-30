@@ -148,7 +148,7 @@ body {
 
 .pagination {
   height: 45px;
-  line-height: 45px;
+  line-height: 44px;
   text-align: center;
 }
 .pagination a, .pagination span {
@@ -160,6 +160,7 @@ body {
   color: #333;
   font-size: 1.2rem;
   cursor: pointer;
+  border: 1px solid white;
 }
 .pagination a i.fa, .pagination span i.fa {
   font-size: 2.2rem;
@@ -167,11 +168,15 @@ body {
   top: 5px;
 }
 .pagination a.current, .pagination span.current {
-  background: #023558;
+  background: #09A0DB;
   color: white;
 }
+.pagination a.current:hover, .pagination span.current:hover {
+  background: white;
+}
 .pagination a:hover, .pagination span:hover {
-  background: #09A0DB;
+  color: #09A0DB;
+  border-color: #09A0DB;
 }
 
 .legend-content {
