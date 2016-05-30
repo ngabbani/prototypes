@@ -8,16 +8,6 @@ $(document).ready(function(){
     $('#jobs-list-push, #jobs-list-content').toggleClass('active')
   });
 
-
-  $('#details-button').click(function(e){
-    e.preventDefault();
-    $('.job-list').toggleClass('details');
-  });
-
-  $button = $('.filter').find('filter-title');
-  $icon = $button.find('.filter-button');
-  $content = $('.filter').find('.filter-content');
-
   $('.filter .filter-title').click(function(){
     $(this).find('.filter-button').toggleClass('fa-plus fa-minus');
     $(this).parent().find('.filter-content').slideToggle();
