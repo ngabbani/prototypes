@@ -350,37 +350,60 @@ body {
 #jobs-list-filter .filter {
   padding: 10px 0;
   border-bottom: 1px solid #ccc;
+  overflow: hidden;
+  *zoom: 1;
+}
+#jobs-list-filter .filter.dn .filter-content {
+  display: none;
 }
 #jobs-list-filter .filter:first-child {
   padding-top: 0;
+}
+#jobs-list-filter .filter-content {
+  margin-top: 8px;
 }
 #jobs-list-filter .filter-title {
   cursor: pointer;
 }
 #jobs-list-filter .filter-title .filter-button {
-  margin-top: 6px;
+  margin-top: 8px;
+  font-size: 0.8rem;
+}
+#jobs-list-filter span.float {
+  display: inline-block;
+  vertical-align: middle;
 }
 #jobs-list-filter select {
   background-color: #FFF !important;
   margin-bottom: 0 !important;
-  margin-top: 8px !important;
+  margin-top: 0 !important;
   -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  margin-bottom: 5px;
 }
 #jobs-list-filter select:not(.lastact) {
   background-image: none;
 }
-#jobs-list-filter input[type="checkbox"], #jobs-list-filter input[type="radio"] {
+#jobs-list-filter input[type="text"].float {
   display: inline-block;
+  width: 70px;
+  height: 37px;
   vertical-align: middle;
   margin: 0;
-  margin-top: -2px;
+  margin-bottom: 5px;
+}
+#jobs-list-filter input[type="checkbox"], #jobs-list-filter input[type="radio"] {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+  margin-top: 2px;
+  margin-left: 1px;
 }
 #jobs-list-filter input[type="checkbox"] + label, #jobs-list-filter input[type="radio"] + label {
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: top;
   margin: 0;
-  margin-left: 2px;
-  font-size: 0.8rem;
+  width: 90%;
+  font-size: 0.7rem;
 }
