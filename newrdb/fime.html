@@ -149,11 +149,6 @@
 <section class="main-section">
   <div id="jobs-list-header">
     <div class="content">
-      <div class="on-left">
-        <a class="tt" href="#" title="Nouvelle recherche"><i class="fa fa-search"></i></a>
-        <a class="tt" href="#" title="Modifier recherche"><i class="fa fa-edit"></i></a>
-        <a class="tt" href="#" title="Sauvegarder recherche"><i class="fa fa-save" ></i></a>
-      </div>
       <h2>662 résultats pour Front-End - Paris</h2>
       <div class="on-right cb_style">
         <select id="rdbsummary" onchange="getRDBSummary(this.options[this.selectedIndex].value);"><option selected="selected" value="LJ">Les Jeudis (FR)</option><option value="UK">Royaume-Uni (UK)</option><option value="SF">Staff Nurse (UK)</option><option value="SE">Suède (SE)</option></select>
@@ -164,28 +159,29 @@
     <div id="jobs-list-sous-menu">
       <div class="fl-l">
         <a href="#" class="btn" id="filter-button"><i class="fa fa-filter"></i> Filter</a>
+        <a class="tt" href="#" title="Nouvelle recherche"><i class="fa fa-search"></i></a>
+        <a class="tt" href="#" title="Sauvegarder recherche"><i class="fa fa-save" ></i></a>
       </div>
-      <div class="pagination fl-r"><span class="current prev">&lt;</span><span class="current">1</span><a href="#">2</a><a href="#">3</a><a href="#">4</a><a href="#">5</a><span>...</span><a class="ep" href="#">160</a><a class="next" href="#">&gt;</a></div>
-    </div>
-    <div class="legend-content">
-      <div class="legend"><strong>Légende :</strong></div>
-      <div class="legend">
-        <i class="fa fa-hourglass-half"></i> expériences
-      </div>
-      <div class="legend">
-        <i class="fa fa-graduation-cap"></i> diplômes
-      </div>
-      <div class="legend">
-        <i class="fa fa-car"></i> mobilité
-      </div>
-      <div class="legend">
-        <i class="fa fa-suitcase"></i> dernier emploi
-      </div>
-      <div class="legend">
-        <i class="fa fa-building-o"></i> dernière société
-      </div>
-      <div class="legend">
-        <i class="fa fa-money"></i> dernier salaire
+      <div class="legend-content fl-r">
+        <div class="legend"><strong>Légende :</strong></div>
+        <div class="legend">
+          <i class="fa fa-hourglass-half"></i> expériences
+        </div>
+        <div class="legend">
+          <i class="fa fa-graduation-cap"></i> diplômes
+        </div>
+        <div class="legend">
+          <i class="fa fa-car"></i> mobilité
+        </div>
+        <div class="legend">
+          <i class="fa fa-suitcase"></i> dernier emploi
+        </div>
+        <div class="legend">
+          <i class="fa fa-building-o"></i> dernière société
+        </div>
+        <div class="legend">
+          <i class="fa fa-money"></i> dernier salaire
+        </div>
       </div>
     </div>
     <div id="jobs-list-container">
@@ -204,17 +200,6 @@
             <div class="filter-title">Mots-clés <i class="fa fa-minus fl-r filter-button"></i></div>
             <div class="filter-content">
               <input id="jobtitle" class="textcontrol" name="JOBT" type="text">
-            </div>
-          </div>
-          <div class="filter">
-            <div class="filter-title">Dernière activité <i class="fa fa-minus fl-r filter-button"></i></div>
-            <div class="filter-content">
-              <select id="lastact" class="lastact" tabindex="2" name="FRE"><option value="1">Dans les dernières 24h</option><option value="7">Dans la dernière semaine</option><option value="30">Dans le dernier mois</option><option value="60">Dans les 2 derniers mois</option><option selected="selected" value="90">Dans les 3 derniers mois</option><option value="180">Dans les 6 derniers mois</option><option value="270">Dans les 9 derniers mois</option><option value="365">Pendant cette année</option><option value="365+">Il y a plus d'un an</option><option value="999">Tous les CV</option></select>
-              <input checked="checked" value="LASTACT" id="LASTACT" name="DATETYPE" type="radio">
-              <label for="LASTACT">Dernière activité</label>
-              <br>
-              <input value="LASTMOD" id="LASTMOD" name="DATETYPE" type="radio">
-              <label for="LASTMOD">Dernière modification du CV</label>
             </div>
           </div>
           <div class="filter">
@@ -245,8 +230,19 @@
               <label for="LJRELGEOTYPEALL">Peu importe</label>
             </div>
           </div>
-          <div class="filter dn">
-            <div class="filter-title">Expériences <i class="fa fa-plus fl-r filter-button"></i></div>
+          <div class="filter">
+            <div class="filter-title">Dernière activité <i class="fa fa-minus fl-r filter-button"></i></div>
+            <div class="filter-content">
+              <select id="lastact" class="lastact" tabindex="2" name="FRE"><option value="1">Dans les dernières 24h</option><option value="7">Dans la dernière semaine</option><option value="30">Dans le dernier mois</option><option value="60">Dans les 2 derniers mois</option><option selected="selected" value="90">Dans les 3 derniers mois</option><option value="180">Dans les 6 derniers mois</option><option value="270">Dans les 9 derniers mois</option><option value="365">Pendant cette année</option><option value="365+">Il y a plus d'un an</option><option value="999">Tous les CV</option></select>
+              <input checked="checked" value="LASTACT" id="LASTACT" name="DATETYPE" type="radio">
+              <label for="LASTACT">Dernière activité</label>
+              <br>
+              <input value="LASTMOD" id="LASTMOD" name="DATETYPE" type="radio">
+              <label for="LASTMOD">Dernière modification du CV</label>
+            </div>
+          </div>
+          <div class="filter">
+            <div class="filter-title">Expériences <i class="fa fa-minus fl-r filter-button"></i></div>
             <div class="filter-content">
               <input type="text" id="experiencelow" class="textcontrol float" name="EXPL" maxlength="2" autocomplete="off">
               <span class="float"> - </span>
@@ -254,14 +250,20 @@
               <span class="float"> ans</span>
             </div>
           </div>
-          <div class="filter dn">
-            <div class="filter-title">Formation <i class="fa fa-plus fl-r filter-button"></i></div>
+          <div class="filter">
+            <div class="filter-title">Formation <i class="fa fa-minus fl-r filter-button"></i></div>
             <div class="filter-content">
               <select id="education" class="lastact" name="EDU"><option value="">Sélectionnez un diplôme</option><option value="CENS">Non précisé</option><option value="CE3">Aucun(e)</option><option value="CEF01">BEP, CAP</option><option value="CEF02">Niveau Bac</option><option value="CEF05">Bac Professionnel</option><option value="CE31">Bac général</option><option value="CE32">DUT, BTS, Bac + 2</option><option value="CEU3YRS">Licence, Bac+3</option><option value="CE321">Maîtrise, IEP, IUP, Bac + 4</option><option value="CEU5YRS">Master, DESS, DEA</option><option value="CEF04">Ecole d’ingenieur</option><option value="CEUCDR">Doctorat, 3eme cycle</option></select>
             </div>
           </div>
-          <div class="filter dn">
-            <div class="filter-title">Type de contrat <i class="fa fa-plus fl-r filter-button"></i></div>
+          <div class="filter">
+            <div class="filter-title">Disponibilité <i class="fa fa-minus fl-r filter-button"></i></div>
+            <div class="filter-content">
+              <select id="availability" class="lastact" name="AVAIL"><option value="">Peu importe</option><option value="1">Immédiat</option><option value="0">Préavis de 3 mois</option><option value="2">Préavis de 6 mois</option><option value="3">En veille</option></select>
+            </div>
+          </div>
+          <div class="filter">
+            <div class="filter-title">Type de contrat <i class="fa fa-minus fl-r filter-button"></i></div>
             <div class="filter-content">
               <input type="checkbox" value="ETPE" id="ETPE" name="EMT">
               <label for="ETPE">CDI</label>
@@ -297,14 +299,8 @@
               <label for="ETFR">Franchises</label>
             </div>
           </div>
-          <div class="filter dn">
-            <div class="filter-title">Disponibilité <i class="fa fa-plus fl-r filter-button"></i></div>
-            <div class="filter-content">
-              <select id="availability" class="lastact" name="AVAIL"><option value="">Peu importe</option><option value="1">Immédiat</option><option value="0">Préavis de 3 mois</option><option value="2">Préavis de 6 mois</option><option value="3">En veille</option></select>
-            </div>
-          </div>
-          <div class="filter dn">
-            <div class="filter-title">Dernier salaire <i class="fa fa-plus fl-r filter-button"></i></div>
+          <div class="filter">
+            <div class="filter-title">Dernier salaire <i class="fa fa-minus fl-r filter-button"></i></div>
             <div class="filter-content">
               <input type="radio" value="HOUR" id="HOUR" name="CMTP">
               <label for="HOUR">Par heure</label>
@@ -321,6 +317,9 @@
               <input type="checkbox" id="excludesal" tabindex="10" name="POY">
               <label for="excludesal">Exclure les CV qui ne comprennent pas de salaire</label>
             </div>
+          </div>
+          <div class="filter">
+            <input name="btnFacetSearch" class="btn" type="button" id="btnFacetSearch" value="Affiner vos résultats">
           </div>
         </form>
         <div id="jobs-list-content">
@@ -361,15 +360,50 @@
                   </div>
                 </div>
               </div>
-              <div class="bubbles" style="display:none;">
-                <span class="exp-data bubble-white"><div class="bubble-title">expérience</div> 11 ans</span>
-                <span class="diplome-data bubble-white"><div class="bubble-title">diplôme</div> DUT, BTS, Bac + 2</span>
-                <span class="relocations bubble-white"><div class="bubble-title">mobilité</div> France, Île de France</span>
-              </div>
-              <div class="bubbles" style="display:none;">
-                <span class="last-job-data bubble-white"><div class="bubble-title">dernier poste</div> Web Designer / WordPress Intégrateur</span>
-                <span class="last-societe-data bubble-white"><div class="bubble-title">dernière société</div> The Good One First </span>
-                <span class="last-money-data bubble-white"><div class="bubble-title">dernier salaire</div> 28 000 €</span>
+            </a>
+            <div class="job-list-menu">
+              <a id="RH85SC65KXP9BXGZ6LT_NewTab" class="newWindowTooTip" title="Voir Reprendre dans un nouvel onglet" href="#" target="_blank"><i class="fa fa-sticky-note-o"></i> Nouvelle fenêtre</a>
+              <a id="RHP6626CXNB1MZDB2FF_cbhlSaveResume" name="Web Designer / Intégrateur Web / Junior Front-End Dévelppeur" data-indexnumber="1" class="saveResume" title="Enregistrer CV" href="#"><i class="fa fa-save"></i> Enregistrer CV</a>
+              <a id="RHP6626CXNB1MZDB2FF_PrintResumeNew" class="printV2ToolTip" title="Imprimer ce CV" target="_blank" href="" border="0"><i class="fa fa-print"></i> Imprimer ce CV</a>
+              <a id="RHP6626CXNB1MZDB2FF_BlockResume" class="blockResume" href="#" title="Bloquer ce CV"><i class="fa fa-ban"></i> Bloquer ce CV </a>
+            </div>
+          </div>
+          <div class="job-list">
+            <a href="#">
+              <h3 class="candidatesresumetitle">Web Designer / Intégrateur Web / Junior Front-End Développeur <span class="fl-r date lastactivitydate" title="Date de dernière connexion du candidat">15 mai 2016</span></h3>
+              <span class="candidatesname"><i class="fa fa-user"></i> Rony Laforest</span>
+              <span class="city"><i class="fa fa-map-pin"></i> FR-Île de France-Garches</span>
+              <div class="job-list-info-container">
+                <div class="bloc small">
+                  <div class="job-list-info-content">
+                    <i class="fa fa-hourglass-half"></i>
+                    <div class="exp-data job-list-info"><span>11 ans</span></div>
+                  </div>
+                  <div class="job-list-info-content">
+                    <i class="fa fa-graduation-cap"></i>
+                    <div class="diplome-data job-list-info"><span>DUT, BTS, Bac + 2</span></div>
+                  </div>
+                </div>
+                <div class="bloc">
+                  <div class="job-list-info-content">
+                    <i class="fa fa-car"></i>
+                    <div class="relocations job-list-info"><span>France, Île de France</span><span>France, Languedoc-Roussillon</span><span>France, Alsace</span></div>
+                  </div>
+                </div>
+                <div class="bloc">
+                  <div class="job-list-info-content">
+                    <i class="fa fa-suitcase"></i>
+                    <div class="last-job-data job-list-info"><span>Web Designer / Intégrateur</span></div>
+                  </div>
+                  <div class="job-list-info-content">
+                    <i class="fa fa-building-o"></i>
+                    <div class="last-societe-data job-list-info"><span>The Good One First</span></div>
+                  </div>
+                  <div class="job-list-info-content">
+                    <i class="fa fa-money"></i>
+                    <div class="last-money-data job-list-info"><span>28 000€</span></div>
+                  </div>
+                </div>
               </div>
             </a>
             <div class="job-list-menu">
@@ -416,15 +450,50 @@
                   </div>
                 </div>
               </div>
-              <div class="bubbles" style="display:none;">
-                <span class="exp-data bubble-white"><div class="bubble-title">expérience</div> 11 ans</span>
-                <span class="diplome-data bubble-white"><div class="bubble-title">diplôme</div> DUT, BTS, Bac + 2</span>
-                <span class="relocations bubble-white"><div class="bubble-title">mobilité</div> France, Île de France</span>
-              </div>
-              <div class="bubbles" style="display:none;">
-                <span class="last-job-data bubble-white"><div class="bubble-title">dernier poste</div> Web Designer / WordPress Intégrateur</span>
-                <span class="last-societe-data bubble-white"><div class="bubble-title">dernière société</div> The Good One First </span>
-                <span class="last-money-data bubble-white"><div class="bubble-title">dernier salaire</div> 28 000 €</span>
+            </a>
+            <div class="job-list-menu">
+              <a id="RH85SC65KXP9BXGZ6LT_NewTab" class="newWindowTooTip" title="Voir Reprendre dans un nouvel onglet" href="#" target="_blank"><i class="fa fa-sticky-note-o"></i> Nouvelle fenêtre</a>
+              <a id="RHP6626CXNB1MZDB2FF_cbhlSaveResume" name="Web Designer / Intégrateur Web / Junior Front-End Dévelppeur" data-indexnumber="1" class="saveResume" title="Enregistrer CV" href="#"><i class="fa fa-save"></i> Enregistrer CV</a>
+              <a id="RHP6626CXNB1MZDB2FF_PrintResumeNew" class="printV2ToolTip" title="Imprimer ce CV" target="_blank" href="" border="0"><i class="fa fa-print"></i> Imprimer ce CV</a>
+              <a id="RHP6626CXNB1MZDB2FF_BlockResume" class="blockResume" href="#" title="Bloquer ce CV"><i class="fa fa-ban"></i> Bloquer ce CV </a>
+            </div>
+          </div>
+          <div class="job-list">
+            <a href="#">
+              <h3 class="candidatesresumetitle">Web Designer / Intégrateur Web / Junior Front-End Développeur <span class="fl-r date lastactivitydate" title="Date de dernière connexion du candidat">15 mai 2016</span></h3>
+              <span class="candidatesname"><i class="fa fa-user"></i> Rony Laforest</span>
+              <span class="city"><i class="fa fa-map-pin"></i> FR-Île de France-Garches</span>
+              <div class="job-list-info-container">
+                <div class="bloc small">
+                  <div class="job-list-info-content">
+                    <i class="fa fa-hourglass-half"></i>
+                    <div class="exp-data job-list-info"><span>11 ans</span></div>
+                  </div>
+                  <div class="job-list-info-content">
+                    <i class="fa fa-graduation-cap"></i>
+                    <div class="diplome-data job-list-info"><span>DUT, BTS, Bac + 2</span></div>
+                  </div>
+                </div>
+                <div class="bloc">
+                  <div class="job-list-info-content">
+                    <i class="fa fa-car"></i>
+                    <div class="relocations job-list-info"><span>France, Île de France</span><span>France, Languedoc-Roussillon</span><span>France, Alsace</span></div>
+                  </div>
+                </div>
+                <div class="bloc">
+                  <div class="job-list-info-content">
+                    <i class="fa fa-suitcase"></i>
+                    <div class="last-job-data job-list-info"><span>Web Designer / Intégrateur</span></div>
+                  </div>
+                  <div class="job-list-info-content">
+                    <i class="fa fa-building-o"></i>
+                    <div class="last-societe-data job-list-info"><span>The Good One First</span></div>
+                  </div>
+                  <div class="job-list-info-content">
+                    <i class="fa fa-money"></i>
+                    <div class="last-money-data job-list-info"><span>28 000€</span></div>
+                  </div>
+                </div>
               </div>
             </a>
             <div class="job-list-menu">
@@ -471,15 +540,50 @@
                   </div>
                 </div>
               </div>
-              <div class="bubbles" style="display:none;">
-                <span class="exp-data bubble-white"><div class="bubble-title">expérience</div> 11 ans</span>
-                <span class="diplome-data bubble-white"><div class="bubble-title">diplôme</div> DUT, BTS, Bac + 2</span>
-                <span class="relocations bubble-white"><div class="bubble-title">mobilité</div> France, Île de France</span>
-              </div>
-              <div class="bubbles" style="display:none;">
-                <span class="last-job-data bubble-white"><div class="bubble-title">dernier poste</div> Web Designer / WordPress Intégrateur</span>
-                <span class="last-societe-data bubble-white"><div class="bubble-title">dernière société</div> The Good One First </span>
-                <span class="last-money-data bubble-white"><div class="bubble-title">dernier salaire</div> 28 000 €</span>
+            </a>
+            <div class="job-list-menu">
+              <a id="RH85SC65KXP9BXGZ6LT_NewTab" class="newWindowTooTip" title="Voir Reprendre dans un nouvel onglet" href="#" target="_blank"><i class="fa fa-sticky-note-o"></i> Nouvelle fenêtre</a>
+              <a id="RHP6626CXNB1MZDB2FF_cbhlSaveResume" name="Web Designer / Intégrateur Web / Junior Front-End Dévelppeur" data-indexnumber="1" class="saveResume" title="Enregistrer CV" href="#"><i class="fa fa-save"></i> Enregistrer CV</a>
+              <a id="RHP6626CXNB1MZDB2FF_PrintResumeNew" class="printV2ToolTip" title="Imprimer ce CV" target="_blank" href="" border="0"><i class="fa fa-print"></i> Imprimer ce CV</a>
+              <a id="RHP6626CXNB1MZDB2FF_BlockResume" class="blockResume" href="#" title="Bloquer ce CV"><i class="fa fa-ban"></i> Bloquer ce CV </a>
+            </div>
+          </div>
+          <div class="job-list">
+            <a href="#">
+              <h3 class="candidatesresumetitle">Web Designer / Intégrateur Web / Junior Front-End Développeur <span class="fl-r date lastactivitydate" title="Date de dernière connexion du candidat">15 mai 2016</span></h3>
+              <span class="candidatesname"><i class="fa fa-user"></i> Rony Laforest</span>
+              <span class="city"><i class="fa fa-map-pin"></i> FR-Île de France-Garches</span>
+              <div class="job-list-info-container">
+                <div class="bloc small">
+                  <div class="job-list-info-content">
+                    <i class="fa fa-hourglass-half"></i>
+                    <div class="exp-data job-list-info"><span>11 ans</span></div>
+                  </div>
+                  <div class="job-list-info-content">
+                    <i class="fa fa-graduation-cap"></i>
+                    <div class="diplome-data job-list-info"><span>DUT, BTS, Bac + 2</span></div>
+                  </div>
+                </div>
+                <div class="bloc">
+                  <div class="job-list-info-content">
+                    <i class="fa fa-car"></i>
+                    <div class="relocations job-list-info"><span>France, Île de France</span><span>France, Languedoc-Roussillon</span><span>France, Alsace</span></div>
+                  </div>
+                </div>
+                <div class="bloc">
+                  <div class="job-list-info-content">
+                    <i class="fa fa-suitcase"></i>
+                    <div class="last-job-data job-list-info"><span>Web Designer / Intégrateur</span></div>
+                  </div>
+                  <div class="job-list-info-content">
+                    <i class="fa fa-building-o"></i>
+                    <div class="last-societe-data job-list-info"><span>The Good One First</span></div>
+                  </div>
+                  <div class="job-list-info-content">
+                    <i class="fa fa-money"></i>
+                    <div class="last-money-data job-list-info"><span>28 000€</span></div>
+                  </div>
+                </div>
               </div>
             </a>
             <div class="job-list-menu">
@@ -526,16 +630,6 @@
                   </div>
                 </div>
               </div>
-              <div class="bubbles" style="display:none;">
-                <span class="exp-data bubble-white"><div class="bubble-title">expérience</div> 11 ans</span>
-                <span class="diplome-data bubble-white"><div class="bubble-title">diplôme</div> DUT, BTS, Bac + 2</span>
-                <span class="relocations bubble-white"><div class="bubble-title">mobilité</div> France, Île de France</span>
-              </div>
-              <div class="bubbles" style="display:none;">
-                <span class="last-job-data bubble-white"><div class="bubble-title">dernier poste</div> Web Designer / WordPress Intégrateur</span>
-                <span class="last-societe-data bubble-white"><div class="bubble-title">dernière société</div> The Good One First </span>
-                <span class="last-money-data bubble-white"><div class="bubble-title">dernier salaire</div> 28 000 €</span>
-              </div>
             </a>
             <div class="job-list-menu">
               <a id="RH85SC65KXP9BXGZ6LT_NewTab" class="newWindowTooTip" title="Voir Reprendre dans un nouvel onglet" href="#" target="_blank"><i class="fa fa-sticky-note-o"></i> Nouvelle fenêtre</a>
@@ -581,16 +675,6 @@
                   </div>
                 </div>
               </div>
-              <div class="bubbles" style="display:none;">
-                <span class="exp-data bubble-white"><div class="bubble-title">expérience</div> 11 ans</span>
-                <span class="diplome-data bubble-white"><div class="bubble-title">diplôme</div> DUT, BTS, Bac + 2</span>
-                <span class="relocations bubble-white"><div class="bubble-title">mobilité</div> France, Île de France</span>
-              </div>
-              <div class="bubbles" style="display:none;">
-                <span class="last-job-data bubble-white"><div class="bubble-title">dernier poste</div> Web Designer / WordPress Intégrateur</span>
-                <span class="last-societe-data bubble-white"><div class="bubble-title">dernière société</div> The Good One First </span>
-                <span class="last-money-data bubble-white"><div class="bubble-title">dernier salaire</div> 28 000 €</span>
-              </div>
             </a>
             <div class="job-list-menu">
               <a id="RH85SC65KXP9BXGZ6LT_NewTab" class="newWindowTooTip" title="Voir Reprendre dans un nouvel onglet" href="#" target="_blank"><i class="fa fa-sticky-note-o"></i> Nouvelle fenêtre</a>
@@ -635,181 +719,6 @@
                     <div class="last-money-data job-list-info"><span>28 000€</span></div>
                   </div>
                 </div>
-              </div>
-              <div class="bubbles" style="display:none;">
-                <span class="exp-data bubble-white"><div class="bubble-title">expérience</div> 11 ans</span>
-                <span class="diplome-data bubble-white"><div class="bubble-title">diplôme</div> DUT, BTS, Bac + 2</span>
-                <span class="relocations bubble-white"><div class="bubble-title">mobilité</div> France, Île de France</span>
-              </div>
-              <div class="bubbles" style="display:none;">
-                <span class="last-job-data bubble-white"><div class="bubble-title">dernier poste</div> Web Designer / WordPress Intégrateur</span>
-                <span class="last-societe-data bubble-white"><div class="bubble-title">dernière société</div> The Good One First </span>
-                <span class="last-money-data bubble-white"><div class="bubble-title">dernier salaire</div> 28 000 €</span>
-              </div>
-            </a>
-            <div class="job-list-menu">
-              <a id="RH85SC65KXP9BXGZ6LT_NewTab" class="newWindowTooTip" title="Voir Reprendre dans un nouvel onglet" href="#" target="_blank"><i class="fa fa-sticky-note-o"></i> Nouvelle fenêtre</a>
-              <a id="RHP6626CXNB1MZDB2FF_cbhlSaveResume" name="Web Designer / Intégrateur Web / Junior Front-End Dévelppeur" data-indexnumber="1" class="saveResume" title="Enregistrer CV" href="#"><i class="fa fa-save"></i> Enregistrer CV</a>
-              <a id="RHP6626CXNB1MZDB2FF_PrintResumeNew" class="printV2ToolTip" title="Imprimer ce CV" target="_blank" href="" border="0"><i class="fa fa-print"></i> Imprimer ce CV</a>
-              <a id="RHP6626CXNB1MZDB2FF_BlockResume" class="blockResume" href="#" title="Bloquer ce CV"><i class="fa fa-ban"></i> Bloquer ce CV </a>
-            </div>
-          </div>
-          <div class="job-list">
-            <a href="#">
-              <h3 class="candidatesresumetitle">Web Designer / Intégrateur Web / Junior Front-End Développeur <span class="fl-r date lastactivitydate" title="Date de dernière connexion du candidat">15 mai 2016</span></h3>
-              <span class="candidatesname"><i class="fa fa-user"></i> Rony Laforest</span>
-              <span class="city"><i class="fa fa-map-pin"></i> FR-Île de France-Garches</span>
-              <div class="job-list-info-container">
-                <div class="bloc small">
-                  <div class="job-list-info-content">
-                    <i class="fa fa-hourglass-half"></i>
-                    <div class="exp-data job-list-info"><span>11 ans</span></div>
-                  </div>
-                  <div class="job-list-info-content">
-                    <i class="fa fa-graduation-cap"></i>
-                    <div class="diplome-data job-list-info"><span>DUT, BTS, Bac + 2</span></div>
-                  </div>
-                </div>
-                <div class="bloc">
-                  <div class="job-list-info-content">
-                    <i class="fa fa-car"></i>
-                    <div class="relocations job-list-info"><span>France, Île de France</span><span>France, Languedoc-Roussillon</span><span>France, Alsace</span></div>
-                  </div>
-                </div>
-                <div class="bloc">
-                  <div class="job-list-info-content">
-                    <i class="fa fa-suitcase"></i>
-                    <div class="last-job-data job-list-info"><span>Web Designer / Intégrateur</span></div>
-                  </div>
-                  <div class="job-list-info-content">
-                    <i class="fa fa-building-o"></i>
-                    <div class="last-societe-data job-list-info"><span>The Good One First</span></div>
-                  </div>
-                  <div class="job-list-info-content">
-                    <i class="fa fa-money"></i>
-                    <div class="last-money-data job-list-info"><span>28 000€</span></div>
-                  </div>
-                </div>
-              </div>
-              <div class="bubbles" style="display:none;">
-                <span class="exp-data bubble-white"><div class="bubble-title">expérience</div> 11 ans</span>
-                <span class="diplome-data bubble-white"><div class="bubble-title">diplôme</div> DUT, BTS, Bac + 2</span>
-                <span class="relocations bubble-white"><div class="bubble-title">mobilité</div> France, Île de France</span>
-              </div>
-              <div class="bubbles" style="display:none;">
-                <span class="last-job-data bubble-white"><div class="bubble-title">dernier poste</div> Web Designer / WordPress Intégrateur</span>
-                <span class="last-societe-data bubble-white"><div class="bubble-title">dernière société</div> The Good One First </span>
-                <span class="last-money-data bubble-white"><div class="bubble-title">dernier salaire</div> 28 000 €</span>
-              </div>
-            </a>
-            <div class="job-list-menu">
-              <a id="RH85SC65KXP9BXGZ6LT_NewTab" class="newWindowTooTip" title="Voir Reprendre dans un nouvel onglet" href="#" target="_blank"><i class="fa fa-sticky-note-o"></i> Nouvelle fenêtre</a>
-              <a id="RHP6626CXNB1MZDB2FF_cbhlSaveResume" name="Web Designer / Intégrateur Web / Junior Front-End Dévelppeur" data-indexnumber="1" class="saveResume" title="Enregistrer CV" href="#"><i class="fa fa-save"></i> Enregistrer CV</a>
-              <a id="RHP6626CXNB1MZDB2FF_PrintResumeNew" class="printV2ToolTip" title="Imprimer ce CV" target="_blank" href="" border="0"><i class="fa fa-print"></i> Imprimer ce CV</a>
-              <a id="RHP6626CXNB1MZDB2FF_BlockResume" class="blockResume" href="#" title="Bloquer ce CV"><i class="fa fa-ban"></i> Bloquer ce CV </a>
-            </div>
-          </div>
-          <div class="job-list">
-            <a href="#">
-              <h3 class="candidatesresumetitle">Web Designer / Intégrateur Web / Junior Front-End Développeur <span class="fl-r date lastactivitydate" title="Date de dernière connexion du candidat">15 mai 2016</span></h3>
-              <span class="candidatesname"><i class="fa fa-user"></i> Rony Laforest</span>
-              <span class="city"><i class="fa fa-map-pin"></i> FR-Île de France-Garches</span>
-              <div class="job-list-info-container">
-                <div class="bloc small">
-                  <div class="job-list-info-content">
-                    <i class="fa fa-hourglass-half"></i>
-                    <div class="exp-data job-list-info"><span>11 ans</span></div>
-                  </div>
-                  <div class="job-list-info-content">
-                    <i class="fa fa-graduation-cap"></i>
-                    <div class="diplome-data job-list-info"><span>DUT, BTS, Bac + 2</span></div>
-                  </div>
-                </div>
-                <div class="bloc">
-                  <div class="job-list-info-content">
-                    <i class="fa fa-car"></i>
-                    <div class="relocations job-list-info"><span>France, Île de France</span><span>France, Languedoc-Roussillon</span><span>France, Alsace</span></div>
-                  </div>
-                </div>
-                <div class="bloc">
-                  <div class="job-list-info-content">
-                    <i class="fa fa-suitcase"></i>
-                    <div class="last-job-data job-list-info"><span>Web Designer / Intégrateur</span></div>
-                  </div>
-                  <div class="job-list-info-content">
-                    <i class="fa fa-building-o"></i>
-                    <div class="last-societe-data job-list-info"><span>The Good One First</span></div>
-                  </div>
-                  <div class="job-list-info-content">
-                    <i class="fa fa-money"></i>
-                    <div class="last-money-data job-list-info"><span>28 000€</span></div>
-                  </div>
-                </div>
-              </div>
-              <div class="bubbles" style="display:none;">
-                <span class="exp-data bubble-white"><div class="bubble-title">expérience</div> 11 ans</span>
-                <span class="diplome-data bubble-white"><div class="bubble-title">diplôme</div> DUT, BTS, Bac + 2</span>
-                <span class="relocations bubble-white"><div class="bubble-title">mobilité</div> France, Île de France</span>
-              </div>
-              <div class="bubbles" style="display:none;">
-                <span class="last-job-data bubble-white"><div class="bubble-title">dernier poste</div> Web Designer / WordPress Intégrateur</span>
-                <span class="last-societe-data bubble-white"><div class="bubble-title">dernière société</div> The Good One First </span>
-                <span class="last-money-data bubble-white"><div class="bubble-title">dernier salaire</div> 28 000 €</span>
-              </div>
-            </a>
-            <div class="job-list-menu">
-              <a id="RH85SC65KXP9BXGZ6LT_NewTab" class="newWindowTooTip" title="Voir Reprendre dans un nouvel onglet" href="#" target="_blank"><i class="fa fa-sticky-note-o"></i> Nouvelle fenêtre</a>
-              <a id="RHP6626CXNB1MZDB2FF_cbhlSaveResume" name="Web Designer / Intégrateur Web / Junior Front-End Dévelppeur" data-indexnumber="1" class="saveResume" title="Enregistrer CV" href="#"><i class="fa fa-save"></i> Enregistrer CV</a>
-              <a id="RHP6626CXNB1MZDB2FF_PrintResumeNew" class="printV2ToolTip" title="Imprimer ce CV" target="_blank" href="" border="0"><i class="fa fa-print"></i> Imprimer ce CV</a>
-              <a id="RHP6626CXNB1MZDB2FF_BlockResume" class="blockResume" href="#" title="Bloquer ce CV"><i class="fa fa-ban"></i> Bloquer ce CV </a>
-            </div>
-          </div>
-          <div class="job-list">
-            <a href="#">
-              <h3 class="candidatesresumetitle">Web Designer / Intégrateur Web / Junior Front-End Développeur <span class="fl-r date lastactivitydate" title="Date de dernière connexion du candidat">15 mai 2016</span></h3>
-              <span class="candidatesname"><i class="fa fa-user"></i> Rony Laforest</span>
-              <span class="city"><i class="fa fa-map-pin"></i> FR-Île de France-Garches</span>
-              <div class="job-list-info-container">
-                <div class="bloc small">
-                  <div class="job-list-info-content">
-                    <i class="fa fa-hourglass-half"></i>
-                    <div class="exp-data job-list-info"><span>11 ans</span></div>
-                  </div>
-                  <div class="job-list-info-content">
-                    <i class="fa fa-graduation-cap"></i>
-                    <div class="diplome-data job-list-info"><span>DUT, BTS, Bac + 2</span></div>
-                  </div>
-                </div>
-                <div class="bloc">
-                  <div class="job-list-info-content">
-                    <i class="fa fa-car"></i>
-                    <div class="relocations job-list-info"><span>France, Île de France</span><span>France, Languedoc-Roussillon</span><span>France, Alsace</span></div>
-                  </div>
-                </div>
-                <div class="bloc">
-                  <div class="job-list-info-content">
-                    <i class="fa fa-suitcase"></i>
-                    <div class="last-job-data job-list-info"><span>Web Designer / Intégrateur</span></div>
-                  </div>
-                  <div class="job-list-info-content">
-                    <i class="fa fa-building-o"></i>
-                    <div class="last-societe-data job-list-info"><span>The Good One First</span></div>
-                  </div>
-                  <div class="job-list-info-content">
-                    <i class="fa fa-money"></i>
-                    <div class="last-money-data job-list-info"><span>28 000€</span></div>
-                  </div>
-                </div>
-              </div>
-              <div class="bubbles" style="display:none;">
-                <span class="exp-data bubble-white"><div class="bubble-title">expérience</div> 11 ans</span>
-                <span class="diplome-data bubble-white"><div class="bubble-title">diplôme</div> DUT, BTS, Bac + 2</span>
-                <span class="relocations bubble-white"><div class="bubble-title">mobilité</div> France, Île de France</span>
-              </div>
-              <div class="bubbles" style="display:none;">
-                <span class="last-job-data bubble-white"><div class="bubble-title">dernier poste</div> Web Designer / WordPress Intégrateur</span>
-                <span class="last-societe-data bubble-white"><div class="bubble-title">dernière société</div> The Good One First </span>
-                <span class="last-money-data bubble-white"><div class="bubble-title">dernier salaire</div> 28 000 €</span>
               </div>
             </a>
             <div class="job-list-menu">
@@ -821,6 +730,7 @@
           </div>
         </div>
       </div>
+      <div class="pagination"><span class="current prev"><i class="fa fa-angle-left"></i> Page précédente</span><span class="current">1</span><a href="#">2</a><a href="#">3</a><a href="#">4</a><a href="#">5</a><span>...</span><a class="ep" href="#">160</a><a class="next" href="#">Page suivante <i class="fa fa-angle-right"></i></a></div>
     </div>
   </div>
 </section>      
