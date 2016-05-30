@@ -279,6 +279,10 @@ body
     width: 47%
     &:nth-child(even)
       margin-right: 5%
+    &:last-child
+      padding-bottom: 0
+      margin-right: 0
+      text-align: right
     &.dn
       .filter-content
         display: none
@@ -315,6 +319,8 @@ body
   input[type="button"]
     border: none
     cursor: pointer
+    height: 40px
+    font-size: 20px
   input[type="checkbox"], input[type="radio"]
     display: inline-block
     vertical-align: top

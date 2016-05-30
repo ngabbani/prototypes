@@ -361,6 +361,11 @@ body {
 #jobs-list-filter .filter:nth-child(even) {
   margin-right: 5%;
 }
+#jobs-list-filter .filter:last-child {
+  padding-bottom: 0;
+  margin-right: 0;
+  text-align: right;
+}
 #jobs-list-filter .filter.dn .filter-content {
   display: none;
 }
@@ -404,6 +409,8 @@ body {
 #jobs-list-filter input[type="button"] {
   border: none;
   cursor: pointer;
+  height: 40px;
+  font-size: 20px;
 }
 #jobs-list-filter input[type="checkbox"], #jobs-list-filter input[type="radio"] {
   display: inline-block;
