@@ -145,6 +145,11 @@ body
       color: white
       &:hover
         background: white
+      &.prev
+        background: #ccc
+        &:hover
+          color: white
+          border-color: white
     &:hover
       color: #09A0DB
       border-color: #09A0DB
@@ -156,6 +161,8 @@ body
     display: inline-block
     vertical-align: bottom
     margin-right: 10px
+    &:last-child
+      margin-right: 0
 
 #jobs-list-container
   position: relative
