@@ -2,7 +2,7 @@
 
 body
   font-family: 'Lato', sans-sherif
-  background: #F9F9F9
+  background: #F1F1F1
 
 .content
   width: 1000px
@@ -190,11 +190,10 @@ body
   color: #333
   +transition-duration(0.3s)
   background: #FFF
-  border: 1px solid #ccc
-  border-left-width: 6px
+  +box-shadow(0 1px 2px rgba(0,0,0,.2))
   margin-bottom: 10px
   position: relative
-  padding: 20px
+  padding: 15px
   a
     color: #333
     display: block
@@ -219,7 +218,6 @@ body
     font-weight: bold
   &:hover
     color: #333
-    border-color: #09A0DB
     .job-list-menu
       opacity: 1 !important
   .job-list-info-container
@@ -281,8 +279,7 @@ body
   background: #FFF
   box-sizing: border-box
   opacity: 0
-  border: 1px solid #ccc
-  border-left-width: 6px
+  +box-shadow(0 1px 2px rgba(0,0,0,.2))
   +transition-duration(0.3s)
   .filter
     display: inline-block
