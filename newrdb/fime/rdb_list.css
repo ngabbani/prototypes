@@ -314,11 +314,17 @@ body {
   display: block;
 }
 .job-list .job-list-info-container .bloc {
-  width: 37.5%;
+  width: 33.5%;
+  margin-right: 2%;
+  padding-right: 2%;
+  border-right: 1px solid #F1F1F1;
   float: left;
 }
+.job-list .job-list-info-container .bloc:last-child {
+  border-right: 0;
+}
 .job-list .job-list-info-container .bloc.small {
-  width: 25%;
+  width: 21%;
 }
 .job-list.details .bubble, .job-list.details .bubble-white {
   font-size: 1.2rem;
@@ -332,8 +338,6 @@ body {
   vertical-align: top;
 }
 .job-list .job-list-menu {
-  overflow: hidden;
-  *zoom: 1;
   font-size: 0.7rem;
   text-align: right;
   margin-top: 20px;
