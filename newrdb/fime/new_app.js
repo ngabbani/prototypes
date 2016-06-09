@@ -5,7 +5,13 @@ $(document).ready(function(){
 
   $('#filter-button').click(function(e){
     e.preventDefault();
-    $('#jobs-list-push, #jobs-list-content').toggleClass('active')
+    height = $('#jobs-list-filter').height() + 30
+    $('#jobs-list-push').toggleClass('active')
+    if(!$('#jobs-list-push').hasClass('active')){
+      $('#jobs-list-filter').css('margin-top', height * -1 + 'px');
+    } else {
+      $('#jobs-list-filter').css('margin-top', 0 + 'px');
+    }
   });
 
   $('.filter .filter-title').click(function(){
