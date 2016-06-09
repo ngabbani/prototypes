@@ -261,7 +261,7 @@ body {
   margin: 0 !important;
   font-size: 1.2rem;
   line-height: 1 !important;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
   color: #09A0DB;
 }
 .job-list .candidatesname, .job-list .city {
@@ -290,8 +290,9 @@ body {
 .job-list .job-list-info-container {
   overflow: hidden;
   *zoom: 1;
-  padding-top: 10px;
-  margin-left: -6px;
+  padding: 10px 0 5px 0;
+  border-bottom: 1px solid #F1F1F1;
+  margin-top: 10px;
 }
 .job-list .job-list-info-container .job-list-info-content {
   padding-bottom: 5px;
@@ -305,6 +306,9 @@ body {
   width: 25px;
   text-align: center;
   font-size: 0.9rem;
+  border-right: 1px solid #F1F1F1;
+  padding-right: 5px;
+  margin-right: 2px;
 }
 .job-list .job-list-info-container .job-list-info-content .job-list-info span {
   display: block;
