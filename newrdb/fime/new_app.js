@@ -5,7 +5,7 @@ $(document).ready(function(){
 
   $('#filter-button').click(function(e){
     e.preventDefault();
-    height = $('#jobs-list-filter').height() + 30
+    height = $('#jobs-list-filter').height() + 60
     $('#jobs-list-push').toggleClass('active')
     if(!$('#jobs-list-push').hasClass('active')){
       $('#jobs-list-filter').css('margin-top', height * -1 + 'px');
