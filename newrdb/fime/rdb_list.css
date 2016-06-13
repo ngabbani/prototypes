@@ -249,6 +249,7 @@ body {
   line-height: 1 !important;
   padding-bottom: 10px;
   color: #09A0DB;
+  text-transform: uppercase;
 }
 .job-list .candidatesname, .job-list .city {
   display: inline-block;
