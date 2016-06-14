@@ -255,8 +255,10 @@
         <div id="resume" class="collapse-bloc">
           <h3 class="collapse"><div class="fa fa-user"></div> CV <a href="#" id="ucResumeDetails_ucAffordanceTray_cbhlResumeWordDocSave" class="fl-r"><i class="fa fa-download"></i> Télécharger le CV</a></h3>
           <div class="collapse-content">
-            <div id="cv-content" style="display: none;"></div>
-            <div class="cv-content">
+            <div id="cv-content">
+              <iframe src = "pdf/test.pdf" width='750' height='700' allowfullscreen webkitallowfullscreen></iframe>
+            </div>
+            <div class="cv-content" style="display: none;">
               SASTOURNÉ Quentin
               <br>Quartier Saint Paul
               <br>65710 - Campan
@@ -450,11 +452,5 @@
 </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 <script src="js/app.js"></script>
-<script src="js/pdfobject.js"></script>
-<script>var options = {
-    height: "800px",
-    pdfOpenParams: { view: 'FitV' }
-};
-PDFObject.embed("pdf/test.pdf", "#cv-content", options);</script>
 </body>
 </html>
