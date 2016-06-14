@@ -118,14 +118,30 @@
     float: none;
 }
 
+.sticky-nav, .top-bloc{
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
 .sticky-nav.fixed{
   position: fixed;
   top: 0;
   z-index: 900;
+  height: 150px;
+  overflow: hidden;
+}
+
+.sticky-nav.fixed:hover{
+  height: auto;
 }
 
 .sticky-nav.fixed .top-bloc {
   border-radius: 3px;
+  height: 100px;
+}
+
+.sticky-nav.fixed .top-bloc:hover {
+  height: auto;
 }
 
 #resume_details_menu {
@@ -232,8 +248,10 @@
 
 #informations_badges {
   float: left;
-  width: 200px;
-  margin-right: 50px;
+  width: 225px;
+  margin-right: 12px;
+  padding-right: 12px;
+  border-right: 1px dotted #F1F1F1;
 }
 
 .col-right {
@@ -312,10 +330,10 @@
 }
 
 #resume_details h3 {
-  color: #023558;
-  font-size: 1.3rem;
-  border-bottom: 1px solid #023558;
-  padding-bottom: 5px;
+  color: white;
+  background: #023558;
+  padding: 10px;
+  font-size: 1.2rem;
   position: relative;
 }
 
