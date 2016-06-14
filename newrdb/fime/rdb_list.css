@@ -17,6 +17,11 @@ body {
   float: right;
 }
 
+.clearfix {
+  overflow: hidden;
+  *zoom: 1;
+}
+
 .on-left {
   position: absolute;
   top: 0;
@@ -44,7 +49,6 @@ body {
 
 #ddlSortBy {
   width: 120px;
-  margin-top: -2px;
   float: left;
   margin-right: 10px;
 }
@@ -142,13 +146,12 @@ body {
   background: white;
   text-align: center;
   border-radius: 31px;
-  margin-top: -2px;
 }
 #jobs-list-sous-menu #filter-button {
   height: 27px;
   line-height: 27px;
   font-size: 1rem;
-  margin-top: -1px;
+  margin-top: 1px;
 }
 #jobs-list-sous-menu .btn {
   color: white !important;
@@ -184,6 +187,9 @@ body {
   font-size: 1.2rem;
   cursor: pointer;
   border: 1px solid white;
+}
+.pagination a i, .pagination span i {
+  font-style: normal;
 }
 .pagination a i.fa, .pagination span i.fa {
   font-size: 2.2rem;
@@ -467,4 +473,69 @@ body {
   margin: 0;
   width: 90%;
   font-size: 0.7rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .content {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  #jobs-list-header {
+    height: auto;
+    padding: 5px 0;
+  }
+  #jobs-list-header h2 {
+    text-align: left;
+    line-height: 1.2 !important;
+  }
+  #jobs-list-header .on-right {
+    position: static;
+    text-align: left;
+  }
+
+  .job-list .city {
+    margin-left: 0;
+  }
+
+  .job-list .pdf-link-content {
+    float: none;
+  }
+  .job-list .pdf-link-content a {
+    text-align: center;
+  }
+
+  .job-list .job-list-menu {
+    opacity: 1;
+    text-align: left;
+    margin-top: 10px;
+  }
+
+  .job-list .job-list-info-container .bloc, .job-list .job-list-info-container .bloc.small {
+    width: 100% !important;
+    margin-right: 0;
+    padding-right: 0;
+    border: none;
+  }
+
+  .pagination {
+    height: auto;
+    line-height: 1.2;
+  }
+  .pagination a, .pagination span {
+    font-size: 0.8rem;
+    padding: 5px;
+    line-height: 1.2;
+  }
+  .pagination a i.text, .pagination span i.text {
+    display: none;
+  }
+  .pagination a i.fa, .pagination span i.fa {
+    font-size: 1rem;
+    top: 2px;
+  }
+
+  #jobs-list-filter, #filter-button {
+    display: none !important;
+  }
 }
