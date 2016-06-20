@@ -101,6 +101,15 @@
   text-decoration: none;
 }
 
+.sticky-nav.fixed .top-bloc .fl-r a:nth-child(3) {
+  margin-right: 10px;
+}
+
+.sticky-nav.fixed .top-bloc .fl-r a:nth-child(3), .sticky-nav.fixed .top-bloc .fl-r a:nth-child(4) {
+  display: inline-block;
+  vertical-align: bottom;
+}
+
 .top-bloc .fl-r span {
   display: block;
   margin-bottom: 10px;
@@ -426,6 +435,11 @@
   .sticky-nav.fixed .top-bloc {
     height: auto;
   }
+
+  .sticky-nav.fixed .top-bloc .fl-r a:nth-child(3), .sticky-nav.fixed .top-bloc .fl-r a:nth-child(4) {
+    display: block;
+    margin-right: 0;
+  } 
 
   .top-bloc .fl-r, .top-bloc .fl-l{
     float: none;
