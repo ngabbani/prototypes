@@ -399,7 +399,6 @@
 
 @media only screen and (max-width: 1000px) {
   body {
-    width: 1000px;
     font-size: 1rem;
   }
   * {
@@ -411,10 +410,78 @@
     padding-left: 20px;
   }
 
+  #logo_nav, .pnlOuterWrapper #JPTopNav ul, .UtilityBounds {
+    width: 100% !important;
+  }
+
+  #JPTopNav ul li a {
+    font-size: 10px !important;
+  }
+
+  .sticky-nav.fixed {
+    position: static !important;
+    height: auto !important;
+  }
+
+  .sticky-nav.fixed .top-bloc {
+    height: auto;
+  }
+
+  .top-bloc .fl-r, .top-bloc .fl-l{
+    float: none;
+  }
+
+  .top-bloc h1 {
+    position: static;
+    -ms-transform: translateY(0); /* IE 9 */
+    -webkit-transform: translateY(0); /* Safari */
+    transform: translateY(0);
+  }
+
+  #resume_details_menu {
+    padding: 0;
+    padding-bottom: 5px;
+    padding-top: 20px;
+    text-align: left;
+  }
+
+  #resume_details_menu .fl-l {
+    position: static;
+  }
+
+  #resume_details_menu a {
+    font-size: 0.6rem;
+  }
+  
+  #resume_details_menu #ucResumeDetails_cbhlPrevious, #resume_details_menu #ucResumeDetails_cbhlNext, #resume_details_menu #page-index {
+    display: none;
+  }
+
+  #resume_details.fixed {
+    margin-top: 0 !important;
+  }
+
+  #resume_details h4, #resume_details .fonction {
+    height: auto;
+  }
+
+  #resume_details .years-xp, #resume_details .fonction span {
+    float: none;
+    margin-top: 0;
+  }
+
+/*  #resume {
+    display: none;
+  }*/
+
   #informations_badges {
-    width: 30%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
   }
   .col-right {
-    width: 60%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
   }
 }
