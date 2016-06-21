@@ -28,6 +28,10 @@ body {
   *zoom: 1;
 }
 
+.push {
+  margin-top: 20px;
+}
+
 .on-left {
   position: absolute;
   top: 0;
@@ -479,6 +483,9 @@ body {
 #jobs-list-filter .filter-title.big, .form .filter-title.big {
   color: #09a0db;
   font-variant: small-caps;
+  margin-top: -29px;
+  margin-left: 155px;
+  position: absolute;
 }
 #jobs-list-filter span.float, .form span.float {
   display: inline-block;
