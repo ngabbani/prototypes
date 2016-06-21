@@ -344,7 +344,7 @@ body
     &.full
       display: block
       width: 100%
-      text-align: left
+      text-align: left !important
     padding: 10px 0
     +clearfix
     &:first-child
@@ -384,6 +384,7 @@ body
     &:not(.lastact)
       background-image: none
   input[type="text"]
+    margin: 0
     &.float
       display: inline-block
       width: 70px

@@ -437,7 +437,7 @@ body {
 #jobs-list-filter .filter.full, .form .filter.full {
   display: block;
   width: 100%;
-  text-align: left;
+  text-align: left !important;
 }
 #jobs-list-filter .filter:first-child, .form .filter:first-child {
   padding-top: 0;
@@ -490,6 +490,9 @@ body {
 }
 #jobs-list-filter select:not(.lastact), .form select:not(.lastact) {
   background-image: none;
+}
+#jobs-list-filter input[type="text"], .form input[type="text"] {
+  margin: 0;
 }
 #jobs-list-filter input[type="text"].float, .form input[type="text"].float {
   display: inline-block;

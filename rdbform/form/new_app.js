@@ -1,5 +1,7 @@
 $(document).ready(function(){
 
+  $('#jobs-list-filter').css('margin-top', ($('#jobs-list-filter').height() + 60) * -1 + 'px');
+
   $('#filter-button').click(function(e){
     e.preventDefault();
     height = $('#jobs-list-filter').height() + 60
