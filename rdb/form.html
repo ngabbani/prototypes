@@ -5,22 +5,22 @@
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0" name="viewport">
   <link href='https://fonts.googleapis.com/css?family=Lato:400,900italic,900,700italic,700,400italic,300italic,300,100italic,100' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
-  <link rel="stylesheet" href="form/libraryv2.css">
-  <link rel="stylesheet" href="form/combinev2.css">
-  <link rel="stylesheet" href="form/icons.css">
-  <link rel="stylesheet" href="form/tooltip.css">
-  <link rel="stylesheet" href="form/tooltip-light.css">
-  <link rel="stylesheet" href="form/rdb_list.css">
+  <link rel="stylesheet" href="assets/libraryv2.css">
+  <link rel="stylesheet" href="assets/combinev2.css">
+  <link rel="stylesheet" href="assets/icons.css">
+  <link rel="stylesheet" href="assets/tooltip.css">
+  <link rel="stylesheet" href="assets/tooltip-light.css">
+  <link rel="stylesheet" href="assets/rdb_list.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-  <script src="form/tooltip.js"></script>
-  <script src="form/new_app.js"></script>
+  <script src="assets/tooltip.js"></script>
+  <script src="assets/new_app.js"></script>
 </head>
 <body>
   <div id="_metiers_gestion_analyste-exploitation_fiche" class="lesjeudisHeader">
     <nav class="top-bar show-for-large-up" data-topbar="" role="navigation">
       <ul class="title-area">
           <li class="name">
-          <span><a href="http://www.lesjeudis.com/" title="Home lesjeudis"> <img title="Offres d'emploi informatique" src="form/cb-logo-lj-2.png" alt="Offres d'emploi informatique sur lesjeudis.com" border="0"></a></span>
+          <span><a href="http://www.lesjeudis.com/" title="Home lesjeudis"> <img title="Offres d'emploi informatique" src="assets/cb-logo-lj-2.png" alt="Offres d'emploi informatique sur lesjeudis.com" border="0"></a></span>
           </li>
       </ul>
       <section class="top-bar-section">
@@ -80,7 +80,7 @@
             </section>
             <section class="middle tab-bar-section">
                 <a href="http://www.lesjeudis.com/" class="logoMobile" title="Home lesjeudis">
-                     <img title="Offfres d'emploi informatique" src="form/cb-logo-lj-2.png" alt="Offfres d'emploi informatique sur lesjeudis.com" border="0">
+                     <img title="Offfres d'emploi informatique" src="assets/cb-logo-lj-2.png" alt="Offfres d'emploi informatique sur lesjeudis.com" border="0">
                 </a>   
             </section>
           </nav>
@@ -245,7 +245,7 @@
               <input id="LJRELGEOTYPEALL" type="radio" name="LJRELGEOTYPE" value="ALL">
               <label>Peu importe</label>
             </div>
-            <input name="btnSearch" type="button" id="btnSearch" class="btn" value="Rechercher">
+            <input onclick="location.href = 'result.html'" name="btnSearch" type="button" id="btnSearch" class="btn" value="Rechercher">
             <div class="filter dn full">
               <div class="filter-title big">Recherche avancée <i class="fa fa-plus filter-button"></i></div>
               <div class="filter-content">
@@ -353,7 +353,7 @@
                 <div class="bloc-content">
                   <select class="lastact" id="availability" name="AVAIL"><option value="">Peu importe</option><option value="1">Immédiat</option><option value="0">Préavis de 3 mois</option><option value="2">Préavis de 6 mois</option><option value="3">En veille</option></select>
                 </div>
-                <input name="btnSearch" type="button" id="btnSearch" class="btn" value="Rechercher">
+                <input onclick="location.href = 'result.html'" name="btnSearch" type="button" id="btnSearch" class="btn" value="Rechercher">
               </div>
             </div>
           </form>
