@@ -40,6 +40,16 @@ body {
   right: 15px;
 }
 
+.col-left {
+  width: 65% !important;
+  float: left;
+}
+
+.col-right {
+  width: 34% !important;
+  float: right;
+}
+
 .mb {
   margin-bottom: 10px;
 }
@@ -391,10 +401,13 @@ body {
 }
 
 .help-bloc {
-  background: #F1F1F1;
+  border: 1px solid #09a0db;
+  border-radius: 5px;
+  color: #09a0db;
   padding: 10px;
   margin-top: 8px;
   font-size: 0.8rem;
+  display: none;
 }
 
 #jobs-list-filter, .form {
@@ -464,12 +477,8 @@ body {
   font-size: 0.8rem;
 }
 #jobs-list-filter .filter-title.big, .form .filter-title.big {
-  font-size: 1.3rem;
-  border-bottom: 1px solid #CCC;
-}
-#jobs-list-filter .filter-title.big .filter-button, .form .filter-title.big .filter-button {
-  font-size: 1rem;
-  margin-left: 5px;
+  color: #09a0db;
+  font-variant: small-caps;
 }
 #jobs-list-filter span.float, .form span.float {
   display: inline-block;
@@ -527,6 +536,11 @@ body {
   .content {
     width: 100%;
     padding: 0 10px;
+  }
+
+  .col-left, .col-right {
+    float: none;
+    width: 100% !important;
   }
 
   #jobs-list-header {

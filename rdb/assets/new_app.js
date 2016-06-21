@@ -23,6 +23,10 @@ $(document).ready(function(){
     $('#rdb_tools').slideToggle();
   });
 
+  $('#button-help').on('click', function(){
+    $('.help-bloc').show();
+  });
+
   var $navbar = $(".sticky-nav, #resume_details"),
         y_pos = $navbar.offset().top,
         height = $navbar.height();
