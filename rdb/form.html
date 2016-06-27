@@ -164,12 +164,14 @@
             <div class="bloc-content">
               <input type="text" id="txtKeywords" class="textcontrol inputWatermark" name="RAWWORDS" maxlength="800" autocomplete="off">
               <div class="help-bloc">
-                AIDE <br>
-                > Un ESPACE ou un AND correspondent à l’utilisation du ET (Ne pas utiliser le ET). Ex : java j2ee <br>
-                > Une VIRGULE ou un OR correspondent à l'utilisation d'un OU ( Ne pas utiliser le OU ). Ex : linux, unix <br>
-                > Une expression exacte doit être entourée de guillemets. Ex : "Chef de projet" <br>
-                > Une racine de mot suivie d’une étoile correspond à toutes les déclinaisons possibles du mot. Ex : dev* ( pour une recherche de développeur, développement etc.) <br>
-                > Un NOT ou un - (moins) correspondent à la négation : LINUX - UNIX (va rechercher tous les CVs contenant le mot LINUX mais pas le mot UNIX), pour utiliser la négation il vous faudra impérativement insérer un espace entre le moins et le dernier mot.
+                <b>AIDE</b> <br>
+                <ul class="help-list">
+                  <li>Un ESPACE ou un AND correspondent à l’utilisation du ET (Ne pas utiliser le ET). Ex : java j2ee</li>
+                  <li>Une VIRGULE ou un OR correspondent à l'utilisation d'un OU ( Ne pas utiliser le OU ). Ex : linux, unix</li>
+                  <li>Une expression exacte doit être entourée de guillemets. Ex : "Chef de projet"</li>
+                  <li>Une racine de mot suivie d’une étoile correspond à toutes les déclinaisons possibles du mot. Ex : dev* ( pour une recherche de développeur, développement etc.)</li>
+                  <li>Un NOT ou un - (moins) correspondent à la négation : LINUX - UNIX (va rechercher tous les CVs contenant le mot LINUX mais pas le mot UNIX), pour utiliser la négation il vous faudra impérativement insérer un espace entre le moins et le dernier mot.</li>
+                </ul>
               </div>
             </div>
             <div class="filter-title">Dernière activité</div>

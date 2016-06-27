@@ -67,6 +67,14 @@ body {
   margin-bottom: 0 !important;
 }
 
+.help-list {
+  font-size: 0.9rem;
+  margin-bottom: 0;
+}
+.help-list li {
+  margin-bottom: 5px;
+}
+
 #ddlSortBy {
   width: 120px;
   float: left;
@@ -196,6 +204,7 @@ body {
   height: 45px;
   line-height: 44px;
   text-align: center;
+  margin: 30px 0;
 }
 .pagination a, .pagination span {
   display: inline-block;
@@ -385,7 +394,6 @@ body {
   font-size: 0.7rem;
   text-align: right;
   margin-top: 20px;
-  opacity: 0;
 }
 .job-list .job-list-menu a {
   color: #09a0db;
@@ -480,8 +488,8 @@ body {
   cursor: pointer;
 }
 #jobs-list-filter .filter-title .filter-button, .form .filter-title .filter-button {
-  margin-top: 8px;
-  font-size: 0.8rem;
+  margin-top: 7px;
+  font-size: 1rem;
 }
 #jobs-list-filter .filter-title.big, .form .filter-title.big {
   color: #09a0db;
