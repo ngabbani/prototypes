@@ -466,9 +466,12 @@ body {
 }
 #jobs-list-filter .filter-content a:not(.btn), #jobs-list-filter .bloc-content a:not(.btn), .form .filter-content a:not(.btn), .form .bloc-content a:not(.btn) {
   display: block;
+  font-size: 0.9rem;
 }
 #jobs-list-filter .filter-content a:not(.btn) + span, #jobs-list-filter .bloc-content a:not(.btn) + span, .form .filter-content a:not(.btn) + span, .form .bloc-content a:not(.btn) + span {
   display: block;
+  margin-bottom: 10px;
+  font-size: 0.9rem;
 }
 #jobs-list-filter .bloc-content, .form .bloc-content {
   padding-bottom: 20px;
