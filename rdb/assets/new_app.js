@@ -1,5 +1,4 @@
 $(document).ready(function(){
-  $('.tt').tooltipster();
   
   $('#jobs-list-filter').css('margin-top', ($('#jobs-list-filter').height() + 60) * -1 + 'px');
 
@@ -26,6 +25,10 @@ $(document).ready(function(){
   $('#button-help').on('click', function(){
     $('.help-bloc').show();
   });
+
+  if ( $('.tt').lenght > 0 ){
+    $('.tt').tooltipster();
+  }
 
   var $navbar = $(".sticky-nav, #resume_details"),
         y_pos = $navbar.offset().top,
