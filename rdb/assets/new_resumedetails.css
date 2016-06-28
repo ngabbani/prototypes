@@ -210,7 +210,7 @@
 
 #resume_details_menu #ucResumeDetails_ucAffordanceTray_cbhlResumeWordDocSave, #resume h3 #ucResumeDetails_ucAffordanceTray_cbhlResumeWordDocSave {
   margin-right: 10px;
-  background: #DF691E;
+  background: #009b74;
   color: #FFF;
   font-size: 14px;
   height: 25px;
@@ -220,7 +220,7 @@
   padding: 0 15px;
   display: inline-block;
   vertical-align: bottom;
-  text-shadow: 1px 1px 0px #ac4f14;
+  text-shadow: 1px 1px 0px #007457;
   text-decoration: none;
 }
 
@@ -378,19 +378,25 @@
 #resume_details h4 {
   margin-top: 15px;
   height: 14px;
+  font-size: 16px;
 }
 
 #resume_details .years-xp {
-  font-style: italic;
   font-size: 14px;
   display: block;
-  float: right;
-  margin-top: -14px;
+  color: #666;
+  margin-top: 8px;
+}
+
+#resume_details .diplome {
+  margin-top: 8px;
+  display: block;
+  font-size: 14px;
 }
 
 #resume_details .fonction {
   height: 14px;
-  margin-top: 15px;
+  margin-top: 8px;
 }
 
 #resume_details .fonction span{
